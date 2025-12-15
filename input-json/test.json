@@ -1,0 +1,216 @@
+{
+    "entry": {
+        "locale": "en-us",
+        "breadcrumb_page_title_options": {
+            "page_title": "",
+            "breadcrumb_title": "Member Connection - A healing voice",
+            "disable_h1": false
+        },
+        "index_position": null,
+        "page_composer": [
+            {
+                "column": {
+                    "select_layout_ratio": "25/75",
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs46ff4396c553de8c"
+                    },
+                    "left_column_composer": [
+                        {
+                            "ad_builder_block": {
+                                "ad_builder_ref": [
+                                    {
+                                        "uid": "bltda9098b3bd1af3dc",
+                                        "_content_type_uid": "ad_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs9bb03f8c14332b0a"
+                                }
+                            }
+                        }
+                    ],
+                    "column_content_divider_ref": [],
+                    "right_column_composer": [
+                        {
+                            "link_list_with_flyout_references_block": {
+                                "link_list_with_flyout_references_ref": [
+                                    {
+                                        "uid": "bltce57dbf14019de12",
+                                        "_content_type_uid": "link_list_with_flyout_references"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "csf6f90387d0a454fa"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs7859950114614fb5"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "text_builder_block": {
+                                "text_builder_ref": [
+                                    {
+                                        "uid": "blt88fd31e45b85d19d",
+                                        "_content_type_uid": "text_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "csded0d3a954324456"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs8b5b2c355797e9e8"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "text_builder_block": {
+                                "text_builder_ref": [
+                                    {
+                                        "uid": "blt93b8b5ba79fa27bf",
+                                        "_content_type_uid": "text_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "csf3e8177b31174df8"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "column": {
+                    "select_layout_ratio": "75/25",
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs765e064bbaa21180"
+                    },
+                    "left_column_composer": [
+                        {
+                            "ad_builder_block": {
+                                "ad_builder_ref": [
+                                    {
+                                        "uid": "bltdc7333c57305fc7f",
+                                        "_content_type_uid": "ad_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs592a9cb05053ecb0"
+                                }
+                            }
+                        }
+                    ],
+                    "column_content_divider_ref": [],
+                    "right_column_composer": [
+                        {
+                            "ad_set_costco_block": {
+                                "ad_set_costco_ref": [
+                                    {
+                                        "uid": "blt31eedd5d2fa9f8ef",
+                                        "_content_type_uid": "ad_set_costco"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "csdb58424db86d71df"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "column": {
+                    "select_layout_ratio": "75/25",
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "csd1b2d205b5626e38"
+                    },
+                    "left_column_composer": [
+                        {
+                            "text_builder_block": {
+                                "text_builder_ref": [
+                                    {
+                                        "uid": "blte16a55d6747cbe9b",
+                                        "_content_type_uid": "text_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "csee17c54700c9ff5e"
+                                }
+                            }
+                        },
+                        {
+                            "text_builder_block": {
+                                "text_builder_ref": [
+                                    {
+                                        "uid": "blt089cf954072f46cb",
+                                        "_content_type_uid": "text_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs6a74ca40abd73e20"
+                                }
+                            }
+                        }
+                    ],
+                    "column_content_divider_ref": [],
+                    "right_column_composer": [
+                        {
+                            "ad_set_costco_block": {
+                                "ad_set_costco_ref": [
+                                    {
+                                        "uid": "blt1686377821efebc9",
+                                        "_content_type_uid": "ad_set_costco"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs9e9561db54129d0d"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "page_id": "connection-member-connection-a-healing-voice-september-2023",
+        "page_type": "feature",
+        "seo_metadata": {
+            "meta_title": "Member Connection - A healing voice | September 2023",
+            "meta_description": ""
+        },
+        "tags": [
+            "migrated-from-cms"
+        ],
+        "title": "Member Connection - A healing voice | September 2023",
+        "uid": "blt7833169077f297b4",
+        "created_by": "blt3ebb881fe346c8c5",
+        "updated_by": "blt0e03c20fa2dd2aaa",
+        "created_at": "2025-12-09T11:26:36.924Z",
+        "updated_at": "2025-12-10T08:18:40.669Z",
+        "url": "/feature/blt7833169077f297b4",
+        "ACL": {},
+        "_version": 5,
+        "_in_progress": false,
+        "privacy_toggle": {
+            "disable_third_party_tracking": false
+        }
+    }
+}

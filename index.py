@@ -79,7 +79,11 @@ class ContentCreationUtility:
                 'management_token': os.getenv(f'CONTENTSTACK_MANAGEMENT_TOKEN_{env}'),
                 'base_url': os.getenv(f'CONTENTSTACK_BASE_URL_{env}', 'https://api.contentstack.io'),
                 'auth_token': os.getenv('CONTENTSTACK_AUTH_TOKEN'),  # Auth token for Approved stage
-                'environment_uid': os.getenv(f'CONTENTSTACK_ENVIRONMENT_UID_{env}')
+                'environment_uid': os.getenv(f'CONTENTSTACK_ENVIRONMENT_UID_{env}'),
+                'environment': env,  # Add environment name for locale determination
+                'app_url': os.getenv(f'CONTENTSTACK_APP_URL_{env}', 'https://azure-na-app.contentstack.com'),
+                'published_page_base_url': os.getenv(f'PUBLISHED_PAGE_BASE_URL_{env}', 'https://web-prd.pd.gdx.cc-costco.com/consumer-web/browse/prd/homepage-usbc/f/-/'),
+                'cache_flush_base_url': os.getenv(f'CACHE_FLUSH_BASE_URL_{env}', '')
             }
             
             # Brandfolder collection ID
@@ -259,10 +263,17 @@ Environments:
             workflow_and_publish_result = None
             try:
                 if page_id:
+                    # Get environment-specific URLs
+                    cs_config = self.contentstack_config[self.environment]
+                    published_page_base_url = cs_config['published_page_base_url']
+                    cache_flush_base_url = cs_config['cache_flush_base_url']
+                    
                     workflow_and_publish_result = await processor.complete_workflow_and_publish(
                         result['root_entry_uid'],
                         page_id,
-                        'feature_page'
+                        'feature_page',
+                        published_page_base_url,
+                        cache_flush_base_url
                     )
                     
                     print('✅ Workflow and publishing completed successfully')
@@ -325,7 +336,12 @@ Environments:
             print(f"🔀 Workflow: ✅ Completed (Review → Approved)")
             print(f"📤 Publishing: ✅ Published with deep publish")
             print(f"🌐 Published URL: {workflow_and_publish_result['published_url']}")
-            print(f"ContentStack URL: https://azure-na-app.contentstack.com/#!/stack/blt79a1ca72a67c8924/content-type/feature_page/en-us/entry/{result['root_entry_uid']}/edit?branch=main")
+            
+            # Generate dynamic ContentStack URL with environment-specific locale
+            cs_config = self.contentstack_config[self.environment]
+            locale = 'en-ca' if self.environment in ['CABC', 'CABD'] else 'en-us'
+            contentstack_url = f"{cs_config['app_url']}/content-type/feature_page/{locale}/entry/{result['root_entry_uid']}/edit?branch=main"
+            print(f"ContentStack URL: {contentstack_url}")
         elif workflow_and_publish_result is None and not page_id:
             print(f"🔀 Workflow: ⚠️ Skipped (missing page_id)")
             print(f"📤 Publishing: ⚠️ Skipped (missing page_id)")

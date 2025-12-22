@@ -10,7 +10,7 @@ from typing import Dict, List, Optional, Any
 
 
 class ContentstackAPI:
-    def __init__(self, api_key: str, management_token: str, base_url: str, auth_token: str = None, environment_uid: str = None):
+    def __init__(self, api_key: str, management_token: str, base_url: str, auth_token: str = None, environment_uid: str = None, environment: str = 'dev'):
         """
         Initialize Contentstack API client
         
@@ -20,12 +20,18 @@ class ContentstackAPI:
             base_url: Contentstack API base URL
             auth_token: Optional auth token
             environment_uid: Environment UID for publishing
+            environment: Environment name (dev, USBC, USBD, CABC, CABD) for determining locale
         """
         self.api_key = api_key
         self.management_token = management_token
         self.base_url = base_url.rstrip('/')
         self.auth_token = auth_token
         self.environment_uid = environment_uid
+        self.environment = environment
+        
+        # Set locale based on environment (Canadian environments use en-ca, others use en-us)
+        self.locale = 'en-ca' if environment in ['CABC', 'CABD'] else 'en-us'
+        print(f"[CONTENTSTACK] Environment: {environment}, Locale: {self.locale}")
         
         if not self.base_url or self.base_url.strip() == '':
             raise ValueError('ContentstackAPI base_url is required and cannot be empty')
@@ -100,7 +106,7 @@ class ContentstackAPI:
                 
                 raise Exception(f"Request failed after {self.max_retries} retries: {str(e)}") from e
 
-    def create_entry(self, content_type_uid: str, entry_data: Dict, entry_reuse_enabled: bool = True, locale: str = 'en-us') -> Dict:
+    def create_entry(self, content_type_uid: str, entry_data: Dict, entry_reuse_enabled: bool = True, locale: str = None) -> Dict:
         """
         Create a new entry
         
@@ -108,11 +114,21 @@ class ContentstackAPI:
             content_type_uid: Content type UID
             entry_data: Entry data
             entry_reuse_enabled: Whether to append timestamp to title
-            locale: Locale (default: en-us)
+            locale: Locale (default: uses environment-specific locale)
             
         Returns:
             Created entry data with UID
         """
+        # Use environment-specific locale if not provided
+        if locale is None:
+            locale = self.locale
+        
+        # Remove locale from entry_data if present (it should only be in URL params)
+        # This prevents conflicts when the input JSON has a different locale than the target environment
+        if 'locale' in entry_data:
+            removed_locale = entry_data.pop('locale')
+            print(f"[CONTENTSTACK] Removed locale '{removed_locale}' from entry data (using URL param locale '{locale}' instead)")
+        
         # Append current timestamp to title field if it exists and reuse is disabled
         if 'title' in entry_data and not entry_reuse_enabled:
             timestamp = int(time.time() * 1000)
@@ -140,31 +156,52 @@ class ContentstackAPI:
             }
         except Exception as error:
             print(f"[CONTENTSTACK] Error creating entry: {str(error)}")
-            print(f"[CONTENTSTACK] Complete error details:")
-            print(f"Error: {str(error)}")
             
-            # Preserve error structure for duplicate detection
+            # Try to extract detailed validation errors from Contentstack
             if hasattr(error, '__cause__') and hasattr(error.__cause__, 'response'):
                 try:
                     error_data = error.__cause__.response.json()
+                    print(f"[CONTENTSTACK] Detailed error response:")
+                    print(json.dumps(error_data, indent=2))
+                    
+                    # Check for validation errors
+                    if 'errors' in error_data:
+                        print(f"\n[CONTENTSTACK] ❌ Validation errors found:")
+                        for field, messages in error_data.get('errors', {}).items():
+                            if isinstance(messages, list):
+                                for msg in messages:
+                                    print(f"  - Field '{field}': {msg}")
+                            else:
+                                print(f"  - Field '{field}': {messages}")
+                    
+                    if 'error_message' in error_data:
+                        print(f"[CONTENTSTACK] Error message: {error_data['error_message']}")
+                    
+                    if 'error_code' in error_data:
+                        print(f"[CONTENTSTACK] Error code: {error_data['error_code']}")
+                        
                     raise Exception(f"Failed to create entry in Contentstack: {error_data.get('error_message', str(error))}")
                 except:
                     pass
             
             raise Exception(f"Failed to create entry in Contentstack: {str(error)}")
 
-    def get_entry(self, content_type_uid: str, entry_uid: str, locale: str = 'en-us') -> Dict:
+    def get_entry(self, content_type_uid: str, entry_uid: str, locale: str = None) -> Dict:
         """
         Get entry by UID
         
         Args:
             content_type_uid: Content type UID
             entry_uid: Entry UID
-            locale: Locale (default: en-us)
+            locale: Locale (default: uses environment-specific locale)
             
         Returns:
             Entry data
         """
+        # Use environment-specific locale if not provided
+        if locale is None:
+            locale = self.locale
+        
         url = f"{self.base_url}/content_types/{content_type_uid}/entries/{entry_uid}"
         params = {'locale': locale}
         
@@ -172,19 +209,23 @@ class ContentstackAPI:
         response = self._make_request('GET', url, params=params)
         return response
 
-    def update_entry(self, content_type_uid: str, entry_uid: str, entry_data: Dict, locale: str = 'en-us') -> Dict:
+    def update_entry(self, content_type_uid: str, entry_uid: str, entry_data: Dict, locale: str = None) -> Dict:
         """
-        Update an existing entry
+        Update entry
         
         Args:
             content_type_uid: Content type UID
             entry_uid: Entry UID
             entry_data: Updated entry data
-            locale: Locale (default: en-us)
+            locale: Locale (default: uses environment-specific locale)
             
         Returns:
             Updated entry data
         """
+        # Use environment-specific locale if not provided
+        if locale is None:
+            locale = self.locale
+        
         url = f"{self.base_url}/content_types/{content_type_uid}/entries/{entry_uid}"
         params = {'locale': locale}
         
@@ -198,18 +239,22 @@ class ContentstackAPI:
             'data': response
         }
 
-    def delete_entry(self, content_type_uid: str, entry_uid: str, locale: str = 'en-us') -> Dict:
+    def delete_entry(self, content_type_uid: str, entry_uid: str, locale: str = None) -> Dict:
         """
         Delete an entry (with unpublish if needed)
         
         Args:
             content_type_uid: Content type UID
             entry_uid: Entry UID
-            locale: Locale (default: en-us)
+            locale: Locale (default: uses environment-specific locale)
             
         Returns:
             Deletion response with success status
         """
+        # Use environment-specific locale if not provided
+        if locale is None:
+            locale = self.locale
+        
         url = f"{self.base_url}/content_types/{content_type_uid}/entries/{entry_uid}"
         params = {'locale': locale}
         
@@ -466,7 +511,7 @@ class ContentstackAPI:
 
     def publish_entry_with_deep_publish(self, content_type_uid: str, entry_uid: str, 
                                        environments: List[str] = None, locales: List[str] = None,
-                                       locale: str = 'en-us') -> Dict:
+                                       locale: str = None) -> Dict:
         """
         Publish an entry with deep publish using bulk publish API
         Uses authtoken authentication for bulk publish endpoint
@@ -475,14 +520,18 @@ class ContentstackAPI:
             content_type_uid: Content type UID
             entry_uid: Entry UID
             environments: Environment UIDs to publish to (e.g., ['bltabc123...'])
-            locales: Locales to publish (default: ['en-us'])
-            locale: Locale (default: en-us)
+            locales: Locales to publish (default: uses environment-specific locale)
+            locale: Locale (default: uses environment-specific locale)
             
         Returns:
             Publish response
         """
+        # Use environment-specific locale if not provided
+        if locale is None:
+            locale = self.locale
+        
         if locales is None:
-            locales = ['en-us']
+            locales = [self.locale]
         
         # CRITICAL FIX: Use actual environment UID, not string "production"
         if environments is None or environments == ['production']:
@@ -592,18 +641,22 @@ class ContentstackAPI:
         response = self._make_request('GET', url, params=params)
         return response.get('entries', [])
     
-    def search_entry_by_title(self, content_type_uid: str, title: str, locale: str = 'en-us') -> Dict:
+    def search_entry_by_title(self, content_type_uid: str, title: str, locale: str = None) -> Dict:
         """
         Search for an entry by title with migration tag
         
         Args:
             content_type_uid: Content type UID
             title: Entry title to search for
-            locale: Locale (default: en-us)
+            locale: Locale (default: uses environment-specific locale)
             
         Returns:
             Dictionary with search results
         """
+        # Use environment-specific locale if not provided
+        if locale is None:
+            locale = self.locale
+        
         print(f"[CONTENTSTACK] Searching for entry with title: \"{title}\"")
         print(f"[CONTENTSTACK] Content type: {content_type_uid}")
         
@@ -666,32 +719,47 @@ class ContentstackAPI:
             }
     
     # Async wrapper methods using run_in_executor
-    async def create_entry_async(self, content_type_uid: str, entry_data: Dict, entry_reuse_enabled: bool = True, locale: str = 'en-us') -> Dict:
+    async def create_entry_async(self, content_type_uid: str, entry_data: Dict, entry_reuse_enabled: bool = True, locale: str = None) -> Dict:
         """Async wrapper for create_entry"""
         import asyncio
         loop = asyncio.get_event_loop()
+        # Use environment-specific locale if not provided
+        if locale is None:
+            locale = self.locale
         return await loop.run_in_executor(None, lambda: self.create_entry(content_type_uid, entry_data, entry_reuse_enabled, locale))
     
-    async def delete_entry_async(self, content_type_uid: str, entry_uid: str, locale: str = 'en-us') -> Dict:
+    async def delete_entry_async(self, content_type_uid: str, entry_uid: str, locale: str = None) -> Dict:
         """Async wrapper for delete_entry"""
         import asyncio
         loop = asyncio.get_event_loop()
+        # Use environment-specific locale if not provided
+        if locale is None:
+            locale = self.locale
         return await loop.run_in_executor(None, lambda: self.delete_entry(content_type_uid, entry_uid, locale))
     
-    async def update_workflow_stage_async(self, content_type_uid: str, entry_uid: str, workflow_stage_uid: str, locale: str = 'en-us') -> Dict:
+    async def update_workflow_stage_async(self, content_type_uid: str, entry_uid: str, workflow_stage_uid: str, locale: str = None) -> Dict:
         """Async wrapper for update_workflow_stage"""
         import asyncio
+        # Use environment-specific locale if not provided
+        if locale is None:
+            locale = self.locale
         loop = asyncio.get_event_loop()
         return await loop.run_in_executor(None, lambda: self.update_workflow_stage(content_type_uid, entry_uid, workflow_stage_uid, locale))
     
-    async def publish_entry_with_deep_publish_async(self, content_type_uid: str, entry_uid: str, environments: List[str], locales: List[str], locale: str = 'en-us') -> Dict:
+    async def publish_entry_with_deep_publish_async(self, content_type_uid: str, entry_uid: str, environments: List[str], locales: List[str], locale: str = None) -> Dict:
         """Async wrapper for publish_entry_with_deep_publish"""
         import asyncio
+        # Use environment-specific locale if not provided
+        if locale is None:
+            locale = self.locale
         loop = asyncio.get_event_loop()
         return await loop.run_in_executor(None, lambda: self.publish_entry_with_deep_publish(content_type_uid, entry_uid, environments, locales, locale))
     
-    async def search_entry_by_title_async(self, content_type_uid: str, title: str, locale: str = 'en-us') -> Dict:
+    async def search_entry_by_title_async(self, content_type_uid: str, title: str, locale: str = None) -> Dict:
         """Async wrapper for search_entry_by_title"""
         import asyncio
+        # Use environment-specific locale if not provided
+        if locale is None:
+            locale = self.locale
         loop = asyncio.get_event_loop()
         return await loop.run_in_executor(None, lambda: self.search_entry_by_title(content_type_uid, title, locale))

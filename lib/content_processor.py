@@ -101,7 +101,8 @@ class ContentProcessor:
             management_token=cs_config['management_token'],
             base_url=cs_config.get('base_url', 'https://api.contentstack.io'),
             auth_token=cs_config.get('auth_token'),
-            environment_uid=cs_config.get('environment_uid')
+            environment_uid=cs_config.get('environment_uid'),
+            environment=cs_config.get('environment', 'dev')
         )
         
         # Set collection ID
@@ -314,6 +315,84 @@ class ContentProcessor:
         
         return links
     
+    async def process_image_asset(self, image_obj: dict, parent_obj: Any):
+        """
+        Process a single image asset object
+        
+        Args:
+            image_obj: Image object with url, filename, extension
+            parent_obj: Parent array or object containing this image
+        """
+        # Check if obj.url ends with one of the allowed extensions
+        url_lower = image_obj['url'].lower()
+        # Remove url query parameters for extension check
+        url_without_query = url_lower.split('?')[0]
+        ends_with_allowed_extension = any(url_without_query.endswith('.' + ext) for ext in self.allowed_extensions)
+        
+        # Allow URLs from known image hosting domains even without extensions
+        is_known_image_domain = (url_lower.startswith('https://cdn.bfldr.com/') or 
+                                'mobilecontent.costco.com' in url_lower or
+                                'www.costco.com/wcsstore' in url_lower)
+        
+        if not ends_with_allowed_extension and not is_known_image_domain:
+            print(f"\n[ASSET] Skipping non-asset URL: {image_obj['url']}")
+            return
+        
+        # Normalize relative URLs to absolute
+        if image_obj['url'].startswith('/'):
+            image_obj['url'] = "https://www.costco.com" + image_obj['url']
+        elif image_obj['url'].startswith('wcsstore'):
+            image_obj['url'] = "https://www.costco.com/" + image_obj['url']
+        
+        print(f"\n[ASSET] Found asset URL: {image_obj['url']}")
+        
+        # Extract filename and extension from URL string (not using URL object)
+        parts = url_without_query.split('/')
+        filename = parts[-1]
+        extension = filename.split('.')[-1].lower() if '.' in filename else ''
+        
+        # Handle missing extensions - default to jpg for images
+        if not extension or extension == '':
+            print(f"[ASSET] URL missing file extension: {image_obj['url']}")
+            extension = 'jpg'
+            filename = f"{filename}.{extension}"
+            print(f"[ASSET] Added default extension: {filename}")
+        
+        # Preserve original filename if it exists (but update if empty), otherwise use extracted filename
+        if 'filename' not in image_obj or not image_obj.get('filename'):
+            image_obj['filename'] = filename
+        elif '.' not in image_obj.get('filename', '') and extension:
+            # If filename exists but has no extension, append it
+            image_obj['filename'] = f"{image_obj['filename']}.{extension}"
+            print(f"[ASSET] Updated filename with extension: {image_obj['filename']}")
+        
+        # Update extension if it's missing or empty
+        if 'extension' not in image_obj or not image_obj.get('extension'):
+            image_obj['extension'] = extension
+            print(f"[ASSET] Set extension to: {image_obj['extension']}")
+        
+        # Ensure mimetype is set if not already present
+        if 'mimetype' not in image_obj or not image_obj.get('mimetype'):
+            image_obj['mimetype'] = f"image/{extension}"
+            print(f"[ASSET] Set mimetype to: {image_obj['mimetype']}")
+        
+        # Check if this is a video asset sourced from production (array has multiple items)
+        if isinstance(parent_obj, list) and len(parent_obj) > 1:
+            print(f"[ASSET] Skipping video/subtitle/thumbnail which is sourced from prod: {image_obj['url']}")
+            return
+        
+        # Only process if extension is an image or video type, or URL is from known image domains
+        if extension in self.allowed_extensions or ends_with_allowed_extension or is_known_image_domain:
+            try:
+                await self.process_asset(image_obj)
+            except Exception as error:
+                print(f"[ASSET] ⚠️  Failed to process asset, keeping original URL: {image_obj['url']}")
+                print(f"[ASSET] Error: {str(error)}")
+                # Keep the original object intact - don't let it become null
+                # The error is already handled in process_asset, so we just log here
+        else:
+            print(f"[ASSET] Skipping asset with unrecognized extension: {image_obj['url']}")
+    
     async def process_all_assets(self, obj: Any, parent_obj: Any):
         """
         Recursively find and process all assets in the JSON
@@ -323,47 +402,25 @@ class ContentProcessor:
             parent_obj: Parent object for context
         """
         if isinstance(obj, list):
-            for item in obj:
-                await self.process_all_assets(item, obj)
+            for i, item in enumerate(obj):
+                # Skip null or undefined entries
+                if item is None:
+                    print(f"[ASSET] Skipping null/undefined element at index {i}")
+                    continue
+                
+                # Special handling for image arrays - process directly
+                # Check if this looks like an image object with url property
+                if item and isinstance(item, dict) and 'url' in item:
+                    print(f"\n[ASSET] Processing image array element: {item.get('filename', item.get('url'))}")
+                    await self.process_image_asset(item, obj)
+                else:
+                    # Recurse into array elements
+                    await self.process_all_assets(item, obj)
                 
         elif isinstance(obj, dict):
             # Check if this is an asset (has url)
             if 'url' in obj and not re.search(r'\.html?$', obj['url'], re.IGNORECASE) and not obj['url'].startswith('#'):
-                # Check if obj.url ends with one of the allowed extensions
-                url_lower = obj['url'].lower()
-                url_without_query = url_lower.split('?')[0]
-                ends_with_allowed = any(url_without_query.endswith('.' + ext) for ext in self.allowed_extensions)
-                
-                if not ends_with_allowed and not url_lower.startswith('https://cdn.bfldr.com/'):
-                    print(f"\n[ASSET] Skipping non-asset URL: {obj['url']}")
-                    return
-                
-                if obj['url'].startswith('/'):
-                    obj['url'] = "https://www.costco.com" + obj['url']
-                
-                print(f"\n[ASSET] Found asset URL: {obj['url']}")
-                
-                if obj['url'].startswith('wcsstore'):
-                    obj['url'] = "https://www.costco.com/" + obj['url']
-                
-                # Extract filename and extension from URL
-                parts = url_without_query.split('/')
-                filename = parts[-1]
-                extension = filename.split('.')[-1].lower() if '.' in filename else ''
-                
-                # Preserve original filename if it exists
-                if 'filename' not in obj:
-                    obj['filename'] = filename
-                if 'extension' not in obj:
-                    obj['extension'] = extension
-                
-                if parent_obj and isinstance(parent_obj, list) and len(parent_obj) > 1:
-                    print(f"[ASSET] Skipping video/subtitle/thumbnail sourced from prod: {obj['url']}")
-                    return
-                
-                # Only process if extension is allowed
-                if extension in self.allowed_extensions or ends_with_allowed or url_lower.startswith('https://cdn.bfldr.com/'):
-                    await self.process_asset(obj)
+                await self.process_image_asset(obj, parent_obj)
                     
             elif 'rich_text_editor' in obj:
                 await self.handle_rich_text_images(obj['rich_text_editor'])
@@ -496,16 +553,25 @@ class ContentProcessor:
                         }
                         
                         self.asset_cache[filename_from_url] = processed_asset
+                        # CRITICAL: Update the original asset URL with the CDN URL
+                        asset['url'] = processed_asset['cdn_url']
                         print(f"[ASSET] Cached asset with key: {filename_from_url}")
+                        print(f"[ASSET] Updated asset URL to Brandfolder CDN URL: {asset['url']}")
                         print(f"[ASSET] Asset processed successfully: {filename_from_url} ({'existing' if is_existing else 'new'})")
                         return processed_asset
                     else:
                         print(f"[ASSET] Detected Brandfolder Image, processing normally")
                         processed_asset = await self.process_external_asset(asset, asset_key)
+                        # CRITICAL: Update the original asset URL with the CDN URL
+                        asset['url'] = processed_asset['cdn_url']
+                        print(f"[ASSET] Updated asset URL to Brandfolder CDN URL: {asset['url']}")
                         return processed_asset
             else:
                 # Handle other external URLs
                 processed_asset = await self.process_external_asset(asset, asset_key)
+                # CRITICAL: Update the original asset URL with the CDN URL
+                asset['url'] = processed_asset['cdn_url']
+                print(f"[ASSET] Updated asset URL to Brandfolder CDN URL: {asset['url']}")
                 return processed_asset
                 
         except Exception as error:
@@ -562,6 +628,9 @@ class ContentProcessor:
         print(f"[ASSET] Extension: {asset.get('extension', 'N/A')}")
         print(f"[ASSET] Collection ID: {self.brandfolder_collection_id}")
         
+        # Store original URL before any modifications
+        original_url = asset['url']
+        
         search_result = await self.brandfolder_api.search_asset_by_filename(
             asset['filename'],
             self.brandfolder_collection_id
@@ -572,14 +641,16 @@ class ContentProcessor:
         if search_result['found']:
             # Use existing asset
             asset_id = search_result['asset_id']
+            # Update URL to CDN URL from search result
             asset['url'] = search_result['asset']['attributes']['cdn_url']
             is_existing = True
             print(f"[ASSET] ✓ Using existing asset with ID: {asset_id}")
+            print(f"[ASSET] ✓ Updated URL to CDN: {asset['url']}")
         else:
-            # Create new asset in Brandfolder
-            print(f"[ASSET] Asset not found in Brandfolder, creating new asset...")
+            # Create new asset in Brandfolder using 3-step upload with HTTP download
+            print(f"[ASSET] Asset not found, creating new asset using 3-step upload")
             try:
-                create_result = await self.brandfolder_api.create_asset_from_url(
+                create_result = await self.brandfolder_api.create_asset_from_http(
                     asset['url'],
                     asset['filename'],
                     self.brandfolder_collection_id
@@ -593,13 +664,26 @@ class ContentProcessor:
         # Get asset details including CDN URL
         print(f"[ASSET] Fetching asset details for ID: {asset_id}")
         asset_details = await self.brandfolder_api.get_asset_details(asset_id)
-        print(f"[ASSET] CDN URL: {asset_details['cdn_url']}")
+        print(f"[ASSET] CDN URL from asset details: {asset_details['cdn_url']}")
+        
+        # Ensure filename includes extension
+        final_filename = asset['filename']
+        if asset['extension'] and not final_filename.endswith(f".{asset['extension']}"):
+            final_filename = f"{final_filename}.{asset['extension']}"
+            print(f"[ASSET] Ensured filename has extension: {final_filename}")
+        
+        # Log what we're about to create
+        print(f"[ASSET] Creating asset reference with:")
+        print(f"  - Filename: {final_filename}")
+        print(f"  - Extension: {asset['extension']}")
+        print(f"  - CDN URL: {asset_details['cdn_url']}")
+        print(f"  - Mimetype: {asset.get('mimetype')}")
         
         processed_asset = {
-            'original_url': asset['url'],
+            'original_url': original_url,
             'brandfolder_asset_id': asset_details['asset_id'],
             'cdn_url': asset_details['cdn_url'],
-            'filename': asset['filename'],
+            'filename': final_filename,
             'extension': asset['extension'],
             'is_existing': is_existing,
             'mimetype': asset.get('mimetype'),
@@ -607,7 +691,7 @@ class ContentProcessor:
             'contentstack_reference': self.contentstack_api.create_asset_reference(
                 asset_details['asset_id'],
                 asset_details['cdn_url'],
-                asset['filename'],
+                final_filename,
                 asset['extension'],
                 asset_details.get('dimensions'),
                 asset.get('mimetype'),
@@ -618,7 +702,6 @@ class ContentProcessor:
         self.asset_cache[asset_key] = processed_asset
         print(f"[ASSET] ✓ Asset processed successfully: {asset_key} ({'existing' if is_existing else 'new'})")
         print(f"[ASSET] ==========================================\n")
-        return processed_asset
         return processed_asset
     
     async def process_entry(self, entry_data: Dict, content_type_uid: str) -> str:
@@ -1309,7 +1392,8 @@ class ContentProcessor:
         if environments is None:
             environments = ['production']
         if locales is None:
-            locales = ['en-us']
+            # Use environment-specific locale from ContentStack API
+            locales = [self.contentstack_api.locale]
         
         try:
             print('\n=== STARTING DEEP PUBLISH ===')
@@ -1344,26 +1428,87 @@ class ContentProcessor:
             print(f"\n[PUBLISH] ❌ Deep publish failed: {str(error)}")
             raise
     
-    def generate_published_page_url(self, page_id: str) -> str:
+    def generate_published_page_url(self, page_id: str, base_url: str = None) -> str:
         """
         Generate published page URL
         
         Args:
             page_id: The page_id of the root entry
+            base_url: Base URL for published pages (optional, uses default if not provided)
             
         Returns:
             The published page URL
         """
-        base_url = 'https://web-prd.pd.gdx.cc-costco.com/consumer-web/browse/prd/homepage-usbc/f/-/'
+        if base_url is None:
+            base_url = 'https://web-prd.pd.gdx.cc-costco.com/consumer-web/browse/prd/homepage-usbc/f/-/'
+        
         published_url = base_url + page_id
         print(f"\n[URL] Generated published page URL: {published_url}")
         return published_url
+    
+    async def flush_cache(self, page_id: str, cache_flush_base_url: str = None) -> Dict:
+        """
+        Initiate cache flush for a page ID
+        
+        Args:
+            page_id: Page ID to flush cache for
+            cache_flush_base_url: Base URL for cache flush (optional)
+            
+        Returns:
+            Cache flush result
+        """
+        import requests
+        
+        try:
+            if not page_id:
+                raise Exception('Page ID is required for cache flush')
+            
+            if not cache_flush_base_url:
+                print("[CACHE] ⚠️ Cache flush base URL not configured - skipping cache flush")
+                return {
+                    'success': False,
+                    'skipped': True,
+                    'reason': 'Cache flush base URL not configured'
+                }
+            
+            cache_flush_url = f"{cache_flush_base_url}{page_id}"
+            print(f"[CACHE] Initiating cache flush: {cache_flush_url}")
+            
+            response = requests.get(cache_flush_url, timeout=30, headers={'User-Agent': 'ContentProcessor/1.0'})
+            response.raise_for_status()
+            
+            print(f"[CACHE] ✅ Cache flush initiated successfully")
+            print(f"[CACHE] Response status: {response.status_code}")
+            
+            return {
+                'success': True,
+                'status': response.status_code,
+                'data': response.text,
+                'url': cache_flush_url
+            }
+            
+        except Exception as error:
+            error_msg = str(error)
+            # Check if it's a 403 Forbidden error
+            if '403' in error_msg or 'Forbidden' in error_msg:
+                print(f"[CACHE] ⚠️ Cache flush failed: {error_msg}")
+                print(f"[CACHE] This may be due to authentication/permissions - verify cache flush URL and credentials")
+            else:
+                print(f"[CACHE] ❌ Cache flush failed: {error_msg}")
+            
+            return {
+                'success': False,
+                'error': error_msg,
+                'url': cache_flush_url if 'cache_flush_url' in locals() else None
+            }
     
     async def complete_workflow_and_publish(
         self,
         root_entry_uid: str,
         page_id: str,
-        root_content_type: str = 'feature_page'
+        root_content_type: str = 'feature_page',
+        published_page_base_url: str = None,
+        cache_flush_base_url: str = None
     ) -> Dict:
         """
         Complete workflow and publishing process
@@ -1372,6 +1517,8 @@ class ContentProcessor:
             root_entry_uid: The root entry UID
             page_id: The page_id for URL generation
             root_content_type: The root entry content type
+            published_page_base_url: Base URL for published pages (environment-specific)
+            cache_flush_base_url: Base URL for cache flush (environment-specific)
             
         Returns:
             Complete process result
@@ -1405,7 +1552,15 @@ class ContentProcessor:
             
             # Step 3: Generate published page URL
             print('\n--- STEP 3: URL GENERATION ---')
-            published_url = self.generate_published_page_url(page_id)
+            published_url = self.generate_published_page_url(page_id, published_page_base_url)
+            
+            # Step 4: Wait before cache flush to ensure publish is propagated
+            print('\n--- STEP 4: CACHE FLUSH ---')
+            print('[DELAY] ⏳ Waiting 2 seconds before cache flush...')
+            await asyncio.sleep(2)
+            
+            # Initiate cache flush
+            cache_flush_result = await self.flush_cache(page_id, cache_flush_base_url)
             
             end_time = time.time()
             duration = round(end_time - start_time, 2)
@@ -1413,6 +1568,12 @@ class ContentProcessor:
             print('\n🎉 WORKFLOW AND PUBLISH PROCESS COMPLETED SUCCESSFULLY')
             print(f"Duration: {duration} seconds")
             print(f"Published URL: {published_url}")
+            if cache_flush_result.get('success'):
+                print(f"Cache Flush: ✅ Success")
+            elif cache_flush_result.get('skipped'):
+                print(f"Cache Flush: ⚠️ Skipped ({cache_flush_result.get('reason', 'unknown reason')})")
+            else:
+                print(f"Cache Flush: ❌ Failed")
             
             return {
                 'success': True,
@@ -1421,7 +1582,8 @@ class ContentProcessor:
                 'published_url': published_url,
                 'duration': duration,
                 'workflow_result': workflow_result,
-                'publish_result': publish_result
+                'publish_result': publish_result,
+                'cache_flush_result': cache_flush_result
             }
             
         except Exception as error:

@@ -1,216 +1,2533 @@
 {
-    "entry": {
-        "locale": "en-us",
-        "breadcrumb_page_title_options": {
-            "page_title": "",
-            "breadcrumb_title": "Member Connection - A healing voice",
-            "disable_h1": false
-        },
-        "index_position": null,
-        "page_composer": [
+  "entry": {
+    "locale": "en-us",
+    "breadcrumb_page_title_options": {
+      "page_title": "Alimentation - Nouvel an sucré",
+      "breadcrumb_title": "Alimentation - Nouvel an sucré",
+      "disable_h1": false
+    },
+    "index_position": null,
+    "page_composer": [
+      {
+        "column": {
+          "select_layout_ratio": "25/75",
+          "left_column_composer": [
             {
-                "column": {
-                    "select_layout_ratio": "25/75",
-                    "placement_name": "",
-                    "_metadata": {
-                        "uid": "cs46ff4396c553de8c"
-                    },
-                    "left_column_composer": [
+              "ad_builder_block": {
+                "ad_builder_ref": [
+                  {
+                    "_content_type_uid": "ad_builder",
+                    "entry": {
+                      "title": "Costco Connection Navigation Logo - 1764762453318",
+                      "privacy_toggle": {
+                        "disable_third_party_tracking": false
+                      },
+                      "ad_type": "full",
+                      "image": [
                         {
-                            "ad_builder_block": {
-                                "ad_builder_ref": [
-                                    {
-                                        "uid": "bltda9098b3bd1af3dc",
-                                        "_content_type_uid": "ad_builder"
-                                    }
-                                ],
-                                "_metadata": {
-                                    "uid": "cs9bb03f8c14332b0a"
-                                }
-                            }
+                          "id": "4n2ngp6ccq27txcfb5x6jg7",
+                          "url": "https://mobilecontent.costco.com/live/resource/img/static-ca-landing-pages/ContactCostco_FR.png",
+                          "filename": "ContactCostco_FR.png",
+                          "extension": "png",
+                          "dimensions": {
+                            "width": 2189,
+                            "height": 421
+                          },
+                          "mimetype": "image/png"
                         }
-                    ],
-                    "column_content_divider_ref": [],
-                    "right_column_composer": [
-                        {
-                            "link_list_with_flyout_references_block": {
-                                "link_list_with_flyout_references_ref": [
-                                    {
-                                        "uid": "bltce57dbf14019de12",
-                                        "_content_type_uid": "link_list_with_flyout_references"
-                                    }
-                                ],
-                                "_metadata": {
-                                    "uid": "csf6f90387d0a454fa"
-                                }
-                            }
+                      ],
+                      "image_alt_text": "Costco Connection Home",
+                      "enable_mobile_image_variation": false,
+                      "mobile_image": [],
+                      "use_mobile_image_alt_text": false,
+                      "mobile_image_alt_text": "",
+                      "costco_url": {
+                        "title": "",
+                        "url": "/connection-front-cover-september-2023.html",
+                        "external_site": false,
+                        "same_tab_domain": true,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "enable_product_linked": false,
+                      "product_link": {},
+                      "top_and_bottom_text_banner": [],
+                      "top_and_bottom_strip": [],
+                      "enable_text_content": false,
+                      "text_content": [],
+                      "text_content_placement": null,
+                      "text_content_overlay_styles": [],
+                      "text_content_above_below_the_ad_styles": [],
+                      "enable_custom_background": true,
+                      "background_group": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#ffffff"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": ""
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": ""
+                          },
+                          "shadow": {
+                            "hex": ""
+                          }
                         }
-                    ]
-                }
-            },
+                      },
+                      "enable_disclaimer": false,
+                      "disclaimer": "",
+                      "disclaimer_markdown": "",
+                      "enable_sponsored": false,
+                      "enable_caption": false,
+                      "caption": "",
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "right_column_composer": [
             {
-                "row": {
-                    "placement_name": "",
-                    "_metadata": {
-                        "uid": "cs7859950114614fb5"
-                    },
-                    "add_to_index": false,
-                    "row_composer": [
-                        {
-                            "text_builder_block": {
-                                "text_builder_ref": [
-                                    {
-                                        "uid": "blt88fd31e45b85d19d",
-                                        "_content_type_uid": "text_builder"
-                                    }
-                                ],
-                                "_metadata": {
-                                    "uid": "csded0d3a954324456"
-                                }
-                            }
+              "link_list_with_flyout_references_block": {
+                "link_list_with_flyout_references_ref": [
+                  {
+                    "_content_type_uid": "link_list_with_flyout_references",
+                    "entry": {
+                      "locale": "en-ca",
+                      "title": "Costco Connection Navigation - September 2023 - French",
+                      "list_header": {},
+                      "list_header_style": "plain",
+                      "link_list_style": "text_only",
+                      "enable_navigation": true,
+                      "navigation_label": "main",
+                      "privacy_toggle": {
+                        "disable_third_party_tracking": false
+                      },
+                      "color_config": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": "#337AB7"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": ""
+                          },
+                          "shadow": {
+                            "hex": ""
+                          }
                         }
-                    ]
-                }
-            },
-            {
-                "row": {
-                    "placement_name": "",
-                    "_metadata": {
-                        "uid": "cs8b5b2c355797e9e8"
-                    },
-                    "add_to_index": false,
-                    "row_composer": [
+                      },
+                      "links_composer": [
                         {
-                            "text_builder_block": {
-                                "text_builder_ref": [
-                                    {
-                                        "uid": "blt93b8b5ba79fa27bf",
-                                        "_content_type_uid": "text_builder"
-                                    }
-                                ],
-                                "_metadata": {
-                                    "uid": "csf3e8177b31174df8"
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Accueil Navigation",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Accueil",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Accueil",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Accueil Links",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Billet ",
+                                                              "url": "/connection-assistant-vice-presidents-note-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "En mode Costco  ",
+                                                              "url": "/connection-costco-life-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Réflexion Affaires - C'est toujours personnel",
+                                                              "url": "/connection-fyb-its-always-personal-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Parlons Techno - Appareils protégés  ",
+                                                              "url": "/connection-tech-connection-protect-your-tech-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Contact Finances - Gains familiaux",
+                                                              "url": "/connection-financial-connection-family-gains-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Voyages - La côte du Golfe",
+                                                              "url": "/connection-travel-connection-gulf-coast-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
                                 }
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "column": {
-                    "select_layout_ratio": "75/25",
-                    "placement_name": "",
-                    "_metadata": {
-                        "uid": "cs765e064bbaa21180"
-                    },
-                    "left_column_composer": [
-                        {
-                            "ad_builder_block": {
-                                "ad_builder_ref": [
-                                    {
-                                        "uid": "bltdc7333c57305fc7f",
-                                        "_content_type_uid": "ad_builder"
-                                    }
-                                ],
-                                "_metadata": {
-                                    "uid": "cs592a9cb05053ecb0"
-                                }
-                            }
-                        }
-                    ],
-                    "column_content_divider_ref": [],
-                    "right_column_composer": [
-                        {
-                            "ad_set_costco_block": {
-                                "ad_set_costco_ref": [
-                                    {
-                                        "uid": "blt31eedd5d2fa9f8ef",
-                                        "_content_type_uid": "ad_set_costco"
-                                    }
-                                ],
-                                "_metadata": {
-                                    "uid": "csdb58424db86d71df"
-                                }
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "column": {
-                    "select_layout_ratio": "75/25",
-                    "placement_name": "",
-                    "_metadata": {
-                        "uid": "csd1b2d205b5626e38"
-                    },
-                    "left_column_composer": [
-                        {
-                            "text_builder_block": {
-                                "text_builder_ref": [
-                                    {
-                                        "uid": "blte16a55d6747cbe9b",
-                                        "_content_type_uid": "text_builder"
-                                    }
-                                ],
-                                "_metadata": {
-                                    "uid": "csee17c54700c9ff5e"
-                                }
-                            }
+                              }
+                            ]
+                          }
                         },
                         {
-                            "text_builder_block": {
-                                "text_builder_ref": [
-                                    {
-                                        "uid": "blt089cf954072f46cb",
-                                        "_content_type_uid": "text_builder"
-                                    }
-                                ],
-                                "_metadata": {
-                                    "uid": "cs6a74ca40abd73e20"
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "La Une Navigation",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "La Une",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "La Une",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "La Une Links",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Repousser les frontières",
+                                                              "url": "/connection-cover-story-expanding-frontiers-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
                                 }
-                            }
-                        }
-                    ],
-                    "column_content_divider_ref": [],
-                    "right_column_composer": [
+                              }
+                            ]
+                          }
+                        },
                         {
-                            "ad_set_costco_block": {
-                                "ad_set_costco_ref": [
-                                    {
-                                        "uid": "blt1686377821efebc9",
-                                        "_content_type_uid": "ad_set_costco"
-                                    }
-                                ],
-                                "_metadata": {
-                                    "uid": "cs9e9561db54129d0d"
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Section Spéciale Navigation",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Section Spéciale",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Section Spéciale",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Section Spéciale Links",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "SS -  Délices sans gluten",
+                                                              "url": "/connection-ss-glutton-for-gluten-free-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "SS - Lingettes miracles",
+                                                              "url": "/connection-ss-wonder-wipes-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "SS -  Pimenter sa vie",
+                                                              "url": "/connection-ss-spice-up-your-life-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "SS -  Recettes inratables",
+                                                              "url": "/connection-ss-can-do-recipes-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "SS - Choix des acheteurs",
+                                                              "url": "/connection-ss-buyers-picks-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
                                 }
-                            }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Alimentation Navigation",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Alimentation",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Alimentation",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Alimentation Links",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Nouvel an sucrér",
+                                                              "url": "/connection-fyt-a-sweet-new-year-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "À votre santé Navigation",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "À votre santé",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "À votre santé",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "À votre santé Links",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Passer un examen",
+                                                              "url": "/connection-fyh-get-checked-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Soigner l'arthrite",
+                                                              "url": "/connection-fyh-pain-points-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Destination Costco Navigation",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Destination Costco",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Destination Costco",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Destination Costco Links",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Droits humains",
+                                                              "url": "/connection-inside-costco-human-rights-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Soigner l'arthrite",
+                                                              "url": "/connection-costco-services-home-health-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Chasse Aux Trésors",
+                                                              "url": "/connection-treasure-hunt-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Place aux membres Navigation",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Place aux membres",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Place aux membres",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Place aux membres Links",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Une voix qui guérit",
+                                                              "url": "/connection-member-connection-a-healing-voice-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Recettes Navigation",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Recettes",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Recettes",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Recettes Links",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Salade de poulet aux canneberges",
+                                                              "url": "/connection-recipe-cranberry-chicken-salad-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Salade de pâtes au thon",
+                                                              "url": "/connection-recipe-tuna-pasta-salad-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Gâteau aux pommes juif",
+                                                              "url": "/connection-recipe-jewish-apple-cake-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Tzimmes",
+                                                              "url": "/connection-recipe-tzimmes-september-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
                         }
-                    ]
-                }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ]
+                    }
+                  }
+                ]
+              }
             }
-        ],
-        "page_id": "connection-member-connection-a-healing-voice-september-2023",
-        "page_type": "feature",
-        "seo_metadata": {
-            "meta_title": "Member Connection - A healing voice | September 2023",
-            "meta_description": ""
-        },
-        "tags": [
-            "migrated-from-cms"
-        ],
-        "title": "Member Connection - A healing voice | September 2023",
-        "uid": "blt7833169077f297b4",
-        "created_by": "blt3ebb881fe346c8c5",
-        "updated_by": "blt0e03c20fa2dd2aaa",
-        "created_at": "2025-12-09T11:26:36.924Z",
-        "updated_at": "2025-12-10T08:18:40.669Z",
-        "url": "/feature/blt7833169077f297b4",
-        "ACL": {},
-        "_version": 5,
-        "_in_progress": false,
-        "privacy_toggle": {
-            "disable_third_party_tracking": false
+          ]
         }
-    }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-ca",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "**[Contact Costco](/costco-connection-online-edition.html) | [Septembre](/connection-front-cover-september-2023.html)**",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Contact Costco | Septembre"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "title": "ALIMENTATION",
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {
+                            "background_gradient_style": "solid",
+                            "background_color": {
+                              "hex": "#F2CA30"
+                            },
+                            "background_gradient_color": {
+                              "color1": {
+                                "hex": ""
+                              },
+                              "color2": {
+                                "hex": ""
+                              }
+                            },
+                            "text_color": {
+                              "hex": "#FFFFFF"
+                            },
+                            "border_color_type": "no-border",
+                            "border_color": {
+                              "solid": {
+                                "hex": ""
+                              },
+                              "shadow": {
+                                "hex": ""
+                              }
+                            }
+                          },
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h1",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "**ALIMENTATION**",
+                              "color": {
+                                "background_gradient_style": "solid",
+                                "background_color": {
+                                  "hex": "#f2ca30"
+                                },
+                                "background_gradient_color": {
+                                  "color1": {
+                                    "hex": ""
+                                  },
+                                  "color2": {
+                                    "hex": ""
+                                  }
+                                },
+                                "text_color": {
+                                  "hex": ""
+                                },
+                                "border_color_type": "no-border",
+                                "border_color": {
+                                  "solid": {
+                                    "hex": ""
+                                  },
+                                  "shadow": {
+                                    "hex": ""
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "column": {
+          "select_layout_ratio": "75/25",
+          "left_column_composer": [
+            {
+              "ad_builder_block": {
+                "ad_builder_ref": [
+                  {
+                    "_content_type_uid": "ad_builder",
+                    "entry": {
+                      "locale": "en-ca",
+                      "title": "Jewish Apple Cake - 1764862156957",
+                      "ad_type": "half",
+                      "background_group": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": ""
+                        },
+                        "border_color_type": "solid",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#FFFFFF"
+                          },
+                          "shadow": {
+                            "hex": ""
+                          }
+                        }
+                      },
+                      "caption": "",
+                      "costco_url": {
+                        "title": "",
+                        "url": "",
+                        "external_site": false,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "disclaimer": "",
+                      "disclaimer_markdown": "",
+                      "enable_caption": false,
+                      "enable_custom_background": true,
+                      "enable_disclaimer": false,
+                      "enable_mobile_image_variation": false,
+                      "enable_product_linked": false,
+                      "enable_sponsored": false,
+                      "enable_text_content": true,
+                      "image": [
+                        {
+                          "id": "k7gzvh5g7nkv8gvcs6gbn10",
+                          "url": "https://mobilecontent.costco.com/live/resource/img/static-canada-connection-september-23/09_23_Rosh_Hashana_Cake.jpg",
+                          "filename": "09_23_Rosh_Hashana_Cake.jpg",
+                          "extension": "jpg",
+                          "dimensions": {
+                            "width": 910,
+                            "height": 650
+                          },
+                          "mimetype": "image/jpeg"
+                        }
+                      ],
+                      "image_alt_text": "jewish apple cake",
+                      "mobile_image": [],
+                      "mobile_image_alt_text": "",
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "privacy_toggle": {
+                        "disable_third_party_tracking": false
+                      },
+                      "product_link": {},
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_content": [
+                        {
+                          "markdown_text": {
+                            "select_text_type": "body_copy_v2",
+                            "select_semantics_type": null,
+                            "markdown_text": "Gâteau aux pommes juif",
+                            "color": {}
+                          }
+                        },
+                        {
+                          "markdown_text": {
+                            "select_text_type": "caption_v2",
+                            "select_semantics_type": null,
+                            "markdown_text": "© MARYANN DWYER (THEBEACHHOUSEKITCHEN.COM)",
+                            "color": {}
+                          }
+                        }
+                      ],
+                      "text_content_above_below_the_ad_styles": [
+                        {
+                          "above_below_the_ad_styles": {
+                            "text_alignment": "center"
+                          }
+                        }
+                      ],
+                      "text_content_overlay_styles": [],
+                      "text_content_placement": "below_the_ad",
+                      "top_and_bottom_strip": [],
+                      "top_and_bottom_text_banner": [],
+                      "use_mobile_image_alt_text": false
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "title": "Nouvel an sucré - 1765261655898",
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {
+                            "background_gradient_style": "no-background",
+                            "background_color": {
+                              "hex": ""
+                            },
+                            "background_gradient_color": {
+                              "color1": {
+                                "hex": ""
+                              },
+                              "color2": {
+                                "hex": ""
+                              }
+                            },
+                            "text_color": {
+                              "hex": ""
+                            },
+                            "border_color_type": "no-border",
+                            "border_color": {
+                              "solid": {
+                                "hex": ""
+                              },
+                              "shadow": {
+                                "hex": ""
+                              }
+                            }
+                          },
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_with_xl_v2",
+                              "select_semantics_type": "h1",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Nouvel an sucré",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Rosh Hashanah est célébré avec de la nourriture et des traditions",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "MILLY DAWSON",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Mon enfant de 4 ans, Mia, chantait autrefois une chanson résumant la principale tradition alimentaire de Rosh Hashanah, le Nouvel An juif : « Je peux cuisiner. Je peux faire des gâteaux. Je peux faire un gâteau au miel. Pour Rosh Hashanah, je vais le faire gros, rond et sucré. Et ce sera bon! »",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Rosh Hashanah est une grande fête célébrée au cours du mois hébraïque de Tishri en septembre ou octobre. Cette année, elle commence le 15 septembre, au coucher du soleil. Au cours de la fête, les juifs mangent divers aliments sucrés espérant un Nouvel An heureux et prospère.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Gâteaux au miel ou aux pommes, et pommes ou bouts de challah (pain aux oeufs) trempés dans du miel inondent les tables pendant la fête. C'est la sucrosité qui compte et non le miel; les végétaliens peuvent le remplacer par le sirop d'érable ou la mélasse. Les tzimmes, ragoûts de légumes racines et de fruits séchés, peuvent aussi faire partie du festin.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Afin de prier aisément pendant des heures, certains évitent aussi les noix, qui donnent soif. En plat principal, la poitrine de boeuf est souvent préparée avec des prunes, et le poulet avec des abricots, pour la sucrosité. Certains juifs évitent les aliments aigres ou amers, dont le vinaigre, les cornichons et le raifort.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Rosh Hashanah signifie « début de l'année ». Certains placent une tête de poisson sur la table ou un poisson entier avec la tête sur la table. Cela vise à rappeler aux convives de s'efforcer de promouvoir la paix et l'harmonie, d'être la tête et non la queue du mouvement.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "La coutume de Rosh Hashanah la plus importante repose sur l'ouïe et non le goût. Cette coutume consiste à écouter une corne de bélier, ou shofar. Cet instrument produit un son fascinant, étrange et ancien. Le philosophe du 12e siècle Moïse Maïmonide expliquait que les coups de shofar disaient aux gens : « Sortez de votre léthargie. Réfléchissez à vos actes… corrigez vos façons de faire… éloignez-vous du mal. »",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Une autre coutume implique la nourriture, mais pas le fait de manger. Au cours d'une cérémonie appelée tashlich, qui signifie « rejeter », les juifs se rassemblent près d'un plan d'eau et rejettent symboliquement leurs péchés en jetant des bouts de pain dans l'eau. Une challah ronde, plutôt que longue, symbolise le cycle infini des années passées et à venir.",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "content_divider_block": {
+                "content_divider_ref": [
+                  {
+                    "_content_type_uid": "content_divider",
+                    "entry": {
+                      "title": "Content Divider",
+                      "direction": "horizontal",
+                      "color": {
+                        "hsl": {
+                          "h": 0,
+                          "s": 0,
+                          "l": 0.5,
+                          "a": 1
+                        },
+                        "hex": "#808080",
+                        "rgb": {
+                          "r": 128,
+                          "g": 128,
+                          "b": 128,
+                          "a": 1
+                        },
+                        "hsv": {
+                          "h": 0,
+                          "s": 0,
+                          "v": 0.5,
+                          "a": 1
+                        },
+                        "oldHue": 0,
+                        "source": "hex"
+                      },
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "title": "Milly Dawson Bio - 1765187655645",
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Milly Dawson est rédactrice en Floride.",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "content_divider_block": {
+                "content_divider_ref": [
+                  {
+                    "_content_type_uid": "content_divider",
+                    "entry": {
+                      "title": "Content Divider",
+                      "direction": "horizontal",
+                      "color": {
+                        "hsl": {
+                          "h": 0,
+                          "s": 0,
+                          "l": 0.5,
+                          "a": 1
+                        },
+                        "hex": "#808080",
+                        "rgb": {
+                          "r": 128,
+                          "g": 128,
+                          "b": 128,
+                          "a": 1
+                        },
+                        "hsv": {
+                          "h": 0,
+                          "s": 0,
+                          "v": 0.5,
+                          "a": 1
+                        },
+                        "oldHue": 0,
+                        "source": "hex"
+                      },
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-ca",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "<span style=\"color: #b01c33;\">**CONTACT COSTCO:**</span> Des pommes, du miel et d'autres ingrédients sont offerts en entrepôt et sur Costco.ca. La livraison de l'épicerie est offerte via [ÉpicerieCostco](/grocery-household.html) sur Costco.ca.",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "CONTACT COSTCO French - 1765190136236"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "content_divider_block": {
+                "content_divider_ref": [
+                  {
+                    "_content_type_uid": "content_divider",
+                    "entry": {
+                      "title": "Content Divider",
+                      "direction": "horizontal",
+                      "color": {
+                        "hsl": {
+                          "h": 0,
+                          "s": 0,
+                          "l": 0.5,
+                          "a": 1
+                        },
+                        "hex": "#808080",
+                        "rgb": {
+                          "r": 128,
+                          "g": 128,
+                          "b": 128,
+                          "a": 1
+                        },
+                        "hsv": {
+                          "h": 0,
+                          "s": 0,
+                          "v": 0.5,
+                          "a": 1
+                        },
+                        "oldHue": 0,
+                        "source": "hex"
+                      },
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "ad_set_costco_block": {
+                "ad_set_costco_ref": [
+                  {
+                    "_content_type_uid": "ad_set_costco",
+                    "entry": {
+                      "locale": "en-ca",
+                      "title": "Gâteau aux pommes juif and Tzimmes Recipes - 1759225200364 - 1764763095157",
+                      "ad_set_heading_and_costco_url": {
+                        "title": "",
+                        "url": "",
+                        "external_site": false,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "item_type": "ad",
+                      "ad_set_style": "static",
+                      "ad_content": [
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "locale": "en-ca",
+                                  "ad_type": "half",
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": "#FFFFFF"
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "no-border",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": ""
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "caption": "",
+                                  "costco_url": {
+                                    "title": "Voir la recette",
+                                    "url": "/connection-recipe-jewish-apple-cake-september-2023.html",
+                                    "external_site": false,
+                                    "same_tab_domain": true,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_caption": false,
+                                  "enable_custom_background": true,
+                                  "enable_disclaimer": false,
+                                  "enable_mobile_image_variation": false,
+                                  "enable_product_linked": false,
+                                  "enable_sponsored": false,
+                                  "enable_text_content": true,
+                                  "image": [
+                                    {
+                                      "id": "jewish_apple_cake_img",
+                                      "url": "https://mobilecontent.costco.com/live/resource/img/static-canada-connection-september-23/09_23_Rosh_Hashana_Cake.jpg",
+                                      "filename": "09_23_Rosh_Hashana_Cake.jpg",
+                                      "extension": "jpg",
+                                      "dimensions": {
+                                        "width": 800,
+                                        "height": 600
+                                      },
+                                      "mimetype": "image/jpeg"
+                                    }
+                                  ],
+                                  "image_alt_text": "Jewish Apple Cake",
+                                  "mobile_image": [],
+                                  "mobile_image_alt_text": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "product_link": {},
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "text_content": [
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": "h2",
+                                        "markdown_text": "**Gâteau aux pommes juif**",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": null,
+                                        "markdown_text": "[Voir la recette](/connection-recipe-jewish-apple-cake-september-2023.html)",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#0066CC"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "center"
+                                      }
+                                    }
+                                  ],
+                                  "text_content_overlay_styles": [],
+                                  "text_content_placement": "below_the_ad",
+                                  "title": "Gâteau aux pommes juif Recipe - 1759225196946 - 1764763094381",
+                                  "top_and_bottom_strip": [],
+                                  "top_and_bottom_text_banner": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "url": "/adbuilder/blt8257e57c133eab69"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "locale": "en-ca",
+                                  "ad_type": "half",
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": "#FFFFFF"
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "no-border",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": ""
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "caption": "",
+                                  "costco_url": {
+                                    "title": "Voir la recette",
+                                    "url": "/connection-recipe-tzimmes-september-2023.html",
+                                    "external_site": false,
+                                    "same_tab_domain": true,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_caption": false,
+                                  "enable_custom_background": true,
+                                  "enable_disclaimer": false,
+                                  "enable_mobile_image_variation": false,
+                                  "enable_product_linked": false,
+                                  "enable_sponsored": false,
+                                  "enable_text_content": true,
+                                  "image": [
+                                    {
+                                      "id": "tzimmes_img",
+                                      "url": "https://mobilecontent.costco.com/live/resource/img/static-canada-connection-september-23/09_23_Rosh_Hashana_Tzimmes.jpg",
+                                      "filename": "09_23_Rosh_Hashana_Tzimmes.jpg",
+                                      "extension": "jpg",
+                                      "dimensions": {
+                                        "width": 800,
+                                        "height": 600
+                                      },
+                                      "mimetype": "image/jpeg"
+                                    }
+                                  ],
+                                  "image_alt_text": "Tzimmes",
+                                  "mobile_image": [],
+                                  "mobile_image_alt_text": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "product_link": {},
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "text_content": [
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": "h2",
+                                        "markdown_text": "**Tzimmes**",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": null,
+                                        "markdown_text": "[Voir la recette](/connection-recipe-tzimmes-september-2023.html)",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#0066CC"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "center"
+                                      }
+                                    }
+                                  ],
+                                  "text_content_overlay_styles": [],
+                                  "text_content_placement": "below_the_ad",
+                                  "title": "Tzimmes Recipe - 1759225196947 - 1764763094772",
+                                  "top_and_bottom_strip": [],
+                                  "top_and_bottom_text_banner": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "url": "/adbuilder/blt0c5f739ea6c11ab0"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "ad_set_background": {
+                        "title_background_color": {},
+                        "title_background_transparency": "1",
+                        "body_background_color": {},
+                        "body_background_transparency": "1"
+                      },
+                      "background_foreground_banner_group": {
+                        "background_banner_button_alignment": "horizontal",
+                        "background_banner_image_alignment": "top",
+                        "background_banner_reference": [],
+                        "foreground_banner_group": []
+                      },
+                      "caption": "",
+                      "category_content": {
+                        "category_items": [],
+                        "image_form_factor": "rounded",
+                        "background_color": {},
+                        "category_set_title_alignment": "left"
+                      },
+                      "custom_background": false,
+                      "enable_background_foreground_banner": false,
+                      "platform_config_block": {
+                        "android_version_support": "",
+                        "ios_version_support": "",
+                        "platform_aplicability": "mobile_web"
+                      },
+                      "product_content": {
+                        "product_list": {}
+                      },
+                      "product_display_style": {
+                        "product_card_display_style": "compact",
+                        "show_action_button": true,
+                        "show_reviews": true,
+                        "inventory_aware_listings": false,
+                        "product_tile_data_source": null
+                      },
+                      "rotating_options": {
+                        "multi_item_carousel": false,
+                        "enable_autoplay": false,
+                        "enable_two_row_display": false,
+                        "randomize_items": false,
+                        "enable_peek_a_boo": false
+                      },
+                      "static_options": {
+                        "display_style": "multi_row",
+                        "maximum_tiles_per_row": 5
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "right_column_composer": []
+        }
+      }
+    ],
+    "page_id": "alimentation---nouvel-an-sucré-|-costco--testing",
+    "page_type": "feature",
+    "seo_metadata": {
+      "meta_title": "Alimentation - Nouvel an sucré",
+      "meta_description": ""
+    },
+    "tags": [],
+    "title": "Alimentation - Nouvel an sucré"
+  }
 }

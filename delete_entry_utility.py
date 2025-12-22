@@ -60,7 +60,8 @@ class EntryDeletionUtility:
                 env_config['management_token'],
                 env_config['base_url'],
                 env_config.get('auth_token'),
-                env_config.get('environment_uid')
+                env_config.get('environment_uid'),
+                self.environment
             )
             
             print(f'✅ Initialization completed successfully for environment: {self.environment}')
@@ -345,6 +346,24 @@ def main():
     
     if dry_run:
         print('\n🔍 DRY RUN MODE - No entries will be actually deleted')
+    else:
+        # Show warning and ask for confirmation only for actual deletion
+        print('\n⚠️  WARNING: DESTRUCTIVE OPERATION')
+        print('=====================================')
+        print(f'You are about to PERMANENTLY DELETE entry: {entry_uid}')
+        print(f'Environment: {environment}')
+        if content_type_uid:
+            print(f'Content Type: {content_type_uid}')
+        print('This will also delete ALL NESTED ENTRIES recursively.')
+        print('This operation CANNOT BE UNDONE!')
+        print('')
+        print('Type "DELETE" to confirm, or press Ctrl+C to cancel: ', end='', flush=True)
+        
+        user_input = input().strip()
+        
+        if user_input != 'DELETE':
+            print('Operation cancelled.')
+            sys.exit(0)
     
     utility = EntryDeletionUtility(dry_run, environment)
     

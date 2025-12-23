@@ -52,3 +52,6 @@ Thumbs.db
 
 # Backup files
 backup_*.json
+
+# Entry tracking reports
+entry-reports/

@@ -1,0 +1,547 @@
+"""
+CSM Content Creation Utility - Test Version with Entry Tracking
+
+This is a test version of index.py with added functionality to track entry creation/reuse.
+Creates detailed reports showing which entries were reused vs newly created.
+
+Features:
+- Full content creation workflow (same as index.py)
+- Entry tracking and reporting
+- Report generation in entry-reports/ directory
+- Detailed component information (type, title, UID, status)
+
+Usage:
+    python index_with_summary.py <input-file.json> --env <environment>
+    python index_with_summary.py input-json/test.json --env USBC
+    python index_with_summary.py --help
+"""
+
+import os
+import sys
+import json
+import argparse
+import asyncio
+from pathlib import Path
+from datetime import datetime
+from dotenv import load_dotenv
+
+# Set UTF-8 encoding for Windows console
+if sys.platform == 'win32':
+    import codecs
+    sys.stdout = codecs.getwriter('utf-8')(sys.stdout.buffer, 'strict')
+    sys.stderr = codecs.getwriter('utf-8')(sys.stderr.buffer, 'strict')
+
+from lib.content_processor import ContentProcessor
+
+
+class EntryTrackingReport:
+    """
+    Utility class to generate entry creation/reuse tracking reports
+    """
+    
+    def __init__(self, report_dir: str = 'entry-reports'):
+        """
+        Initialize the tracking report generator
+        
+        Args:
+            report_dir: Directory to store report files
+        """
+        self.report_dir = report_dir
+        os.makedirs(report_dir, exist_ok=True)
+        self.entries_log = []
+    
+    def add_entry(self, content_type: str, title: str, uid: str, is_reused: bool):
+        """
+        Add an entry to the tracking log
+        
+        Args:
+            content_type: Content type UID (e.g., 'feature_page', 'text_builder')
+            title: Entry title
+            uid: Entry UID
+            is_reused: True if entry was reused, False if newly created
+        """
+        self.entries_log.append({
+            'content_type': content_type,
+            'title': title,
+            'uid': uid,
+            'status': 'REUSED' if is_reused else 'NEW'
+        })
+    
+    def generate_report(self, page_title: str) -> str:
+        """
+        Generate a text report file
+        
+        Args:
+            page_title: Page title to use as filename
+            
+        Returns:
+            Path to the generated report file
+        """
+        # Sanitize filename
+        safe_filename = self._sanitize_filename(page_title)
+        timestamp = datetime.now().strftime('%Y%m%d-%H%M%S')
+        filename = f"{safe_filename}_{timestamp}.txt"
+        filepath = os.path.join(self.report_dir, filename)
+        
+        # Generate report content
+        report_lines = [
+            "=" * 100,
+            "ENTRY CREATION/REUSE TRACKING REPORT",
+            "=" * 100,
+            f"Page Title: {page_title}",
+            f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+            f"Total Entries: {len(self.entries_log)}",
+            f"Reused Entries: {sum(1 for e in self.entries_log if e['status'] == 'REUSED')}",
+            f"New Entries: {sum(1 for e in self.entries_log if e['status'] == 'NEW')}",
+            "=" * 100,
+            "",
+            "{:<35} {:<45} {:<12} {:<35}".format(
+                "CONTENT TYPE", "TITLE", "STATUS", "UID"
+            ),
+            "-" * 130,
+        ]
+        
+        # Add entry details
+        for entry in self.entries_log:
+            report_lines.append(
+                "{:<35} {:<45} {:<12} {:<35}".format(
+                    entry['content_type'][:35],
+                    entry['title'][:45],
+                    entry['status'],
+                    entry['uid']
+                )
+            )
+        
+        report_lines.extend([
+            "",
+            "=" * 100,
+            "END OF REPORT",
+            "=" * 100
+        ])
+        
+        # Write to file
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(report_lines))
+        
+        return filepath
+    
+    def _sanitize_filename(self, filename: str) -> str:
+        """
+        Sanitize filename by removing invalid characters
+        
+        Args:
+            filename: Original filename
+            
+        Returns:
+            Sanitized filename
+        """
+        # Remove invalid filename characters
+        invalid_chars = '<>:"/\\|?*'
+        for char in invalid_chars:
+            filename = filename.replace(char, '_')
+        
+        # Replace spaces with underscores
+        filename = filename.replace(' ', '_')
+        
+        # Limit length
+        if len(filename) > 100:
+            filename = filename[:100]
+        
+        return filename
+
+
+class ContentCreationUtility:
+    """
+    Main content creation utility class with entry tracking
+    """
+    
+    def __init__(self):
+        """Initialize the utility"""
+        # Load environment variables
+        load_dotenv()
+        
+        # Validate environment variables
+        self.validate_environment_variables()
+        
+        # Parse command line arguments
+        self.args = self.parse_arguments()
+        
+        # Get environment from args
+        self.environment = self.args.env
+        
+        # Get input file path
+        self.input_json_path = self.args.input or os.getenv('INPUT_JSON_PATH', 'input-json/connection-at-your-service-concierge-page.json.json')
+        
+        # Entry reuse configuration
+        self.entry_reuse_enabled = os.getenv('ENTRY_REUSE_ENABLED', 'true').lower() != 'false'
+        
+        # Initialize entry tracking report
+        self.tracking_report = EntryTrackingReport()
+        
+        # Build configuration for all environments
+        self.brandfolder_config = {}
+        self.contentstack_config = {}
+        self.brandfolder_collection_id = {}
+        
+        # Load configurations for each environment
+        environments = ['dev', 'USBC', 'USBD', 'CABC', 'CABD']
+        for env in environments:
+            # Brandfolder configuration
+            self.brandfolder_config[env] = {
+                'api_key': os.getenv(f'BRANDFOLDER_API_KEY_{env}'),
+                'organization_id': os.getenv(f'BRANDFOLDER_ORGANIZATION_ID_{env}'),
+                'section_key': os.getenv(f'BRANDFOLDER_SECTION_KEY_{env}', '')
+            }
+            
+            # Contentstack configuration
+            self.contentstack_config[env] = {
+                'api_key': os.getenv(f'CONTENTSTACK_API_KEY_{env}'),
+                'management_token': os.getenv(f'CONTENTSTACK_MANAGEMENT_TOKEN_{env}'),
+                'base_url': os.getenv(f'CONTENTSTACK_BASE_URL_{env}', 'https://api.contentstack.io'),
+                'auth_token': os.getenv('CONTENTSTACK_AUTH_TOKEN'),  # Auth token for Approved stage
+                'environment_uid': os.getenv(f'CONTENTSTACK_ENVIRONMENT_UID_{env}'),
+                'environment': env,  # Add environment name for locale determination
+                'app_url': os.getenv(f'CONTENTSTACK_APP_URL_{env}', 'https://azure-na-app.contentstack.com'),
+                'published_page_base_url': os.getenv(f'PUBLISHED_PAGE_BASE_URL_{env}', 'https://web-prd.pd.gdx.cc-costco.com/consumer-web/browse/prd/homepage-usbc/f/-/'),
+                'cache_flush_base_url': os.getenv(f'CACHE_FLUSH_BASE_URL_{env}', '')
+            }
+            
+            # Brandfolder collection ID
+            self.brandfolder_collection_id[env] = os.getenv(f'BRANDFOLDER_COLLECTION_ID_{env}', '')
+        
+        print(f"✅ Configuration loaded for {len(environments)} environments")
+    
+    def validate_environment_variables(self):
+        """Validate that required environment variables are set"""
+        # Check for at least one complete environment configuration
+        required_prefixes = [
+            'CONTENTSTACK_API_KEY_',
+            'CONTENTSTACK_MANAGEMENT_TOKEN_',
+            'BRANDFOLDER_API_KEY_',
+            'BRANDFOLDER_ORGANIZATION_ID_'
+        ]
+        
+        # Check if we have at least one environment configured
+        env_names = ['dev', 'USBC', 'USBD', 'CABC', 'CABD']
+        has_valid_env = False
+        
+        for env in env_names:
+            all_present = all(
+                os.getenv(f"{prefix}{env}") 
+                for prefix in required_prefixes
+            )
+            if all_present:
+                has_valid_env = True
+                break
+        
+        if not has_valid_env:
+            print("\n❌ ERROR: No complete environment configuration found")
+            print("\nRequired environment variables for at least one environment:")
+            for prefix in required_prefixes:
+                print(f"  - {prefix}<ENV>  (where <ENV> is dev, USBC, USBD, CABC, or CABD)")
+            print("\nPlease check your .env file and ensure it has complete configuration.")
+            sys.exit(1)
+        
+        print('✅ Environment variables validated')
+    
+    def parse_arguments(self):
+        """Parse command line arguments"""
+        parser = argparse.ArgumentParser(
+            description='CSM Content Creation Utility - Test Version with Entry Tracking',
+            formatter_class=argparse.RawDescriptionHelpFormatter,
+            epilog="""
+Examples:
+  python index_with_summary.py input-json/my-content.json --env USBC
+  python index_with_summary.py --input input-json/costco-concierge-page.json --env dev
+  python index_with_summary.py -i input-json/feature-page.json --environment USBD
+
+Features:
+  ✅ Asset processing and migration to Brandfolder
+  ✅ Entry creation with nested content types
+  ✅ Workflow processing (Review → Approved stages)
+  ✅ Publishing with deep publish for all nested entries
+  ✅ Published URL generation
+  ✅ Rollback protection for created entries
+  ✅ Entry tracking report generation (NEW)
+
+Environments:
+  dev, USBC, USBD, CABC, CABD
+
+Entry Tracking:
+  - Creates detailed reports in entry-reports/ directory
+  - Shows component type, title, UID, and status (REUSED/NEW)
+  - Report filename based on page title with timestamp
+            """
+        )
+        
+        parser.add_argument(
+            'input',
+            nargs='?',
+            help='Input JSON file path (default: from INPUT_JSON_PATH env var)'
+        )
+        
+        parser.add_argument(
+            '--env', '--environment',
+            dest='env',
+            default='dev',
+            choices=['dev', 'USBC', 'USBD', 'CABC', 'CABD'],
+            help='Environment to use (default: dev)'
+        )
+        
+        parser.add_argument(
+            '-i', '--input',
+            dest='input',
+            help='Input JSON file path (alternative flag)'
+        )
+        
+        return parser.parse_args()
+    
+    async def load_input_json(self):
+        """Load and parse the input JSON file"""
+        try:
+            print(f"\n📁 Loading input JSON from: {self.input_json_path}")
+            
+            absolute_path = Path(self.input_json_path).resolve()
+            
+            # Check if file exists
+            if not absolute_path.exists():
+                raise FileNotFoundError(f"Input file not found: {absolute_path}")
+            
+            with open(absolute_path, 'r', encoding='utf-8') as f:
+                parsed_json = json.load(f)
+            
+            print('✅ Input JSON loaded successfully')
+            print(f"📊 JSON structure preview:")
+            print(f"  - Root entry title: {parsed_json.get('entry', {}).get('title', 'No title')}")
+            print(f"  - Page ID: {parsed_json.get('entry', {}).get('page_id', 'No page ID')}")
+            print(f"  - Locale: {parsed_json.get('entry', {}).get('locale', 'No locale')}")
+            
+            return parsed_json
+            
+        except FileNotFoundError as error:
+            print(f"\n❌ ERROR: {str(error)}")
+            print('\n💡 Suggestions:')
+            print('  - Check if the file path is correct')
+            print('  - Ensure the file exists in the specified location')
+            print('  - Try using an absolute path')
+            raise
+            
+        except json.JSONDecodeError as error:
+            print(f"\n❌ ERROR: Invalid JSON in file {self.input_json_path}")
+            print(f"Error details: {str(error)}")
+            print('\n💡 Suggestions:')
+            print('  - Validate the JSON syntax using a JSON validator')
+            print('  - Check for missing commas, brackets, or quotes')
+            raise
+            
+        except Exception as error:
+            print(f"\n❌ ERROR: Failed to load input JSON")
+            print(f"Error: {str(error)}")
+            raise
+    
+    async def run(self):
+        """Run the content creation process with entry tracking"""
+        start_time = datetime.now()
+        
+        try:
+            print('\n🚀 STARTING CSM CONTENT CREATION UTILITY (TEST VERSION)')
+            print('=' * 80)
+            print('📝 Entry tracking: ENABLED')
+            print('📁 Reports will be saved to: entry-reports/')
+            print('=' * 80)
+            
+            # Load input JSON
+            input_json = await self.load_input_json()
+            
+            # Get page title for report filename
+            page_title = input_json.get('entry', {}).get('title', 'Untitled_Page')
+            
+            # Initialize content processor
+            print('\n🔧 Initializing content processor...')
+            
+            processor_options = {
+                'entry_reuse_enabled': self.entry_reuse_enabled
+            }
+            
+            processor = ContentProcessor(
+                self.brandfolder_config,
+                self.contentstack_config,
+                self.brandfolder_collection_id,
+                processor_options
+            )
+            
+            print(f"🔄 Entry reuse is {'ENABLED' if self.entry_reuse_enabled else 'DISABLED'}")
+            if self.entry_reuse_enabled:
+                print('   - Existing entries with matching titles will be reused')
+            else:
+                print('   - New entries will always be created')
+            
+            # Process content
+            print('\n⚡ Starting content processing...')
+            print(f"🌍 Using environment: {self.environment}")
+            
+            result = await processor.process_content(input_json, self.environment)
+            
+            # Collect entry tracking information
+            print('\n📝 Collecting entry tracking information...')
+            for entry_key, entry_info in processor.entry_cache.items():
+                self.tracking_report.add_entry(
+                    content_type=entry_info['content_type'],
+                    title=entry_info['title'],
+                    uid=entry_info['uid'],
+                    is_reused=entry_info.get('is_existing', False)
+                )
+            
+            # Generate tracking report
+            print('\n📄 Generating entry tracking report...')
+            report_path = self.tracking_report.generate_report(page_title)
+            print(f'✅ Report generated: {report_path}')
+            
+            # Extract page_id for URL generation
+            page_id = input_json.get('entry', {}).get('page_id')
+            if page_id:
+                print(f"\nExtracted page_id: {page_id}")
+            else:
+                print('\n⚠️ page_id not found in entry data - URL generation will be skipped')
+            
+            # Process workflow and publish
+            print('\n=== STARTING WORKFLOW AND PUBLISHING PROCESS ===')
+            
+            workflow_and_publish_result = None
+            try:
+                if page_id:
+                    # Get environment-specific URLs
+                    cs_config = self.contentstack_config[self.environment]
+                    published_page_base_url = cs_config['published_page_base_url']
+                    cache_flush_base_url = cs_config['cache_flush_base_url']
+                    
+                    workflow_and_publish_result = await processor.complete_workflow_and_publish(
+                        result['root_entry_uid'],
+                        page_id,
+                        'feature_page',
+                        published_page_base_url,
+                        cache_flush_base_url
+                    )
+                    
+                    print('✅ Workflow and publishing completed successfully')
+                    print(f"📄 Published page URL: {workflow_and_publish_result['published_url']}")
+                else:
+                    print('⚠️ Skipping workflow and publishing due to missing page_id')
+                    
+            except Exception as workflow_error:
+                print(f"❌ Workflow and publishing failed: {str(workflow_error)}")
+                print('Content creation was successful, but workflow/publishing failed')
+                print(f"\n📋 WORKFLOW/PUBLISH ERROR DETAILS:")
+                print(f"Error Type: {type(workflow_error).__name__}")
+                print(f"Error Message: {str(workflow_error)}")
+            
+            # Get processing summary
+            summary = processor.get_processing_summary()
+            
+            # Display results
+            self.display_results(result, summary, start_time, page_id, workflow_and_publish_result, report_path)
+            
+        except Exception as error:
+            print('\n💥 CONTENT CREATION FAILED')
+            print('=' * 80)
+            print(f"Error: {str(error)}")
+            
+            print(f"\n📋 COMPLETE ERROR DETAILS:")
+            print(f"Error Type: {type(error).__name__}")
+            print(f"Error Message: {str(error)}")
+            
+            end_time = datetime.now()
+            duration = (end_time - start_time).total_seconds()
+            print(f"\n⏱️  Total execution time: {duration:.2f} seconds")
+            
+            raise
+    
+    def display_results(self, result, summary, start_time, page_id=None, workflow_and_publish_result=None, report_path=None):
+        """Display the processing results"""
+        end_time = datetime.now()
+        duration = (end_time - start_time).total_seconds()
+        
+        print('\n🎉 CONTENT CREATION COMPLETED SUCCESSFULLY')
+        print('=' * 80)
+        
+        print('\n📈 PROCESSING SUMMARY:')
+        print(f"  ✅ Root entry UID: {result['root_entry_uid']}")
+        print(f"  📸 Assets processed: {summary['assets_processed']} ({summary['existing_assets']} existing, {summary['new_assets']} new{f', {summary["skipped_assets"]} skipped' if summary['skipped_assets'] > 0 else ''})")
+        print(f"  📄 Entries processed: {summary['entries_processed']} ({summary['existing_entries']} existing, {summary['new_entries']} new)")
+        print(f"  🔄 Rollback tracking: {summary['created_entries_for_rollback']} new entries tracked")
+        print(f"  ⏱️  Total execution time: {duration:.2f} seconds")
+        
+        # Entry Tracking Report
+        print('\n📝 ENTRY TRACKING REPORT')
+        print('=' * 80)
+        if report_path:
+            print(f"📄 Report file: {report_path}")
+            print(f"   - Total entries: {summary['entries_processed']}")
+            print(f"   - Reused entries: {summary['existing_entries']}")
+            print(f"   - New entries: {summary['new_entries']}")
+            print(f"   💡 Open this file to see detailed component information")
+        
+        # Workflow and Publishing Summary
+        print('\n🔄 WORKFLOW & PUBLISHING')
+        print('=' * 80)
+        if page_id:
+            print(f"📋 Page ID: {page_id}")
+        else:
+            print(f"📋 Page ID: Not found")
+        
+        if workflow_and_publish_result and workflow_and_publish_result.get('success'):
+            print(f"🔀 Workflow: ✅ Completed (Review → Approved)")
+            print(f"📤 Publishing: ✅ Published with deep publish")
+            print(f"🌐 Published URL: {workflow_and_publish_result['published_url']}")
+            
+            # Generate dynamic ContentStack URL with environment-specific locale
+            cs_config = self.contentstack_config[self.environment]
+            locale = 'en-ca' if self.environment in ['CABC', 'CABD'] else 'en-us'
+            contentstack_url = f"{cs_config['app_url']}/content-type/feature_page/{locale}/entry/{result['root_entry_uid']}/edit?branch=main"
+            print(f"ContentStack URL: {contentstack_url}")
+        elif workflow_and_publish_result is None and not page_id:
+            print(f"🔀 Workflow: ⚠️ Skipped (missing page_id)")
+            print(f"📤 Publishing: ⚠️ Skipped (missing page_id)")
+            print(f"🌐 Published URL: Not available")
+        else:
+            print(f"🔀 Workflow: ❌ Failed")
+            print(f"📤 Publishing: ❌ Failed")
+            print(f"🌐 Published URL: Not available")
+        
+        print('\n' + '=' * 80)
+        print('✅ ALL OPERATIONS COMPLETED')
+        print('=' * 80)
+        print('\n🏁 Process completed successfully!')
+
+
+async def async_main():
+    """Async main entry point"""
+    utility = ContentCreationUtility()
+    await utility.run()
+
+
+def main():
+    """Main entry point"""
+    # Check for help flag first
+    if '--help' in sys.argv or '-h' in sys.argv:
+        parser = argparse.ArgumentParser(
+            description='CSM Content Creation Utility - Test Version with Entry Tracking',
+            formatter_class=argparse.RawDescriptionHelpFormatter
+        )
+        parser.print_help()
+        return 0
+    
+    try:
+        # Run the async main function
+        asyncio.run(async_main())
+        return 0
+    except KeyboardInterrupt:
+        print("\n\n⚠️ Process interrupted by user")
+        return 1
+    except Exception as error:
+        print(f"\n💥 Fatal error: {str(error)}")
+        return 1
+
+
+if __name__ == '__main__':
+    sys.exit(main())

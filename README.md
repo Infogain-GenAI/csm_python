@@ -185,6 +185,51 @@ python index.py --help
 
 ---
 
+### Task 3B: Content Creation with Entry Tracking (index_with_summary.py)
+
+**NEW**: Test version with detailed entry creation/reuse tracking.
+
+**Python command:**
+```bash
+# Run with entry tracking enabled
+python index_with_summary.py input-json/test.json --env USBC
+
+# Show help
+python index_with_summary.py --help
+```
+
+**What it does (Everything from index.py PLUS):**
+- ✅ All features from `index.py`
+- ✅ **NEW**: Track which entries were reused vs newly created
+- ✅ **NEW**: Generate detailed tracking reports (.txt files)
+- ✅ **NEW**: Save reports to `entry-reports/` directory
+- ✅ **NEW**: Show component type, title, UID, and status for each entry
+
+**Entry Tracking Report Includes:**
+- Content type (e.g., feature_page, text_builder, ad_builder)
+- Entry title
+- Status (REUSED or NEW)
+- Contentstack UID
+- Summary statistics (total, reused, new entries)
+
+**Report Example:**
+```
+CONTENT TYPE                        TITLE                                         STATUS       UID                           
+------------------------------------------------------------------------------------------------------------------------------
+feature_page                        Costco Concierge Services                     NEW          blt1234567890abcdef           
+text_builder                        Welcome Header                                REUSED       blt0987654321fedcba           
+ad_builder                          Hero Image                                    NEW          bltabcdef1234567890           
+```
+
+**Documentation:**
+- [📖 ENTRY_TRACKING_FEATURE.md](ENTRY_TRACKING_FEATURE.md) - Complete documentation
+- [⚡ ENTRY_TRACKING_QUICK_REFERENCE.md](ENTRY_TRACKING_QUICK_REFERENCE.md) - Quick reference guide
+
+**Configuration:**
+- Set `ENTRY_REUSE_ENABLED=true` in `.env` to enable entry reuse
+
+---
+
 ## Environment Support
 
 The utility supports dynamic environment configuration for different Contentstack and Brandfolder environments:
@@ -209,20 +254,24 @@ csm-content-creation-python/
 ├── lib/
 │   ├── contentstack_api.py      # Contentstack API client ✅
 │   ├── brandfolder_api.py       # Brandfolder API client ✅
+│   ├── content_processor.py     # Content processing logic ✅
 │   ├── json_cleanup.py          # JSON cleanup functionality ✅
 │   └── __init__.py              # Package initialization
 ├── input-json/                  # Input JSON files
+├── entry-reports/               # Entry tracking reports (NEW)
 ├── temp/                        # Temporary files and backups
 ├── json_cleanup_cli.py          # Task 1: JSON cleanup CLI ✅
 ├── delete_entry_utility.py      # Task 2: Entry deletion CLI ✅
 ├── index.py                     # Task 3: Content creation CLI ✅
+├── index_with_summary.py                # Task 3B: Content creation with tracking (NEW) ✅
 ├── requirements.txt             # Python dependencies
 ├── .env.example                 # Environment configuration template
 ├── .env                         # Your actual environment config (not in git)
 ├── .gitignore                   # Git ignore file
 ├── README.md                    # This file
 ├── QUICK_START.md               # Quick start guide
-└── MIGRATION_GUIDE.md           # Migration from Node.js guide
+├── ENTRY_TRACKING_FEATURE.md    # Entry tracking documentation (NEW)
+└── ENTRY_TRACKING_QUICK_REFERENCE.md  # Entry tracking quick guide (NEW)
 ```
 
 ## Migration from Node.js
@@ -319,6 +368,7 @@ python delete_entry_utility.py blt603b3998575a580e USBC
 
 # Task 3: Create Content (✅ READY)
 python index.py input-json/test.json --env USBC
-```
 
+python index_with_summary.py input-json/test.json --env USBC --url "https://your-page-url"
+```
 **Remember**: Always use `--dry-run` before actually deleting entries!

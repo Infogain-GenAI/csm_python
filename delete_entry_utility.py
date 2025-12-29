@@ -36,6 +36,12 @@ class EntryDeletionUtility:
         self.backed_up_entries = {}
         self.backup_file_path = None
         
+        # Reference analysis tracking (NEW - matches Node.js)
+        self.reference_analysis = {}  # Map of entryKey -> {to_be_deleted: bool, references: [], reason: str}
+        self.referenced_entries = set()  # Entries referenced elsewhere (protected)
+        self.orphaned_entries = set()  # Entries safe to delete (no external references)
+        self.reference_analysis_completed = False  # Track if analysis phase is done
+        
         # Create temp directory
         self.temp_dir = 'temp'
         os.makedirs(self.temp_dir, exist_ok=True)
@@ -97,6 +103,210 @@ class EntryDeletionUtility:
         
         print(f'✅ All required environment variables are present for {self.environment} environment')
 
+    def fetch_entry_details(self, content_type_uid: str, entry_uid: str) -> dict:
+        """Fetch entry details to understand its structure"""
+        try:
+            response = self.contentstack_api.get_entry(content_type_uid, entry_uid)
+            # Contentstack API returns: { "entry": { ... } }
+            entry = response.get('entry', None)
+            if not entry:
+                print(f"[FETCH] Entry not found: {entry_uid}")
+                return None
+            return entry
+        except Exception as error:
+            print(f"[FETCH] Error fetching entry {entry_uid}: {str(error)}")
+            return None
+
+    def find_nested_entries(self, entry_data: any, found_entries: set = None) -> set:
+        """Recursively find all nested entry references"""
+        if found_entries is None:
+            found_entries = set()
+        
+        if not entry_data or not isinstance(entry_data, (dict, list)):
+            return found_entries
+        
+        if isinstance(entry_data, list):
+            for item in entry_data:
+                self.find_nested_entries(item, found_entries)
+            return found_entries
+        
+        if isinstance(entry_data, dict):
+            if '_content_type_uid' in entry_data and 'uid' in entry_data:
+                entry_ref = {
+                    'contentTypeUid': entry_data['_content_type_uid'],
+                    'uid': entry_data['uid']
+                }
+                found_entries.add(json.dumps(entry_ref))
+                print(f"[SCAN] Found nested entry: {entry_data['_content_type_uid']}/{entry_data['uid']}")
+            
+            if 'entry' in entry_data and isinstance(entry_data['entry'], dict):
+                self.find_nested_entries(entry_data['entry'], found_entries)
+            
+            for key, value in entry_data.items():
+                if key not in ['_content_type_uid', 'uid']:
+                    self.find_nested_entries(value, found_entries)
+        
+        return found_entries
+
+    def analyze_entry_references(self, content_type_uid: str, entry_uid: str, parent_entry_uid: str) -> dict:
+        """Analyze entry references to determine if it can be safely deleted"""
+        entry_key = f"{content_type_uid}/{entry_uid}"
+        
+        if entry_key in self.reference_analysis:
+            return self.reference_analysis[entry_key]
+        
+        try:
+            print(f"\n[REF-ANALYSIS] Analyzing references for: {entry_key}")
+            
+            entry_data = self.fetch_entry_details(content_type_uid, entry_uid)
+            if not entry_data:
+                result = {
+                    'to_be_deleted': False,
+                    'references': [],
+                    'reason': 'Entry not found',
+                    'has_migration_tag': False
+                }
+                self.reference_analysis[entry_key] = result
+                return result
+            
+            # Check migration tag
+            has_migration_tag = (
+                'tags' in entry_data and 
+                isinstance(entry_data['tags'], list) and 
+                'migrated-from-cms' in entry_data['tags']
+            )
+            
+            print(f"[REF-ANALYSIS] Entry {entry_key} - Migration tag: {'✅' if has_migration_tag else '❌'}")
+            
+            if not has_migration_tag:
+                result = {
+                    'to_be_deleted': False,
+                    'references': [],
+                    'reason': 'Missing migrated-from-cms tag',
+                    'has_migration_tag': False
+                }
+                self.reference_analysis[entry_key] = result
+                self.referenced_entries.add(entry_key)
+                return result
+            
+            # Check references
+            references_result = self.contentstack_api.get_entry_references(content_type_uid, entry_uid)
+            all_references = references_result.get('references', [])
+            
+            # Filter out parent references
+            external_references = []
+            for ref in all_references:
+                ref_entry_uid = ref.get('entry_uid') or ref.get('uid') or \
+                              (ref.get('entry', {}).get('uid') if isinstance(ref.get('entry'), dict) else None)
+                if ref_entry_uid != parent_entry_uid:
+                    external_references.append(ref)
+            
+            print(f"[REF-ANALYSIS] Found {len(external_references)} external references (excluding parent)")
+            
+            if len(external_references) > 0:
+                result = {
+                    'to_be_deleted': False,
+                    'references': external_references,
+                    'reason': f'Referenced in {len(external_references)} other entries',
+                    'has_migration_tag': True
+                }
+                self.referenced_entries.add(entry_key)
+                print(f"[REF-ANALYSIS] Entry {entry_key} PROTECTED - referenced elsewhere")
+            else:
+                result = {
+                    'to_be_deleted': True,
+                    'references': [],
+                    'reason': 'No external references found',
+                    'has_migration_tag': True
+                }
+                self.orphaned_entries.add(entry_key)
+                print(f"[REF-ANALYSIS] Entry {entry_key} SAFE TO DELETE")
+            
+            self.reference_analysis[entry_key] = result
+            return result
+            
+        except Exception as error:
+            result = {
+                'to_be_deleted': False,
+                'references': [],
+                'reason': f'Analysis error: {str(error)}',
+                'has_migration_tag': False
+            }
+            self.reference_analysis[entry_key] = result
+            self.referenced_entries.add(entry_key)
+            return result
+
+    def traverse_hierarchy_root_first(self, content_type_uid: str, entry_uid: str, 
+                                     entry_data: dict, root_entry_uid: str,
+                                     immediate_parent_uid: str = None):
+        """Traverse entry hierarchy in root-first approach"""
+        entry_key = f"{content_type_uid}/{entry_uid}"
+        
+        if entry_key in self.reference_analysis:
+            return
+        
+        parent_for_filtering = immediate_parent_uid or root_entry_uid
+        analysis_result = self.analyze_entry_references(content_type_uid, entry_uid, parent_for_filtering)
+        
+        if not analysis_result['to_be_deleted']:
+            # Mark nested entries as protected by inheritance
+            nested_entries = self.find_nested_entries(entry_data)
+            for nested_entry_json in nested_entries:
+                nested_entry = json.loads(nested_entry_json)
+                nested_key = f"{nested_entry['contentTypeUid']}/{nested_entry['uid']}"
+                
+                if nested_key not in self.reference_analysis:
+                    inherited_result = {
+                        'to_be_deleted': False,
+                        'references': [],
+                        'reason': f'Inherited protection from parent {entry_key}',
+                        'has_migration_tag': False
+                    }
+                    self.reference_analysis[nested_key] = inherited_result
+                    self.referenced_entries.add(nested_key)
+            return
+        
+        # Analyze children
+        nested_entries = self.find_nested_entries(entry_data)
+        for nested_entry_json in nested_entries:
+            nested_entry = json.loads(nested_entry_json)
+            try:
+                nested_data = self.fetch_entry_details(nested_entry['contentTypeUid'], nested_entry['uid'])
+                if nested_data:
+                    self.traverse_hierarchy_root_first(
+                        nested_entry['contentTypeUid'],
+                        nested_entry['uid'],
+                        nested_data,
+                        root_entry_uid,
+                        entry_uid
+                    )
+                time.sleep(0.2)
+            except Exception as error:
+                print(f"[REF-ANALYSIS] Error processing nested entry: {str(error)}")
+
+    def analyze_entry_hierarchy_for_references(self, content_type_uid: str, entry_uid: str) -> bool:
+        """Analyze entry hierarchy for references"""
+        try:
+            print('\n=== STARTING REFERENCE ANALYSIS PHASE ===')
+            
+            root_entry_data = self.fetch_entry_details(content_type_uid, entry_uid)
+            if not root_entry_data:
+                return False
+            
+            self.traverse_hierarchy_root_first(content_type_uid, entry_uid, root_entry_data, entry_uid)
+            
+            self.reference_analysis_completed = True
+            print('\n=== REFERENCE ANALYSIS PHASE COMPLETED ===')
+            print(f'Total entries analyzed: {len(self.reference_analysis)}')
+            print(f'Entries safe to delete: {len(self.orphaned_entries)}')
+            print(f'Entries protected: {len(self.referenced_entries)}')
+            
+            return True
+        except Exception as error:
+            print(f'[REF-ANALYSIS] Error: {str(error)}')
+            self.reference_analysis_completed = False
+            return False
+
     def delete_entry_recursively(self, entry_uid: str, content_type_uid: str = None) -> dict:
         """
         Main deletion function
@@ -132,6 +342,34 @@ class EntryDeletionUtility:
                 self.save_backup_to_file(entry_uid, content_type_uid)
             else:
                 print('⚠️  Backup failed, but continuing with deletion process')
+            
+            # CRITICAL: Perform reference analysis before deletion
+            print('\n🔍 PERFORMING REFERENCE ANALYSIS')
+            print('================================')
+            analysis_success = self.analyze_entry_hierarchy_for_references(content_type_uid, entry_uid)
+            
+            if not analysis_success or not self.reference_analysis_completed:
+                print('\n❌ REFERENCE ANALYSIS FAILED - ABORTING DELETION')
+                print('Cannot safely proceed without reference analysis')
+                return {
+                    'success': False,
+                    'error': 'Reference analysis failed',
+                    'entry_uid': entry_uid,
+                    'content_type_uid': content_type_uid
+                }
+            
+            if self.reference_analysis_completed:
+                print(f'📊 Analysis complete: {len(self.reference_analysis)} entries analyzed')
+                print(f'🛡️  Protected entries: {len(self.referenced_entries)}')
+                print(f'✅ Clear for deletion: {len(self.orphaned_entries)}')
+                
+                # Show protected entries like Node.js does
+                if len(self.referenced_entries) > 0:
+                    print('\n🛡️  PROTECTED ENTRIES (will not be deleted):')
+                    for idx, entry_key in enumerate(self.referenced_entries, 1):
+                        analysis = self.reference_analysis.get(entry_key, {})
+                        reason = analysis.get('reason', 'Unknown')
+                        print(f'  {idx}. {entry_key}: {reason}')
             
             # Perform recursive deletion
             self.recursively_delete_entry(content_type_uid, entry_uid)
@@ -187,6 +425,18 @@ class EntryDeletionUtility:
             return {'skipped': True}
         
         self.processed_entries.add(entry_key)
+        
+        # CRITICAL SAFETY CHECK: Verify reference analysis before deletion
+        if self.reference_analysis_completed:
+            if entry_key not in self.reference_analysis:
+                print(f"[SAFETY] ⚠️ Entry {entry_key} not in reference analysis - SKIPPING")
+                return {'skipped': True, 'reason': 'Not analyzed'}
+            
+            analysis = self.reference_analysis[entry_key]
+            if not analysis['to_be_deleted']:
+                print(f"[SAFETY] 🛡️ Entry {entry_key} is PROTECTED - SKIPPING")
+                print(f"[SAFETY] Reason: {analysis['reason']}")
+                return {'skipped': True, 'reason': analysis['reason']}
         
         try:
             # Fetch entry

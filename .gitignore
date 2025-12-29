@@ -55,3 +55,5 @@ backup_*.json
 
 # Entry tracking reports
 entry-reports/
+
+output/

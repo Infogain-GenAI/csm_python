@@ -122,7 +122,7 @@ python delete_entry_utility.py blt603b3998575a580e USBC --dry-run
 
 # Using different environments
 python delete_entry_utility.py blt603b3998575a580e USBD
-python delete_entry_utility.py blt603b3998575a580e CABC --dry-run
+python delete_entry_utility.py blt367a9f3083948b5f CABC --dry-run
 
 # Show help
 python delete_entry_utility.py --help

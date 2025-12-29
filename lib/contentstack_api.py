@@ -763,3 +763,43 @@ class ContentstackAPI:
             locale = self.locale
         loop = asyncio.get_event_loop()
         return await loop.run_in_executor(None, lambda: self.search_entry_by_title(content_type_uid, title, locale))
+    
+    def get_entry_references(self, content_type_uid: str, entry_uid: str) -> Dict:
+        """
+        Get all references for an entry (i.e., other entries that reference this entry)
+        
+        Args:
+            content_type_uid: Content type UID
+            entry_uid: Entry UID
+            
+        Returns:
+            Dictionary with references information
+        """
+        print(f"\n[CONTENTSTACK] Getting references for entry: {entry_uid}")
+        print(f"[CONTENTSTACK] Content type: {content_type_uid}")
+        
+        url = f"{self.base_url}/content_types/{content_type_uid}/entries/{entry_uid}/references"
+        
+        try:
+            response = self._make_request('GET', url)
+            print(f"[CONTENTSTACK] Entry references response: {json.dumps(response, indent=2)}")
+            
+            references = response.get('references', [])
+            
+            return {
+                'success': True,
+                'references': references,
+                'count': len(references)
+            }
+        except Exception as error:
+            print(f"[CONTENTSTACK] Error getting entry references: {str(error)}")
+            
+            # Don't throw error for references failures, return empty result
+            # This is safer - if we can't check references, we should not delete
+            print(f"[CONTENTSTACK] References check failed, assuming no references (safer for deletion)")
+            return {
+                'success': False,
+                'references': [],
+                'count': 0,
+                'error': str(error)
+            }

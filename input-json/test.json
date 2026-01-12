@@ -1,107 +1,227 @@
 {
-    "entry": {
-        "title": "Keeping the peace - Workspace for Two - 1759225300000 - 1765187374525",
-        "ad_set_heading_and_costco_url": {
-            "title": "",
-            "url": "",
-            "external_site": false,
-            "reference_link": false,
-            "content_type_uid": "",
-            "entry_title": "",
-            "entry_uid": "",
-            "page_id": "",
-            "open_as_pop_up": false
-        },
-        "item_type": "ad",
-        "ad_set_style": "static",
-        "ad_content": [
+  "entry": {
+    "locale": "en-us",
+    "breadcrumb_page_title_options": {
+      "page_title": "",
+      "breadcrumb_title": "",
+      "disable_h1": false
+    },
+    "index_position": null,
+    "page_composer": [
+      {
+        "row": {
+          "row_composer": [
             {
-                "ad_builder_block": {
-                    "ad_builder_ref": [
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "title": "testing_text_builder_1",
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "multiple_text_section_group": [
                         {
-                            "uid": "bltd7854045c110df25",
-                            "_content_type_uid": "ad_builder"
+                          "color_config": {
+                            "background_gradient_style": "solid",
+                            "background_color": {
+                              "hex": "#54b6cc"
+                            },
+                            "background_gradient_color": {
+                              "color1": {
+                                "hex": ""
+                              },
+                              "color2": {
+                                "hex": ""
+                              }
+                            },
+                            "text_color": {
+                              "hex": ""
+                            },
+                            "border_color_type": "no-border",
+                            "border_color": {
+                              "solid": {
+                                "hex": ""
+                              },
+                              "shadow": {
+                                "hex": ""
+                              }
+                            }
+                          },
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h1",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "this is text_builder block",
+                              "color": {
+                                "background_gradient_style": "solid",
+                                "background_color": {
+                                  "hex": "#54b6cc"
+                                },
+                                "background_gradient_color": {
+                                  "color1": {
+                                    "hex": ""
+                                  },
+                                  "color2": {
+                                    "hex": ""
+                                  }
+                                },
+                                "text_color": {
+                                  "hex": ""
+                                },
+                                "border_color_type": "no-border",
+                                "border_color": {
+                                  "solid": {
+                                    "hex": ""
+                                  },
+                                  "shadow": {
+                                    "hex": ""
+                                  }
+                                }
+                              }
+                            }
+                          ]
                         }
-                    ],
-                    "_metadata": {
-                        "uid": "cs323a659243b7d633"
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-us"
                     }
-                }
-            },
-            {
-                "ad_builder_block": {
-                    "ad_builder_ref": [
-                        {
-                            "uid": "bltd7854045c110df25",
-                            "_content_type_uid": "ad_builder"
-                        }
-                    ],
-                    "_metadata": {
-                        "uid": "cs1583c4617faaa76a"
-                    }
-                }
+                  }
+                ]
+              }
             }
-        ],
-        "ad_set_background": {
-            "title_background_color": {},
-            "title_background_transparency": "1",
-            "body_background_color": {},
-            "body_background_transparency": "1"
-        },
-        "background_foreground_banner_group": {
-            "background_banner_button_alignment": "horizontal",
-            "background_banner_image_alignment": "top",
-            "background_banner_reference": [],
-            "foreground_banner_group": []
-        },
-        "caption": "",
-        "category_content": {
-            "category_items": [],
-            "image_form_factor": "rounded",
-            "background_color": {},
-            "category_set_title_alignment": "left",
-            "category_content_placement": null
-        },
-        "custom_background": false,
-        "enable_background_foreground_banner": false,
-        "platform_config_block": {
-            "android_version_support": "",
-            "ios_version_support": "",
-            "platform_aplicability": "mobile_web"
-        },
-        "product_content": {
-            "product_list": {}
-        },
-        "product_display_style": {
-            "product_card_display_style": "compact",
-            "show_action_button": true,
-            "show_reviews": true,
-            "inventory_aware_listings": false,
-            "product_tile_data_source": null
-        },
-        "rotating_options": {
-            "multi_item_carousel": false,
-            "enable_autoplay": false,
-            "enable_two_row_display": false,
-            "randomize_items": false,
-            "enable_peek_a_boo": false
-        },
-        "static_options": {
-            "display_style": "multi_row",
-            "maximum_tiles_per_row": 5
-        },
-        "tags": [
-            "migrated-from-cms"
-        ],
-        "locale": "en-ca",
-        "uid": "blteb39ee7c40e6abfd",
-        "created_by": "blt75acb9c87b4e5457",
-        "updated_by": "blt75acb9c87b4e5457",
-        "created_at": "2025-12-26T11:49:45.624Z",
-        "updated_at": "2025-12-26T11:49:45.624Z",
-        "url": "/adset/costco/blteb39ee7c40e6abfd",
-        "ACL": {},
-        "_version": 1,
-        "_in_progress": false
-    }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "title": "testing_text_builder_2",
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {
+                            "background_gradient_style": "solid",
+                            "background_color": {
+                              "hex": "#54b6cc"
+                            },
+                            "background_gradient_color": {
+                              "color1": {
+                                "hex": ""
+                              },
+                              "color2": {
+                                "hex": ""
+                              }
+                            },
+                            "text_color": {
+                              "hex": ""
+                            },
+                            "border_color_type": "no-border",
+                            "border_color": {
+                              "solid": {
+                                "hex": ""
+                              },
+                              "shadow": {
+                                "hex": ""
+                              }
+                            }
+                          },
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h1",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "this is text_builder block 2",
+                              "color": {
+                                "background_gradient_style": "solid",
+                                "background_color": {
+                                  "hex": "#54b6cc"
+                                },
+                                "background_gradient_color": {
+                                  "color1": {
+                                    "hex": ""
+                                  },
+                                  "color2": {
+                                    "hex": ""
+                                  }
+                                },
+                                "text_color": {
+                                  "hex": ""
+                                },
+                                "border_color_type": "no-border",
+                                "border_color": {
+                                  "solid": {
+                                    "hex": ""
+                                  },
+                                  "shadow": {
+                                    "hex": ""
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-us"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "page_id": "testing_page_2",
+    "page_type": "feature",
+    "seo_metadata": {
+      "meta_title": "",
+      "meta_description": ""
+    },
+    "tags": [],
+    "title": "testing_page_2"
+  }
 }

@@ -165,6 +165,9 @@ class ContentProcessor:
         Rollback all created entries in case of error
         This will delete only entries that were newly created during this run,
         not existing entries that were reused
+        
+        IMPORTANT: Includes reference checking to avoid deleting entries 
+        that are referenced by other entries (matching delete_entry_utility.py logic)
         """
         if not self.created_entries:
             print('\n[ROLLBACK] No entries to rollback - no new entries were created')
@@ -173,16 +176,50 @@ class ContentProcessor:
         print(f'\n=== STARTING ROLLBACK ===')
         print(f"[ROLLBACK] Rolling back {len(self.created_entries)} created entries...")
         print(f"[ROLLBACK] NOTE: Brandfolder assets will NOT be deleted")
+        print(f"[ROLLBACK] Checking references to avoid deleting referenced entries...")
+        
+        # Step 1: Analyze references for all created entries
+        reference_analysis = await self._analyze_rollback_references()
+        
+        # Step 2: Separate entries into safe-to-delete and protected
+        safe_to_delete = []
+        protected_entries = []
+        
+        for entry in self.created_entries:
+            entry_key = f"{entry['content_type']}/{entry['uid']}"
+            analysis = reference_analysis.get(entry_key, {'to_be_deleted': False, 'reason': 'Unknown'})
+            
+            if analysis['to_be_deleted']:
+                safe_to_delete.append(entry)
+            else:
+                protected_entries.append({
+                    'entry': entry,
+                    'reason': analysis['reason']
+                })
+        
+        print(f"\n[ROLLBACK] Reference analysis completed:")
+        print(f"  ✅ Safe to delete: {len(safe_to_delete)} entries")
+        print(f"  🛡️ Protected (referenced elsewhere): {len(protected_entries)} entries")
+        
+        # Show protected entries
+        if protected_entries:
+            print(f"\n[ROLLBACK] 🛡️ PROTECTED ENTRIES (will NOT be deleted):")
+            for i, item in enumerate(protected_entries, 1):
+                entry = item['entry']
+                reason = item['reason']
+                print(f"  {i}. {entry['content_type']}/{entry['uid']} - {entry['title']}")
+                print(f"     Reason: {reason}")
         
         deleted_count = 0
         failed_count = 0
+        skipped_count = len(protected_entries)
         
-        # Delete entries in reverse order (root to leaf)
-        for i in range(len(self.created_entries) - 1, -1, -1):
-            entry = self.created_entries[i]
+        # Step 3: Delete only safe entries (in reverse order - child to parent)
+        for i in range(len(safe_to_delete) - 1, -1, -1):
+            entry = safe_to_delete[i]
             
             try:
-                print(f"[ROLLBACK] Deleting entry {len(self.created_entries) - i}/{len(self.created_entries)}: {entry['title']} ({entry['uid']})")
+                print(f"\n[ROLLBACK] Deleting entry {len(safe_to_delete) - i}/{len(safe_to_delete)}: {entry['title']} ({entry['uid']})")
                 
                 delete_result = await self.contentstack_api.delete_entry_async(
                     entry['content_type'],
@@ -201,7 +238,10 @@ class ContentProcessor:
                 print(f"[ROLLBACK] ❌ Error deleting entry {entry['uid']}: {str(error)}")
         
         print(f'\n=== ROLLBACK COMPLETED ===')
-        print(f"[ROLLBACK] Summary: {deleted_count} deleted, {failed_count} failed")
+        print(f"[ROLLBACK] Summary:")
+        print(f"  ✅ Deleted: {deleted_count}")
+        print(f"  ❌ Failed: {failed_count}")
+        print(f"  🛡️ Protected (skipped): {skipped_count}")
         
         if deleted_count > 0:
             print(f"[ROLLBACK] ✅ Successfully cleaned up {deleted_count} created entries")
@@ -209,8 +249,80 @@ class ContentProcessor:
         if failed_count > 0:
             print(f"[ROLLBACK] ⚠️ Failed to delete {failed_count} entries - these may need manual cleanup")
         
+        if skipped_count > 0:
+            print(f"[ROLLBACK] 🛡️ Skipped {skipped_count} protected entries (referenced elsewhere)")
+            print(f"[ROLLBACK] ℹ️ Protected entries will remain in Contentstack as they are still referenced")
+        
         # Clear the created entries list
         self.created_entries = []
+    
+    async def _analyze_rollback_references(self) -> dict:
+        """
+        Analyze references for entries to be rolled back
+        Similar to delete_entry_utility.py's analyze_entry_references logic
+        
+        Returns:
+            Dictionary mapping entry_key -> {to_be_deleted: bool, references: [], reason: str}
+        """
+        reference_analysis = {}
+        
+        print(f"\n[ROLLBACK-ANALYSIS] Analyzing references for {len(self.created_entries)} entries...")
+        
+        for entry in self.created_entries:
+            entry_key = f"{entry['content_type']}/{entry['uid']}"
+            
+            try:
+                # Get all references for this entry
+                references_result = self.contentstack_api.get_entry_references(
+                    entry['content_type'],
+                    entry['uid']
+                )
+                
+                all_references = references_result.get('references', [])
+                
+                # Filter out self-references and references from entries created in this batch
+                created_entry_uids = {e['uid'] for e in self.created_entries}
+                external_references = []
+                
+                for ref in all_references:
+                    # Extract referring entry UID
+                    ref_entry_uid = (
+                        ref.get('entry_uid') or 
+                        ref.get('uid') or 
+                        (ref.get('entry', {}).get('uid') if isinstance(ref.get('entry'), dict) else None)
+                    )
+                    
+                    # Skip if reference is from another entry in the created batch
+                    # (those will also be deleted, so they don't count as external references)
+                    if ref_entry_uid and ref_entry_uid not in created_entry_uids:
+                        external_references.append(ref)
+                
+                # Determine if entry can be deleted
+                if len(external_references) > 0:
+                    reference_analysis[entry_key] = {
+                        'to_be_deleted': False,
+                        'references': external_references,
+                        'reason': f'Referenced in {len(external_references)} external entries (not created in this batch)'
+                    }
+                    print(f"[ROLLBACK-ANALYSIS] 🛡️ {entry_key} - PROTECTED (external references: {len(external_references)})")
+                else:
+                    reference_analysis[entry_key] = {
+                        'to_be_deleted': True,
+                        'references': [],
+                        'reason': 'No external references found - safe to delete'
+                    }
+                    print(f"[ROLLBACK-ANALYSIS] ✅ {entry_key} - SAFE TO DELETE")
+                
+            except Exception as error:
+                # If we can't check references, err on the side of caution - don't delete
+                print(f"[ROLLBACK-ANALYSIS] ⚠️ Error checking references for {entry_key}: {str(error)}")
+                reference_analysis[entry_key] = {
+                    'to_be_deleted': False,
+                    'references': [],
+                    'reason': f'Reference check failed: {str(error)} - assuming protected for safety'
+                }
+        
+        return reference_analysis
     
     def extract_links_from_markdown(self, markdown_text: str) -> List[Dict]:
         """

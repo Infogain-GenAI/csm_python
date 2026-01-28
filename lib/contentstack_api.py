@@ -421,7 +421,8 @@ class ContentstackAPI:
         # CRITICAL: Use authtoken for Approved stage (blt0915ab57da3d0af1)
         # This is required by Contentstack for final approval
         headers = self.headers.copy()
-        if stage_uid == 'blt0915ab57da3d0af1' and self.auth_token:
+        # if stage_uid == 'blt0915ab57da3d0af1' and self.auth_token:
+        if self.auth_token:
             print(f"[CONTENTSTACK] Using authtoken for Approved stage")
             headers['authtoken'] = self.auth_token
             del headers['authorization']

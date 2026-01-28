@@ -2,8 +2,8 @@
   "entry": {
     "locale": "en-us",
     "breadcrumb_page_title_options": {
-      "page_title": "",
-      "breadcrumb_title": "",
+      "page_title": "Buying Guide",
+      "breadcrumb_title": "Buying Guide",
       "disable_h1": false
     },
     "index_position": null,
@@ -12,97 +12,70 @@
         "row": {
           "row_composer": [
             {
-              "text_builder_block": {
-                "text_builder_ref": [
+              "ad_builder_block": {
+                "ad_builder_ref": [
                   {
-                    "_content_type_uid": "text_builder",
+                    "_content_type_uid": "ad_builder",
                     "entry": {
-                      "title": "testing_text_builder_1",
-                      "text_section_config": {
-                        "see_more_see_less_capability": false,
-                        "text_section_alignment": "left",
-                        "text_section_type": "full"
+                      "locale": "en-us",
+                      "title": "Ad Builder Entry - Buying Guide-Do6g1N",
+                      "ad_type": "full",
+                      "background_group": {},
+                      "caption": "",
+                      "costco_url": {
+                        "title": "",
+                        "url": "",
+                        "external_site": false,
+                        "same_tab_domain": true,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
                       },
-                      "multiple_text_section_group": [
+                      "disclaimer": "",
+                      "disclaimer_markdown": "",
+                      "enable_caption": false,
+                      "enable_custom_background": false,
+                      "enable_disclaimer": false,
+                      "enable_mobile_image_variation": false,
+                      "enable_product_linked": false,
+                      "enable_sponsored": false,
+                      "enable_text_content": false,
+                      "image": [
                         {
-                          "color_config": {
-                            "background_gradient_style": "solid",
-                            "background_color": {
-                              "hex": "#54b6cc"
-                            },
-                            "background_gradient_color": {
-                              "color1": {
-                                "hex": ""
-                              },
-                              "color2": {
-                                "hex": ""
-                              }
-                            },
-                            "text_color": {
-                              "hex": ""
-                            },
-                            "border_color_type": "no-border",
-                            "border_color": {
-                              "solid": {
-                                "hex": ""
-                              },
-                              "shadow": {
-                                "hex": ""
-                              }
-                            }
-                          },
-                          "text_section_icon": {
-                            "icon_as_an_image": false,
-                            "icon_image": [],
-                            "icon_alt_text": "",
-                            "select_predefined_icon": null
-                          },
-                          "text_section_content": [
-                            {
-                              "select_text_type": "subheading_v2",
-                              "select_semantics_type": "h1",
-                              "text_alignment": "left",
-                              "enable_custom_tag_parsing": false,
-                              "markdown_text": "this is text_builder block",
-                              "color": {
-                                "background_gradient_style": "solid",
-                                "background_color": {
-                                  "hex": "#54b6cc"
-                                },
-                                "background_gradient_color": {
-                                  "color1": {
-                                    "hex": ""
-                                  },
-                                  "color2": {
-                                    "hex": ""
-                                  }
-                                },
-                                "text_color": {
-                                  "hex": ""
-                                },
-                                "border_color_type": "no-border",
-                                "border_color": {
-                                  "solid": {
-                                    "hex": ""
-                                  },
-                                  "shadow": {
-                                    "hex": ""
-                                  }
-                                }
-                              }
-                            }
-                          ]
+                          "id": "",
+                          "url": "https://mobilecontent.costco.com/live/resource/img/buyingguide/guide-overview.jpg",
+                          "filename": "guide-overview.jpg",
+                          "extension": "jpg",
+                          "dimensions": {},
+                          "mimetype": "image/jpeg"
                         }
                       ],
+                      "image_alt_text": "",
+                      "mobile_image": [],
+                      "mobile_image_alt_text": "",
                       "platform_config_block": {
                         "platform_aplicability": "mobile_web",
                         "ios_version_support": "",
                         "android_version_support": ""
                       },
+                      "privacy_toggle": {
+                        "disable_third_party_tracking": false
+                      },
+                      "product_link": {},
                       "tags": [
                         "migrated-from-cms"
                       ],
-                      "locale": "en-us"
+                      "text_content": [],
+                      "text_content_above_below_the_ad_styles": [],
+                      "text_content_overlay_styles": [],
+                      "text_content_placement": "overlay",
+                      "top_and_bottom_strip": [],
+                      "top_and_bottom_text_banner": [],
+                      "use_mobile_image_alt_text": false,
+                      "_original_title": "Ad Builder Entry"
                     }
                   }
                 ]
@@ -120,40 +93,10 @@
                   {
                     "_content_type_uid": "text_builder",
                     "entry": {
-                      "title": "testing_text_builder_2",
-                      "text_section_config": {
-                        "see_more_see_less_capability": false,
-                        "text_section_alignment": "left",
-                        "text_section_type": "full"
-                      },
+                      "locale": "en-us",
                       "multiple_text_section_group": [
                         {
-                          "color_config": {
-                            "background_gradient_style": "solid",
-                            "background_color": {
-                              "hex": "#54b6cc"
-                            },
-                            "background_gradient_color": {
-                              "color1": {
-                                "hex": ""
-                              },
-                              "color2": {
-                                "hex": ""
-                              }
-                            },
-                            "text_color": {
-                              "hex": ""
-                            },
-                            "border_color_type": "no-border",
-                            "border_color": {
-                              "solid": {
-                                "hex": ""
-                              },
-                              "shadow": {
-                                "hex": ""
-                              }
-                            }
-                          },
+                          "color_config": {},
                           "text_section_icon": {
                             "icon_as_an_image": false,
                             "icon_image": [],
@@ -162,37 +105,52 @@
                           },
                           "text_section_content": [
                             {
-                              "select_text_type": "subheading_v2",
+                              "select_text_type": "title_with_xl_v2",
                               "select_semantics_type": "h1",
                               "text_alignment": "left",
                               "enable_custom_tag_parsing": false,
-                              "markdown_text": "this is text_builder block 2",
-                              "color": {
-                                "background_gradient_style": "solid",
-                                "background_color": {
-                                  "hex": "#54b6cc"
-                                },
-                                "background_gradient_color": {
-                                  "color1": {
-                                    "hex": ""
-                                  },
-                                  "color2": {
-                                    "hex": ""
-                                  }
-                                },
-                                "text_color": {
-                                  "hex": ""
-                                },
-                                "border_color_type": "no-border",
-                                "border_color": {
-                                  "solid": {
-                                    "hex": ""
-                                  },
-                                  "shadow": {
-                                    "hex": ""
-                                  }
-                                }
-                              }
+                              "markdown_text": "Shop The Costco Business Center—for Both Your Home & Business!",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "title_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Welcome to the online Costco Business Center.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Designed for businesses, but available to all Costco members, Costco Business Delivery offers the exceptional quality and value you expect from Costco, in a variety of unexpected sizes and choices. Our online store offers a diverse selection of goods that will both delight and surprise you. In fact, more than 60% of Business Delivery products are different than those found at a typical Costco Warehouse. Best of all, when you order online at CostcoBusinessDelivery.com, you'll find additional products and savings that are exclusive to our online delivery center.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "No matter what type of business you operate, you'll find everything you need at CostcoBusinessDelivery.com. From food services, to convenience stores, from offices to hotels, from healthcare facilities to coffee shops, and nearly any other business, we've got supplies to keep you fully stocked and functioning at peak performance. Our large and varied product selection includes grocery and fresh foods, beverages, candy and snacks, tobacco products, restaurant supplies, appliances, electronics, office furniture, and more.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Of course, Costco Business Delivery isn't just for professional use, it's a great option for all our members. Whether you have a large family or simply like to keep your home well-stocked, buying in bulk is an incredibly efficient and cost-effective way to purchase all of your favorite household items. In addition to our other categories, we also offer numerous pet supplies and personal care items, including baby wipes and diapers, medicines, skincare products, shampoo, vitamins, and more. Best of all, with CostcoBusinessDelivery.com, you can have all your purchases conveniently delivered right to your door.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Benefits:\n\n- Receive fast & affordable service\n- Enjoy exclusive online savings\n- Save money by purchasing in bulk\n- Shop a much larger & more unique inventory\n- Purchase personal care items & pet supplies\n- Convenient direct-to-your-door delivery\n- Expansive variety of individually packaged products ready for resale",
+                              "color": {}
                             }
                           ]
                         }
@@ -205,7 +163,2851 @@
                       "tags": [
                         "migrated-from-cms"
                       ],
-                      "locale": "en-us"
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Shop The Costco Business Center—for Both Your Home & Business! - 1765187657669"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_with_xl_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Visit a Costco Business Delivery Center",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "If you prefer to shop in person, you can walk into one of our many Costco Business Delivery Centers, which are conveniently located in select metropolitan areas throughout the United States. Costco Business Center opens early, 7 a.m. to 6 p.m. Monday through Sunday. Get in, get out and get back to business!",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "[Find a Costco Business Delivery Center near you](/warehouse-locations?location=&tiresCheckout=&orderitemId=&storeId=11301&catalogId=11701&fromPage=&hasBusiness=true&fromWLocSubmit=true&numOfWarehouses=10)",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Visit a Costco Business Delivery Center - 1765187657669"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Frequently Asked Questions",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "**Can a regular Costco member shop at the Costco Business Center?**\nYes! All Costco members can shop on CostcoBusinessDelivery.com or at any of the Costco Business Center warehouse locations.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "**Do I need to purchase a special membership card to shop at the Costco Business Center?**\nNo. You can use your existing Costco membership card.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "**Can I have items from the Costco Business Center delivered to my residential home address?**\nNo. All Costco members can get delivery for Items purchased on CostcoBusinessDelivery.com, but not to a residential address.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "**How is CostcoBusinessDelivery.com different from Costco.com?**\nCostcoBusinessDelivery.com does not have many of the standard items found on Costco.com, like jewelry, clothing, and hearing aids, but it does have a great mix of must-have items for all Costco members, as well as a large selection of essential business items. You'll find appliances, catering items, individually wrapped snacks, and an expanded selection of soft drinks and other beverages. Plus, our food and grocery items are available in bulk quantities, making it easy for you to stock up on your favorite products. CostcoBusinessDelivery.com also holds impressive Savings Events where you can find amazing deals on a wide variety of items. And just like Costco.com, there's no coupon clipping required–savings are conveniently applied at check-out.",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Frequently Asked Questions - 1765187657669"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "ad_builder_block": {
+                "ad_builder_ref": [
+                  {
+                    "_content_type_uid": "ad_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "title": "Ad Builder Entry - Buying Guide-2vdTa3",
+                      "ad_type": "full",
+                      "background_group": {},
+                      "caption": "",
+                      "costco_url": {
+                        "title": "",
+                        "url": "",
+                        "external_site": false,
+                        "same_tab_domain": true,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "disclaimer": "",
+                      "disclaimer_markdown": "",
+                      "enable_caption": false,
+                      "enable_custom_background": false,
+                      "enable_disclaimer": false,
+                      "enable_mobile_image_variation": false,
+                      "enable_product_linked": false,
+                      "enable_sponsored": false,
+                      "enable_text_content": false,
+                      "image": [
+                        {
+                          "url": "https://mobilecontent.costco.com/live/resource/img/buyingguide/guide-delivery.jpg",
+                          "filename": "guide-delivery.jpg",
+                          "extension": "jpg",
+                          "dimensions": {},
+                          "mimetype": "image/jpeg"
+                        }
+                      ],
+                      "image_alt_text": "",
+                      "mobile_image": [],
+                      "mobile_image_alt_text": "",
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "privacy_toggle": {
+                        "disable_third_party_tracking": false
+                      },
+                      "product_link": {},
+                      "tags": [],
+                      "text_content": [],
+                      "text_content_above_below_the_ad_styles": [],
+                      "text_content_overlay_styles": [],
+                      "text_content_placement": "overlay",
+                      "top_and_bottom_strip": [],
+                      "top_and_bottom_text_banner": [],
+                      "use_mobile_image_alt_text": false,
+                      "_original_title": "Ad Builder Entry"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "ad_set_costco_block": {
+                "ad_set_costco_ref": [
+                  {
+                    "_content_type_uid": "ad_set_costco",
+                    "entry": {
+                      "locale": "en-us",
+                      "title": "Costco Business Delivery - 1759225400000 - 1765261658261",
+                      "ad_set_heading_and_costco_url": {
+                        "title": "",
+                        "url": "",
+                        "external_site": false,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "item_type": "ad",
+                      "ad_set_style": "static",
+                      "ad_content": [
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "locale": "en-us",
+                                  "ad_type": "full",
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": "#FFFFFF"
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "solid",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": "#FFFFFF"
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "caption": "",
+                                  "costco_url": {
+                                    "title": "Enjoy the Convenience of Personalized Delivery",
+                                    "url": "",
+                                    "external_site": false,
+                                    "same_tab_domain": true,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_caption": false,
+                                  "enable_custom_background": true,
+                                  "enable_disclaimer": false,
+                                  "enable_mobile_image_variation": false,
+                                  "enable_product_linked": false,
+                                  "enable_sponsored": false,
+                                  "enable_text_content": true,
+                                  "image": [],
+                                  "image_alt_text": "",
+                                  "mobile_image": [],
+                                  "mobile_image_alt_text": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "product_link": {},
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "text_content": [
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "heading_v2",
+                                        "select_semantics_type": "h2",
+                                        "markdown_text": "**Enjoy the Convenience of Personalized Delivery**",
+                                        "color": {
+                                          "text_color": {
+                                            "hex": "#000000"
+                                          },
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#ffffff"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": null,
+                                        "markdown_text": "Running a business can be expensive and time consuming, which is why having a fast and affordable delivery option is so important. When it's just not possible to leave work for a supply run, or you don't have the right vehicle to accommodate large orders, it can cause issues with your day–to-day operations. So, why not let Costco Business Delivery do the heavy lifting for you? Our professional drivers are prepared with the right vehicles and equipment to get any size order directly to your door, quickly and efficiently. Using CostcoBusinessDelivery.com will not only save you valuable time, it will also help you save money on gas, and prevent unnecessary wear and tear on your vehicle.",
+                                        "color": {
+                                          "text_color": {
+                                            "hex": "#000000"
+                                          },
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#ffffff"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": null,
+                                        "markdown_text": "Order online at CostcoBusinessDelivery.com to find products and savings available for delivery by our Costco trucks*. Order by 3 p.m. to have your items delivered as early as the next business day. No order is too small. However, orders less than $250 (before tax and after Instant Savings) will incur a $25 delivery surcharge.",
+                                        "color": {
+                                          "text_color": {
+                                            "hex": "#000000"
+                                          },
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#ffffff"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "subheading_v2",
+                                        "select_semantics_type": "h3",
+                                        "markdown_text": "**Benefits of Delivery:**",
+                                        "color": {
+                                          "text_color": {
+                                            "hex": "#000000"
+                                          },
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#ececec"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": null,
+                                        "markdown_text": "• Save valuable time\n• Save money on gas\n• Prevent wear & tear on your vehicle\n• Eliminate the lifting & transferring of products\n• Choose a delivery time that's convenient for you\n• Receive efficient tracking updates\n• Enjoy direct-to-your-door delivery",
+                                        "color": {
+                                          "text_color": {
+                                            "hex": "#000000"
+                                          },
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#ececec"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "left"
+                                      }
+                                    }
+                                  ],
+                                  "text_content_overlay_styles": [],
+                                  "text_content_placement": "below_the_ad",
+                                  "title": "Costco Business Delivery - 1759225400001 - 1765261657490 - Buying Guide-mpCbA9",
+                                  "top_and_bottom_strip": [],
+                                  "top_and_bottom_text_banner": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "url": "/adbuilder/bltd03b68c7b73489d0",
+                                  "_original_title": "Costco Business Delivery - 1759225400001 - 1765261657490"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "ad_set_background": {
+                        "title_background_color": {},
+                        "title_background_transparency": "1",
+                        "body_background_color": {},
+                        "body_background_transparency": "1"
+                      },
+                      "background_foreground_banner_group": {
+                        "background_banner_button_alignment": "horizontal",
+                        "background_banner_image_alignment": "top",
+                        "background_banner_reference": [],
+                        "foreground_banner_group": []
+                      },
+                      "caption": "",
+                      "category_content": {
+                        "category_items": [],
+                        "image_form_factor": "rounded",
+                        "background_color": {},
+                        "category_set_title_alignment": "left",
+                        "category_content_placement": null
+                      },
+                      "custom_background": false,
+                      "enable_background_foreground_banner": false,
+                      "platform_config_block": {
+                        "android_version_support": "",
+                        "ios_version_support": "",
+                        "platform_aplicability": "mobile_web"
+                      },
+                      "product_content": {
+                        "product_list": {}
+                      },
+                      "product_display_style": {
+                        "product_card_display_style": "compact",
+                        "show_action_button": true,
+                        "show_reviews": true,
+                        "inventory_aware_listings": false,
+                        "product_tile_data_source": null
+                      },
+                      "rotating_options": {
+                        "multi_item_carousel": false,
+                        "enable_autoplay": false,
+                        "enable_two_row_display": false,
+                        "randomize_items": false,
+                        "enable_peek_a_boo": false
+                      },
+                      "static_options": {
+                        "display_style": "multi_row",
+                        "maximum_tiles_per_row": 5
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Save Money with High Volume Purchases",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Many of the products sold at the Costco Business Center are available for purchase by the pallet or truckload. Take advantage of competitive pricing and possible savings on freight to maximize your bottom line. There are many households and businesses that use particular products on a daily basis, which they simply can't afford to be without. Whether it's insulated cups and stir sticks for your coffee stand, or laundry soap for your growing family, purchasing products by the pallet or truckload offers a great opportunity to substantially stock up on items you know you will need. Imagine the convenience and peace of mind, knowing you have enough supplies to last you 6 months or even a year!",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "At CostcoBusinessDelivery.com, we make ordering simple and easy. We have experienced marketing representatives that work with you in person, on the phone or via email, to build a pallet or truckload tailored to your specific needs.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "We can build a truckload 3 different ways:",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "1. With 1 item\n2. With 2 or more items from the same supplier whose distribution point is the same for all items\n3. With full pallets of multiple items from your local Costco Business Center",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "[Learn more about Domestic or Export Volume Sales](https://www.costcobusinessdelivery.com/truckload.html)",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Save Money with High Volume Purchases - 1765187657669"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_with_xl_v2",
+                              "select_semantics_type": "h1",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Learn How Costco Business Delivery Can Help Support Your Business",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Catering Supplies for Home & Business",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Take the stress out of organizing your next catered event, by shopping at the Costco Business Center. Whether you're operating a food truck, running a full-service catering company, or hosting a special family gathering, we have all the food and supplies you need to create an incredible experience for both you and your guests. At CostcoBusinessDelivery.com, we'll take you from set up to clean up, all while staying on budget. So, for your next wedding, holiday party, business meeting, or sporting event, let us help you make your special day a success!",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "With our high-quality selection of meat and produce, both fresh and frozen, you'll find everything you need to create a delicious and memorable menu. Costco Business Delivery offers high-end ingredients for cooking and baking, plus easy pre-packaged hors d'oeuvres, and delectable desserts. Our buffet equipment and beverage service items work beautifully for both casual and formal affairs. You'll find everything from simple aluminum foil pans to large coffee urns and elegant roll-top chafers. We also have a wide-range of kitchen tools and appliances for professional caterers, as well as home cooks. Complete your event with some of our folding tables, chairs, and tablecloths. For effortless serving and pick up, we carry a wide selection of disposables and tabletop items, including plates, cutlery, and napkins. And for cleaning, look no further than our assortment of cleaning supplies.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "[Appliances](/commercial-appliances.html) | [Catering & Buffet](/catering-buffet.html) | [Cutlery & Flatware](/tabletop.html) | [Restaurant Supplies](/restaurant.html)",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Learn How Costco Business Delivery Can Help Support Your Business - 1765190136236"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_with_xl_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Easy Solutions for All Your Food Service Needs",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "At the Costco Business Center, you'll find solutions to all your food service needs—right at your fingertips! Enjoy an easy one-stop shopping experience, where you can purchase everything on your shopping list, from fresh foods to takeout containers. This efficient, kitchen-to-customer experience will save you valuable time and money, so you can concentrate on other areas of your thriving business!",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Easy Solutions for All Your Food Service Needs - 1764850458396"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "ad_set_costco_block": {
+                "ad_set_costco_ref": [
+                  {
+                    "_content_type_uid": "ad_set_costco",
+                    "entry": {
+                      "locale": "en-us",
+                      "title": "Business Delivery Food and Kitchen Supplies - 1759225400000 - 1764850460602",
+                      "ad_set_heading_and_costco_url": {
+                        "title": "",
+                        "url": "",
+                        "external_site": false,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "item_type": "ad",
+                      "ad_set_style": "static",
+                      "ad_content": [
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "locale": "en-us",
+                                  "ad_type": "half",
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": "#FFFFFF"
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "no-border",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": ""
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "caption": "",
+                                  "costco_url": {
+                                    "title": "",
+                                    "url": "",
+                                    "external_site": false,
+                                    "same_tab_domain": true,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_caption": false,
+                                  "enable_custom_background": true,
+                                  "enable_disclaimer": false,
+                                  "enable_mobile_image_variation": false,
+                                  "enable_product_linked": false,
+                                  "enable_sponsored": false,
+                                  "enable_text_content": true,
+                                  "image": [
+                                    {
+                                      "id": "guide_food_001",
+                                      "url": "https://mobilecontent.costco.com/live/resource/img/buyingguide/guide-food.jpg",
+                                      "filename": "guide-food.jpg",
+                                      "extension": "jpg",
+                                      "dimensions": {},
+                                      "mimetype": "image/jpeg"
+                                    }
+                                  ],
+                                  "image_alt_text": "",
+                                  "mobile_image": [],
+                                  "mobile_image_alt_text": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "product_link": {},
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "text_content": [],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "left"
+                                      }
+                                    }
+                                  ],
+                                  "text_content_overlay_styles": [],
+                                  "text_content_placement": "below_the_ad",
+                                  "title": "Business Delivery Food Guide Image - 1759225400001 - 1764850459602 - Buying Guide-NXj15l",
+                                  "top_and_bottom_strip": [],
+                                  "top_and_bottom_text_banner": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "url": "/adbuilder/blt730169a5757ec82f",
+                                  "_original_title": "Costco Business Delivery Food Guide - 1759225400001 - 1764850459602"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "locale": "en-us",
+                                  "ad_type": "half",
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": "#FFFFFF"
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "no-border",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": ""
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "caption": "",
+                                  "costco_url": {
+                                    "title": "",
+                                    "url": "",
+                                    "external_site": false,
+                                    "same_tab_domain": true,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_caption": false,
+                                  "enable_custom_background": true,
+                                  "enable_disclaimer": false,
+                                  "enable_mobile_image_variation": false,
+                                  "enable_product_linked": false,
+                                  "enable_sponsored": false,
+                                  "enable_text_content": true,
+                                  "image": [],
+                                  "image_alt_text": "",
+                                  "mobile_image": [],
+                                  "mobile_image_alt_text": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "product_link": {},
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "text_content": [
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": "h2",
+                                        "markdown_text": "**Stock up on Pantry Goods, Ingredients; Fresh Produce**",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": "h3",
+                                        "markdown_text": "Satisfy your menu needs with the premium-quality ingredients and fresh produce from CostcoBusinessDelivery.com. Our ever-expanded inventory includes commercial-sizes for an even greater value, as well as specialty items like organic, kosher, and halal. You'll also find popular food favorites like French fries and hamburger patties that are ready for the fryer or grill, as well as a large selection of classic staples like cereals, deli and dairy items, canned goods, breads, and dry goods.",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": "h2",
+                                        "markdown_text": "**Shop High-end Kitchen Tools; Appliances**",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": "h3",
+                                        "markdown_text": "Whether you run a large restaurant or a small café, quality kitchen supplies are a crucial part of a well-functioning kitchen, which is why we carry reliable products from brands you can trust. We understand that restaurant equipment like convection ovens, commercial ice machines, and deep fryers are a big investment, and our competitive pricing will make you feel better about purchasing the items you need to grow your business. Shop CostcoBusinessDelivery.com, and discover great prices on everything from rice cookers to chef's knives, so you can apply the savings elsewhere.",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "left"
+                                      }
+                                    }
+                                  ],
+                                  "text_content_overlay_styles": [],
+                                  "text_content_placement": "below_the_ad",
+                                  "title": "Business Delivery Food and Kitchen Content - 1759225400002 - 1764850460182 - Buying Guide-rW25ob",
+                                  "top_and_bottom_strip": [],
+                                  "top_and_bottom_text_banner": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "url": "/adbuilder/blt64d39edb8f9e31f0",
+                                  "_original_title": "Business Delivery Food and Kitchen Content - 1759225400002 - 1764850460182"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "ad_set_background": {
+                        "title_background_color": {},
+                        "title_background_transparency": "1",
+                        "body_background_color": {},
+                        "body_background_transparency": "1"
+                      },
+                      "background_foreground_banner_group": {
+                        "background_banner_button_alignment": "horizontal",
+                        "background_banner_image_alignment": "top",
+                        "background_banner_reference": [],
+                        "foreground_banner_group": []
+                      },
+                      "caption": "",
+                      "category_content": {
+                        "category_items": [],
+                        "image_form_factor": "rounded",
+                        "background_color": {},
+                        "category_set_title_alignment": "left"
+                      },
+                      "custom_background": false,
+                      "enable_background_foreground_banner": false,
+                      "platform_config_block": {
+                        "android_version_support": "",
+                        "ios_version_support": "",
+                        "platform_aplicability": "mobile_web"
+                      },
+                      "product_content": {
+                        "product_list": {}
+                      },
+                      "product_display_style": {
+                        "product_card_display_style": "compact",
+                        "show_action_button": true,
+                        "show_reviews": true,
+                        "inventory_aware_listings": false,
+                        "product_tile_data_source": null
+                      },
+                      "rotating_options": {
+                        "multi_item_carousel": false,
+                        "enable_autoplay": false,
+                        "enable_two_row_display": false,
+                        "randomize_items": false,
+                        "enable_peek_a_boo": false
+                      },
+                      "static_options": {
+                        "display_style": "multi_row",
+                        "maximum_tiles_per_row": 5
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_with_xl_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Find Everything You Need, from Food prep to Cleaning",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "From cafe tables to heavy-weight cutlery, you'll find all the necessary supplies for your dining room at impressively low prices. Of course, catering to your customers doesn't stop at the door, which is why every restaurant or food service company needs quality takeout containers. At CostcoBusinessDelivery.com, you'll find a large selection of take-out options, including portion cups, pizza boxes, food trays, deli containers, compostable burger boxes, and more—all available in various sizes and materials. For big cleanups and regular maintenance, we carry professional cleaning chemicals and equipment to help you get the job done correctly. Our janitorial supplies will keep your business running smoothly, and are available at a member-only value. Stock up on essential items like hand soap, trash bags, floor cleaners and all-purpose disinfectants.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "[Grocery](/grocery.html) |      [To-Go Containers & Boxes](/take-out-containers-boxes.html) |      [Kitchen Supplies](/kitchen.html) |      [Janitorial Supplies](/janitorial-supplies.html)",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Find Everything You Need, from Food prep to Cleaning - 1765190136235"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Create an Organized & Productive Office",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "From snacks and beverages for the breakroom to folding chairs for your conference room, the Costco Business Center has all the supplies and office furniture you'll need to keep your business running smoothly and efficiently—all at low Costco prices! So, whether you're working in a commercial building or from the privacy of your home office, shop CostcoBusinessDelivery.com for all your professional needs.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Delight Your Clients & Customers",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Customer service begins as soon as your clients enter your door, which is why it's so important to create a warm and inviting atmosphere in your reception area. Treat your waiting guests to a welcoming beverage service of coffee, tea, or water, and snacks like cookies or muffins. Shop CostcoBusinessDelivery.com to stock up on insulated cups, coffee pods and stir sticks, as well as popular soft drinks, and sparkling water. Our food and beverages are available for purchase in large quantities, so you won't have to worry about continuously replenishing your supplies.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Stock Up On Office Supplies for Your Hard Working Team",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Help maintain maximum productivity in your office, by having essential supplies on-hand at all times. CostcoBusinessDelivery.com  offers an great selection of office tools, so you can keep your supply room fully stocked. Choose from pens and paper, mailroom supplies, binders, file folders, envelopes and stamps. Plus, you'll find plenty of cleaning supplies to help you maintain a healthy work environment, including hand sanitizer, face masks, tissue, and numerous disinfecting products.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Keep your employees energized and productive with a break room that's filled with snacks and beverages that everyone will enjoy. At CostcoBusinessDelivery.com, you'll find plenty of fresh fruit, nuts, chips, and candy, as well as condiments for meal time, and a variety of single-serve beverages like energy drinks, seltzer, and coffee pods. Your employees will appreciate being able to quickly and easily grab a snack and get back to work. It's also a smart idea to maintain a good supply of disposables like plates, bowls, cups and napkins, for lunch time and workplace parties.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "[Office Supplies](/office.html) | [Candy & Snacks](/candy-snacks.html) | [Disposables](/disposables.html)",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Create an Organized & Productive Office - 1764848604170"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_with_xl_v2",
+                              "select_semantics_type": "h1",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Discover Our Expansive Variety Of Individually Packaged Products Ready For Resale on CostcoBusinessDelivery.com",
+                              "color": {}
+                            }
+                          ]
+                        },
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": true,
+                              "markdown_text": "[Beverages](/beverages.html)",
+                              "color": {}
+                            }
+                          ]
+                        },
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Whether you'd like to greet customers with a cup of freshly brewed coffee, or keep your family properly hydrated with bottled water, having the right beverages on-hand is essential to any home or business. At the Costco Business Center, you'll find a wide variety of beverages, from juices and soda to tea and energy drinks—all available in the large quantities you need to stay well-stocked at all times.",
+                              "color": {}
+                            }
+                          ]
+                        },
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "heading_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Stock Up On Coffee, Tea & Cocoa from Popular Brands",
+                              "color": {}
+                            }
+                          ]
+                        },
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": true,
+                              "markdown_text": "Everyone enjoys the rich flavorful taste of coffee, which is why CostcoBusinessDelivery.com carries a large selection of [coffee](/coffee.html) products from leading brands like Folgers, Starbucks, and Dunkin' Donuts. Choose from ground coffee, whole bean coffee, coffee pods, and cold coffee beverages. We also have flavored syrups and sauces that are delicious when added to both hot and cold coffee drinks. If you're looking for a coffee alternative, we offer a variety of soothing [teas & cocoa](/tea-cocoa.html), including healthy herbal teas and green teas, from quality brands like Lipton and Bigelow. And for something refreshing, we have cold tea drinks like Snapple Teas in yummy flavors, and Arizona Iced Teas infused with ginseng and honey.",
+                              "color": {}
+                            }
+                          ]
+                        },
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "heading_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Browse Our Large Selection of Soda & Energy Drinks",
+                              "color": {}
+                            }
+                          ]
+                        },
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": true,
+                              "markdown_text": "Everyone has their favorite [soda](/soda.html), which is why CostcoBusinessDelivery.com offers a big selection, including Coca Cola, Pepsi, Diet Coke, Mountain Dew, Sprite, and more! Our sodas are available in 15- to 36-can packs as well as in convenient bag-in-box syrup containers for soda fountains. If you're looking for replenishing sports drinks, we've got top brands like Gatorade and Powerade in single flavor or multi-flavor packs—we even carry large 32-oz bottles. And for endurance-boosting beverages, try our assortment of [energy drinks](/energy-drinks.html), which includes fan-favorites like Red Bull, Monster, Zipfizz, and Rockstar.",
+                              "color": {}
+                            }
+                          ]
+                        },
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "heading_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Find Juices & Bottled Water that are Healthy & Flavorful",
+                              "color": {}
+                            }
+                          ]
+                        },
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": true,
+                              "markdown_text": "On the sweeter side, CostcoBusinessDelivery.com has a large selection of [juice](/juice.html) that both kids and adults will love, which includes classics like Tropicana Orange Juice, Welch's, Tree Top, Ocean Spray Cranberry Juice, and more. You'll also find popular drink mixes, refreshing juice smoothies, vitamin-packed V8 juice, and other beverages—in both easy-serve bottles and juice concentrate. We also carry several types of [bottled water](/water.html), from delicious coconut water to flavored sparkling water. Choose from premium brands like Dasani, Glaceau, and Evian.",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Discover Our Expansive Variety Of Individually Packaged Products Ready For Resale on CostcoBusinessDelivery.com - 1764850458395"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_with_xl_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "[Candy & Snacks](/candy-snacks.html)",
+                              "color": {}
+                            }
+                          ]
+                        },
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "With today's busy lifestyles, it's important to have grab-and go foods on-hand so you can stay energized and satisfied during the day. That's why CostcoBusinessDelivery.com carries a large selection of candy and snacks that are perfect for sporting events, conferences, or as a mid-day treat for your employees. We carry everything from delicious treats to health-conscious goodies, all at wholesale prices. For sweets, we offer candy like Gummy Bears, Red Vines and Skittles, as well as an array of popular [chocolates](/chocolate.html), including Snickers, Hershey's, M&Ms, and fan favorite—Reese's Peanut Butter Cups! Of course, you'll want to pick up some cookies too. Stock up on beloved classics like Oreos and Nilla Wafers.",
+                              "color": {}
+                            }
+                          ]
+                        },
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "The Costco Business Center also offers a wide variety of [chips](/chips.html) from popular brands like Ruffles, Pringles, and Frito-Lay. So, whether you prefer a classic potato chip or the irresistibly cheesiness of Doritos, you'll find something to love. Choose from extra-large bags, single-serve bags, and boxed variety packs. You'll also find plenty of other crunchy treats like low-calorie SkinnyPop Popcorn and delicious Gardetto's Snack Mix, as well as a big selection of [crackers](/crackers.html) like Ritz, Cheez-Its, and Goldfish. When it comes to protein and nutritional treats, CostcoBusinessDelivery.com carries savory jerky, almonds and pistachios, and an assortment of nutritious snack bars.",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Candy & Snacks - 1765187657669"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "[Tobacco](/tobacco.html)",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Whether you're a big retailer or a small boutique shop, you can satisfy your customers' needs and personal taste with wholesale tobacco products from the Costco Business Center. Take advantage of competitive pricing on prominent brands, as well as innovative new tobacco products. We carry a large assortment of cigarettes, which includes Marlboro, Newport, Camel, and Pall Mall. Our cigars come in convenient, ready-to-display boxes, and are available in numerous flavors that range from mild and aromatic to sweet bourbon. For other tobacco products and accessories, CostcoBusinessDelivery.com carries nicotine pouches, several types of tobacco rolling papers, smokeless tobacco, and assorted lighters that come in pre-packaged display cases. Stock up now, to ensure that you'll always have plenty of tobacco on-hand for your customers.",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Tobacco - 1764848604170"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_with_xl_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "[Grocery](/grocery.html)",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "With travel time, gas, and waiting in line, a visit to the grocery store can take up a huge part of your day. And if you're purchasing supplies for a business, you'll need a large vehicle that can accommodate commercial quantities. At CostcoBusinessDelivery.com, we've taken the hassle out of grocery shopping, by providing you with an organized wholesale environment that can be accessed from the privacy of your own computer. You'll find everything you need for your business or home, from fresh produce to pet supplies. Best of all, you can have all your purchases delivered directly right to your door.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "heading_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Find Essential Ingredients & Pantry Goods",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "At CostcoBusinessDelivery.com, we offer all the food and ingredients you need to create incredible dishes. For [baking](/baking.html), we carry quality ingredients like raw honey, evaporated milk, chocolate chips, and pancake mix. We have large bags of Sugar, as well as individual packets of artificial sweeteners like Splenda and Stevia. If you'd rather not do the baking yourself, we carry baked goods like bagels, muffins, hamburger buns, and tortilla shells. In our fresh [dairy & eggs](/dairy-eggs.html) category, you'll find essentials like milk, butter, cheese, yogurt, and eggs, which are available in quantities that range from 2-dozen to 15-dozen.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Our [pantry & dry goods](/pantry-dry-goods.html) includes staples like peanut butter, olive oil, and spaghetti sauce, as well as numerous condiments. We also have a large selection of spices, pasta, rice, and packaged meals. Our breakfast foods include popular cereals like Honey Nut Cheerios, Frosted Flakes, and Raisin Bran–available in both extra-large boxes and single-serve cups. For canned and jarred foods, CostcoBusinessDelivery.com has everything from vegetables and fruit to tuna and beans. We also carry organic chicken stock, ramen soup, and a nice election of Campbell's soups.",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Grocery - 1765190136236"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "ad_set_costco_block": {
+                "ad_set_costco_ref": [
+                  {
+                    "_content_type_uid": "ad_set_costco",
+                    "entry": {
+                      "locale": "en-us",
+                      "title": "Premium Selection of Fresh & Frozen Foods - 1759225400000 - 1765261658261",
+                      "ad_set_heading_and_costco_url": {
+                        "title": "",
+                        "url": "",
+                        "external_site": false,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "item_type": "ad",
+                      "ad_set_style": "static",
+                      "ad_content": [
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "locale": "en-us",
+                                  "ad_type": "half",
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": "#FFFFFF"
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "no-border",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": ""
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "caption": "",
+                                  "costco_url": {
+                                    "title": "",
+                                    "url": "",
+                                    "external_site": false,
+                                    "same_tab_domain": true,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_caption": false,
+                                  "enable_custom_background": true,
+                                  "enable_disclaimer": false,
+                                  "enable_mobile_image_variation": false,
+                                  "enable_product_linked": false,
+                                  "enable_sponsored": false,
+                                  "enable_text_content": true,
+                                  "image": [],
+                                  "image_alt_text": "",
+                                  "mobile_image": [],
+                                  "mobile_image_alt_text": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "product_link": {},
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "text_content": [
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "subheading_v2",
+                                        "select_semantics_type": "h3",
+                                        "markdown_text": "**Enjoy a Premium Selection of Fresh & Frozen Foods**",
+                                        "color": {
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#ffffff"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": "h3",
+                                        "markdown_text": "If you're looking for [fresh produce](/fresh-produce.html), we proudly offer high-quality fruits and vegetables, including clementine oranges, a variety of berries, Fuji apples, asparagus, and colorful bell peppers. Choose from quantities that range from 2-lbs. to 40-lbs. For added convenience, we carry pre-packaged salads and pre-chopped vegetables.",
+                                        "color": {
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#ffffff"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": "h3",
+                                        "markdown_text": "For [frozen foods](/frozen-foods.html), we have fan favorites that are great for business or home, like waffles, chicken nuggets, and pizza, as well as frozen vegetables, fruits, and desserts. Of course, we offer an assortment of delicious and savory deli items. Our selection of lunch and deli meats features pre-sliced turkey breast, salami, prosciutto, pulled pork, and whole ham. You'll also see plenty of potato salad, pre-packaged salad bowls, and cheese and fruit snacks. CostcoBusinessDelivery.com offers the same high-quality meats and seafoods found in our warehouses. Choose from fresh Alaskan salmon, ground beef, bacon, hot dogs, whole turkeys, rack of lamb, and more!",
+                                        "color": {
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#ffffff"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "left"
+                                      }
+                                    }
+                                  ],
+                                  "text_content_overlay_styles": [],
+                                  "text_content_placement": "below_the_ad",
+                                  "title": "Premium Selection of Fresh & Frozen Foods - 1759225400001 - 1765261657490 - Buying Guide-JXrpx6",
+                                  "top_and_bottom_strip": [],
+                                  "top_and_bottom_text_banner": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "url": "/adbuilder/blt001",
+                                  "_original_title": "Premium Selection of Fresh & Frozen Foods - 1759225400001 - 1765261657490"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "locale": "en-us",
+                                  "ad_type": "half",
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": "#FFFFFF"
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "no-border",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": ""
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "caption": "",
+                                  "costco_url": {
+                                    "title": "",
+                                    "url": "",
+                                    "external_site": false,
+                                    "same_tab_domain": true,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_caption": false,
+                                  "enable_custom_background": true,
+                                  "enable_disclaimer": false,
+                                  "enable_mobile_image_variation": false,
+                                  "enable_product_linked": false,
+                                  "enable_sponsored": false,
+                                  "enable_text_content": false,
+                                  "image": [
+                                    {
+                                      "id": "grocery_guide_001",
+                                      "url": "https://mobilecontent.costco.com/live/resource/img/buyingguide/guide-grocery.jpg",
+                                      "filename": "guide-grocery.jpg",
+                                      "extension": "jpg",
+                                      "dimensions": {},
+                                      "mimetype": "image/jpeg"
+                                    }
+                                  ],
+                                  "image_alt_text": "",
+                                  "mobile_image": [],
+                                  "mobile_image_alt_text": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "product_link": {},
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "text_content": [],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "left"
+                                      }
+                                    }
+                                  ],
+                                  "text_content_overlay_styles": [],
+                                  "text_content_placement": "below_the_ad",
+                                  "title": "Grocery Guide Image - 1759225400002 - 1765261657869 - Buying Guide-AuIFk4",
+                                  "top_and_bottom_strip": [],
+                                  "top_and_bottom_text_banner": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "url": "/adbuilder/blt002",
+                                  "_original_title": "Grocery Guide Image - 1759225400002 - 1765261657869"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "ad_set_background": {
+                        "title_background_color": {},
+                        "title_background_transparency": "1",
+                        "body_background_color": {},
+                        "body_background_transparency": "1"
+                      },
+                      "background_foreground_banner_group": {
+                        "background_banner_button_alignment": "horizontal",
+                        "background_banner_image_alignment": "top",
+                        "background_banner_reference": [],
+                        "foreground_banner_group": []
+                      },
+                      "caption": "",
+                      "category_content": {
+                        "category_items": [],
+                        "image_form_factor": "rounded",
+                        "background_color": {},
+                        "category_set_title_alignment": "left",
+                        "category_content_placement": null
+                      },
+                      "custom_background": false,
+                      "enable_background_foreground_banner": false,
+                      "platform_config_block": {
+                        "android_version_support": "",
+                        "ios_version_support": "",
+                        "platform_aplicability": "mobile_web"
+                      },
+                      "product_content": {
+                        "product_list": {}
+                      },
+                      "product_display_style": {
+                        "product_card_display_style": "compact",
+                        "show_action_button": true,
+                        "show_reviews": true,
+                        "inventory_aware_listings": false,
+                        "product_tile_data_source": null
+                      },
+                      "rotating_options": {
+                        "multi_item_carousel": false,
+                        "enable_autoplay": false,
+                        "enable_two_row_display": false,
+                        "randomize_items": false,
+                        "enable_peek_a_boo": false
+                      },
+                      "static_options": {
+                        "display_style": "multi_row",
+                        "maximum_tiles_per_row": 5
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_with_xl_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Discover Great Deals on Your Favorite Health & Beauty Products",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "In addition to our food categories, CostcoBusinessDelivery.com also offers numerous health & beauty products, including baby wipes and diapers, a large selection of medicines for all ages, premium skincare products, shaving items, shampoo, a wide variety of vitamins, and much more. And for your furry friends, we carry kitty litter, quality cat food and dog food, animal treats, and generously-sized puppy training pads.",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Discover Great Deals on Your Favorite Health & Beauty Products - 1764850458395"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_with_xl_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": true,
+                              "markdown_text": "[Electronics](/electronics.html)",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Keep Your Office Running Smoothly with Essential Office Equipment",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": true,
+                              "markdown_text": "Every business needs reliable [office equipment](/office-equipment.html), which is why CostcoBusinessDelivery.com sells essential business items like high-capacity shredders, batteries, and LED Open signs.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Improve Productivity with High-quality Office Machines",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": true,
+                              "markdown_text": "The Costco Business Center carries [printers & scanners](/printers-copiers-scanners-fax-machines.html) to suit any budget. You'll find everything from HP wireless printers to Brother all-in-one laser printers. Imagine the money you'll save with a computer printer that lets you create documents from your home office, or the convenience of a printer that allows you to do a print job from your mobile device? If you're looking to reduce clutter while keeping documents secure, we have desktop scanners that are loaded with advanced features like automatic color adjustment, and wireless capabilities.",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Electronics Office Equipment - 1764850458396"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": true,
+                              "markdown_text": "[Janitorial & Safety Supplies](/janitorial-supplies.html)",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": true,
+                              "markdown_text": "Maintaining a clean and healthy working environment is crucial to your employees' safety and well-being, and having the right cleaning products and tools goes a long way toward achieving that goal. That's why the Costco Business Center has a large inventory of [cleaning supplies & chemicals](/cleaning-supplies-chemicals.html) to handle everything from small spills to large messes—all available at special member-only values.",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Janitorial & Safety Supplies - 1764850458396"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "ad_set_costco_block": {
+                "ad_set_costco_ref": [
+                  {
+                    "_content_type_uid": "ad_set_costco",
+                    "entry": {
+                      "locale": "en-us",
+                      "title": "Maintain a Healthy Work Space with Cleaners & Disinfectants - 1759225400000 - 1765261659356",
+                      "ad_set_heading_and_costco_url": {
+                        "title": "",
+                        "url": "",
+                        "external_site": false,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "item_type": "ad",
+                      "ad_set_style": "static",
+                      "ad_content": [
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "locale": "en-us",
+                                  "ad_type": "half",
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": "#FFFFFF"
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "no-border",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": ""
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "caption": "",
+                                  "costco_url": {
+                                    "title": "",
+                                    "url": "",
+                                    "external_site": false,
+                                    "same_tab_domain": true,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_caption": false,
+                                  "enable_custom_background": true,
+                                  "enable_disclaimer": false,
+                                  "enable_mobile_image_variation": false,
+                                  "enable_product_linked": false,
+                                  "enable_sponsored": false,
+                                  "enable_text_content": true,
+                                  "image": [],
+                                  "image_alt_text": "",
+                                  "mobile_image": [],
+                                  "mobile_image_alt_text": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "product_link": {},
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "text_content": [
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "subheading_v2",
+                                        "select_semantics_type": "h3",
+                                        "markdown_text": "**Maintain a Healthy Work Space with Cleaners & Disinfectants**",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": null,
+                                        "markdown_text": "Whether you're shopping for your home or business, you'll want to stock up on the cleaning products you use the most. That's why we carry a large assortment of all-purpose cleaners, disinfectants, floor cleaners, and powerful degreasers. Our inventory also includes everyday items like laundry detergent, and [hand soap & sanitizer](/hand-soap-sanitizer.html). And to help you get the job done quickly and efficiently, we offer several types of cleaning tools, including sponges, brooms, dust mops, and floor wipes.",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "subheading_v2",
+                                        "select_semantics_type": "h3",
+                                        "markdown_text": "**Keep Your Business Clean & Tidy**",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": null,
+                                        "markdown_text": "When it comes to cleaning up, you'll need plenty of [trash & recycling](/trash-recycling.html) products for both inside and outside your business, which is why CostcoBusinessDelivery.com offers trash bags and wastebasket liners in sizes that range from 10-gallon to 55-gallon. We even have trash bags made from recycled materials, and eco-friendly compostable trash bags. To help your cleaning crew, try one of our professional sturdy commercial trash cans, which can be used for a multitude of tasks. For drying wet surfaces and maintaining proper air circulation, we have [heating & cooling](/heating-cooling.html) items like powerful floor fans.",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "left"
+                                      }
+                                    }
+                                  ],
+                                  "text_content_overlay_styles": [],
+                                  "text_content_placement": "below_the_ad",
+                                  "title": "Maintain a Healthy Work Space with Cleaners & Disinfectants - 1759225400001 - 1765261658610 - Buying Guide-U8UiRh",
+                                  "top_and_bottom_strip": [],
+                                  "top_and_bottom_text_banner": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "url": "/adbuilder/bltc8831fdc7974b9bb",
+                                  "_original_title": "Maintain a Healthy Work Space with Cleaners & Disinfectants - 1759225400001 - 1765261658610"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "locale": "en-us",
+                                  "ad_type": "half",
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": "#FFFFFF"
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "no-border",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": ""
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "caption": "",
+                                  "costco_url": {
+                                    "title": "",
+                                    "url": "",
+                                    "external_site": false,
+                                    "same_tab_domain": true,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_caption": false,
+                                  "enable_custom_background": true,
+                                  "enable_disclaimer": false,
+                                  "enable_mobile_image_variation": false,
+                                  "enable_product_linked": false,
+                                  "enable_sponsored": false,
+                                  "enable_text_content": false,
+                                  "image": [
+                                    {
+                                      "id": "guide_jansan_img_id",
+                                      "url": "https://mobilecontent.costco.com/live/resource/img/buyingguide/guide-jansan.jpg",
+                                      "filename": "guide-jansan.jpg",
+                                      "extension": "jpg",
+                                      "dimensions": {},
+                                      "mimetype": "image/jpeg"
+                                    }
+                                  ],
+                                  "image_alt_text": "",
+                                  "mobile_image": [],
+                                  "mobile_image_alt_text": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "product_link": {},
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "text_content": [],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "center"
+                                      }
+                                    }
+                                  ],
+                                  "text_content_overlay_styles": [],
+                                  "text_content_placement": null,
+                                  "title": "Janitorial Supplies Image - 1759225400002 - 1765261658985 - Buying Guide-ttQBIK",
+                                  "top_and_bottom_strip": [],
+                                  "top_and_bottom_text_banner": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "url": "/adbuilder/blt207348da59bec872",
+                                  "_original_title": "Janitorial Supplies Image - 1759225400002 - 1765261658985"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "ad_set_background": {
+                        "title_background_color": {},
+                        "title_background_transparency": "1",
+                        "body_background_color": {},
+                        "body_background_transparency": "1"
+                      },
+                      "background_foreground_banner_group": {
+                        "background_banner_button_alignment": "horizontal",
+                        "background_banner_image_alignment": "top",
+                        "background_banner_reference": [],
+                        "foreground_banner_group": []
+                      },
+                      "caption": "",
+                      "category_content": {
+                        "category_items": [],
+                        "image_form_factor": "rounded",
+                        "background_color": {},
+                        "category_set_title_alignment": "left",
+                        "category_content_placement": null
+                      },
+                      "custom_background": false,
+                      "enable_background_foreground_banner": false,
+                      "platform_config_block": {
+                        "android_version_support": "",
+                        "ios_version_support": "",
+                        "platform_aplicability": "mobile_web"
+                      },
+                      "product_content": {
+                        "product_list": {}
+                      },
+                      "product_display_style": {
+                        "product_card_display_style": "compact",
+                        "show_action_button": true,
+                        "show_reviews": true,
+                        "inventory_aware_listings": false,
+                        "product_tile_data_source": null
+                      },
+                      "rotating_options": {
+                        "multi_item_carousel": false,
+                        "enable_autoplay": false,
+                        "enable_two_row_display": false,
+                        "randomize_items": false,
+                        "enable_peek_a_boo": false
+                      },
+                      "static_options": {
+                        "display_style": "multi_row",
+                        "maximum_tiles_per_row": 5
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "locale": "en-us",
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_as_an_image": false,
+                            "icon_image": [],
+                            "icon_alt_text": "",
+                            "select_predefined_icon": null
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Create a Safe Working Environment",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "At CostcoBusinessDelivery.com, we have specialized categories like [safety supplies & equipment](/safety-security.html), which is of the utmost concern for any business. Browse our assortment of slip-resistant floor mats, hand trucks, and utility carts. For personal protective equipment, Costco Business Delivery offers important items like workplace first aid kits. We also carry popular [automotive](https://www.costcobusinessdelivery.com/motor-oil-automotive.html) products, from industrial use shop towels to a variety of motor oils. Choose from microfiber towels, windshield cleaning fluid, antifreeze, and more.",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Create a Safe Working Environment - 1764848604171"
                     }
                   }
                 ]
@@ -215,13 +3017,13 @@
         }
       }
     ],
-    "page_id": "testing_page_2",
+    "page_id": "buying-guide",
     "page_type": "feature",
     "seo_metadata": {
-      "meta_title": "",
+      "meta_title": "Buying Guide",
       "meta_description": ""
     },
     "tags": [],
-    "title": "testing_page_2"
+    "title": "Buying Guide"
   }
 }

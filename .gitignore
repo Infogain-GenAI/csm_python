@@ -42,6 +42,9 @@ temp/
 *.csv
 *_results_*.csv
 
+# Logs directory
+logs/
+
 # Output files
 output-json/
 *-cleaned.json

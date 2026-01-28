@@ -1303,9 +1303,14 @@ class ContentProcessor:
             print(f"Root entry UID: {root_entry_uid}")
             print(f"Root content type: {root_content_type}")
             
-            # Workflow stage UIDs
-            REVIEW_STAGE_UID = 'blt17e0c5c565fa65c3'
-            APPROVED_STAGE_UID = 'blt0915ab57da3d0af1'
+            # # Workflow stage UIDs for CABC and USBC
+            # REVIEW_STAGE_UID = 'blt17e0c5c565fa65c3'
+            # APPROVED_STAGE_UID = 'blt0915ab57da3d0af1'
+
+
+            # Workflow stage UIDs for USBD
+            REVIEW_STAGE_UID = 'blt65354ce0f1a3a769'
+            APPROVED_STAGE_UID = 'blt35c40e52959cf50e'
             
             # Separate nested entries and root entry
             nested_entries = [

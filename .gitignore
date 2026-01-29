@@ -60,3 +60,5 @@ backup_*.json
 entry-reports/
 
 output/
+bulk_asset_upload.py
+lib/testing_1.txt

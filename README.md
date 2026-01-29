@@ -372,3 +372,10 @@ python index.py input-json/test.json --env USBC
 python index_with_summary.py input-json/test.json --env USBC --url "https://your-page-url"
 ```
 **Remember**: Always use `--dry-run` before actually deleting entries!
+
+
+
+
+
+# for bulk asset uploading in brandfolder
+python bulk_asset_upload.py lib/testing_1.txt --env CABC

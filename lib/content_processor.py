@@ -68,8 +68,24 @@ class ContentProcessor:
         # Configuration options
         self.entry_reuse_enabled = options.get('entry_reuse_enabled', True)
         
+        # Store current environment
+        self.current_environment = None
+        
         print(f"[CONFIG] Content processor initialized")
         print(f"[CONFIG] Entry reuse: {'ENABLED' if self.entry_reuse_enabled else 'DISABLED'}")
+    
+    def _get_base_url(self) -> str:
+        """
+        Get the base URL for asset URLs based on current environment
+        
+        Returns:
+            Base URL string
+        """
+        if self.current_environment == 'USBD':
+            return "https://www.costcobusinessdelivery.com"
+        else:
+            # Default for CABC, CABD, USBC, dev, and other environments
+            return "https://www.costco.com"
     
     def initialize_apis_for_environment(self, environment: str):
         """
@@ -79,6 +95,9 @@ class ContentProcessor:
             environment: Environment name (e.g., 'dev', 'USBC', 'USBD', etc.)
         """
         print(f"\n[CONFIG] Initializing APIs for environment: {environment}")
+        
+        # Store current environment for URL generation
+        self.current_environment = environment
         
         # Get configuration for this environment
         bf_config = self.brandfolder_config.get(environment, {})
@@ -451,10 +470,11 @@ class ContentProcessor:
             return
         
         # Normalize relative URLs to absolute
+        base_url = self._get_base_url()
         if image_obj['url'].startswith('/'):
-            image_obj['url'] = "https://www.costco.com" + image_obj['url']
+            image_obj['url'] = base_url + image_obj['url']
         elif image_obj['url'].startswith('wcsstore'):
-            image_obj['url'] = "https://www.costco.com/" + image_obj['url']
+            image_obj['url'] = base_url + "/" + image_obj['url']
         
         print(f"\n[ASSET] Found asset URL: {image_obj['url']}")
         
@@ -553,7 +573,8 @@ class ContentProcessor:
                     continue
                 
                 if link_url.startswith('/'):
-                    link_url = "https://www.costco.com" + link_url
+                    base_url = self._get_base_url()
+                    link_url = base_url + link_url
                 
                 link_url_without_query = link_url.split('?')[0]
                 md_link_extension = link_url_without_query.split('.')[-1].lower() if '.' in link_url_without_query else ''
@@ -622,7 +643,8 @@ class ContentProcessor:
         
         try:
             if asset['url'].startswith('/'):
-                asset['url'] = "https://www.costco.com" + asset['url']
+                base_url = self._get_base_url()
+                asset['url'] = base_url + asset['url']
             
             print(f"\n[ASSET] Processing asset: {asset_key}")
             print(f"[ASSET] Source URL: {asset['url']}")
@@ -1134,7 +1156,8 @@ class ContentProcessor:
             try:
                 full_url = src_url
                 if src_url.startswith('/'):
-                    full_url = "https://www.costco.com" + src_url
+                    base_url = self._get_base_url()
+                    full_url = base_url + src_url
                 
                 parts = full_url.split('/')
                 filename = parts[-1]
@@ -1200,7 +1223,8 @@ class ContentProcessor:
             try:
                 full_url = src_url
                 if src_url.startswith('/'):
-                    full_url = "https://www.costco.com" + src_url
+                    base_url = self._get_base_url()
+                    full_url = base_url + src_url
                 
                 parts = full_url.split('/')
                 filename = parts[-1]

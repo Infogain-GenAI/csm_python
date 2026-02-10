@@ -62,3 +62,7 @@ entry-reports/
 output/
 bulk_asset_upload.py
 lib/testing_1.txt
+delete_brandfolder_assets.py
+delete_brandfolder_assets_by_name.py
+html_assets_to_delete.txt
+list_brandfolder_assets.py

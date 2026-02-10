@@ -311,11 +311,13 @@ class BrandfolderAPI:
             
             # Get dimensions
             dimensions = {}
+            file_extension = None
             if attachments and attachments[0].get('attributes', {}).get('width') is not None:
                 dimensions = {
                     'width': attachments[0].get('attributes', {}).get('width'),
                     'height': attachments[0].get('attributes', {}).get('height')
                 }
+                file_extension = attachments[0].get('attributes', {}).get('extension', '').lower()
             
             print(f"[BRANDFOLDER] DEBUG: Final dimensions: {dimensions}")
             print(f"[BRANDFOLDER] Asset CDN URL: {cdn_url}")
@@ -875,20 +877,23 @@ class BrandfolderAPI:
                     with open(local_file_path, 'rb') as f:
                         buffer = f.read(min(512, stats.st_size))
                     
-                    file_start = buffer.decode('utf-8', errors='ignore').lower()[:100]
-                    is_html_content = any(tag in file_start for tag in ['<!doctype', '<html', '<?xml', '<body', '<head'])
-                    
-                    if is_html_content:
-                        raise Exception(f"Downloaded file appears to be HTML/XML instead of an image. File starts with: {file_start[:50]}...")
-                    
                     # Check for common image file signatures (magic bytes)
                     is_valid_image = (
                         (buffer[0:2] == b'\xff\xd8') or  # JPEG
                         (buffer[0:4] == b'\x89PNG') or  # PNG
                         (buffer[0:3] == b'GIF') or  # GIF
                         (buffer[0:4] == b'RIFF') or  # WEBP
-                        b'<svg' in buffer or b'<?xml' in buffer  # SVG
+                        (b'<svg' in buffer.lower()) or  # SVG with <svg> tag
+                        (b'<?xml' in buffer and b'<svg' in buffer)  # SVG with XML declaration
                     )
+                    
+                    # Check for HTML error pages (but exclude valid SVG files)
+                    file_start = buffer.decode('utf-8', errors='ignore').lower()[:100]
+                    is_svg_file = '<svg' in file_start or (file_ext == '.svg' and '<?xml' in file_start)
+                    is_html_error = any(tag in file_start for tag in ['<!doctype', '<html', '<body', '<head']) and not is_svg_file
+                    
+                    if is_html_error:
+                        raise Exception(f"Downloaded file appears to be HTML error page instead of an image. File starts with: {file_start[:50]}...")
                     
                     if not is_valid_image and stats.st_size < 1024 * 1024:
                         content_type = response.headers.get('content-type', '')
@@ -896,7 +901,11 @@ class BrandfolderAPI:
                         print(f"[BRANDFOLDER] First bytes: {buffer[:8].hex()}")
                         print("[BRANDFOLDER] Continuing anyway as server might have wrong headers...")
                     elif is_valid_image:
-                        print(f"[BRANDFOLDER] ✓ File validated as valid {file_ext.upper()} image")
+                        # Determine image type for better logging
+                        if file_ext == '.svg' or b'<svg' in buffer.lower():
+                            print(f"[BRANDFOLDER] ✓ File validated as valid SVG (XML-based vector image)")
+                        else:
+                            print(f"[BRANDFOLDER] ✓ File validated as valid {file_ext.upper()} image")
                 
                 # Validate file size
                 if expected_size > 0 and stats.st_size != expected_size:
@@ -1018,6 +1027,13 @@ class BrandfolderAPI:
         local_file_path = None
         
         try:
+            # Convert .auto extension to .jpg for better Brandfolder compatibility
+            # .auto files don't generate proper CDN URLs, so we upload them as .jpg
+            original_filename = filename
+            if filename.lower().endswith('.auto'):
+                filename = filename[:-5] + '.jpg'  # Replace .auto with .jpg
+                print(f"[BRANDFOLDER] ℹ️  Converting filename: {original_filename} → {filename}")
+            
             print("\n[BRANDFOLDER] ========================================")
             print("[BRANDFOLDER] Starting 3-step upload process")
             print(f"[BRANDFOLDER] Source URL: {http_url}")

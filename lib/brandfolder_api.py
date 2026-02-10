@@ -1027,12 +1027,18 @@ class BrandfolderAPI:
         local_file_path = None
         
         try:
-            # Convert .auto extension to .jpg for better Brandfolder compatibility
-            # .auto files don't generate proper CDN URLs, so we upload them as .jpg
+            # Convert .auto extension to .jpg in both URL and filename
+            # .auto files don't work properly, so we request them as .jpg from the CDN
+            original_url = http_url
             original_filename = filename
             if filename.lower().endswith('.auto'):
-                filename = filename[:-5] + '.jpg'  # Replace .auto with .jpg
-                print(f"[BRANDFOLDER] ℹ️  Converting filename: {original_filename} → {filename}")
+                # Replace .auto with .jpg in both the URL and filename
+                filename = filename[:-5] + '.jpg'
+                http_url = http_url.replace('.auto', '.jpg')
+                print(f"[BRANDFOLDER] ℹ️  Converting .auto to .jpg")
+                print(f"[BRANDFOLDER] ℹ️  Original URL: {original_url}")
+                print(f"[BRANDFOLDER] ℹ️  Modified URL: {http_url}")
+                print(f"[BRANDFOLDER] ℹ️  Filename: {original_filename} → {filename}")
             
             print("\n[BRANDFOLDER] ========================================")
             print("[BRANDFOLDER] Starting 3-step upload process")

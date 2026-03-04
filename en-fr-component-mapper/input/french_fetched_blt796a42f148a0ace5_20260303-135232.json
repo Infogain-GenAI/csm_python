@@ -1,0 +1,2905 @@
+{
+  "entry": {
+    "breadcrumb_page_title_options": {
+      "page_title": "For Your Health - Ask the pharmacist - Summer blues  | Costco",
+      "breadcrumb_title": "For Your Health - Ask the pharmacist - Summer blues",
+      "disable_h1": false
+    },
+    "index_position": null,
+    "page_composer": [
+      {
+        "column": {
+          "select_layout_ratio": "25/75",
+          "left_column_composer": [
+            {
+              "ad_builder_block": {
+                "ad_builder_ref": [
+                  {
+                    "_content_type_uid": "ad_builder",
+                    "entry": {
+                      "title": "Costco Connection Navigation Logo - 1764760567738 - Treasure Hunt-Js6cJr - 1772446301206",
+                      "privacy_toggle": {
+                        "disable_third_party_tracking": false
+                      },
+                      "ad_type": "full",
+                      "image": [
+                        {
+                          "id": "7c3tfzrczg59rp6t7gjkqwz",
+                          "url": "https://cdn.bfldr.com/56O3HXZ9/as/7c3tfzrczg59rp6t7gjkqwz/ContactCostco_FR?auto=webp&format=jpg",
+                          "filename": "ContactCostco_FR.png",
+                          "extension": "png",
+                          "dimensions": {
+                            "width": 2208,
+                            "height": 298
+                          },
+                          "mimetype": "image/png"
+                        }
+                      ],
+                      "image_alt_text": "Costco Connection Home",
+                      "enable_mobile_image_variation": false,
+                      "mobile_image": [],
+                      "use_mobile_image_alt_text": false,
+                      "mobile_image_alt_text": "",
+                      "costco_url": {
+                        "title": "",
+                        "url": "/connection-july-2022.html",
+                        "external_site": false,
+                        "same_tab_domain": true,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "enable_product_linked": false,
+                      "product_link": {},
+                      "top_and_bottom_text_banner": [],
+                      "top_and_bottom_strip": [],
+                      "enable_text_content": false,
+                      "text_content": [],
+                      "text_content_placement": null,
+                      "text_content_overlay_styles": [],
+                      "text_content_above_below_the_ad_styles": [],
+                      "enable_custom_background": true,
+                      "background_group": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#ffffff"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": ""
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": ""
+                          },
+                          "shadow": {
+                            "hex": ""
+                          }
+                        }
+                      },
+                      "enable_disclaimer": false,
+                      "disclaimer": "",
+                      "disclaimer_markdown": "",
+                      "enable_sponsored": false,
+                      "enable_caption": false,
+                      "caption": "",
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "right_column_composer": [
+            {
+              "link_list_with_flyout_references_block": {
+                "link_list_with_flyout_references_ref": [
+                  {
+                    "_content_type_uid": "link_list_with_flyout_references",
+                    "entry": {
+                      "title": "Costco Connection Navigation - July 2022 French - 1772446338651",
+                      "list_header": {},
+                      "list_header_style": "plain",
+                      "link_list_style": "text_only",
+                      "enable_navigation": true,
+                      "navigation_label": "main",
+                      "privacy_toggle": {
+                        "disable_third_party_tracking": false
+                      },
+                      "color_config": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": "#337AB7"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": ""
+                          },
+                          "shadow": {
+                            "hex": ""
+                          }
+                        }
+                      },
+                      "links_composer": [
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Accueil Navigation - 1772446305078",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Accueil",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Accueil",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Accueil Links - 1772446303209",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": "plain",
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Billet - Plaisir d'été",
+                                                              "url": "/connection-country-manager-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "En mode Costco - Fête du Canada",
+                                                              "url": "/connection-costco-life-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Réflexion affaires - Brûler au bout",
+                                                              "url": "/connection-for-your-biz-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Parlons techno - Anonyme en ligne",
+                                                              "url": "/connection-tech-connection-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Vos finances - Assurer le futur",
+                                                              "url": "/connection-financial-connection-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Destination Costco - Merveilles de la mer",
+                                                              "url": "/connection-travel-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Micro-sondage - la plage ou la piscine?",
+                                                              "url": "/connection-member-poll-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "La Une Navigation - 1772446308903",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": " La Une",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "La Une",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "La Une Links - 1772446306954",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": "plain",
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Éveiller la flamme",
+                                                              "url": "/connection-cover-story-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Section Spéciale // Pour la maison Navigation - 1772446313026",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Section Spéciale // Pour la maison",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Section Spéciale // Pour la maison",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Section Spéciale // Pour la maison Links - 1772446310783",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": "plain",
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Profil de fournisseur de South Bay - Matelas d'avenir",
+                                                              "url": "/connection-ss-southbay-supplier-profile-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Pièce touten-un",
+                                                              "url": "/connection-ss-smart-spaces-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Choix des acheteurs - Meubles pour la maison",
+                                                              "url": "/connection-ss-furniture-buyer-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Vent de fraîcheur",
+                                                              "url": "/connection-ss-fresh-air-indoors-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Bol tendance",
+                                                              "url": "/connection-ss-bowled-over-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Alimentation Navigation - 1772446317109",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Alimentation",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Alimentation",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Alimentation Links - 1772446315085",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": "plain",
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Bol copieux",
+                                                              "url": "/connection-fyt-one-and-done-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Pêcher mignon",
+                                                              "url": "/connection-fyt-just-peachy-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Super Fruit",
+                                                              "url": "/connection-fyt-super-fruit-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "À votre santé Navigation - 1772446321087",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "À votre santé",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "À votre santé",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "À votre santé Links - 1772446319207",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": "plain",
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Un siècle de santé",
+                                                              "url": "/connection-for-your-health-supplier-profile-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Demandez au pharmacien - Renverser le TAS",
+                                                              "url": "/connection-for-your-health-ask-the-pharmacist-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Loisirs Navigation - 1772446325082",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Loisirs",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Loisirs",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Loisirs Links - 1772446323124",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": "plain",
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "À vos bâtons!",
+                                                              "url": "/connection-fye-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Choix de l'acheteuse",
+                                                              "url": "/connection-fye-book-buyers-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Destination Costco Navigation - 1772446328941",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Destination Costco",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Destination Costco",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Destination Costco Links - 1772446327026",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": "plain",
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Repartir sur de bonnes bases",
+                                                              "url": "/connection-member-services-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Du nouveau chez Costco",
+                                                              "url": "/connection-treasure-hunt-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Curiosité insatiable",
+                                                              "url": "/connection-member-connection-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Place Aux Membres Navigation - 1772446332750",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Place Aux Membres",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Place Aux Membres",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Place Aux Membres Links - 1772446330867",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": "plain",
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Curiosité insatiable",
+                                                              "url": "/connection-member-connection-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Recettes Navigation - 1772446336709",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Recettes",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Recettes",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Recettes Links - 1772446334734",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": "plain",
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Mini-burgers au boeuf haché",
+                                                              "url": "/connection-recipe-savoury-ground-beef-sliders-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Poitrine de boeuf fumée",
+                                                              "url": "/connection-recipe-smoked-brisket-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Feuilleté à la framboise sur le barbecue",
+                                                              "url": "/connection-recipe-barbecue-raspberry-puff-daddies-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Poutine grillée au bacon",
+                                                              "url": "/connection-recipe-grilled-poutine-bacon-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Quésadilla grillé ",
+                                                              "url": "/connection-recipe-mushroom-spinach-goat-cheese-quesadillas-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Bol déjeuner aux patates douces",
+                                                              "url": "/connection-recipe-protein-breakfast-bowl-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Bol de quinoa, poulet et légumes",
+                                                              "url": "/connection-recipe-quinoa-bowl-chicken-veggies-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Salade de crevettes grillées avec pêche",
+                                                              "url": "/connection-recipe-grilled-shrimp-peach-and-goat-cheese-salad-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Tarte aux fruits d'été",
+                                                              "url": "/connection-recipe-summer-fruit-tart-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Salade de cerises hachées avec dijonnaise à la cerise ",
+                                                              "url": "/connection-recipe-chopped-cherry-salad-with-cherry-dijon-vinaigrette-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Sucettes glacées à la cerise",
+                                                              "url": "/connection-recipe-frozen-cherry-ice-pops-july-2022.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "content_divider_block": {
+                "content_divider_ref": [
+                  {
+                    "_content_type_uid": "content_divider",
+                    "entry": {
+                      "title": "Career Opportunities - 1772446340628",
+                      "direction": "horizontal",
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "add_to_index": false
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_image": [],
+                            "icon_alt_text": ""
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "markdown_text": "**Contact Costco   |  Juillet  |  À Votre Santé   |  <span style=\"color: #b01c33;\">Renverser le TAS</span>**",
+                              "color": {},
+                              "enable_custom_tag_parsing": false
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Contact Costco   |  Juillet  |  À Votre Santé   |  Renverser le TAS - 1772446342617",
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "add_to_index": false
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "title": "À VOTRE SANTÉ // DEMANDEZ AU PHARMACIEN - 1772446344532",
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {
+                            "background_gradient_style": "solid",
+                            "background_color": {
+                              "hex": "#79B652"
+                            },
+                            "background_gradient_color": {
+                              "color1": {
+                                "hex": ""
+                              },
+                              "color2": {
+                                "hex": ""
+                              }
+                            },
+                            "text_color": {
+                              "hex": "#FFFFFF"
+                            },
+                            "border_color_type": "no-border",
+                            "border_color": {
+                              "solid": {
+                                "hex": ""
+                              },
+                              "shadow": {
+                                "hex": ""
+                              }
+                            }
+                          },
+                          "text_section_icon": {
+                            "icon_image": [],
+                            "icon_alt_text": ""
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h1",
+                              "text_alignment": "left",
+                              "markdown_text": "À VOTRE SANTÉ // DEMANDEZ AU PHARMACIEN",
+                              "color": {
+                                "background_gradient_style": "solid",
+                                "background_color": {
+                                  "hex": "#79b652"
+                                },
+                                "background_gradient_color": {
+                                  "color1": {
+                                    "hex": ""
+                                  },
+                                  "color2": {
+                                    "hex": ""
+                                  }
+                                },
+                                "text_color": {
+                                  "hex": ""
+                                },
+                                "border_color_type": "no-border",
+                                "border_color": {
+                                  "solid": {
+                                    "hex": ""
+                                  },
+                                  "shadow": {
+                                    "hex": ""
+                                  }
+                                }
+                              },
+                              "enable_custom_tag_parsing": false
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "add_to_index": false
+        }
+      },
+      {
+        "column": {
+          "select_layout_ratio": "66/33",
+          "left_column_composer": [
+            {
+              "ad_builder_block": {
+                "ad_builder_ref": [
+                  {
+                    "_content_type_uid": "ad_builder",
+                    "entry": {
+                      "title": "Ad Builder Entry - For Your Health - Ask the pharmacist - Summer blues-kb5Yjd - 1772446346497",
+                      "ad_type": "full",
+                      "background_group": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": ""
+                        },
+                        "border_color_type": "solid",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#FFFFFF"
+                          },
+                          "shadow": {
+                            "hex": ""
+                          }
+                        }
+                      },
+                      "caption": "",
+                      "costco_url": {
+                        "title": "",
+                        "external_site": false,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "disclaimer": "",
+                      "disclaimer_markdown": "",
+                      "enable_caption": false,
+                      "enable_custom_background": true,
+                      "enable_disclaimer": false,
+                      "enable_mobile_image_variation": false,
+                      "enable_product_linked": false,
+                      "enable_sponsored": false,
+                      "enable_text_content": true,
+                      "image": [
+                        {
+                          "id": "xfj8gb54sxgv2jmtcj4w3m43",
+                          "url": "https://cdn.bfldr.com/56O3HXZ9/as/xfj8gb54sxgv2jmtcj4w3m43/06_22_FYH_AskThePharmacist_01?auto=webp&format=jpg",
+                          "filename": "06_22_FYH_AskThePharmacist_01.jpg",
+                          "extension": "jpg",
+                          "dimensions": {
+                            "width": 910,
+                            "height": 650
+                          },
+                          "mimetype": "image/jpeg"
+                        }
+                      ],
+                      "image_alt_text": "person",
+                      "mobile_image": [],
+                      "mobile_image_alt_text": "",
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "privacy_toggle": {
+                        "disable_third_party_tracking": false
+                      },
+                      "product_link": {},
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_content": [
+                        {
+                          "markdown_text": {
+                            "select_text_type": "caption_v2",
+                            "select_semantics_type": null,
+                            "markdown_text": "© marjan4782 / stock.adobe.com",
+                            "color": {}
+                          }
+                        }
+                      ],
+                      "text_content_above_below_the_ad_styles": [
+                        {
+                          "above_below_the_ad_styles": {
+                            "text_alignment": "center"
+                          }
+                        }
+                      ],
+                      "text_content_overlay_styles": [],
+                      "text_content_placement": "below_the_ad",
+                      "top_and_bottom_strip": [],
+                      "top_and_bottom_text_banner": [],
+                      "use_mobile_image_alt_text": false,
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_image": [],
+                            "icon_alt_text": ""
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_with_xl_v2",
+                              "select_semantics_type": "h1",
+                              "text_alignment": "left",
+                              "markdown_text": "Renverser le TAS",
+                              "color": {
+                                "background_gradient_style": "no-background",
+                                "background_color": {
+                                  "hex": ""
+                                },
+                                "background_gradient_color": {
+                                  "color1": {
+                                    "hex": ""
+                                  },
+                                  "color2": {
+                                    "hex": ""
+                                  }
+                                },
+                                "text_color": {
+                                  "hex": "#333333"
+                                },
+                                "border_color_type": "no-border",
+                                "border_color": {
+                                  "solid": {
+                                    "hex": ""
+                                  },
+                                  "shadow": {
+                                    "hex": ""
+                                  }
+                                }
+                              },
+                              "enable_custom_tag_parsing": false
+                            }
+                          ]
+                        },
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_image": [],
+                            "icon_alt_text": ""
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "markdown_text": "Gérer le trouble affectif saisonnier pendant l'été",
+                              "color": {
+                                "background_gradient_style": "no-background",
+                                "background_color": {
+                                  "hex": ""
+                                },
+                                "background_gradient_color": {
+                                  "color1": {
+                                    "hex": ""
+                                  },
+                                  "color2": {
+                                    "hex": ""
+                                  }
+                                },
+                                "text_color": {
+                                  "hex": "#333333"
+                                },
+                                "border_color_type": "no-border",
+                                "border_color": {
+                                  "solid": {
+                                    "hex": ""
+                                  },
+                                  "shadow": {
+                                    "hex": ""
+                                  }
+                                }
+                              },
+                              "enable_custom_tag_parsing": false
+                            }
+                          ]
+                        },
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_image": [],
+                            "icon_alt_text": ""
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "markdown_text": "LAWRENCE VARGA\n\nLa dépression de l'hiver en plein été est plus commune qu'on ne le pense. Environ 40 % des personnes souffrant de troubles affectifs saisonniers (TAS) en souffrent en sens inverse. Alors que le TAS que nous connaissons bien est lié à un manque de soleil, les jours plus longs ainsi que la chaleur et l'humidité croissantes semblent être les causes du TAS inversé.\n\nBien que ces symptômes soient communs à de nombreux types de dépression, les personnes souffrant de TAS inversé souffrent plus souvent d'une perte d'appétit et d'une perte de poids conséquente, ainsi que d'anxiété et de troubles du sommeil. Une théorie veut que la lumière du soleil empêche la production de mélatonine par le corps, soit l'hormone qui régule le sommeil et qui est souvent utilisée pour lutter contre le décalage horaire, et que cette carence entraîne un TAS inversé. Chez certains, elle peut même être déclenchée par des allergies estivales.\n\nBon nombre des principes qui s'appliquent au traitement d'autres formes de dépression s'appliquent au TAS. Pour les personnes qui se sentent ainsi ou qui pensent à se faire du mal, de l'aide est toujours disponible en appelant la ligne d'urgence (1-833-456-4566; crisisservicescanada.ca/fr/). Diverses formes de thérapie par la parole peuvent être utiles, en plus du sommeil régulier, l'alimentation saine, l'exercice physique et l'évitement d'aliments riches en sucres simples, comme les bonbons ou les sodas sucrés.\n\nIl est également important de réduire le stress et d'établir ou de maintenir de bonnes habitudes quotidiennes, qui sont parfois rompues pendant l'été. Si une combinaison de ces mesures échoue, l'ajout d'antidépresseurs aux stratégies d'adaptation peut soulager les symptômes.",
+                              "color": {
+                                "background_gradient_style": "no-background",
+                                "background_color": {
+                                  "hex": ""
+                                },
+                                "background_gradient_color": {
+                                  "color1": {
+                                    "hex": ""
+                                  },
+                                  "color2": {
+                                    "hex": ""
+                                  }
+                                },
+                                "text_color": {
+                                  "hex": "#333333"
+                                },
+                                "border_color_type": "no-border",
+                                "border_color": {
+                                  "solid": {
+                                    "hex": ""
+                                  },
+                                  "shadow": {
+                                    "hex": ""
+                                  }
+                                }
+                              },
+                              "enable_custom_tag_parsing": false
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Renverser le TAS - Gérer le trouble affectif saisonnier pendant l'été - 1772446348555",
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "content_divider_block": {
+                "content_divider_ref": [
+                  {
+                    "_content_type_uid": "content_divider",
+                    "entry": {
+                      "title": "Career Opportunities - 1772446350504",
+                      "direction": "horizontal",
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "ad_set_costco_block": {
+                "ad_set_costco_ref": [
+                  {
+                    "_content_type_uid": "ad_set_costco",
+                    "entry": {
+                      "title": "Vitamine C Kirkland Signature - 1759225400000 - 1765261658261 - 1772446354474",
+                      "ad_set_heading_and_costco_url": {
+                        "title": "",
+                        "url": "",
+                        "external_site": false,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "item_type": "ad",
+                      "ad_set_style": "static",
+                      "ad_content": [
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "ad_type": "full",
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": "#FFFFFF"
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "no-border",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": ""
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "caption": "",
+                                  "costco_url": {
+                                    "title": "Art. 8003210",
+                                    "url": "/.product.8003210.html",
+                                    "external_site": false,
+                                    "same_tab_domain": true,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_caption": false,
+                                  "enable_custom_background": true,
+                                  "enable_disclaimer": false,
+                                  "enable_mobile_image_variation": false,
+                                  "enable_product_linked": false,
+                                  "enable_sponsored": false,
+                                  "enable_text_content": true,
+                                  "image": [
+                                    {
+                                      "id": "ppmr8vqvhhx4qgrgkrsv4rp3",
+                                      "url": "https://cdn.bfldr.com/56O3HXZ9/as/ppmr8vqvhhx4qgrgkrsv4rp3/06_22_FYH_AskThePharmacist_02?auto=webp&format=jpg",
+                                      "filename": "06_22_FYH_AskThePharmacist_02.jpg",
+                                      "extension": "jpg",
+                                      "dimensions": {
+                                        "width": 910,
+                                        "height": 650
+                                      },
+                                      "mimetype": "image/jpeg"
+                                    }
+                                  ],
+                                  "image_alt_text": "packaging for supplement",
+                                  "mobile_image": [],
+                                  "mobile_image_alt_text": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "product_link": {},
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "text_content": [
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "subheading_v2",
+                                        "select_semantics_type": "h3",
+                                        "markdown_text": "**Vitamine C**",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": null,
+                                        "markdown_text": "La vitamine C 1 000 mg avec églantier Kirkland Signature<sup>MC</sup> comprend maintenant encore plus d'églantiers. Chaque comprimé contient 40 mg d'églantier, une source naturelle d'acide ascorbique (vitamine C). Une plus grande concentration d'églantier signifie plus de vitamine C, un antioxydant qui aide au maintien de la santé en réduisant le stress oxydatif. La vitamine C aide aussi au développement et au maintien des os, du cartilage, des dents et des gencives. Elle aide aussi le corps à métaboliser les graisses et les protéines, ainsi qu'à former le tissu conjonctif et à cicatriser les plaies. Contenant de 500 comprimés. [Art. 8003210](/.product.8003210.html). Entrepôt/ Costco.ca.",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "left"
+                                      }
+                                    }
+                                  ],
+                                  "text_content_overlay_styles": [],
+                                  "text_content_placement": "below_the_ad",
+                                  "title": "Vitamine C - 1759225400001 - 1765261657490 - For Your Health - Ask the pharmacist - Summer blues-9qLA0m - 1772446352572",
+                                  "top_and_bottom_strip": [],
+                                  "top_and_bottom_text_banner": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "ad_set_background": {
+                        "title_background_color": {},
+                        "title_background_transparency": "1",
+                        "body_background_color": {},
+                        "body_background_transparency": "1"
+                      },
+                      "background_foreground_banner_group": {
+                        "background_banner_button_alignment": "horizontal",
+                        "background_banner_image_alignment": "top",
+                        "background_banner_reference": [],
+                        "foreground_banner_group": []
+                      },
+                      "caption": "",
+                      "category_content": {
+                        "category_items": [],
+                        "image_form_factor": "rounded",
+                        "background_color": {},
+                        "category_set_title_alignment": "left",
+                        "category_content_placement": null
+                      },
+                      "custom_background": false,
+                      "enable_background_foreground_banner": false,
+                      "platform_config_block": {
+                        "android_version_support": "",
+                        "ios_version_support": "",
+                        "platform_aplicability": "mobile_web"
+                      },
+                      "product_content": {
+                        "product_list": {}
+                      },
+                      "product_display_style": {
+                        "product_card_display_style": "compact",
+                        "show_action_button": true,
+                        "show_reviews": true,
+                        "inventory_aware_listings": false,
+                        "product_tile_data_source": null
+                      },
+                      "rotating_options": {
+                        "multi_item_carousel": false,
+                        "enable_autoplay": false,
+                        "enable_two_row_display": false,
+                        "randomize_items": false,
+                        "enable_peek_a_boo": false
+                      },
+                      "static_options": {
+                        "display_style": "multi_row",
+                        "maximum_tiles_per_row": 5
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "content_divider_block": {
+                "content_divider_ref": [
+                  {
+                    "_content_type_uid": "content_divider",
+                    "entry": {
+                      "title": "Career Opportunities - 1772446356472",
+                      "direction": "horizontal",
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "ad_set_costco_block": {
+                "ad_set_costco_ref": [
+                  {
+                    "_content_type_uid": "ad_set_costco",
+                    "entry": {
+                      "title": "Lawrence Varga - Bio French - 1772446362505",
+                      "ad_set_heading_and_costco_url": {
+                        "title": "",
+                        "url": "",
+                        "external_site": false,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "item_type": "ad",
+                      "ad_set_style": "static",
+                      "ad_content": [
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "ad_type": "one_third",
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": "#FFFFFF"
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "no-border",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": ""
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "caption": "",
+                                  "costco_url": {
+                                    "title": "",
+                                    "url": "",
+                                    "external_site": false,
+                                    "same_tab_domain": true,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_caption": false,
+                                  "enable_custom_background": true,
+                                  "enable_disclaimer": false,
+                                  "enable_mobile_image_variation": false,
+                                  "enable_product_linked": false,
+                                  "enable_sponsored": false,
+                                  "enable_text_content": true,
+                                  "image": [
+                                    {
+                                      "id": "xnqhh2zk4f45w6n8m2s7v2b",
+                                      "url": "https://cdn.bfldr.com/56O3HXZ9/as/xnqhh2zk4f45w6n8m2s7v2b/Lawrence_Varga_Headshot?auto=webp&format=jpg",
+                                      "filename": "Lawrence_Varga_Headshot.jpg",
+                                      "extension": "jpg",
+                                      "dimensions": {
+                                        "width": 308,
+                                        "height": 349
+                                      },
+                                      "mimetype": "image/jpeg"
+                                    }
+                                  ],
+                                  "image_alt_text": "man",
+                                  "mobile_image": [],
+                                  "mobile_image_alt_text": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "product_link": {},
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "text_content": [
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "caption_v2",
+                                        "select_semantics_type": null,
+                                        "markdown_text": "*© Costco Canada*",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": ""
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "center"
+                                      }
+                                    }
+                                  ],
+                                  "text_content_overlay_styles": [],
+                                  "text_content_placement": "below_the_ad",
+                                  "title": "Lawrence Varga - Image French - For Your Health - Ask the pharmacist - Summer blues-CqXnok - 1772446358403",
+                                  "top_and_bottom_strip": [],
+                                  "top_and_bottom_text_banner": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "title": "Lawrence Varga - Text French - For Your Health - Ask the pharmacist - Summer blues-E25qOT - 1772446360465",
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "ad_type": "one_third",
+                                  "image": [],
+                                  "image_alt_text": "",
+                                  "enable_mobile_image_variation": false,
+                                  "mobile_image": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "mobile_image_alt_text": "",
+                                  "costco_url": {
+                                    "title": "",
+                                    "url": "",
+                                    "external_site": false,
+                                    "same_tab_domain": true,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "enable_product_linked": false,
+                                  "product_link": {},
+                                  "top_and_bottom_text_banner": [],
+                                  "top_and_bottom_strip": [],
+                                  "enable_text_content": true,
+                                  "text_content": [
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": null,
+                                        "markdown_text": "**Lawrence Varga,** B. Sc. Phm., vice-président adjoint des pharmacies de Costco\n\n**Les pharmacies** situées dans les entrepôts Costco du Québec sont exploitées par des pharmaciens propriétaires indépendants.",
+                                        "color": {
+                                          "text_color": {
+                                            "hex": "#000000"
+                                          },
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#ffffff"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "text_content_placement": "overlay",
+                                  "text_content_overlay_styles": [
+                                    {
+                                      "overlay_style": {
+                                        "applicability": "default",
+                                        "overlay_fill_type": "horizontal",
+                                        "overlay_fill_": "100",
+                                        "overlay_position": "left",
+                                        "text_alignment": "middle",
+                                        "overlay_background_color": {}
+                                      }
+                                    }
+                                  ],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "left"
+                                      }
+                                    }
+                                  ],
+                                  "enable_custom_background": true,
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": "#FFFFFF"
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "no-border",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": ""
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "enable_disclaimer": false,
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_sponsored": false,
+                                  "enable_caption": false,
+                                  "caption": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "ad_set_background": {
+                        "title_background_color": {},
+                        "title_background_transparency": "1",
+                        "body_background_color": {},
+                        "body_background_transparency": "1"
+                      },
+                      "background_foreground_banner_group": {
+                        "background_banner_button_alignment": "horizontal",
+                        "background_banner_image_alignment": "top",
+                        "background_banner_reference": [],
+                        "foreground_banner_group": []
+                      },
+                      "caption": "",
+                      "category_content": {
+                        "category_items": [],
+                        "image_form_factor": "rounded",
+                        "background_color": {},
+                        "category_set_title_alignment": "left",
+                        "category_content_placement": null
+                      },
+                      "custom_background": false,
+                      "enable_background_foreground_banner": false,
+                      "platform_config_block": {
+                        "android_version_support": "",
+                        "ios_version_support": "",
+                        "platform_aplicability": "mobile_web"
+                      },
+                      "product_content": {
+                        "product_list": {}
+                      },
+                      "product_display_style": {
+                        "product_card_display_style": "compact",
+                        "show_action_button": true,
+                        "show_reviews": true,
+                        "inventory_aware_listings": false,
+                        "product_tile_data_source": null
+                      },
+                      "rotating_options": {
+                        "multi_item_carousel": false,
+                        "enable_autoplay": false,
+                        "enable_two_row_display": false,
+                        "randomize_items": false,
+                        "enable_peek_a_boo": false
+                      },
+                      "static_options": {
+                        "display_style": "multi_row",
+                        "maximum_tiles_per_row": 5
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "right_column_composer": []
+        }
+      }
+    ],
+    "page_id": " connection-for-your-health-ask-the-pharmacist-july-2022 1234",
+    "page_type": "feature",
+    "seo_metadata": {
+      "meta_title": "For Your Health - Ask the pharmacist - Summer blues  | Costco",
+      "meta_description": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "title": "For Your Health - Ask the pharmacist - Summer blues - 1772446364571",
+    "locale": "en-ca"
+  }
+}

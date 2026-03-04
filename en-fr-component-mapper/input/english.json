@@ -1,0 +1,197 @@
+{
+              "ad_builder_block": {
+                "ad_builder_ref": [
+                  {
+                    "_content_type_uid": "ad_builder",
+                    "entry": {
+                      "locale": "en-ca",
+                      "ad_type": "full",
+                      "background_group": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": ""
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": ""
+                          },
+                          "shadow": {
+                            "hex": ""
+                          }
+                        }
+                      },
+                      "caption": "",
+                      "costco_url": {
+                        "title": "July | Edition",
+                        "url": "https://www.costco.ca/connection-cover-summer-soiree-july-2023.html",
+                        "external_site": false,
+                        "same_tab_domain": true,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "disclaimer": "",
+                      "disclaimer_markdown": "",
+                      "enable_caption": false,
+                      "enable_custom_background": true,
+                      "enable_disclaimer": false,
+                      "enable_mobile_image_variation": false,
+                      "enable_product_linked": false,
+                      "enable_sponsored": false,
+                      "enable_text_content": true,
+                      "image": [
+                        {
+                          "id": "f9zqvwxw3bxtbmqfz7krx54",
+                          "url": "https://cdn.bfldr.com/56O3HXZ9/as/f9zqvwxw3bxtbmqfz7krx54/07_23_LP_Cover_Story?auto=webp&format=jpg",
+                          "filename": "07_23_LP_Cover_Story.jpg",
+                          "extension": "jpg",
+                          "dimensions": {
+                            "width": 910,
+                            "height": 650
+                          },
+                          "mimetype": "image/jpeg"
+                        }
+                      ],
+                      "image_alt_text": "a man grilling",
+                      "mobile_image": [],
+                      "mobile_image_alt_text": "",
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "privacy_toggle": {
+                        "disable_third_party_tracking": false
+                      },
+                      "product_link": {},
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_content": [
+                        {
+                          "markdown_text": {
+                            "select_text_type": "body_copy_v2",
+                            "select_semantics_type": null,
+                            "markdown_text": "**COVER STORY**",
+                            "color": {
+                              "background_gradient_style": "no-background",
+                              "background_color": {
+                                "hex": ""
+                              },
+                              "background_gradient_color": {
+                                "color1": {
+                                  "hex": ""
+                                },
+                                "color2": {
+                                  "hex": ""
+                                }
+                              },
+                              "text_color": {
+                                "hex": "#B31E3B"
+                              },
+                              "border_color_type": "no-border",
+                              "border_color": {
+                                "solid": {
+                                  "hex": ""
+                                },
+                                "shadow": {
+                                  "hex": ""
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "markdown_text": {
+                            "select_text_type": "heading_v2",
+                            "select_semantics_type": null,
+                            "markdown_text": "**Summer soiree**",
+                            "color": {}
+                          }
+                        },
+                        {
+                          "markdown_text": {
+                            "select_text_type": "body_copy_v2",
+                            "select_semantics_type": null,
+                            "markdown_text": "Get ready to celebrate!",
+                            "color": {}
+                          }
+                        }
+                      ],
+                      "text_content_above_below_the_ad_styles": [
+                        {
+                          "above_below_the_ad_styles": {
+                            "text_alignment": "left"
+                          }
+                        }
+                      ],
+                      "text_content_overlay_styles": [],
+                      "text_content_placement": "below_the_ad",
+                      "title": "Ad Builder Entry - 1764847318551 - July Edition-9SkA4r",
+                      "top_and_bottom_strip": [
+                        {
+                          "strip": {
+                            "strip_type": "bottom_strip",
+                            "text": "",
+                            "text_color": {
+                              "hsl": {
+                                "h": 47.628865979381445,
+                                "s": 0.8818181818181817,
+                                "l": 0.5686274509803921,
+                                "a": 1
+                              },
+                              "hex": "#f2ca30",
+                              "rgb": {
+                                "r": 242,
+                                "g": 202,
+                                "b": 48,
+                                "a": 1
+                              },
+                              "hsv": {
+                                "h": 47.628865979381445,
+                                "s": 0.8016528925619835,
+                                "v": 0.9490196078431372,
+                                "a": 1
+                              },
+                              "oldHue": 37.42857142857143,
+                              "source": "hex"
+                            },
+                            "background_color": {
+                              "background_gradient_style": "solid",
+                              "background_color": {
+                                "hex": "#f2ca30"
+                              },
+                              "background_gradient_color": {
+                                "color1": {
+                                  "hex": ""
+                                },
+                                "color2": {
+                                  "hex": ""
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "top_and_bottom_text_banner": [],
+                      "use_mobile_image_alt_text": false
+                    }
+                  }
+                ]
+              }
+            }

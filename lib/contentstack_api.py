@@ -44,8 +44,8 @@ class ContentstackAPI:
             'Content-Type': 'application/json'
         }
         
-        # Rate limiting - optimized for performance
-        self.max_retries = 0  # Changed from 5 to 0 - no retries
+        # Rate limiting - optimized for performance with retry protection
+        self.max_retries = 3  # Retry 3 times on timeout/network errors
         self.retry_delay = 2
         self.rate_limit_delay = 0.1  # Reduced from 1s to 0.1s for faster execution
 
@@ -66,14 +66,17 @@ class ContentstackAPI:
         try:
             time.sleep(self.rate_limit_delay)
             
+            # Use longer timeout (60s) for first attempt, 30s for retries
+            timeout = 60 if retries == 0 else 30
+            
             if method == 'GET':
-                response = requests.get(url, headers=self.headers, params=params)
+                response = requests.get(url, headers=self.headers, params=params, timeout=timeout)
             elif method == 'POST':
-                response = requests.post(url, headers=self.headers, json=data, params=params)
+                response = requests.post(url, headers=self.headers, json=data, params=params, timeout=timeout)
             elif method == 'PUT':
-                response = requests.put(url, headers=self.headers, json=data, params=params)
+                response = requests.put(url, headers=self.headers, json=data, params=params, timeout=timeout)
             elif method == 'DELETE':
-                response = requests.delete(url, headers=self.headers, params=params)
+                response = requests.delete(url, headers=self.headers, params=params, timeout=timeout)
             else:
                 raise ValueError(f"Unsupported HTTP method: {method}")
             
@@ -91,9 +94,16 @@ class ContentstackAPI:
             return response.json() if response.text else {}
             
         except requests.exceptions.RequestException as e:
+            # Check if it's a timeout error for better messaging
+            is_timeout = isinstance(e, (requests.exceptions.Timeout, requests.exceptions.ReadTimeout, requests.exceptions.ConnectTimeout))
+            
             if retries < self.max_retries:
-                print(f"Request failed. Retrying... ({retries + 1}/{self.max_retries})")
-                time.sleep(self.retry_delay)
+                if is_timeout:
+                    print(f"⏱️  Request timed out. Retrying... ({retries + 1}/{self.max_retries})")
+                else:
+                    print(f"⚠️  Request failed: {str(e)}. Retrying... ({retries + 1}/{self.max_retries})")
+                
+                time.sleep(self.retry_delay * (retries + 1))  # Exponential backoff
                 return self._make_request(method, url, data, params, retries + 1)
             else:
                 # Preserve error structure for better error handling
@@ -104,7 +114,11 @@ class ContentstackAPI:
                     except:
                         error_response = {'message': e.response.text}
                 
-                raise Exception(f"Request failed after {self.max_retries} retries: {str(e)}") from e
+                # Better error message for timeouts
+                if is_timeout:
+                    raise Exception(f"⏱️  API request timed out after {self.max_retries} retries (30s timeout). ContentStack API may be slow or unreachable. Check your network connection.") from e
+                else:
+                    raise Exception(f"Request failed after {self.max_retries} retries: {str(e)}") from e
 
     def create_entry(self, content_type_uid: str, entry_data: Dict, entry_reuse_enabled: bool = True, locale: str = None) -> Dict:
         """
@@ -400,9 +414,22 @@ class ContentstackAPI:
         Returns:
             Workflow update response
         """
-        # Skip workflow for content_divider
-        if content_type_uid == 'content_divider':
-            print(f"[CONTENTSTACK] Skipping workflow update for content_divider")
+        # Skip workflow for content types that don't have workflow enabled
+        # These content types will publish directly without workflow stages
+        # Based on 422 errors: "workflow stage requirements...have not been met"
+        CONTENT_TYPES_WITHOUT_WORKFLOW = [
+            'content_divider',
+            'link_list_simple',
+            'link_flyout',
+            'ad_builder',
+            'text_builder',
+            'link_list_with_flyout_references',
+            'program_card',
+            'ad_set_costco'
+        ]
+        
+        if content_type_uid in CONTENT_TYPES_WITHOUT_WORKFLOW:
+            print(f"[CONTENTSTACK] Skipping workflow update for {content_type_uid}")
             return {'success': True}
         
         url = f"{self.base_url}/content_types/{content_type_uid}/entries/{entry_uid}/workflow"
@@ -418,14 +445,20 @@ class ContentstackAPI:
         
         print(f"[CONTENTSTACK] Updating workflow stage for entry: {content_type_uid}/{entry_uid} to stage: {stage_uid}")
         
-        # CRITICAL: Use authtoken for Approved stage (blt0915ab57da3d0af1)
-        # This is required by Contentstack for final approval
+        # CRITICAL: Use different authentication based on stage
+        # - Review stage: Use management_token (standard authorization)
+        # - Approved stage: Use authtoken (requires higher permissions)
         headers = self.headers.copy()
-        # if stage_uid == 'blt0915ab57da3d0af1' and self.auth_token:
-        if self.auth_token:
+        
+        if stage_uid == 'blt0915ab57da3d0af1' and self.auth_token:
+            # Approved stage - requires authtoken
             print(f"[CONTENTSTACK] Using authtoken for Approved stage")
             headers['authtoken'] = self.auth_token
             del headers['authorization']
+        else:
+            # Review or other stages - use management_token (standard auth)
+            print(f"[CONTENTSTACK] Using management_token for workflow stage")
+            # Keep standard authorization header (already in self.headers)
         
         # Make request with custom headers
         try:
@@ -551,6 +584,15 @@ class ContentstackAPI:
         if not self.auth_token or not self.auth_token.strip():
             raise ValueError("auth_token is required for bulk publish. Please set CONTENTSTACK_AUTH_TOKEN in .env")
         
+        # Fetch current entry to get the correct version number
+        try:
+            entry_data = self.get_entry(content_type_uid, entry_uid, locale=locales[0])
+            current_version = entry_data.get('entry', {}).get('_version', 1)
+            print(f"[CONTENTSTACK] Current version: {current_version}")
+        except Exception as e:
+            print(f"[CONTENTSTACK] ⚠️ Could not fetch version, using version 1: {e}")
+            current_version = 1
+        
         # Bulk publish payload format
         payload = {
             "entries": [
@@ -558,11 +600,12 @@ class ContentstackAPI:
                     "uid": entry_uid,
                     "content_type": content_type_uid,
                     "locale": locales[0],
-                    "version": 1
+                    "version": current_version  # Use actual version, not hardcoded 1
                 }
             ],
             "locales": locales,
             "environments": environments,
+            "tags": ["migrated-from-cms"],
             "rules": {"approvals": True},
             "publish_with_reference": True,  # Enable deep publish
             "skip_workflow_stage_check": True
@@ -606,6 +649,92 @@ class ContentstackAPI:
         except Exception as error:
             print(f"[CONTENTSTACK] ❌ Error publishing entry: {str(error)}")
             raise Exception(f"Failed to publish entry: {str(error)}")
+    
+    def publish_entry(self, content_type_uid: str, entry_uid: str, 
+                     environments: List[str] = None, locales: List[str] = None,
+                     locale: str = None) -> Dict:
+        """
+        Publish an entry using standard publish API (not bulk)
+        
+        Args:
+            content_type_uid: Content type UID
+            entry_uid: Entry UID
+            environments: Environment UIDs to publish to
+            locales: Locales to publish
+            locale: Specific locale
+            
+        Returns:
+            Publish response
+        """
+        # Use environment-specific locale if not provided
+        if locale is None:
+            locale = self.locale
+        
+        if locales is None:
+            locales = [self.locale]
+        
+        # Use environment UID from config if not provided
+        if environments is None:
+            if self.environment_uid:
+                environments = [self.environment_uid]
+            else:
+                raise ValueError("Environment UID is required for publishing")
+        
+        print(f"[CONTENTSTACK] Publishing entry: {content_type_uid}/{entry_uid} (standard API)")
+        print(f"[CONTENTSTACK] 🌍 Publishing LOCALE: {locale}")
+        print(f"[CONTENTSTACK] Environment UIDs: {environments}")
+        print(f"[CONTENTSTACK] Locales in payload: {locales}")
+        
+        # Standard publish endpoint
+        url = f"{self.base_url}/content_types/{content_type_uid}/entries/{entry_uid}/publish"
+        
+        payload = {
+            "entry": {
+                "environments": environments,
+                "tags": ["migrated-from-cms"],
+                "locales": locales
+            }
+        }
+        
+        # Use authtoken for publish
+        headers = {
+            "api_key": self.api_key,
+            "Content-Type": "application/json",
+            "authtoken": self.auth_token
+        }
+        
+        params = {"locale": locale}
+        
+        print(f"[CONTENTSTACK] Using standard publish endpoint")
+        print(f"[CONTENTSTACK] Payload: {json.dumps(payload, indent=2)}")
+        
+        try:
+            time.sleep(1.0)  # Increased delay to avoid rate limiting
+            response = requests.post(url, headers=headers, json=payload, params=params)
+            response.raise_for_status()
+            
+            print(f"[CONTENTSTACK] ✅ Entry published successfully")
+            return {
+                'success': True,
+                'data': response.json() if response.text else {}
+            }
+        except requests.exceptions.HTTPError as error:
+            print(f"[CONTENTSTACK] ❌ Error publishing entry: {str(error)}")
+            
+            # Extract error details from response
+            error_message = None
+            try:
+                error_details = error.response.json()
+                print(f"[CONTENTSTACK] Error details: {json.dumps(error_details, indent=2)}")
+                error_message = error_details.get('error_message', '')
+            except:
+                print(f"[CONTENTSTACK] Response text: {error.response.text}")
+            
+            # Include error_message in exception for better error handling
+            if error_message:
+                raise Exception(f"Failed to publish entry: {str(error)} | {error_message}")
+            else:
+                raise Exception(f"Failed to publish entry: {str(error)}")
 
     def get_workflow_details(self, content_type_uid: str, entry_uid: str) -> Dict:
         """

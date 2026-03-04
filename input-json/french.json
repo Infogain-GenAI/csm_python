@@ -1,0 +1,2672 @@
+{
+  "entry": {
+    "breadcrumb_page_title_options": {
+      "page_title": "Financial Connection - Saving grace  | Costco",
+      "breadcrumb_title": "Financial Connection - Saving grace",
+      "disable_h1": false
+    },
+    "index_position": null,
+    "page_composer": [
+      {
+        "row": {
+          "row_composer": [
+            {
+              "ad_builder_block": {
+                "ad_builder_ref": [
+                  {
+                    "_content_type_uid": "ad_builder",
+                    "entry": {
+                      "title": "Costco Connection Logo Ad Builder - November 2023 - Financial Connection - Saving grace-T800P8 - 1772105023369",
+                      "privacy_toggle": {
+                        "disable_third_party_tracking": false
+                      },
+                      "ad_type": "one_fourth",
+                      "image": [
+                        {
+                          "id": "7c3tfzrczg59rp6t7gjkqwz",
+                          "url": "https://cdn.bfldr.com/56O3HXZ9/as/7c3tfzrczg59rp6t7gjkqwz/ContactCostco_FR?auto=webp&format=jpg",
+                          "filename": "ContactCostco_FR.png",
+                          "extension": "png",
+                          "dimensions": {
+                            "width": 2208,
+                            "height": 298
+                          },
+                          "mimetype": "image/png"
+                        }
+                      ],
+                      "image_alt_text": "Costco Connection Home",
+                      "enable_mobile_image_variation": false,
+                      "mobile_image": [],
+                      "use_mobile_image_alt_text": false,
+                      "mobile_image_alt_text": "",
+                      "costco_url": {
+                        "title": "",
+                        "url": "/connection-front-cover-november-2023.html",
+                        "external_site": false,
+                        "same_tab_domain": true,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "enable_product_linked": false,
+                      "product_link": {},
+                      "top_and_bottom_text_banner": [],
+                      "top_and_bottom_strip": [],
+                      "enable_text_content": false,
+                      "text_content": [],
+                      "text_content_placement": null,
+                      "text_content_overlay_styles": [],
+                      "text_content_above_below_the_ad_styles": [],
+                      "enable_custom_background": true,
+                      "background_group": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#ffffff"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": "#333333"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": ""
+                          },
+                          "shadow": {
+                            "hex": ""
+                          }
+                        }
+                      },
+                      "enable_disclaimer": false,
+                      "disclaimer": "",
+                      "disclaimer_markdown": "",
+                      "enable_sponsored": false,
+                      "enable_caption": false,
+                      "caption": "",
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "add_to_index": false
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "link_list_with_flyout_references_block": {
+                "link_list_with_flyout_references_ref": [
+                  {
+                    "_content_type_uid": "link_list_with_flyout_references",
+                    "entry": {
+                      "title": "Costco Connection Navigation - November 2023 - Saving-grace - 1772105065097",
+                      "list_header": {},
+                      "list_header_style": "plain",
+                      "link_list_style": "text_only",
+                      "enable_navigation": true,
+                      "navigation_label": "main",
+                      "privacy_toggle": {
+                        "disable_third_party_tracking": false
+                      },
+                      "color_config": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": "#337AB7"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": ""
+                          },
+                          "shadow": {
+                            "hex": ""
+                          }
+                        }
+                      },
+                      "links_composer": [
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Accueil Navigation - 1772105027880",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Accueil",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Accueil",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Accueil Links - 1772105025605",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Billet",
+                                                              "url": "/connection-assistant-vice-presidents-note-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "En mode Costco",
+                                                              "url": "/connection-costco-life-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Contact Finances",
+                                                              "url": "/connection-financial-connection-saving-grace-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Voyages",
+                                                              "url": "/connection-travel-connection-bounty-on-the-seas-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Microsondage",
+                                                              "url": "/connection-member-poll-best-tech-invention-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "La Une Navigation - 1772105032283",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "La Une",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "La Une",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "La Une Links - 1772105030069",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Folie douce",
+                                                              "url": "/connection-cover-story-making-merry-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Section Spéciale Navigation - 1772105036696",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Section Spéciale",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Section Spéciale",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Section Spéciale Links - 1772105034483",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Son sublime",
+                                                              "url": "/connection-ss-beautiful-noise-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Support visuel",
+                                                              "url": "/connection-ss-hanging-around-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Souvenirs précieux",
+                                                              "url": "/connection-ss-merry-memories-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Passer à l'action",
+                                                              "url": "/connection-ss-snap-into-action-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Choix des acheteurs",
+                                                              "url": "/connection-ss-buyers-picks-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Alimentation Navigation - 1772105041356",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Alimentation",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Alimentation",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Alimentation Links - 1772105038921",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Passion panettone",
+                                                              "url": "/connection-fyt-pass-the-panettone-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Délices de la Diwali",
+                                                              "url": "/connection-fyt-dawali-delights-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "À votre santé Navigation - 1772105045649",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "À votre santé",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "À votre santé",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "À votre santé Links - 1772105043461",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Établir des relations ",
+                                                              "url": "/connection-fyh-making-connections-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Fin au vertige",
+                                                              "url": "/connection-fyh-spin-doctoring-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Traiter le diabète",
+                                                              "url": "/connection-fyh-geriatric-diabetes-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Loisirs Navigation - 1772105050026",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Loisirs",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Loisirs",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Loisirs Links - 1772105047925",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Vive allure",
+                                                              "url": "/connection-fye-road-show-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Destination Costco Navigation - 1772105054354",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Destination Costco",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Destination Costco",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Destination Costco Links - 1772105052133",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Petit nid intelligent",
+                                                              "url": "/connection-costco-services-home-smart-home-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Place aux membres Navigation - 1772105058647",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Place aux membres",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Place aux membres",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Place aux membres Links - 1772105056485",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Soutien en cadeau",
+                                                              "url": "/connection-member-connection-a-gift-of-support-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "user_defined_link_with_flyout": {
+                            "link_with_flyout": [
+                              {
+                                "_content_type_uid": "link_flyout",
+                                "entry": {
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "title": "Recettes Navigation - 1772105062962",
+                                  "user_defined_link": {
+                                    "link": {
+                                      "title": "Recettes",
+                                      "url": "#",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "link_style": "plain",
+                                    "icon": null,
+                                    "target_new_same_window_": "_self",
+                                    "disable_third_party_tracking": false,
+                                    "show_flyout": true,
+                                    "flyout_width": "normal",
+                                    "flyout_scaffolding": [
+                                      {
+                                        "strip": {
+                                          "strip_composition": [
+                                            {
+                                              "link_list": {
+                                                "label": "Recettes",
+                                                "number_of_links_per_column": null,
+                                                "link_list_ref": [
+                                                  {
+                                                    "_content_type_uid": "link_list_simple",
+                                                    "entry": {
+                                                      "title": "Recettes Links - 1772105060790",
+                                                      "listheader": {
+                                                        "title": "",
+                                                        "url": "",
+                                                        "external_site": false,
+                                                        "same_tab_domain": true,
+                                                        "reference_link": false,
+                                                        "content_type_uid": "",
+                                                        "entry_title": "",
+                                                        "entry_uid": "",
+                                                        "page_id": "",
+                                                        "open_as_pop_up": false
+                                                      },
+                                                      "list_header_style": null,
+                                                      "link_list_style": "text_only",
+                                                      "enable_navigation": false,
+                                                      "navigation_label": "",
+                                                      "privacy_toggle": {
+                                                        "disable_third_party_tracking": false
+                                                      },
+                                                      "links_composer": [
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Ragoût de champignons végétalien",
+                                                              "url": "/connection-recipe-vegan-mushroom-stew-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Pain doré au panettone avec crème à l'orange",
+                                                              "url": "/connection-recipe-french-toast-orange-cream-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Pouding de pain au panettone",
+                                                              "url": "/connection-recipe-panettone-bread-pudding-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Paal Payasam (pouding au riz)",
+                                                              "url": "/connection-recipe-rice-pudding-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        },
+                                                        {
+                                                          "user_defined_link": {
+                                                            "link": {
+                                                              "title": "Mathri à la coriandre",
+                                                              "url": "/connection-recipe-cilantro-mathri-november-2023.html",
+                                                              "external_site": false,
+                                                              "same_tab_domain": true,
+                                                              "reference_link": false,
+                                                              "content_type_uid": "",
+                                                              "entry_title": "",
+                                                              "entry_uid": "",
+                                                              "page_id": "",
+                                                              "open_as_pop_up": false
+                                                            },
+                                                            "link_style": "plain",
+                                                            "icon": null,
+                                                            "icon_image": [],
+                                                            "link_alt_text": "",
+                                                            "target_new_same_window_": "_self",
+                                                            "disable_third_party_tracking": false,
+                                                            "preserve_url_params": false
+                                                          }
+                                                        }
+                                                      ],
+                                                      "platform_config_block": {
+                                                        "platform_aplicability": "mobile_web",
+                                                        "ios_version_support": "",
+                                                        "android_version_support": ""
+                                                      },
+                                                      "tags": [
+                                                        "migrated-from-cms"
+                                                      ],
+                                                      "locale": "en-ca"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "add_to_index": false
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "content_divider_block": {
+                "content_divider_ref": [
+                  {
+                    "_content_type_uid": "content_divider",
+                    "entry": {
+                      "title": "Career Opportunities - 1772105067354",
+                      "direction": "horizontal",
+                      "color": {
+                        "hsl": {
+                          "h": 0,
+                          "s": 0,
+                          "l": 0.5,
+                          "a": 1
+                        },
+                        "hex": "#808080",
+                        "rgb": {
+                          "r": 128,
+                          "g": 128,
+                          "b": 128,
+                          "a": 1
+                        },
+                        "hsv": {
+                          "h": 0,
+                          "s": 0,
+                          "v": 0.5,
+                          "a": 1
+                        },
+                        "oldHue": 0,
+                        "source": "hex"
+                      },
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "add_to_index": false
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_image": [],
+                            "icon_alt_text": ""
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "**[Contact Costco ](/costco-connection-online-edition.html) | [ Novembre](/connection-front-cover-november-2023.html)**",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Contact Costco | Novembre - 1772105069455",
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "add_to_index": false
+        }
+      },
+      {
+        "row": {
+          "row_composer": [
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "title": "CONTACT FINANCES - 1772105071636",
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {
+                            "background_gradient_style": "solid",
+                            "background_color": {
+                              "hex": "#54B6CC"
+                            },
+                            "background_gradient_color": {
+                              "color1": {
+                                "hex": ""
+                              },
+                              "color2": {
+                                "hex": ""
+                              }
+                            },
+                            "text_color": {
+                              "hex": "#FFFFFF"
+                            },
+                            "border_color_type": "no-border",
+                            "border_color": {
+                              "solid": {
+                                "hex": ""
+                              },
+                              "shadow": {
+                                "hex": ""
+                              }
+                            }
+                          },
+                          "text_section_icon": {
+                            "icon_image": [],
+                            "icon_alt_text": ""
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h1",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "**CONTACT FINANCES**",
+                              "color": {
+                                "background_gradient_style": "solid",
+                                "background_color": {
+                                  "hex": "#54b6cc"
+                                },
+                                "background_gradient_color": {
+                                  "color1": {
+                                    "hex": ""
+                                  },
+                                  "color2": {
+                                    "hex": ""
+                                  }
+                                },
+                                "text_color": {
+                                  "hex": ""
+                                },
+                                "border_color_type": "no-border",
+                                "border_color": {
+                                  "solid": {
+                                    "hex": ""
+                                  },
+                                  "shadow": {
+                                    "hex": ""
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "add_to_index": false
+        }
+      },
+      {
+        "column": {
+          "select_layout_ratio": "66/33",
+          "left_column_composer": [
+            {
+              "ad_builder_block": {
+                "ad_builder_ref": [
+                  {
+                    "_content_type_uid": "ad_builder",
+                    "entry": {
+                      "title": "Ad Builder Entry - 1765261655493 - Financial Connection - Saving grace-7VxY67 - 1772105073770",
+                      "ad_type": "full",
+                      "background_group": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": ""
+                        },
+                        "border_color_type": "solid",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#FFFFFF"
+                          },
+                          "shadow": {
+                            "hex": ""
+                          }
+                        }
+                      },
+                      "caption": "",
+                      "costco_url": {
+                        "title": "",
+                        "external_site": false,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "disclaimer": "",
+                      "disclaimer_markdown": "",
+                      "enable_caption": false,
+                      "enable_custom_background": true,
+                      "enable_disclaimer": false,
+                      "enable_mobile_image_variation": false,
+                      "enable_product_linked": false,
+                      "enable_sponsored": false,
+                      "enable_text_content": true,
+                      "image": [
+                        {
+                          "id": "5559q4kbbgp5mzwtfqr9x6xm",
+                          "url": "https://cdn.bfldr.com/56O3HXZ9/as/5559q4kbbgp5mzwtfqr9x6xm/11_23_UF_Financial_Connection?auto=webp&format=jpg",
+                          "filename": "11_23_UF_Financial_Connection.jpg",
+                          "extension": "jpg",
+                          "dimensions": {
+                            "width": 910,
+                            "height": 650
+                          },
+                          "mimetype": "image/jpeg"
+                        }
+                      ],
+                      "image_alt_text": "a person holding a toy car and gold coins",
+                      "mobile_image": [],
+                      "mobile_image_alt_text": "",
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "privacy_toggle": {
+                        "disable_third_party_tracking": false
+                      },
+                      "product_link": {},
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_content": [
+                        {
+                          "markdown_text": {
+                            "select_text_type": "caption_v2",
+                            "select_semantics_type": null,
+                            "markdown_text": "© RACLE FOTODESIGN / STOCK.ADOBE.COM",
+                            "color": {}
+                          }
+                        }
+                      ],
+                      "text_content_above_below_the_ad_styles": [
+                        {
+                          "above_below_the_ad_styles": {
+                            "text_alignment": "center"
+                          }
+                        }
+                      ],
+                      "text_content_overlay_styles": [],
+                      "text_content_placement": "below_the_ad",
+                      "top_and_bottom_strip": [],
+                      "top_and_bottom_text_banner": [],
+                      "use_mobile_image_alt_text": false,
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_image": [],
+                            "icon_alt_text": ""
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "title_with_xl_v2",
+                              "select_semantics_type": "h1",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Sauvetage financier",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h2",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Il n'est jamais trop tôt pour apprendre à épargner pour les achats importants",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "LANA SANICHAR",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Nous préparons nos enfants pour le futur de différentes façons. Nous leur apprenons à cuisiner et à conduire. Nous leur montrons l'importance du travail acharné pour la réussite des objectifs. Enfin, nous les instruisons en matières financières.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Dans le premier article de cette série de quatre, Fred Masters, ancien formateur professionnel et président de Masters Money Management Inc., a indiqué que « l'épargne extrême » est essentielle au succès financier des jeunes.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Voici quelques objectifs à viser en discutant et en donnant l'exemple de la mentalité de « l'épargne extrême » avec nos adolescents et jeunes adultes.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "**Coût d'études postsecondaires.** Des dépenses majeures attendent les adolescents et jeunes adultes. Le coût des études postsecondaires figure parmi les plus importantes. Il importe d'économiser une portion importante du revenu d'emploi à temps partiel pour couvrir les frais scolaires, puisque les coûts associés aux droits de scolarité, aux livres, aux fournitures scolaires, à la nourriture et au divertissement approchent.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "**Première voiture.** C'est facile d'emprunter la voiture de ses parents, mais en acheter une est une autre histoire. Une bonne voiture d'occasion coûte des milliers de dollars. Économiser une partie du revenu d'emploi à temps partiel réduit les dettes relevant de l'achat du premier véhicule pour qu'il soit toujours rempli, fonctionnel et assuré.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "**Premier appartement.** Nous voulons que nos enfants quittent le nid au bon moment, et ils veulent se lancer eux aussi. Économiser d'avance facilite le paiement des frais associés à un premier appartement et déclenche un bon départ dans la vie adulte.",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Ceci conclut la série sur la jeunesse et l'argent. Les parents sont les premiers enseignants dans divers domaines cruciaux, et la finance personnelle ne fait pas exception. Les parents enseignent beaucoup de leçons financières à leurs enfants. La littératie financière est enseignée à l'école, mais les leçons sur l'argent enseignées au foyer, sur le plan formel ou informel, sont précieuses.",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Sauvetage financier - Il n'est jamais trop tôt pour apprendre à épargner pour les achats importants - 1764834638935 - 1772105076144",
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "content_divider_block": {
+                "content_divider_ref": [
+                  {
+                    "_content_type_uid": "content_divider",
+                    "entry": {
+                      "title": "Career Opportunities - 1772105078287",
+                      "direction": "horizontal",
+                      "color": {
+                        "hsl": {
+                          "h": 0,
+                          "s": 0,
+                          "l": 0.5,
+                          "a": 1
+                        },
+                        "hex": "#808080",
+                        "rgb": {
+                          "r": 128,
+                          "g": 128,
+                          "b": 128,
+                          "a": 1
+                        },
+                        "hsv": {
+                          "h": 0,
+                          "s": 0,
+                          "v": 0.5,
+                          "a": 1
+                        },
+                        "oldHue": 0,
+                        "source": "hex"
+                      },
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_image": [],
+                            "icon_alt_text": ""
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "*Veuillez faire votre propre vérification préalable à toute décision financière. Cette chronique est présentée à titre d'information générale et peut ne pas s'appliquer à toutes les provinces. Elle ne doit pas être utilisée en lieu et place des conseils d'un professionnel.*",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "French Disclaimer Text - 1772105080475",
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "content_divider_block": {
+                "content_divider_ref": [
+                  {
+                    "_content_type_uid": "content_divider",
+                    "entry": {
+                      "title": "Career Opportunities - 1772105082635",
+                      "direction": "horizontal",
+                      "color": {
+                        "hsl": {
+                          "h": 0,
+                          "s": 0,
+                          "l": 0.5,
+                          "a": 1
+                        },
+                        "hex": "#808080",
+                        "rgb": {
+                          "r": 128,
+                          "g": 128,
+                          "b": 128,
+                          "a": 1
+                        },
+                        "hsv": {
+                          "h": 0,
+                          "s": 0,
+                          "v": 0.5,
+                          "a": 1
+                        },
+                        "oldHue": 0,
+                        "source": "hex"
+                      },
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "text_builder_block": {
+                "text_builder_ref": [
+                  {
+                    "_content_type_uid": "text_builder",
+                    "entry": {
+                      "multiple_text_section_group": [
+                        {
+                          "color_config": {},
+                          "text_section_icon": {
+                            "icon_image": [],
+                            "icon_alt_text": ""
+                          },
+                          "text_section_content": [
+                            {
+                              "select_text_type": "subheading_v2",
+                              "select_semantics_type": "h3",
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "**Économies averties**",
+                              "color": {}
+                            },
+                            {
+                              "select_text_type": "body_copy_v2",
+                              "select_semantics_type": null,
+                              "text_alignment": "left",
+                              "enable_custom_tag_parsing": false,
+                              "markdown_text": "Selon l'Agence de la consommation en matière financière du Canada, la moitié des Canadiens âgés de 18 à 24 ans ont des prêts étudiants. La proportion avec un solde impayé baisse avec l'âge; près de 36 % pour ceux âgés de 25 à 29 ans et 21 % pour ceux de 30 à 34. Après l'âge de 35 ans, environ 5 % des Canadiens ont toujours un solde impayé. Les Canadiens de moins de 35 ans qui respectent un budget (29 %) sont moins susceptibles d'avoir un prêt étudiant que ceux qui se sentent trop accablés pour créer un budget (36 %).—LS",
+                              "color": {}
+                            }
+                          ]
+                        }
+                      ],
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "text_section_config": {
+                        "see_more_see_less_capability": false,
+                        "text_section_alignment": "left",
+                        "text_section_type": "full"
+                      },
+                      "title": "Économies averties - 1764834639000 - Saving-grace - 1772105084787",
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "content_divider_block": {
+                "content_divider_ref": [
+                  {
+                    "_content_type_uid": "content_divider",
+                    "entry": {
+                      "title": "Career Opportunities - 1772105086881",
+                      "direction": "horizontal",
+                      "color": {
+                        "hsl": {
+                          "h": 0,
+                          "s": 0,
+                          "l": 0.5,
+                          "a": 1
+                        },
+                        "hex": "#808080",
+                        "rgb": {
+                          "r": 128,
+                          "g": 128,
+                          "b": 128,
+                          "a": 1
+                        },
+                        "hsv": {
+                          "h": 0,
+                          "s": 0,
+                          "v": 0.5,
+                          "a": 1
+                        },
+                        "oldHue": 0,
+                        "source": "hex"
+                      },
+                      "platform_config_block": {
+                        "platform_aplicability": "mobile_web",
+                        "ios_version_support": "",
+                        "android_version_support": ""
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "ad_set_costco_block": {
+                "ad_set_costco_ref": [
+                  {
+                    "_content_type_uid": "ad_set_costco",
+                    "entry": {
+                      "title": "Lana Sanichar Profile - 1764058053655 - 1765190137665 - 1772105093768",
+                      "ad_set_heading_and_costco_url": {
+                        "title": "",
+                        "url": "",
+                        "external_site": false,
+                        "reference_link": false,
+                        "content_type_uid": "",
+                        "entry_title": "",
+                        "entry_uid": "",
+                        "page_id": "",
+                        "open_as_pop_up": false
+                      },
+                      "item_type": "ad",
+                      "ad_set_style": "static",
+                      "ad_content": [
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "ad_type": "one_fourth",
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": ""
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "no-border",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": ""
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "caption": "",
+                                  "costco_url": {
+                                    "title": "",
+                                    "url": "",
+                                    "external_site": false,
+                                    "same_tab_domain": false,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_caption": false,
+                                  "enable_custom_background": false,
+                                  "enable_disclaimer": false,
+                                  "enable_mobile_image_variation": false,
+                                  "enable_product_linked": false,
+                                  "enable_sponsored": false,
+                                  "enable_text_content": true,
+                                  "image": [
+                                    {
+                                      "id": "bjhvvx53wr6cffwsmj7jx6f4",
+                                      "url": "https://cdn.bfldr.com/56O3HXZ9/as/bjhvvx53wr6cffwsmj7jx6f4/Lana_Sanichar_Headshot?auto=webp&format=jpg",
+                                      "filename": "Lana_Sanichar_Headshot.jpg",
+                                      "extension": "jpg",
+                                      "dimensions": {
+                                        "width": 308,
+                                        "height": 349
+                                      },
+                                      "mimetype": "image/jpeg"
+                                    }
+                                  ],
+                                  "image_alt_text": "woman's headshot",
+                                  "mobile_image": [],
+                                  "mobile_image_alt_text": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "product_link": {},
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "text_content": [
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "caption_v2",
+                                        "select_semantics_type": "h3",
+                                        "markdown_text": "GRACIEUSETÉ DE LANA SANICHAR",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "center"
+                                      }
+                                    }
+                                  ],
+                                  "text_content_overlay_styles": [],
+                                  "text_content_placement": "below_the_ad",
+                                  "title": "Lana Sanichar Profile - 1764058053272 - 1765190136885 - Financial Connection - Saving grace-73X3aV - 1772105089267",
+                                  "top_and_bottom_strip": [],
+                                  "top_and_bottom_text_banner": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "ad_builder_block": {
+                            "ad_builder_ref": [
+                              {
+                                "_content_type_uid": "ad_builder",
+                                "entry": {
+                                  "title": "Lana Sanichar Profile - 2 - 1765190137269 - Financial Connection - Saving grace-hDiPs6 - 1772105091451",
+                                  "privacy_toggle": {
+                                    "disable_third_party_tracking": false
+                                  },
+                                  "ad_type": "full",
+                                  "image": [],
+                                  "image_alt_text": "",
+                                  "enable_mobile_image_variation": false,
+                                  "mobile_image": [],
+                                  "use_mobile_image_alt_text": false,
+                                  "mobile_image_alt_text": "",
+                                  "costco_url": {
+                                    "title": "",
+                                    "url": "",
+                                    "external_site": false,
+                                    "same_tab_domain": false,
+                                    "reference_link": false,
+                                    "content_type_uid": "",
+                                    "entry_title": "",
+                                    "entry_uid": "",
+                                    "page_id": "",
+                                    "open_as_pop_up": false
+                                  },
+                                  "enable_product_linked": false,
+                                  "product_link": {},
+                                  "top_and_bottom_text_banner": [],
+                                  "top_and_bottom_strip": [],
+                                  "enable_text_content": true,
+                                  "text_content": [
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": "h3",
+                                        "markdown_text": "**Lana Sanichar** est présidente et rédactrice en chef du magazine *Canadian MoneySaver**.",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "body_copy_v2",
+                                        "select_semantics_type": "h3",
+                                        "markdown_text": "Faire parvenir toute suggestion d'article à *moneyinfo@canadianmoneysaver.ca*.",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "markdown_text": {
+                                        "select_text_type": "caption_v2",
+                                        "select_semantics_type": "h3",
+                                        "markdown_text": "* En anglais",
+                                        "color": {
+                                          "background_gradient_style": "solid",
+                                          "background_color": {
+                                            "hex": "#FFFFFF"
+                                          },
+                                          "background_gradient_color": {
+                                            "color1": {
+                                              "hex": ""
+                                            },
+                                            "color2": {
+                                              "hex": ""
+                                            }
+                                          },
+                                          "text_color": {
+                                            "hex": "#333333"
+                                          },
+                                          "border_color_type": "no-border",
+                                          "border_color": {
+                                            "solid": {
+                                              "hex": "#cccccc"
+                                            },
+                                            "shadow": {
+                                              "hex": "#cccccc"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "text_content_placement": "overlay",
+                                  "text_content_overlay_styles": [
+                                    {
+                                      "overlay_style": {
+                                        "applicability": "default",
+                                        "overlay_fill_type": "horizontal",
+                                        "overlay_fill_": "100",
+                                        "overlay_position": "left",
+                                        "text_alignment": "middle",
+                                        "overlay_background_color": {}
+                                      }
+                                    }
+                                  ],
+                                  "text_content_above_below_the_ad_styles": [
+                                    {
+                                      "above_below_the_ad_styles": {
+                                        "text_alignment": "left"
+                                      }
+                                    }
+                                  ],
+                                  "enable_custom_background": false,
+                                  "background_group": {
+                                    "background_gradient_style": "solid",
+                                    "background_color": {
+                                      "hex": ""
+                                    },
+                                    "background_gradient_color": {
+                                      "color1": {
+                                        "hex": ""
+                                      },
+                                      "color2": {
+                                        "hex": ""
+                                      }
+                                    },
+                                    "text_color": {
+                                      "hex": ""
+                                    },
+                                    "border_color_type": "no-border",
+                                    "border_color": {
+                                      "solid": {
+                                        "hex": ""
+                                      },
+                                      "shadow": {
+                                        "hex": ""
+                                      }
+                                    }
+                                  },
+                                  "enable_disclaimer": false,
+                                  "disclaimer": "",
+                                  "disclaimer_markdown": "",
+                                  "enable_sponsored": false,
+                                  "enable_caption": false,
+                                  "caption": "",
+                                  "platform_config_block": {
+                                    "platform_aplicability": "mobile_web",
+                                    "ios_version_support": "",
+                                    "android_version_support": ""
+                                  },
+                                  "tags": [
+                                    "migrated-from-cms"
+                                  ],
+                                  "locale": "en-ca"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "ad_set_background": {
+                        "title_background_color": {},
+                        "title_background_transparency": "1",
+                        "body_background_color": {},
+                        "body_background_transparency": "1"
+                      },
+                      "background_foreground_banner_group": {
+                        "background_banner_button_alignment": "horizontal",
+                        "background_banner_image_alignment": "top",
+                        "background_banner_reference": [],
+                        "foreground_banner_group": []
+                      },
+                      "caption": "",
+                      "category_content": {
+                        "category_items": [],
+                        "image_form_factor": "rounded",
+                        "background_color": {},
+                        "category_set_title_alignment": "left",
+                        "category_content_placement": null
+                      },
+                      "custom_background": false,
+                      "enable_background_foreground_banner": false,
+                      "platform_config_block": {
+                        "android_version_support": "",
+                        "ios_version_support": "",
+                        "platform_aplicability": "mobile_web"
+                      },
+                      "product_content": {
+                        "product_list": {}
+                      },
+                      "product_display_style": {
+                        "product_card_display_style": "compact",
+                        "show_action_button": true,
+                        "show_reviews": true,
+                        "inventory_aware_listings": false,
+                        "product_tile_data_source": null
+                      },
+                      "rotating_options": {
+                        "multi_item_carousel": false,
+                        "enable_autoplay": false,
+                        "enable_two_row_display": false,
+                        "randomize_items": false,
+                        "enable_peek_a_boo": false
+                      },
+                      "static_options": {
+                        "display_style": "multi_row",
+                        "maximum_tiles_per_row": 5
+                      },
+                      "tags": [
+                        "migrated-from-cms"
+                      ],
+                      "locale": "en-ca"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "right_column_composer": []
+        }
+      }
+    ],
+    "page_id": "costco.ca_connection-financial-connection-saving-grace-november-2023-12345",
+    "page_type": "feature",
+    "seo_metadata": {
+      "meta_title": "Financial Connection - Saving grace  | Costco",
+      "meta_description": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "title": "Financial Connection - Saving grace - 1772105096016",
+    "locale": "en-ca"
+  }
+}

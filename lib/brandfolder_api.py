@@ -303,6 +303,12 @@ class BrandfolderAPI:
             attachments = response.get('included', [])
             cdn_url = asset.get('attributes', {}).get('cdn_url') or asset.get('attributes', {}).get('url')
             
+            # Clean up CDN URL - remove transformation parameters that can cause timeouts
+            if cdn_url and '?' in cdn_url:
+                # Remove query parameters from CDN URL
+                cdn_url = cdn_url.split('?')[0]
+                print(f"[BRANDFOLDER] Cleaned CDN URL (removed transformation params)")
+            
             # Debug: Log the full API response for dimensions
             print(f"[BRANDFOLDER] DEBUG: Asset attributes: {asset.get('attributes', {})}")
             print(f"[BRANDFOLDER] DEBUG: Number of attachments: {len(attachments)}")
@@ -334,7 +340,7 @@ class BrandfolderAPI:
                 print(f"[BRANDFOLDER] CDN URL: {cdn_url}")
                 print(f"[BRANDFOLDER] Error: {cdn_error}")
                 
-                if hasattr(cdn_error, 'response') and cdn_error.response.status_code == 422:
+                if hasattr(cdn_error, 'response') and cdn_error.response and hasattr(cdn_error.response, 'status_code') and cdn_error.response.status_code == 422:
                     print("[BRANDFOLDER] ⚠️  CDN returned 422 error - asset may have been processed incorrectly")
                     print("[BRANDFOLDER] ⚠️  This asset should have been deleted and re-uploaded with proper metadata")
             

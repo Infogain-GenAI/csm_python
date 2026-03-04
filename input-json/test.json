@@ -1,1472 +1,379 @@
 {
-  "entry": {
-    "locale": "en-us",
-    "breadcrumb_page_title_options": {
-      "page_title": "Coffee Supplies",
-      "breadcrumb_title": "Coffee Supplies",
-      "disable_h1": false
-    },
-    "index_position": null,
-    "page_composer": [
-      {
-        "row": {
-          "row_composer": [
+    "entry": {
+        "uid": "blt9594eb486fc495b4",
+        "locale": "en-ca",
+        "ACL": {},
+        "_in_progress": false,
+        "_version": 5,
+        "breadcrumb_page_title_options": {
+            "page_title": "",
+            "breadcrumb_title": "July Edition",
+            "disable_h1": false
+        },
+        "created_at": "2026-02-05T10:33:17.376Z",
+        "created_by": "blt75acb9c87b4e5457",
+        "index_position": null,
+        "page_composer": [
             {
-              "ad_builder_block": {
-                "ad_builder_ref": [
-                  {
-                    "_content_type_uid": "ad_builder",
-                    "entry": {
-                      "locale": "en-us",
-                      "ad_type": "full",
-                      "background_group": {},
-                      "caption": "",
-                      "costco_url": {
-                        "title": "",
-                        "url": "",
-                        "external_site": false,
-                        "same_tab_domain": true,
-                        "reference_link": false,
-                        "content_type_uid": "",
-                        "entry_title": "",
-                        "entry_uid": "",
-                        "page_id": "",
-                        "open_as_pop_up": false
-                      },
-                      "disclaimer": "",
-                      "disclaimer_markdown": "",
-                      "enable_caption": false,
-                      "enable_custom_background": false,
-                      "enable_disclaimer": false,
-                      "enable_mobile_image_variation": false,
-                      "enable_product_linked": false,
-                      "enable_sponsored": false,
-                      "enable_text_content": false,
-                      "image": [
+                "column": {
+                    "select_layout_ratio": "25/75",
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs5262c89f53ab0ea2"
+                    },
+                    "left_column_composer": [
                         {
-                          "id": "",
-                          "url": "/wcsstore/USBD/featurepage/coffee/hero.png",
-                          "filename": "hero.png",
-                          "extension": "png",
-                          "dimensions": {},
-                          "mimetype": "image/png"
+                            "ad_builder_block": {
+                                "ad_builder_ref": [
+                                    {
+                                        "uid": "blte9929b033d860b55",
+                                        "_content_type_uid": "ad_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "csa2c49b7f8eb35253"
+                                }
+                            }
                         }
-                      ],
-                      "image_alt_text": "Coffee Supplies",
-                      "mobile_image": [],
-                      "mobile_image_alt_text": "",
-                      "platform_config_block": {
-                        "platform_aplicability": "mobile_web",
-                        "ios_version_support": "",
-                        "android_version_support": ""
-                      },
-                      "privacy_toggle": {
-                        "disable_third_party_tracking": false
-                      },
-                      "product_link": {},
-                      "tags": [],
-                      "text_content": [],
-                      "text_content_above_below_the_ad_styles": [],
-                      "text_content_overlay_styles": [],
-                      "text_content_placement": "overlay",
-                      "title": "Coffee Supplies - Coffee Supplies-s8afGq",
-                      "top_and_bottom_strip": [],
-                      "top_and_bottom_text_banner": [],
-                      "use_mobile_image_alt_text": false,
-                      "_original_title": "Coffee Supplies"
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "row": {
-          "row_composer": [
+                    ],
+                    "column_content_divider_ref": [],
+                    "right_column_composer": [
+                        {
+                            "link_list_with_flyout_references_block": {
+                                "link_list_with_flyout_references_ref": [
+                                    {
+                                        "uid": "blt8da078275c6d1ae7",
+                                        "_content_type_uid": "link_list_with_flyout_references"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs5fbda19c4b8b518a"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
             {
-              "ad_set_costco_block": {
-                "ad_set_costco_ref": [
-                  {
-                    "_content_type_uid": "ad_set_costco",
-                    "entry": {
-                      "locale": "en-us",
-                      "title": "Coffee Tea and Drink Mixes - 1759225300000 - 1765187658387",
-                      "ad_set_heading_and_costco_url": {
-                        "title": "",
-                        "url": "",
-                        "external_site": false,
-                        "reference_link": false,
-                        "content_type_uid": "",
-                        "entry_title": "",
-                        "entry_uid": "",
-                        "page_id": "",
-                        "open_as_pop_up": false
-                      },
-                      "item_type": "ad",
-                      "ad_set_style": "static",
-                      "ad_content": [
+                "row": {
+                    "placement_name": "",
+                    "add_to_index": false,
+                    "row_composer": [
                         {
-                          "ad_builder_block": {
-                            "ad_builder_ref": [
-                              {
-                                "_content_type_uid": "ad_builder",
-                                "entry": {
-                                  "locale": "en-us",
-                                  "ad_type": "one_third",
-                                  "background_group": {
-                                    "background_gradient_style": "solid",
-                                    "background_color": {
-                                      "hex": "#FFFFFF"
-                                    },
-                                    "background_gradient_color": {
-                                      "color1": {
-                                        "hex": ""
-                                      },
-                                      "color2": {
-                                        "hex": ""
-                                      }
-                                    },
-                                    "text_color": {
-                                      "hex": ""
-                                    },
-                                    "border_color_type": "no-border",
-                                    "border_color": {
-                                      "solid": {
-                                        "hex": ""
-                                      },
-                                      "shadow": {
-                                        "hex": ""
-                                      }
-                                    }
-                                  },
-                                  "caption": "",
-                                  "costco_url": {
-                                    "title": "Coffee",
-                                    "url": "/coffee.html",
-                                    "external_site": false,
-                                    "same_tab_domain": true,
-                                    "reference_link": false,
-                                    "content_type_uid": "",
-                                    "entry_title": "",
-                                    "entry_uid": "",
-                                    "page_id": "",
-                                    "open_as_pop_up": false
-                                  },
-                                  "disclaimer": "",
-                                  "disclaimer_markdown": "",
-                                  "enable_caption": false,
-                                  "enable_custom_background": true,
-                                  "enable_disclaimer": false,
-                                  "enable_mobile_image_variation": false,
-                                  "enable_product_linked": false,
-                                  "enable_sponsored": false,
-                                  "enable_text_content": false,
-                                  "image": [
+                            "content_divider_block": {
+                                "content_divider_ref": [
                                     {
-                                      "id": "ctphvnsmc39hfx79t2nchk1",
-                                      "url": "/wcsstore/USBD/featurepage/coffee/coffee.png",
-                                      "filename": "coffee.png",
-                                      "extension": "png",
-                                      "dimensions": {},
-                                      "mimetype": "image/png"
+                                        "uid": "bltb6bbe337ffd26dc6",
+                                        "_content_type_uid": "content_divider"
                                     }
-                                  ],
-                                  "image_alt_text": "Coffee",
-                                  "mobile_image": [],
-                                  "mobile_image_alt_text": "",
-                                  "platform_config_block": {
-                                    "platform_aplicability": "mobile_web",
-                                    "ios_version_support": "",
-                                    "android_version_support": ""
-                                  },
-                                  "privacy_toggle": {
-                                    "disable_third_party_tracking": false
-                                  },
-                                  "product_link": {},
-                                  "tags": [
-                                    "migrated-from-cms"
-                                  ],
-                                  "text_content": [],
-                                  "text_content_above_below_the_ad_styles": [
-                                    {
-                                      "above_below_the_ad_styles": {
-                                        "text_alignment": "center"
-                                      }
-                                    }
-                                  ],
-                                  "text_content_overlay_styles": [],
-                                  "text_content_placement": null,
-                                  "title": "Coffee - 1759225300001 - 1765187658018 - Coffee Supplies-owqwLX",
-                                  "top_and_bottom_strip": [],
-                                  "top_and_bottom_text_banner": [],
-                                  "use_mobile_image_alt_text": false,
-                                  "url": "/adbuilder/bltece5500ec5632f46",
-                                  "_original_title": "Coffee - 1759225300001 - 1765187658018"
+                                ],
+                                "_metadata": {
+                                    "uid": "csfb54cc4aa5571237"
                                 }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "ad_builder_block": {
-                            "ad_builder_ref": [
-                              {
-                                "_content_type_uid": "ad_builder",
-                                "entry": {
-                                  "locale": "en-us",
-                                  "ad_type": "one_third",
-                                  "background_group": {
-                                    "background_gradient_style": "solid",
-                                    "background_color": {
-                                      "hex": "#FFFFFF"
-                                    },
-                                    "background_gradient_color": {
-                                      "color1": {
-                                        "hex": ""
-                                      },
-                                      "color2": {
-                                        "hex": ""
-                                      }
-                                    },
-                                    "text_color": {
-                                      "hex": ""
-                                    },
-                                    "border_color_type": "no-border",
-                                    "border_color": {
-                                      "solid": {
-                                        "hex": ""
-                                      },
-                                      "shadow": {
-                                        "hex": ""
-                                      }
-                                    }
-                                  },
-                                  "caption": "",
-                                  "costco_url": {
-                                    "title": "Tea",
-                                    "url": "tea.html",
-                                    "external_site": false,
-                                    "same_tab_domain": true,
-                                    "reference_link": false,
-                                    "content_type_uid": "",
-                                    "entry_title": "",
-                                    "entry_uid": "",
-                                    "page_id": "",
-                                    "open_as_pop_up": false
-                                  },
-                                  "disclaimer": "",
-                                  "disclaimer_markdown": "",
-                                  "enable_caption": false,
-                                  "enable_custom_background": true,
-                                  "enable_disclaimer": false,
-                                  "enable_mobile_image_variation": false,
-                                  "enable_product_linked": false,
-                                  "enable_sponsored": false,
-                                  "enable_text_content": false,
-                                  "image": [
-                                    {
-                                      "id": "ctphvnsmc39hfx79t2nchk2",
-                                      "url": "/wcsstore/USBD/featurepage/coffee/tea.png",
-                                      "filename": "tea.png",
-                                      "extension": "png",
-                                      "dimensions": {},
-                                      "mimetype": "image/png"
-                                    }
-                                  ],
-                                  "image_alt_text": "Tea",
-                                  "mobile_image": [],
-                                  "mobile_image_alt_text": "",
-                                  "platform_config_block": {
-                                    "platform_aplicability": "mobile_web",
-                                    "ios_version_support": "",
-                                    "android_version_support": ""
-                                  },
-                                  "privacy_toggle": {
-                                    "disable_third_party_tracking": false
-                                  },
-                                  "product_link": {},
-                                  "tags": [
-                                    "migrated-from-cms"
-                                  ],
-                                  "text_content": [],
-                                  "text_content_above_below_the_ad_styles": [
-                                    {
-                                      "above_below_the_ad_styles": {
-                                        "text_alignment": "center"
-                                      }
-                                    }
-                                  ],
-                                  "text_content_overlay_styles": [],
-                                  "text_content_placement": null,
-                                  "title": "Tea - 1759225300002 - 1765187658019 - Coffee Supplies-aVwYIR",
-                                  "top_and_bottom_strip": [],
-                                  "top_and_bottom_text_banner": [],
-                                  "use_mobile_image_alt_text": false,
-                                  "url": "/adbuilder/bltece5500ec5632f47",
-                                  "_original_title": "Tea - 1759225300002 - 1765187658019"
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "ad_builder_block": {
-                            "ad_builder_ref": [
-                              {
-                                "_content_type_uid": "ad_builder",
-                                "entry": {
-                                  "locale": "en-us",
-                                  "ad_type": "one_third",
-                                  "background_group": {
-                                    "background_gradient_style": "solid",
-                                    "background_color": {
-                                      "hex": "#FFFFFF"
-                                    },
-                                    "background_gradient_color": {
-                                      "color1": {
-                                        "hex": ""
-                                      },
-                                      "color2": {
-                                        "hex": ""
-                                      }
-                                    },
-                                    "text_color": {
-                                      "hex": ""
-                                    },
-                                    "border_color_type": "no-border",
-                                    "border_color": {
-                                      "solid": {
-                                        "hex": ""
-                                      },
-                                      "shadow": {
-                                        "hex": ""
-                                      }
-                                    }
-                                  },
-                                  "caption": "",
-                                  "costco_url": {
-                                    "title": "Drink Mixes",
-                                    "url": "drink-mixes.html",
-                                    "external_site": false,
-                                    "same_tab_domain": true,
-                                    "reference_link": false,
-                                    "content_type_uid": "",
-                                    "entry_title": "",
-                                    "entry_uid": "",
-                                    "page_id": "",
-                                    "open_as_pop_up": false
-                                  },
-                                  "disclaimer": "",
-                                  "disclaimer_markdown": "",
-                                  "enable_caption": false,
-                                  "enable_custom_background": true,
-                                  "enable_disclaimer": false,
-                                  "enable_mobile_image_variation": false,
-                                  "enable_product_linked": false,
-                                  "enable_sponsored": false,
-                                  "enable_text_content": false,
-                                  "image": [
-                                    {
-                                      "id": "ctphvnsmc39hfx79t2nchk3",
-                                      "url": "/wcsstore/USBD/featurepage/coffee/mixes.png",
-                                      "filename": "mixes.png",
-                                      "extension": "png",
-                                      "dimensions": {},
-                                      "mimetype": "image/png"
-                                    }
-                                  ],
-                                  "image_alt_text": "Drink Mixes",
-                                  "mobile_image": [],
-                                  "mobile_image_alt_text": "",
-                                  "platform_config_block": {
-                                    "platform_aplicability": "mobile_web",
-                                    "ios_version_support": "",
-                                    "android_version_support": ""
-                                  },
-                                  "privacy_toggle": {
-                                    "disable_third_party_tracking": false
-                                  },
-                                  "product_link": {},
-                                  "tags": [
-                                    "migrated-from-cms"
-                                  ],
-                                  "text_content": [],
-                                  "text_content_above_below_the_ad_styles": [
-                                    {
-                                      "above_below_the_ad_styles": {
-                                        "text_alignment": "center"
-                                      }
-                                    }
-                                  ],
-                                  "text_content_overlay_styles": [],
-                                  "text_content_placement": null,
-                                  "title": "Drink Mixes - 1759225300003 - 1765187658020 - Coffee Supplies-NsOWLS",
-                                  "top_and_bottom_strip": [],
-                                  "top_and_bottom_text_banner": [],
-                                  "use_mobile_image_alt_text": false,
-                                  "url": "/adbuilder/bltece5500ec5632f48",
-                                  "_original_title": "Drink Mixes - 1759225300003 - 1765187658020"
-                                }
-                              }
-                            ]
-                          }
+                            }
                         }
-                      ],
-                      "ad_set_background": {
-                        "title_background_color": {},
-                        "title_background_transparency": "1",
-                        "body_background_color": {},
-                        "body_background_transparency": "1"
-                      },
-                      "background_foreground_banner_group": {
-                        "background_banner_button_alignment": "horizontal",
-                        "background_banner_image_alignment": "top",
-                        "background_banner_reference": [],
-                        "foreground_banner_group": []
-                      },
-                      "caption": "",
-                      "category_content": {
-                        "category_items": [],
-                        "image_form_factor": "rounded",
-                        "background_color": {},
-                        "category_set_title_alignment": "left",
-                        "category_content_placement": null
-                      },
-                      "custom_background": false,
-                      "enable_background_foreground_banner": false,
-                      "platform_config_block": {
-                        "android_version_support": "",
-                        "ios_version_support": "",
-                        "platform_aplicability": "mobile_web"
-                      },
-                      "product_content": {
-                        "product_list": {}
-                      },
-                      "product_display_style": {
-                        "product_card_display_style": "compact",
-                        "show_action_button": true,
-                        "show_reviews": true,
-                        "inventory_aware_listings": false,
-                        "product_tile_data_source": null
-                      },
-                      "rotating_options": {
-                        "multi_item_carousel": false,
-                        "enable_autoplay": false,
-                        "enable_two_row_display": false,
-                        "randomize_items": false,
-                        "enable_peek_a_boo": false
-                      },
-                      "static_options": {
-                        "display_style": "multi_row",
-                        "maximum_tiles_per_row": 5
-                      },
-                      "tags": [
-                        "migrated-from-cms"
-                      ]
+                    ],
+                    "_metadata": {
+                        "uid": "cs4f7b9240c03b8574"
                     }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "row": {
-          "row_composer": [
+                }
+            },
             {
-              "ad_set_costco_block": {
-                "ad_set_costco_ref": [
-                  {
-                    "_content_type_uid": "ad_set_costco",
-                    "entry": {
-                      "locale": "en-us",
-                      "title": "Coffee Accessories - 1759225300000 - 1765187658387",
-                      "ad_set_heading_and_costco_url": {
-                        "title": "",
-                        "url": "",
-                        "external_site": false,
-                        "reference_link": false,
-                        "content_type_uid": "",
-                        "entry_title": "",
-                        "entry_uid": "",
-                        "page_id": "",
-                        "open_as_pop_up": false
-                      },
-                      "item_type": "ad",
-                      "ad_set_style": "static",
-                      "ad_content": [
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs864eb03ddfd338e0"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
                         {
-                          "ad_builder_block": {
-                            "ad_builder_ref": [
-                              {
-                                "_content_type_uid": "ad_builder",
-                                "entry": {
-                                  "locale": "en-us",
-                                  "ad_type": "one_fourth",
-                                  "background_group": {
-                                    "background_gradient_style": "solid",
-                                    "background_color": {
-                                      "hex": "#FFFFFF"
-                                    },
-                                    "background_gradient_color": {
-                                      "color1": {
-                                        "hex": ""
-                                      },
-                                      "color2": {
-                                        "hex": ""
-                                      }
-                                    },
-                                    "text_color": {
-                                      "hex": ""
-                                    },
-                                    "border_color_type": "no-border",
-                                    "border_color": {
-                                      "solid": {
-                                        "hex": ""
-                                      },
-                                      "shadow": {
-                                        "hex": ""
-                                      }
-                                    }
-                                  },
-                                  "caption": "",
-                                  "costco_url": {
-                                    "title": "Sugar, Sweetener & Syrups",
-                                    "url": "/sugar-sweetener-syrup.html",
-                                    "external_site": false,
-                                    "same_tab_domain": true,
-                                    "reference_link": false,
-                                    "content_type_uid": "",
-                                    "entry_title": "",
-                                    "entry_uid": "",
-                                    "page_id": "",
-                                    "open_as_pop_up": false
-                                  },
-                                  "disclaimer": "",
-                                  "disclaimer_markdown": "",
-                                  "enable_caption": false,
-                                  "enable_custom_background": true,
-                                  "enable_disclaimer": false,
-                                  "enable_mobile_image_variation": false,
-                                  "enable_product_linked": false,
-                                  "enable_sponsored": false,
-                                  "enable_text_content": false,
-                                  "image": [
+                            "text_builder_block": {
+                                "text_builder_ref": [
                                     {
-                                      "id": "ctphvnsmc39hfx79t2nchk6",
-                                      "url": "/wcsstore/USBD/featurepage/coffee/sugar.png",
-                                      "filename": "sugar.png",
-                                      "extension": "png",
-                                      "dimensions": {},
-                                      "mimetype": "image/png"
+                                        "uid": "blt186c2594709b1f58",
+                                        "_content_type_uid": "text_builder"
                                     }
-                                  ],
-                                  "image_alt_text": "Sugar, Sweetener & Syrups",
-                                  "mobile_image": [],
-                                  "mobile_image_alt_text": "",
-                                  "platform_config_block": {
-                                    "platform_aplicability": "mobile_web",
-                                    "ios_version_support": "",
-                                    "android_version_support": ""
-                                  },
-                                  "privacy_toggle": {
-                                    "disable_third_party_tracking": false
-                                  },
-                                  "product_link": {},
-                                  "tags": [
-                                    "migrated-from-cms"
-                                  ],
-                                  "text_content": [],
-                                  "text_content_above_below_the_ad_styles": [
-                                    {
-                                      "above_below_the_ad_styles": {
-                                        "text_alignment": "center"
-                                      }
-                                    }
-                                  ],
-                                  "text_content_overlay_styles": [],
-                                  "text_content_placement": null,
-                                  "title": "Sugar, Sweetener & Syrups - 1759225300001 - 1765187658018 - Coffee Supplies-W79UC5",
-                                  "top_and_bottom_strip": [],
-                                  "top_and_bottom_text_banner": [],
-                                  "use_mobile_image_alt_text": false,
-                                  "url": "/adbuilder/bltece5500ec5632f46",
-                                  "_original_title": "Sugar, Sweetener & Syrups - 1759225300001 - 1765187658018"
+                                ],
+                                "_metadata": {
+                                    "uid": "cse61c558c4531f0f1"
                                 }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "ad_builder_block": {
-                            "ad_builder_ref": [
-                              {
-                                "_content_type_uid": "ad_builder",
-                                "entry": {
-                                  "locale": "en-us",
-                                  "ad_type": "one_fourth",
-                                  "background_group": {
-                                    "background_gradient_style": "solid",
-                                    "background_color": {
-                                      "hex": "#FFFFFF"
-                                    },
-                                    "background_gradient_color": {
-                                      "color1": {
-                                        "hex": ""
-                                      },
-                                      "color2": {
-                                        "hex": ""
-                                      }
-                                    },
-                                    "text_color": {
-                                      "hex": ""
-                                    },
-                                    "border_color_type": "no-border",
-                                    "border_color": {
-                                      "solid": {
-                                        "hex": ""
-                                      },
-                                      "shadow": {
-                                        "hex": ""
-                                      }
-                                    }
-                                  },
-                                  "caption": "",
-                                  "costco_url": {
-                                    "title": "Flavored syrups & sauces",
-                                    "url": "/flavored-syrups-sauces.html",
-                                    "external_site": false,
-                                    "same_tab_domain": true,
-                                    "reference_link": false,
-                                    "content_type_uid": "",
-                                    "entry_title": "",
-                                    "entry_uid": "",
-                                    "page_id": "",
-                                    "open_as_pop_up": false
-                                  },
-                                  "disclaimer": "",
-                                  "disclaimer_markdown": "",
-                                  "enable_caption": false,
-                                  "enable_custom_background": true,
-                                  "enable_disclaimer": false,
-                                  "enable_mobile_image_variation": false,
-                                  "enable_product_linked": false,
-                                  "enable_sponsored": false,
-                                  "enable_text_content": false,
-                                  "image": [
-                                    {
-                                      "id": "ts43bk5vs3k3r4q9xhzmj5s",
-                                      "url": "/wcsstore/USBD/featurepage/coffee/syrups.png",
-                                      "filename": "syrups.png",
-                                      "extension": "png",
-                                      "dimensions": {},
-                                      "mimetype": "image/png"
-                                    }
-                                  ],
-                                  "image_alt_text": "Flavored syrups & sauces",
-                                  "mobile_image": [],
-                                  "mobile_image_alt_text": "",
-                                  "platform_config_block": {
-                                    "platform_aplicability": "mobile_web",
-                                    "ios_version_support": "",
-                                    "android_version_support": ""
-                                  },
-                                  "privacy_toggle": {
-                                    "disable_third_party_tracking": false
-                                  },
-                                  "product_link": {},
-                                  "tags": [
-                                    "migrated-from-cms"
-                                  ],
-                                  "text_content": [],
-                                  "text_content_above_below_the_ad_styles": [
-                                    {
-                                      "above_below_the_ad_styles": {
-                                        "text_alignment": "center"
-                                      }
-                                    }
-                                  ],
-                                  "text_content_overlay_styles": [],
-                                  "text_content_placement": null,
-                                  "title": "Flavored syrups & sauces - 1759225300002 - 1765187373607 - Coffee Supplies-I9HhOY",
-                                  "top_and_bottom_strip": [],
-                                  "top_and_bottom_text_banner": [],
-                                  "use_mobile_image_alt_text": false,
-                                  "url": "/adbuilder/bltdf86b9e4cb6263ca",
-                                  "_original_title": "Flavored syrups & sauces - 1759225300002 - 1765187373607"
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "ad_builder_block": {
-                            "ad_builder_ref": [
-                              {
-                                "_content_type_uid": "ad_builder",
-                                "entry": {
-                                  "locale": "en-us",
-                                  "ad_type": "one_fourth",
-                                  "background_group": {
-                                    "background_gradient_style": "solid",
-                                    "background_color": {
-                                      "hex": "#FFFFFF"
-                                    },
-                                    "background_gradient_color": {
-                                      "color1": {
-                                        "hex": ""
-                                      },
-                                      "color2": {
-                                        "hex": ""
-                                      }
-                                    },
-                                    "text_color": {
-                                      "hex": ""
-                                    },
-                                    "border_color_type": "no-border",
-                                    "border_color": {
-                                      "solid": {
-                                        "hex": ""
-                                      },
-                                      "shadow": {
-                                        "hex": ""
-                                      }
-                                    }
-                                  },
-                                  "caption": "",
-                                  "costco_url": {
-                                    "title": "Cups",
-                                    "url": "/disposable-cups.html",
-                                    "external_site": false,
-                                    "same_tab_domain": true,
-                                    "reference_link": false,
-                                    "content_type_uid": "",
-                                    "entry_title": "",
-                                    "entry_uid": "",
-                                    "page_id": "",
-                                    "open_as_pop_up": false
-                                  },
-                                  "disclaimer": "",
-                                  "disclaimer_markdown": "",
-                                  "enable_caption": false,
-                                  "enable_custom_background": true,
-                                  "enable_disclaimer": false,
-                                  "enable_mobile_image_variation": false,
-                                  "enable_product_linked": false,
-                                  "enable_sponsored": false,
-                                  "enable_text_content": false,
-                                  "image": [
-                                    {
-                                      "id": "rkjxc6g6kf3kmtmnjnkcx3",
-                                      "url": "/wcsstore/USBD/featurepage/coffee/cups.png",
-                                      "filename": "cups.png",
-                                      "extension": "png",
-                                      "dimensions": {},
-                                      "mimetype": "image/png"
-                                    }
-                                  ],
-                                  "image_alt_text": "Cups",
-                                  "mobile_image": [],
-                                  "mobile_image_alt_text": "",
-                                  "platform_config_block": {
-                                    "platform_aplicability": "mobile_web",
-                                    "ios_version_support": "",
-                                    "android_version_support": ""
-                                  },
-                                  "privacy_toggle": {
-                                    "disable_third_party_tracking": false
-                                  },
-                                  "product_link": {},
-                                  "tags": [
-                                    "migrated-from-cms"
-                                  ],
-                                  "text_content": [],
-                                  "text_content_above_below_the_ad_styles": [
-                                    {
-                                      "above_below_the_ad_styles": {
-                                        "text_alignment": "center"
-                                      }
-                                    }
-                                  ],
-                                  "text_content_overlay_styles": [],
-                                  "text_content_placement": null,
-                                  "title": "Cups - 1759225300003 - 1765187374145 - Coffee Supplies-sY47JJ",
-                                  "top_and_bottom_strip": [],
-                                  "top_and_bottom_text_banner": [],
-                                  "use_mobile_image_alt_text": false,
-                                  "url": "/adbuilder/blt9830589134e1f2da",
-                                  "_original_title": "Cups - 1759225300003 - 1765187374145"
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "ad_builder_block": {
-                            "ad_builder_ref": [
-                              {
-                                "_content_type_uid": "ad_builder",
-                                "entry": {
-                                  "locale": "en-us",
-                                  "ad_type": "one_fourth",
-                                  "background_group": {
-                                    "background_gradient_style": "solid",
-                                    "background_color": {
-                                      "hex": "#FFFFFF"
-                                    },
-                                    "background_gradient_color": {
-                                      "color1": {
-                                        "hex": ""
-                                      },
-                                      "color2": {
-                                        "hex": ""
-                                      }
-                                    },
-                                    "text_color": {
-                                      "hex": ""
-                                    },
-                                    "border_color_type": "no-border",
-                                    "border_color": {
-                                      "solid": {
-                                        "hex": ""
-                                      },
-                                      "shadow": {
-                                        "hex": ""
-                                      }
-                                    }
-                                  },
-                                  "caption": "",
-                                  "costco_url": {
-                                    "title": "Lids",
-                                    "url": "/disposable-lids.html",
-                                    "external_site": false,
-                                    "same_tab_domain": true,
-                                    "reference_link": false,
-                                    "content_type_uid": "",
-                                    "entry_title": "",
-                                    "entry_uid": "",
-                                    "page_id": "",
-                                    "open_as_pop_up": false
-                                  },
-                                  "disclaimer": "",
-                                  "disclaimer_markdown": "",
-                                  "enable_caption": false,
-                                  "enable_custom_background": true,
-                                  "enable_disclaimer": false,
-                                  "enable_mobile_image_variation": false,
-                                  "enable_product_linked": false,
-                                  "enable_sponsored": false,
-                                  "enable_text_content": false,
-                                  "image": [
-                                    {
-                                      "id": "j8rvtp9nxf4g3zvrv3hxwz43",
-                                      "url": "/wcsstore/USBD/featurepage/coffee/lids.png",
-                                      "filename": "lids.png",
-                                      "extension": "png",
-                                      "dimensions": {},
-                                      "mimetype": "image/png"
-                                    }
-                                  ],
-                                  "image_alt_text": "Lids",
-                                  "mobile_image": [],
-                                  "mobile_image_alt_text": "",
-                                  "platform_config_block": {
-                                    "platform_aplicability": "mobile_web",
-                                    "ios_version_support": "",
-                                    "android_version_support": ""
-                                  },
-                                  "privacy_toggle": {
-                                    "disable_third_party_tracking": false
-                                  },
-                                  "product_link": {},
-                                  "tags": [
-                                    "migrated-from-cms"
-                                  ],
-                                  "text_content": [],
-                                  "text_content_above_below_the_ad_styles": [
-                                    {
-                                      "above_below_the_ad_styles": {
-                                        "text_alignment": "center"
-                                      }
-                                    }
-                                  ],
-                                  "text_content_overlay_styles": [],
-                                  "text_content_placement": null,
-                                  "title": "Lids - 1759225300004 - 1765187374525 - Coffee Supplies-cImdbe",
-                                  "top_and_bottom_strip": [],
-                                  "top_and_bottom_text_banner": [],
-                                  "use_mobile_image_alt_text": false,
-                                  "url": "/adbuilder/blt24659c8e92b55e5b",
-                                  "_original_title": "Lids - 1759225300004 - 1765187374525"
-                                }
-                              }
-                            ]
-                          }
+                            }
                         }
-                      ],
-                      "ad_set_background": {
-                        "title_background_color": {},
-                        "title_background_transparency": "1",
-                        "body_background_color": {},
-                        "body_background_transparency": "1"
-                      },
-                      "background_foreground_banner_group": {
-                        "background_banner_button_alignment": "horizontal",
-                        "background_banner_image_alignment": "top",
-                        "background_banner_reference": [],
-                        "foreground_banner_group": []
-                      },
-                      "caption": "",
-                      "category_content": {
-                        "category_items": [],
-                        "image_form_factor": "rounded",
-                        "background_color": {},
-                        "category_set_title_alignment": "left",
-                        "category_content_placement": null
-                      },
-                      "custom_background": false,
-                      "enable_background_foreground_banner": false,
-                      "platform_config_block": {
-                        "android_version_support": "",
-                        "ios_version_support": "",
-                        "platform_aplicability": "mobile_web"
-                      },
-                      "product_content": {
-                        "product_list": {}
-                      },
-                      "product_display_style": {
-                        "product_card_display_style": "compact",
-                        "show_action_button": true,
-                        "show_reviews": true,
-                        "inventory_aware_listings": false,
-                        "product_tile_data_source": null
-                      },
-                      "rotating_options": {
-                        "multi_item_carousel": false,
-                        "enable_autoplay": false,
-                        "enable_two_row_display": false,
-                        "randomize_items": false,
-                        "enable_peek_a_boo": false
-                      },
-                      "static_options": {
-                        "display_style": "multi_row",
-                        "maximum_tiles_per_row": 5
-                      },
-                      "tags": [
-                        "migrated-from-cms"
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "row": {
-          "row_composer": [
+                    ]
+                }
+            },
             {
-              "ad_set_costco_block": {
-                "ad_set_costco_ref": [
-                  {
-                    "_content_type_uid": "ad_set_costco",
-                    "entry": {
-                      "locale": "en-us",
-                      "title": "Coffee Supplies Categories - 1759225300000 - 1765187658387",
-                      "ad_set_heading_and_costco_url": {
-                        "title": "",
-                        "url": "",
-                        "external_site": false,
-                        "reference_link": false,
-                        "content_type_uid": "",
-                        "entry_title": "",
-                        "entry_uid": "",
-                        "page_id": "",
-                        "open_as_pop_up": false
-                      },
-                      "item_type": "ad",
-                      "ad_set_style": "static",
-                      "ad_content": [
+                "column": {
+                    "select_layout_ratio": "66/33",
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs9c71c6dba732db95"
+                    },
+                    "left_column_composer": [
                         {
-                          "ad_builder_block": {
-                            "ad_builder_ref": [
-                              {
-                                "_content_type_uid": "ad_builder",
-                                "entry": {
-                                  "locale": "en-us",
-                                  "ad_type": "one_fourth",
-                                  "background_group": {
-                                    "background_gradient_style": "solid",
-                                    "background_color": {
-                                      "hex": "#FFFFFF"
-                                    },
-                                    "background_gradient_color": {
-                                      "color1": {
-                                        "hex": ""
-                                      },
-                                      "color2": {
-                                        "hex": ""
-                                      }
-                                    },
-                                    "text_color": {
-                                      "hex": ""
-                                    },
-                                    "border_color_type": "no-border",
-                                    "border_color": {
-                                      "solid": {
-                                        "hex": ""
-                                      },
-                                      "shadow": {
-                                        "hex": ""
-                                      }
-                                    }
-                                  },
-                                  "caption": "",
-                                  "costco_url": {
-                                    "title": "Straws, Stirreres & picks",
-                                    "url": "/straws-stirrers-picks.html",
-                                    "external_site": false,
-                                    "same_tab_domain": true,
-                                    "reference_link": false,
-                                    "content_type_uid": "",
-                                    "entry_title": "",
-                                    "entry_uid": "",
-                                    "page_id": "",
-                                    "open_as_pop_up": false
-                                  },
-                                  "disclaimer": "",
-                                  "disclaimer_markdown": "",
-                                  "enable_caption": false,
-                                  "enable_custom_background": true,
-                                  "enable_disclaimer": false,
-                                  "enable_mobile_image_variation": false,
-                                  "enable_product_linked": false,
-                                  "enable_sponsored": false,
-                                  "enable_text_content": false,
-                                  "image": [
+                            "ad_builder_block": {
+                                "ad_builder_ref": [
                                     {
-                                      "id": "straws_image_001",
-                                      "url": "/wcsstore/USBD/featurepage/coffee/straws.png",
-                                      "filename": "straws.png",
-                                      "extension": "png",
-                                      "dimensions": {},
-                                      "mimetype": "image/png"
+                                        "uid": "blt001b017768b47288",
+                                        "_content_type_uid": "ad_builder"
                                     }
-                                  ],
-                                  "image_alt_text": "Straws, Stirreres & picks",
-                                  "mobile_image": [],
-                                  "mobile_image_alt_text": "",
-                                  "platform_config_block": {
-                                    "platform_aplicability": "mobile_web",
-                                    "ios_version_support": "",
-                                    "android_version_support": ""
-                                  },
-                                  "privacy_toggle": {
-                                    "disable_third_party_tracking": false
-                                  },
-                                  "product_link": {},
-                                  "tags": [
-                                    "migrated-from-cms"
-                                  ],
-                                  "text_content": [],
-                                  "text_content_above_below_the_ad_styles": [
-                                    {
-                                      "above_below_the_ad_styles": {
-                                        "text_alignment": "center"
-                                      }
-                                    }
-                                  ],
-                                  "text_content_overlay_styles": [],
-                                  "text_content_placement": null,
-                                  "title": "Straws, Stirreres & picks - 1759225300001 - 1765187658018 - Coffee Supplies-np5Hu1",
-                                  "top_and_bottom_strip": [],
-                                  "top_and_bottom_text_banner": [],
-                                  "use_mobile_image_alt_text": false,
-                                  "url": "/adbuilder/blt001",
-                                  "_original_title": "Straws, Stirreres & picks - 1759225300001 - 1765187658018"
+                                ],
+                                "_metadata": {
+                                    "uid": "cs257bc068fb850702"
                                 }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "ad_builder_block": {
-                            "ad_builder_ref": [
-                              {
-                                "_content_type_uid": "ad_builder",
-                                "entry": {
-                                  "locale": "en-us",
-                                  "ad_type": "one_fourth",
-                                  "background_group": {
-                                    "background_gradient_style": "solid",
-                                    "background_color": {
-                                      "hex": "#FFFFFF"
-                                    },
-                                    "background_gradient_color": {
-                                      "color1": {
-                                        "hex": ""
-                                      },
-                                      "color2": {
-                                        "hex": ""
-                                      }
-                                    },
-                                    "text_color": {
-                                      "hex": ""
-                                    },
-                                    "border_color_type": "no-border",
-                                    "border_color": {
-                                      "solid": {
-                                        "hex": ""
-                                      },
-                                      "shadow": {
-                                        "hex": ""
-                                      }
-                                    }
-                                  },
-                                  "caption": "",
-                                  "costco_url": {
-                                    "title": "Napkins",
-                                    "url": "/napkins.html",
-                                    "external_site": false,
-                                    "same_tab_domain": true,
-                                    "reference_link": false,
-                                    "content_type_uid": "",
-                                    "entry_title": "",
-                                    "entry_uid": "",
-                                    "page_id": "",
-                                    "open_as_pop_up": false
-                                  },
-                                  "disclaimer": "",
-                                  "disclaimer_markdown": "",
-                                  "enable_caption": false,
-                                  "enable_custom_background": true,
-                                  "enable_disclaimer": false,
-                                  "enable_mobile_image_variation": false,
-                                  "enable_product_linked": false,
-                                  "enable_sponsored": false,
-                                  "enable_text_content": false,
-                                  "image": [
-                                    {
-                                      "id": "napkins_image_001",
-                                      "url": "/wcsstore/USBD/featurepage/coffee/napkins.png",
-                                      "filename": "napkins.png",
-                                      "extension": "png",
-                                      "dimensions": {},
-                                      "mimetype": "image/png"
-                                    }
-                                  ],
-                                  "image_alt_text": "Napkins",
-                                  "mobile_image": [],
-                                  "mobile_image_alt_text": "",
-                                  "platform_config_block": {
-                                    "platform_aplicability": "mobile_web",
-                                    "ios_version_support": "",
-                                    "android_version_support": ""
-                                  },
-                                  "privacy_toggle": {
-                                    "disable_third_party_tracking": false
-                                  },
-                                  "product_link": {},
-                                  "tags": [
-                                    "migrated-from-cms"
-                                  ],
-                                  "text_content": [],
-                                  "text_content_above_below_the_ad_styles": [
-                                    {
-                                      "above_below_the_ad_styles": {
-                                        "text_alignment": "center"
-                                      }
-                                    }
-                                  ],
-                                  "text_content_overlay_styles": [],
-                                  "text_content_placement": null,
-                                  "title": "Napkins - 1759225300002 - 1765187658019 - Coffee Supplies-CAnkZ6",
-                                  "top_and_bottom_strip": [],
-                                  "top_and_bottom_text_banner": [],
-                                  "use_mobile_image_alt_text": false,
-                                  "url": "/adbuilder/blt002",
-                                  "_original_title": "Napkins - 1759225300002 - 1765187658019"
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "ad_builder_block": {
-                            "ad_builder_ref": [
-                              {
-                                "_content_type_uid": "ad_builder",
-                                "entry": {
-                                  "locale": "en-us",
-                                  "ad_type": "one_fourth",
-                                  "background_group": {
-                                    "background_gradient_style": "solid",
-                                    "background_color": {
-                                      "hex": "#FFFFFF"
-                                    },
-                                    "background_gradient_color": {
-                                      "color1": {
-                                        "hex": ""
-                                      },
-                                      "color2": {
-                                        "hex": ""
-                                      }
-                                    },
-                                    "text_color": {
-                                      "hex": ""
-                                    },
-                                    "border_color_type": "no-border",
-                                    "border_color": {
-                                      "solid": {
-                                        "hex": ""
-                                      },
-                                      "shadow": {
-                                        "hex": ""
-                                      }
-                                    }
-                                  },
-                                  "caption": "",
-                                  "costco_url": {
-                                    "title": "Creamer",
-                                    "url": "/CatalogSearch?keyword=coffeecreamers",
-                                    "external_site": false,
-                                    "same_tab_domain": true,
-                                    "reference_link": false,
-                                    "content_type_uid": "",
-                                    "entry_title": "",
-                                    "entry_uid": "",
-                                    "page_id": "",
-                                    "open_as_pop_up": false
-                                  },
-                                  "disclaimer": "",
-                                  "disclaimer_markdown": "",
-                                  "enable_caption": false,
-                                  "enable_custom_background": true,
-                                  "enable_disclaimer": false,
-                                  "enable_mobile_image_variation": false,
-                                  "enable_product_linked": false,
-                                  "enable_sponsored": false,
-                                  "enable_text_content": false,
-                                  "image": [
-                                    {
-                                      "id": "creamer_image_001",
-                                      "url": "/wcsstore/USBD/featurepage/coffee/creamer.png",
-                                      "filename": "creamer.png",
-                                      "extension": "png",
-                                      "dimensions": {},
-                                      "mimetype": "image/png"
-                                    }
-                                  ],
-                                  "image_alt_text": "Creamer",
-                                  "mobile_image": [],
-                                  "mobile_image_alt_text": "",
-                                  "platform_config_block": {
-                                    "platform_aplicability": "mobile_web",
-                                    "ios_version_support": "",
-                                    "android_version_support": ""
-                                  },
-                                  "privacy_toggle": {
-                                    "disable_third_party_tracking": false
-                                  },
-                                  "product_link": {},
-                                  "tags": [
-                                    "migrated-from-cms"
-                                  ],
-                                  "text_content": [],
-                                  "text_content_above_below_the_ad_styles": [
-                                    {
-                                      "above_below_the_ad_styles": {
-                                        "text_alignment": "center"
-                                      }
-                                    }
-                                  ],
-                                  "text_content_overlay_styles": [],
-                                  "text_content_placement": null,
-                                  "title": "Creamer - 1759225300003 - 1765187658020 - Coffee Supplies-iNE3LZ",
-                                  "top_and_bottom_strip": [],
-                                  "top_and_bottom_text_banner": [],
-                                  "use_mobile_image_alt_text": false,
-                                  "url": "/adbuilder/blt003",
-                                  "_original_title": "Creamer - 1759225300003 - 1765187658020"
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "ad_builder_block": {
-                            "ad_builder_ref": [
-                              {
-                                "_content_type_uid": "ad_builder",
-                                "entry": {
-                                  "locale": "en-us",
-                                  "ad_type": "one_fourth",
-                                  "background_group": {
-                                    "background_gradient_style": "solid",
-                                    "background_color": {
-                                      "hex": "#FFFFFF"
-                                    },
-                                    "background_gradient_color": {
-                                      "color1": {
-                                        "hex": ""
-                                      },
-                                      "color2": {
-                                        "hex": ""
-                                      }
-                                    },
-                                    "text_color": {
-                                      "hex": ""
-                                    },
-                                    "border_color_type": "no-border",
-                                    "border_color": {
-                                      "solid": {
-                                        "hex": ""
-                                      },
-                                      "shadow": {
-                                        "hex": ""
-                                      }
-                                    }
-                                  },
-                                  "caption": "",
-                                  "costco_url": {
-                                    "title": "Equipment & Supplies",
-                                    "url": "/beverage-service-supplies.html",
-                                    "external_site": false,
-                                    "same_tab_domain": true,
-                                    "reference_link": false,
-                                    "content_type_uid": "",
-                                    "entry_title": "",
-                                    "entry_uid": "",
-                                    "page_id": "",
-                                    "open_as_pop_up": false
-                                  },
-                                  "disclaimer": "",
-                                  "disclaimer_markdown": "",
-                                  "enable_caption": false,
-                                  "enable_custom_background": true,
-                                  "enable_disclaimer": false,
-                                  "enable_mobile_image_variation": false,
-                                  "enable_product_linked": false,
-                                  "enable_sponsored": false,
-                                  "enable_text_content": false,
-                                  "image": [
-                                    {
-                                      "id": "equipment_image_001",
-                                      "url": "/wcsstore/USBD/featurepage/coffee/equipment.png",
-                                      "filename": "equipment.png",
-                                      "extension": "png",
-                                      "dimensions": {},
-                                      "mimetype": "image/png"
-                                    }
-                                  ],
-                                  "image_alt_text": "Equipment & Supplies",
-                                  "mobile_image": [],
-                                  "mobile_image_alt_text": "",
-                                  "platform_config_block": {
-                                    "platform_aplicability": "mobile_web",
-                                    "ios_version_support": "",
-                                    "android_version_support": ""
-                                  },
-                                  "privacy_toggle": {
-                                    "disable_third_party_tracking": false
-                                  },
-                                  "product_link": {},
-                                  "tags": [
-                                    "migrated-from-cms"
-                                  ],
-                                  "text_content": [],
-                                  "text_content_above_below_the_ad_styles": [
-                                    {
-                                      "above_below_the_ad_styles": {
-                                        "text_alignment": "center"
-                                      }
-                                    }
-                                  ],
-                                  "text_content_overlay_styles": [],
-                                  "text_content_placement": null,
-                                  "title": "Equipment & Supplies - 1759225300004 - 1765187658021 - Coffee Supplies-UgulJh",
-                                  "top_and_bottom_strip": [],
-                                  "top_and_bottom_text_banner": [],
-                                  "use_mobile_image_alt_text": false,
-                                  "url": "/adbuilder/blt004",
-                                  "_original_title": "Equipment & Supplies - 1759225300004 - 1765187658021"
-                                }
-                              }
-                            ]
-                          }
+                            }
                         }
-                      ],
-                      "ad_set_background": {
-                        "title_background_color": {},
-                        "title_background_transparency": "1",
-                        "body_background_color": {},
-                        "body_background_transparency": "1"
-                      },
-                      "background_foreground_banner_group": {
-                        "background_banner_button_alignment": "horizontal",
-                        "background_banner_image_alignment": "top",
-                        "background_banner_reference": [],
-                        "foreground_banner_group": []
-                      },
-                      "caption": "",
-                      "category_content": {
-                        "category_items": [],
-                        "image_form_factor": "rounded",
-                        "background_color": {},
-                        "category_set_title_alignment": "left",
-                        "category_content_placement": null
-                      },
-                      "custom_background": false,
-                      "enable_background_foreground_banner": false,
-                      "platform_config_block": {
-                        "android_version_support": "",
-                        "ios_version_support": "",
-                        "platform_aplicability": "mobile_web"
-                      },
-                      "product_content": {
-                        "product_list": {}
-                      },
-                      "product_display_style": {
-                        "product_card_display_style": "compact",
-                        "show_action_button": true,
-                        "show_reviews": true,
-                        "inventory_aware_listings": false,
-                        "product_tile_data_source": null
-                      },
-                      "rotating_options": {
-                        "multi_item_carousel": false,
-                        "enable_autoplay": false,
-                        "enable_two_row_display": false,
-                        "randomize_items": false,
-                        "enable_peek_a_boo": false
-                      },
-                      "static_options": {
-                        "display_style": "multi_row",
-                        "maximum_tiles_per_row": 5
-                      },
-                      "tags": [
-                        "migrated-from-cms"
-                      ]
-                    }
-                  }
-                ]
-              }
+                    ],
+                    "column_content_divider_ref": [],
+                    "right_column_composer": [
+                        {
+                            "text_builder_block": {
+                                "text_builder_ref": [
+                                    {
+                                        "uid": "bltd29b7ea46d15830e",
+                                        "_content_type_uid": "text_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "csef7534ee277755c8"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs6a12de2a1e1ff79a"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "text_builder_block": {
+                                "text_builder_ref": [
+                                    {
+                                        "uid": "bltccb3a3aa8ad96dab",
+                                        "_content_type_uid": "text_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs2e7247767478c888"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "csf8631a301e953996"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "program_card_block": {
+                                "program_card_ref": [
+                                    {
+                                        "uid": "blt706d4c3c8c15a9eb",
+                                        "_content_type_uid": "program_card"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs8e64db8446dce62d"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs2672cef4bd6a584a"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "program_card_block": {
+                                "program_card_ref": [
+                                    {
+                                        "uid": "blt5310d051820609b2",
+                                        "_content_type_uid": "program_card"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cscb3579bee15d1543"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs0cd6691852d86970"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "program_card_block": {
+                                "program_card_ref": [
+                                    {
+                                        "uid": "blt99397c9e2d629426",
+                                        "_content_type_uid": "program_card"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs46227353069684fa"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs39c584713d66ae0a"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "program_card_block": {
+                                "program_card_ref": [
+                                    {
+                                        "uid": "blt82c471f48576bc34",
+                                        "_content_type_uid": "program_card"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cse1cbb84e2786d2b9"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs9df0084459e14cec"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "text_builder_block": {
+                                "text_builder_ref": [
+                                    {
+                                        "uid": "blt456aa5b56b270e97",
+                                        "_content_type_uid": "text_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs8f16825171b406b6"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cscae4a472c8064e68"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "ad_set_costco_block": {
+                                "ad_set_costco_ref": [
+                                    {
+                                        "uid": "bltaa62d8c0149cb3d7",
+                                        "_content_type_uid": "ad_set_costco"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs3480f2715f343816"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs2b5e3f99bdff2f30"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "ad_set_costco_block": {
+                                "ad_set_costco_ref": [
+                                    {
+                                        "uid": "blt834a4d3f1e527bab",
+                                        "_content_type_uid": "ad_set_costco"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "csc68d4a47670c99e3"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "csf30731454c641bc8"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "ad_set_costco_block": {
+                                "ad_set_costco_ref": [
+                                    {
+                                        "uid": "blt683473ccb68df8f0",
+                                        "_content_type_uid": "ad_set_costco"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs005a1df366f87a80"
+                                }
+                            }
+                        }
+                    ]
+                }
             }
-          ]
+        ],
+        "page_id": "connection-front-cover-july-2023",
+        "page_type": "feature",
+        "seo_metadata": {
+            "meta_title": "July Edition   | Costco",
+            "meta_description": ""
+        },
+        "tags": [
+            "migrated-from-cms"
+        ],
+        "title": "July Edition   | Costco",
+        "updated_at": "2026-03-02T06:14:09.364Z",
+        "updated_by": "blt0e03c20fa2dd2aaa",
+        "url": "/feature/blt9594eb486fc495b4",
+        "privacy_toggle": {
+            "disable_third_party_tracking": false
         }
-      }
-    ],
-    "page_id": "coffee-supplies",
-    "page_type": "feature",
-    "seo_metadata": {
-      "meta_title": "Coffee Supplies",
-      "meta_description": ""
-    },
-    "tags": [],
-    "title": "Coffee Supplies"
-  }
+    }
 }

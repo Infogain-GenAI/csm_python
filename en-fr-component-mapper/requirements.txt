@@ -1,0 +1,23 @@
+# EN-FR Component Mapper - Dependencies
+
+# This utility uses shared libraries from the parent project.
+# Install the parent project dependencies first:
+# cd .. && pip install -r requirements.txt
+
+# Core requirements (from parent project):
+# - requests (for API calls)
+# - python-dotenv (for environment configuration)
+
+# Optional dependencies for AI translation:
+# Uncomment and install if you want to use --use-ai-translation flag
+# openai>=1.0.0  # For AI-powered English to French translation
+
+# To install with AI translation support:
+# pip install openai
+
+# For Azure OpenAI:
+# pip install openai
+# Set these environment variables:
+#   AZURE_OPENAI_API_KEY
+#   AZURE_OPENAI_ENDPOINT
+#   AZURE_OPENAI_API_VERSION (optional, default: 2023-05-15)

@@ -1,0 +1,55 @@
+{
+  "entry": {
+    "locale": "fr-ca",
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**Intention et impact**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "Avec les outils numériques, il faut penser à la façon dont le ton du message pourrait être perçu. Les médias sociaux, les vidéoconférences et les courriels peuvent poser problème, car aucun de ces outils ne permet de communiquer aussi bien qu'en présentiel. Un simple clic sur « Partager » ou « Transférer » diffuse un message bien au-delà de son destinataire initial. Comme les outils technologiques archivent les communications numériques, cela vaut la peine d'y consacrer du temps pour éviter tout problème.*—JZ*",
+            "color": {}
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "Intent vs. impact Information"
+  }
+}

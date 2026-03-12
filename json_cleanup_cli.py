@@ -20,25 +20,51 @@ def main():
         print('JSON Cleanup CLI - Environment-Aware')
         print('=====================================')
         print('')
-        print('Usage: python json_cleanup_cli.py <input-file> <environment> [output-file]')
+        print('Usage: python json_cleanup_cli.py <input-file> <environment> [output-file] [--locale <locale>]')
         print('')
         print('Arguments:')
         print('  input-file    Path to the JSON file to clean')
         print('  environment   Environment to use (dev, USBC, USBD, CABC, CABD)')
         print('  output-file   Optional output file path (defaults to input-file-cleaned.json)')
+        print('  --locale      Optional locale for French content (use: --locale fr-ca)')
+        print('                By default, ContentStack will fetch English content')
         print('')
         print('Examples:')
         print('  python json_cleanup_cli.py input-json/test.json USBC')
         print('  python json_cleanup_cli.py input-json/test.json dev output.json')
+        print('  python json_cleanup_cli.py input-json/test.json CABC --locale fr-ca')
+        print('  python json_cleanup_cli.py input-json/test.json CABC output-fr.json --locale fr-ca')
         sys.exit(1 if len(args) == 0 else 0)
     
     if len(args) < 2:
         print('Error: Both input file and environment are required')
-        print('Usage: python json_cleanup_cli.py <input-file> <environment> [output-file]')
+        print('Usage: python json_cleanup_cli.py <input-file> <environment> [output-file] [--locale <locale>]')
         sys.exit(1)
     
+    # Parse arguments
     input_file = args[0]
     environment = args[1]
+    
+    # Check for --locale flag (optional, only use when you need French content)
+    locale = None  # Default: None (ContentStack will use English by default)
+    if '--locale' in args:
+        locale_index = args.index('--locale')
+        if locale_index + 1 < len(args):
+            locale = args[locale_index + 1]
+            # Remove --locale and its value from args for output_file processing
+            args = [arg for i, arg in enumerate(args) if i not in (locale_index, locale_index + 1)]
+        else:
+            print('Error: --locale flag requires a value (e.g., --locale fr-ca)')
+            sys.exit(1)
+    
+    # Validate locale if provided
+    if locale:
+        valid_locales = ['fr-ca']  # Add more locales as needed
+        if locale not in valid_locales:
+            print(f'Warning: Locale "{locale}" is not in the validated list: {", ".join(valid_locales)}')
+            print(f'Continuing anyway...')
+    
+    # Determine output file (after removing --locale from args)
     output_file = args[2] if len(args) > 2 else input_file.replace('.json', '-cleaned.json')
     
     # Validate environment parameter
@@ -53,6 +79,10 @@ def main():
         
         print('\n=== INITIALIZING JSON CLEANUP UTILITY ===')
         print(f'Environment: {environment}')
+        if locale:
+            print(f'Locale: {locale}')
+        else:
+            print(f'Locale: Default (English)')
         print(f'Input file: {input_file}')
         print(f'Output file: {output_file}')
         
@@ -68,7 +98,8 @@ def main():
             env_config['management_token'],
             env_config['base_url'],
             env_config.get('auth_token'),
-            env_config.get('environment_uid')
+            env_config.get('environment_uid'),
+            environment  # Pass the environment parameter
         )
         
         print(f'✅ Initialization completed successfully for environment: {environment}')
@@ -86,8 +117,8 @@ def main():
         
         print('🧹 Cleaning JSON data...')
         
-        # Clean the JSON data
-        cleanup = JSONCleanup(contentstack_api)
+        # Clean the JSON data (locale is None by default, only set when --locale flag is used)
+        cleanup = JSONCleanup(contentstack_api, locale=locale)
         cleaned_data = cleanup.cleanup_json(json_data)
         
         # Write cleaned data to output file
@@ -96,6 +127,8 @@ def main():
         
         print(f'\n✅ Cleaned JSON written to: {output_file}')
         print(f'🌍 Environment used: {environment}')
+        if locale:
+            print(f'🌐 Locale used: {locale}')
         print('🎉 Cleanup completed successfully!')
         
     except Exception as error:

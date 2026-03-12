@@ -1,0 +1,731 @@
+{
+  "example_id": "ad_builder_5",
+  "english_json": {
+    "entry": {
+      "title": "History of Barbie - 1759225400001",
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "ad_type": "half",
+      "image": [
+        {
+          "id": "7btmkvsm748cfcpqj457vb",
+          "name": "09_23_Costco_Life_04.jpg",
+          "position": 0,
+          "type": "attachments",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/at/7btmkvsm748cfcpqj457vb/09_23_Costco_Life_04.jpg?auto=webp&format=jpg",
+          "filename": "09_23_Costco_Life_04.jpg",
+          "extension": "jpg",
+          "mimetype": "image/jpeg",
+          "thumbnailUrl": "https://thumbs.bfldr.com/at/7btmkvsm748cfcpqj457vb/v/1302021434?expiry=1771344544&fit=bounds&height=162&sig=NTk3NDJjNGM5M2NhYjFmZGE0ODE0NmFhMDJlNWRhM2U4OTQxODhkMQ%3D%3D&width=262",
+          "dimensions": {
+            "width": 800,
+            "height": 700,
+            "type": 0
+          }
+        }
+      ],
+      "image_alt_text": "Barbie playhouse",
+      "enable_mobile_image_variation": false,
+      "mobile_image": [],
+      "use_mobile_image_alt_text": false,
+      "mobile_image_alt_text": "",
+      "costco_url": {
+        "title": "History of Barbie",
+        "url": "",
+        "external_site": false,
+        "same_tab_domain": true,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "enable_product_linked": false,
+      "product_link": {},
+      "top_and_bottom_text_banner": [],
+      "top_and_bottom_strip": [],
+      "enable_text_content": true,
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "caption_v2",
+            "select_semantics_type": null,
+            "markdown_text": "THE BARBIE BRAND CONTINUES TO EVOLVE.",
+            "color": {
+              "background_gradient_style": "no-background",
+              "background_color": {
+                "hex": ""
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": ""
+                },
+                "shadow": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "markdown_text": "THROUGH THE AGES  \n",
+            "color": {
+              "text_color": {
+                "hex": "#b01c33"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "markdown_text": "**History of Barbie**",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "markdown_text": "Barbie, which was founded by Ruth Handler in 1959, has evolved over the years. Here are some facts about the iconic doll from Barbiemedia.com. Find Barbie toys in Costco warehouses and at [Costco.ca](/.product.4000160795.html).\n\n - Barbie was named after Handler’s daughter, Barbara, and Ken, after her son, Kenneth.\n - The doll first appeared in her iconic black-and-white striped swimsuit.\n - The first celebrity Barbie doll was based on the British fashion model Twiggy in 1967.\n - In support of Equal Rights, Barbie released Christie, one of the first Black dolls, in 1968.\n - Barbie has had more than 200 careers, including astronaut, pilot, firefighter, journalist and entrepreneur.\n - More than 100 dolls are purchased every minute, with a total of 58 million sold annually in 150 countries.",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_placement": "below_the_ad",
+      "text_content_overlay_styles": [
+        {
+          "overlay_style": {
+            "applicability": "default",
+            "overlay_fill_type": "horizontal",
+            "overlay_fill_": "100",
+            "overlay_position": "top",
+            "text_alignment": "middle",
+            "overlay_background_color": {}
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "left"
+          }
+        }
+      ],
+      "enable_custom_background": true,
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#FFFFFF"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "no-border",
+        "border_color": {
+          "solid": {
+            "hex": ""
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "enable_disclaimer": false,
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_sponsored": false,
+      "enable_caption": false,
+      "caption": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "locale": "en-ca"
+    }
+  },
+  "french_json": {
+    "entry": {
+      "ad_type": "full",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#FFFFFF"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "no-border",
+        "border_color": {
+          "solid": {
+            "hex": ""
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {
+        "title": "Histoire de Barbie",
+        "url": "",
+        "external_site": false,
+        "same_tab_domain": true,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "5jcbzcqqn5qpbhkvm6th7",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/as/5jcbzcqqn5qpbhkvm6th7/09_23_Costco_Life_04",
+          "filename": "09_23_Costco_Life_04.jpg",
+          "extension": "jpg",
+          "dimensions": {
+            "width": 800,
+            "height": 700
+          },
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "image_alt_text": "Barbie playhouse",
+      "mobile_image": [],
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "caption_v2",
+            "select_semantics_type": null,
+            "markdown_text": "La marque Barbie continue à évoluer.",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": ""
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "markdown_text": "AU FIL DES ÂGES",
+            "color": {
+              "text_color": {
+                "hex": "#b01c33"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "markdown_text": "**Histoire de Barbie**",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "markdown_text": "Fondée en 1959 par Ruth Handler, Barbie a évolué au fil des ans. Voici quelques faits sur la poupée de Barbiemedia.com*. Les entrepôts Costco et [Costco.ca](/.product.4000160795.html) offrent des jouets Barbie.",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "markdown_text": "- Barbie et Ken ont été nommés en l'honneur des enfants de Mme Handler, Barbara et Kenneth.\n- La poupée est d'abord apparue portant son maillot de bain rayé noir et blanc emblématique.\n- La mannequin britannique Twiggy a inspiré la première poupée de célébrité Barbie en 1967.\n- En appui aux droits à l'égalité, Barbie a lancé Christie, l'une des premières poupées noires, en 1968.\n- Barbie a eu plus de 200 carrières, notamment astronaute, pilote, pompière, journaliste et entrepreneure.\n- Plus de 100 poupées sont achetées chaque minute, totalisant 58 millions chaque année dans 150 pays.",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "left"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [],
+      "text_content_placement": "below_the_ad",
+      "title": "Histoire de Barbie - 1759225400001 - 1766489905456 - 1772716753553",
+      "top_and_bottom_strip": [],
+      "top_and_bottom_text_banner": [],
+      "use_mobile_image_alt_text": false,
+      "locale": "en-ca"
+    }
+  },
+  "mapped_json": {
+    "entry": {
+      "locale": "fr-ca",
+      "ad_type": "half",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#FFFFFF"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "no-border",
+        "border_color": {
+          "solid": {
+            "hex": ""
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {
+        "title": "Histoire de Barbie",
+        "url": "",
+        "external_site": false,
+        "same_tab_domain": true,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "7btmkvsm748cfcpqj457vb",
+          "name": "09_23_Costco_Life_04.jpg",
+          "position": 0,
+          "type": "attachments",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/at/7btmkvsm748cfcpqj457vb/09_23_Costco_Life_04.jpg?auto=webp&format=jpg",
+          "filename": "09_23_Costco_Life_04.jpg",
+          "extension": "jpg",
+          "mimetype": "image/jpeg",
+          "thumbnailUrl": "https://thumbs.bfldr.com/at/7btmkvsm748cfcpqj457vb/v/1302021434?expiry=1773838800&fit=bounds&height=162&sig=ZDYxZDk4ZGFiMDg3NTI2NTdiZmUzODZmYWU2NjkzM2QxYWQ2ZWZmNA%3D%3D&width=262",
+          "dimensions": {
+            "width": 800,
+            "height": 700,
+            "type": 0
+          }
+        }
+      ],
+      "image_alt_text": "Barbie playhouse",
+      "mobile_image": [],
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "caption_v2",
+            "select_semantics_type": null,
+            "markdown_text": "LA MARQUE BARBIE CONTINUE À ÉVOLUER.  \n",
+            "color": {
+              "background_gradient_style": "no-background",
+              "background_color": {
+                "hex": ""
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": ""
+                },
+                "shadow": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "markdown_text": "AU FIL DES ÂGES  \n",
+            "color": {
+              "text_color": {
+                "hex": "#b01c33"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "markdown_text": "**Histoire de Barbie**",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "markdown_text": "Fondée en 1959 par Ruth Handler, Barbie a évolué au fil des ans. Voici quelques faits sur la poupée de Barbiemedia.com*. Les entrepôts Costco et Costco.ca offrent des jouets Barbie.\n\n- Barbie et Ken ont été nommés en l'honneur des enfants de Mme Handler, Barbara et Kenneth.  \n- La poupée est d'abord apparue portant son maillot de bain rayé noir et blanc emblématique.  \n- La mannequin britannique Twiggy a inspiré la première poupée de célébrité Barbie en 1967.  \n- En appui aux droits à l'égalité, Barbie a lancé Christie, l'une des premières poupées noires, en 1968.  \n- Barbie a eu plus de 200 carrières, notamment astronaute, pilote, pompière, journaliste et entrepreneure.  \n- Plus de 100 poupées sont achetées chaque minute, totalisant 58 millions chaque année dans 150 pays.  ",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "left"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [
+        {
+          "overlay_style": {
+            "applicability": "default",
+            "overlay_fill_type": "horizontal",
+            "overlay_fill_": "100",
+            "overlay_position": "top",
+            "text_alignment": "middle",
+            "overlay_background_color": {}
+          }
+        }
+      ],
+      "text_content_placement": "below_the_ad",
+      "title": "History of Barbie - 1759225400001",
+      "top_and_bottom_strip": [],
+      "top_and_bottom_text_banner": [],
+      "use_mobile_image_alt_text": false
+    }
+  }
+}

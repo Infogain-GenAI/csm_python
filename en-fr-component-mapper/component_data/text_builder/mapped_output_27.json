@@ -1,0 +1,208 @@
+{
+  "entry": {
+    "locale": "fr-ca",
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "title_with_xl_v2",
+            "select_semantics_type": "h2",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "Passer un examen",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "Cancer de la prostate : le dépistage précoce peut sauver des vies",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "JOANNE ELLIS\n\nLe Mois de la sensibilisation au cancer de la prostate, en septembre, est l'occasion pour les hommes canadiens et leurs proches d'en savoir plus sur ce sujet.\n\nAu Canada, 67 hommes par jour sont diagnostiqués du cancer de la prostate; on estime que 24 600 hommes ont été diagnostiqués en 2022, selon la Société canadienne du cancer (cancer.ca). Cette maladie est courante dans la société; les hommes doivent veiller sur leur prostate pour préserver leur santé.",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**Facteurs de risque**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "La glande prostatique croît toute la vie : entre la naissance et 25 ans, elle passe de la taille d'un petit pois à celle d'une noix. Située en dessous de la vessie et devant le rectum, elle fait partie de l'appareil reproducteur. La glande grossit lentement à un âge plus avancé (voir « Une glande qui grossit »).\n\nLe cancer de la prostate survient à la formation de cellules cancéreuses malignes dans les tissus de la glande. Avoir plus de 50 ans est un facteur de risque. L'embonpoint, les antécédents d'un père ou d'un frère ou une origine ethnique noire sont d'autres facteurs de risque. Les hommes noirs, notamment d'origine africaine ou caribéenne, sont touchés de façon disproportionnée, le risque augmentant dès 45 ans.",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**Reconnaître les signes**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "« Les symptômes sont variés et parfois inexistants », déclare Stuart Edmonds, vice-président principal, Mission, recherche et défense de l'intérêt public à la Société canadienne du cancer. « Il peut s'agir de problèmes urinaires — besoin urgent d'uriner, surtout la nuit, débit urinaire faible, du sang dans l'urine — ou d'une dysfonction sexuelle. »\n\nLorsque le cancer de la prostate passe inaperçu, des douleurs persistantes au dos, aux hanches ou au bassin peuvent survenir. « N'importe lequel de ces symptômes doit être vérifié par un médecin, qui demandera des analyses sanguines », explique M. Edmonds.",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**Dépistage**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "Les analyses sanguines sont importantes parce qu'elles donnent le niveau d'antigène prostatique spécifique (APS), une protéine produite dans la glande. Une concentration sanguine élevée d'APS peut révéler un problème, comme un cancer, et d'autres tests peuvent être recommandés. « Il vaut mieux combiner des analyses sanguines et un toucher rectal plutôt que de se limiter à un seul test. Le dépistage de l'APS combiné à un toucher rectal peut détecter à un stade précoce un cancer dangereux, qui se soigne plus facilement », indique M. Edmonds.\n\nSi l'on soupçonne un cancer, une biopsie servira à examiner le tissu. En cas de cancer, une note ou une cote de Gleason sera attribuée à la tumeur, ainsi qu'un groupe de grade indiquant le niveau d'agressivité du cancer et le risque de propagation.\n\n« Un suivi est nécessaire pour que, grâce à des examens réguliers, une surveillance et des analyses sanguines, le médecin de famille supervise toute évolution de la prostate », précise M. Edmonds.",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**Traitement**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "S'il est dépisté tôt, le cancer peut être soigné par une prostatectomie (ablation de la prostate) et de la radiothérapie externe ou interne comme traitement principal. Il peut aussi être traité par la chimiothérapie, la cryothérapie, et l'hormonothérapie ou la thérapie biologique.\n\n« Le dépistage précoce est essentiel, le taux de survie approchant alors les 100 % », souligne M. Edmonds, qui a constaté d'énormes progrès dans le traitement, les nouvelles pharmacothérapies réduisant les effets secondaires et allongeant la durée de vie. « En cas de métastases dans d'autres parties du corps, l'espérance de vie à cinq ans chute à 40 %. »\n\nEn veillant sur leur prostate, les hommes peuvent contrôler leur santé, minimiser les risques et mener une vie épanouissante.",
+            "color": {}
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "Get checked - Prostate Cancer Awareness"
+  }
+}

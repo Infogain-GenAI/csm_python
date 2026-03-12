@@ -1,0 +1,270 @@
+{
+  "example_id": "text_builder_16",
+  "english_json": {
+    "entry": {
+      "multiple_text_section_group": [
+        {
+          "color_config": {
+            "background_gradient_style": "solid",
+            "background_color": {
+              "hex": "#F5F7F8"
+            },
+            "background_gradient_color": {
+              "color1": {
+                "hex": ""
+              },
+              "color2": {
+                "hex": ""
+              }
+            },
+            "text_color": {
+              "hex": "#0F4878"
+            },
+            "border_color_type": "no-border",
+            "border_color": {
+              "solid": {
+                "hex": ""
+              },
+              "shadow": {
+                "hex": ""
+              }
+            }
+          },
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "subheading_v2",
+              "select_semantics_type": null,
+              "text_alignment": "center",
+              "markdown_text": "<span style=\"color: #f0c817;\">★</span> IN THIS ISSUE",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": "#333333"
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              }
+            },
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "markdown_text": "• [Assistant Vice President's Note](https://www.costco.ca/connection-assistant-vice-presidents-note-september-2023.html)  \n  September sentiments\n\n• [Costco Life September](https://www.costco.ca/connection-costco-life-september-2023.html)  \n  Lighten the mood\n\n• [For Your Business](https://www.costco.ca/connection-fyb-its-always-personal-september-2023.html)  \n  It's always personal\n\n• [Financial Connection](https://www.costco.ca/connection-financial-connection-family-gains-september-2023.html)  \n  Family gains\n\n• [Tech Connection](https://www.costco.ca/connection-tech-connection-protect-your-tech-september-2023.html)  \n  Protect your tech\n\n• [Travel Connection](https://www.costco.ca/connection-travel-connection-gulf-coast-september-2023.html)  \n   The Gulf Coast\n\n---\n\n• ![PDF format](https://bfasset.costco-static.com/56O3HXZ9/at/78m7b77qv27szgjjqm2sjs/pdf.svg?auto=webp&format=jpg&width=768)[September 2023 Costco Connection magazine](https://mobilecontent.costco.com/live/resource/img/static-ca-landing-pages/conn-sep-23-en.pdf)\n\n• ![PDF format](https://bfasset.costco-static.com/56O3HXZ9/at/78m7b77qv27szgjjqm2sjs/pdf.svg?auto=webp&format=jpg&width=768)[Shop Costco.ca September 2023](https://mobilecontent.costco.com/live/resource/img/static-ca-landing-pages/shopca-sep-23-en.pdf)",
+              "color": {}
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "IN THIS ISSUE Section September 2023",
+      "locale": "en-ca"
+    }
+  },
+  "french_json": {
+    "entry": {
+      "multiple_text_section_group": [
+        {
+          "color_config": {
+            "background_gradient_style": "solid",
+            "background_color": {
+              "hex": "#f5f7f8"
+            },
+            "background_gradient_color": {
+              "color1": {
+                "hex": ""
+              },
+              "color2": {
+                "hex": ""
+              }
+            },
+            "text_color": {
+              "hex": "#333333"
+            },
+            "border_color_type": "no-border",
+            "border_color": {
+              "solid": {
+                "hex": ""
+              },
+              "shadow": {
+                "hex": ""
+              }
+            }
+          },
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "subheading_v2",
+              "select_semantics_type": "h3",
+              "text_alignment": "center",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "<span style=\"color: #f0c817;\">★</span>**En avant**",
+              "color": {}
+            },
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": "h3",
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "    \n\n - [**Billet**](/connection-assistant-vice-presidents-note-september-2023.html)  \n      [Ambiance de septembre](/connection-assistant-vice-presidents-note-september-2023.html)  \n<br>\n - [**En mode Costco**](/connection-costco-life-september-2023.html)  \n     [Ambiance apaisante](/connection-costco-life-september-2023.html)   \n<br>\n - [**Réflexion Affaires**](/connection-fyb-its-always-personal-september-2023.html)  \n     [C'est toujours personnel](/connection-fyb-its-always-personal-september-2023.html)  \n<br>\n - [**Contact finances**](/connection-financial-connection-family-gains-september-2023.html)  \n     [ Gains familiaux](/connection-financial-connection-family-gains-september-2023.html)  \n<br>\n - [**Parlons Techno**](/connection-tech-connection-protect-your-tech-september-2023.html)  \n      [Appareils protégés](/connection-tech-connection-protect-your-tech-september-2023.html)  \n<br>\n - [**Voyages**](/connection-travel-connection-gulf-coast-september-2023.html)  \n      [ La côte du Golfe](/connection-travel-connection-gulf-coast-september-2023.html)  \n    <br>",
+              "color": {}
+            },
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": "h1",
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "----------  \n   \n<br>\n - ![PDF format](/wcsstore/CostcoGLOBALSAS/images/pdf.svg)[Septembre 2023 Contact Costco](https://mobilecontent.costco.com/live/resource/img/static-ca-landing-pages/conn-sep-23-fr.pdf)  \n   ![PDF format](/wcsstore/CostcoGLOBALSAS/images/pdf.svg)[Pensez Costco.ca Septembre 2023](https://mobilecontent.costco.com/live/resource/img/static-ca-landing-pages/shopca-sep-23-fr.pdf)  ",
+              "color": {}
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "En avant Section September 2023 - 1772728132547",
+      "locale": "en-ca"
+    }
+  },
+  "mapped_json": {
+    "entry": {
+      "locale": "fr-ca",
+      "multiple_text_section_group": [
+        {
+          "color_config": {
+            "background_gradient_style": "solid",
+            "background_color": {
+              "hex": "#f5f7f8"
+            },
+            "background_gradient_color": {
+              "color1": {
+                "hex": ""
+              },
+              "color2": {
+                "hex": ""
+              }
+            },
+            "text_color": {
+              "hex": "#333333"
+            },
+            "border_color_type": "no-border",
+            "border_color": {
+              "solid": {
+                "hex": ""
+              },
+              "shadow": {
+                "hex": ""
+              }
+            }
+          },
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "subheading_v2",
+              "select_semantics_type": null,
+              "text_alignment": "center",
+              "markdown_text": "<span style=\"color: #f0c817;\">★</span>**En avant**",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": "#333333"
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              }
+            },
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "markdown_text": "    \n\n - [**Billet**](/connection-assistant-vice-presidents-note-september-2023.html)  \n      [Ambiance de septembre](/connection-assistant-vice-presidents-note-september-2023.html)  \n<br>\n - [**En mode Costco**](/connection-costco-life-september-2023.html)  \n     [Ambiance apaisante](/connection-costco-life-september-2023.html)   \n<br>\n - [**Réflexion Affaires**](/connection-fyb-its-always-personal-september-2023.html)  \n     [C'est toujours personnel](/connection-fyb-its-always-personal-september-2023.html)  \n<br>\n - [**Contact finances**](/connection-financial-connection-family-gains-september-2023.html)  \n     [ Gains familiaux](/connection-financial-connection-family-gains-september-2023.html)  \n<br>\n - [**Parlons Techno**](/connection-tech-connection-protect-your-tech-september-2023.html)  \n      [Appareils protégés](/connection-tech-connection-protect-your-tech-september-2023.html)  \n<br>\n - [**Voyages**](/connection-travel-connection-gulf-coast-september-2023.html)  \n      [ La côte du Golfe](/connection-travel-connection-gulf-coast-september-2023.html)  \n    <br>  \n----------  \n   \n<br>\n - ![PDF format](/wcsstore/CostcoGLOBALSAS/images/pdf.svg)[Septembre 2023 Contact Costco](https://mobilecontent.costco.com/live/resource/img/static-ca-landing-pages/conn-sep-23-fr.pdf)  \n   ![PDF format](/wcsstore/CostcoGLOBALSAS/images/pdf.svg)[Pensez Costco.ca Septembre 2023](https://mobilecontent.costco.com/live/resource/img/static-ca-landing-pages/shopca-sep-23-fr.pdf)  ",
+              "color": {}
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "IN THIS ISSUE Section September 2023"
+    }
+  }
+}

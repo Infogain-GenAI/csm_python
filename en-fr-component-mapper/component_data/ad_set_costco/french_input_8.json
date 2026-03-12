@@ -1,0 +1,356 @@
+{
+  "entry": {
+    "ad_content": [
+      {
+        "ad_builder_block": {
+          "ad_builder_ref": [
+            {
+              "_content_type_uid": "ad_builder",
+              "entry": {
+                "ad_type": "one_third",
+                "background_group": {
+                  "background_gradient_style": "solid",
+                  "background_color": {
+                    "hex": "#FFFFFF"
+                  },
+                  "background_gradient_color": {
+                    "color1": {
+                      "hex": ""
+                    },
+                    "color2": {
+                      "hex": ""
+                    }
+                  },
+                  "text_color": {
+                    "hex": ""
+                  },
+                  "border_color_type": "no-border",
+                  "border_color": {
+                    "solid": {
+                      "hex": ""
+                    },
+                    "shadow": {
+                      "hex": ""
+                    }
+                  }
+                },
+                "caption": "",
+                "costco_url": {
+                  "title": "",
+                  "url": "",
+                  "external_site": false,
+                  "same_tab_domain": false,
+                  "reference_link": false,
+                  "content_type_uid": "",
+                  "entry_title": "",
+                  "entry_uid": "",
+                  "page_id": "",
+                  "open_as_pop_up": false
+                },
+                "disclaimer": "",
+                "disclaimer_markdown": "",
+                "enable_caption": false,
+                "enable_custom_background": true,
+                "enable_disclaimer": false,
+                "enable_mobile_image_variation": false,
+                "enable_product_linked": false,
+                "enable_sponsored": false,
+                "enable_text_content": true,
+                "image": [
+                  {
+                    "id": "8x949pfwvqckf5fqz85wvn",
+                    "url": "https://cdn.bfldr.com/56O3HXZ9/as/8x949pfwvqckf5fqz85wvn/Sheri_Flies_Headshot",
+                    "filename": "Sheri_Flies_Headshot.jpg",
+                    "extension": "jpg",
+                    "dimensions": {
+                      "width": 308,
+                      "height": 349
+                    },
+                    "mimetype": "image/jpeg"
+                  }
+                ],
+                "image_alt_text": "Sheri Flies",
+                "mobile_image": [],
+                "mobile_image_alt_text": "",
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "privacy_toggle": {
+                  "disable_third_party_tracking": false
+                },
+                "product_link": {},
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "text_content": [
+                  {
+                    "markdown_text": {
+                      "select_text_type": "caption_v2",
+                      "select_semantics_type": "h3",
+                      "markdown_text": "© STUDIO PHOTO DE COSTCO",
+                      "color": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": "#333333"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#cccccc"
+                          },
+                          "shadow": {
+                            "hex": "#cccccc"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "text_content_above_below_the_ad_styles": [
+                  {
+                    "above_below_the_ad_styles": {
+                      "text_alignment": "center"
+                    }
+                  }
+                ],
+                "text_content_overlay_styles": [
+                  {
+                    "overlay_style": {
+                      "applicability": "default",
+                      "overlay_fill_type": "horizontal",
+                      "overlay_fill_": "100",
+                      "overlay_position": "left",
+                      "text_alignment": "top",
+                      "overlay_background_color": {}
+                    }
+                  }
+                ],
+                "text_content_placement": "below_the_ad",
+                "title": "Sheri Flies - Headshot - 1772737986035",
+                "top_and_bottom_strip": [],
+                "top_and_bottom_text_banner": [],
+                "use_mobile_image_alt_text": false,
+                "locale": "en-ca"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ad_builder_block": {
+          "ad_builder_ref": [
+            {
+              "_content_type_uid": "ad_builder",
+              "entry": {
+                "ad_type": "half",
+                "background_group": {
+                  "background_gradient_style": "solid",
+                  "background_color": {
+                    "hex": ""
+                  },
+                  "background_gradient_color": {
+                    "color1": {
+                      "hex": ""
+                    },
+                    "color2": {
+                      "hex": ""
+                    }
+                  },
+                  "text_color": {
+                    "hex": ""
+                  },
+                  "border_color_type": "no-border",
+                  "border_color": {
+                    "solid": {
+                      "hex": ""
+                    },
+                    "shadow": {
+                      "hex": ""
+                    }
+                  }
+                },
+                "caption": "",
+                "costco_url": {
+                  "title": "",
+                  "url": "",
+                  "external_site": null,
+                  "same_tab_domain": null,
+                  "reference_link": false,
+                  "content_type_uid": "",
+                  "entry_title": "",
+                  "entry_uid": "",
+                  "page_id": "",
+                  "open_as_pop_up": false
+                },
+                "disclaimer": "",
+                "disclaimer_markdown": "",
+                "enable_caption": false,
+                "enable_custom_background": false,
+                "enable_disclaimer": false,
+                "enable_mobile_image_variation": false,
+                "enable_product_linked": false,
+                "enable_sponsored": false,
+                "enable_text_content": true,
+                "image": [],
+                "image_alt_text": "",
+                "mobile_image": [],
+                "mobile_image_alt_text": "",
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "privacy_toggle": {
+                  "disable_third_party_tracking": false
+                },
+                "product_link": {},
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "text_content": [
+                  {
+                    "markdown_text": {
+                      "select_text_type": "body_copy_v2",
+                      "select_semantics_type": null,
+                      "markdown_text": "**Sheri Flies** est vice-présidente du développement mondial et de conformité de Costco.",
+                      "color": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": ""
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#cccccc"
+                          },
+                          "shadow": {
+                            "hex": "#cccccc"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "text_content_above_below_the_ad_styles": [
+                  {
+                    "above_below_the_ad_styles": {
+                      "text_alignment": "left"
+                    }
+                  }
+                ],
+                "text_content_overlay_styles": [
+                  {
+                    "overlay_style": {
+                      "applicability": "default",
+                      "overlay_fill_type": "horizontal",
+                      "overlay_fill_": "100",
+                      "overlay_position": "left",
+                      "text_alignment": "top",
+                      "overlay_background_color": {}
+                    }
+                  }
+                ],
+                "text_content_placement": "overlay",
+                "title": "Sheri Flies - Description - 1772737987825",
+                "top_and_bottom_strip": [],
+                "top_and_bottom_text_banner": [],
+                "use_mobile_image_alt_text": false,
+                "locale": "en-ca"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "ad_set_background": {
+      "title_background_color": {},
+      "title_background_transparency": "1",
+      "body_background_color": {},
+      "body_background_transparency": "1"
+    },
+    "ad_set_heading_and_costco_url": {
+      "title": "",
+      "url": "",
+      "external_site": false,
+      "reference_link": false,
+      "content_type_uid": "",
+      "entry_title": "",
+      "entry_uid": "",
+      "page_id": "",
+      "open_as_pop_up": false
+    },
+    "ad_set_style": "static",
+    "background_foreground_banner_group": {
+      "background_banner_button_alignment": "horizontal",
+      "background_banner_image_alignment": "top",
+      "background_banner_reference": [],
+      "foreground_banner_group": []
+    },
+    "caption": "",
+    "category_content": {
+      "category_items": [],
+      "image_form_factor": "rounded",
+      "background_color": {},
+      "category_set_title_alignment": "left",
+      "category_content_placement": null
+    },
+    "custom_background": false,
+    "enable_background_foreground_banner": false,
+    "item_type": "ad",
+    "platform_config_block": {
+      "android_version_support": "",
+      "ios_version_support": "",
+      "platform_aplicability": "mobile_web"
+    },
+    "product_content": {
+      "product_list": {}
+    },
+    "product_display_style": {
+      "product_card_display_style": "compact",
+      "show_action_button": true,
+      "show_reviews": true,
+      "inventory_aware_listings": false,
+      "product_tile_data_source": null
+    },
+    "rotating_options": {
+      "multi_item_carousel": false,
+      "enable_autoplay": false,
+      "enable_two_row_display": false,
+      "randomize_items": false,
+      "enable_peek_a_boo": false
+    },
+    "static_options": {
+      "display_style": "multi_row",
+      "maximum_tiles_per_row": 5
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "title": "Sheri Flies Bio - 1772737989642",
+    "locale": "en-ca"
+  }
+}

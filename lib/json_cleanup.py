@@ -9,14 +9,17 @@ from typing import Any, Dict, List
 
 
 class JSONCleanup:
-    def __init__(self, contentstack_api=None):
+    def __init__(self, contentstack_api=None, locale=None):
         """
         Initialize JSON Cleanup utility
         
         Args:
             contentstack_api: ContentstackAPI instance for fetching nested content
+            locale: Optional locale to use for fetching content (e.g., 'fr-ca' for French)
+                   If None, ContentStack API will use its default (English)
         """
         self.contentstack_api = contentstack_api
+        self.locale = locale
         
         # Keys to always remove
         self.keys_to_remove = [
@@ -67,10 +70,15 @@ class JSONCleanup:
                 content_type_uid = obj['_content_type_uid']
                 uid = obj['uid']
                 
-                print(f"Fetching content for {content_type_uid} with uid: {uid}")
+                locale_info = f" (locale: {self.locale})" if self.locale else ""
+                print(f"Fetching content for {content_type_uid} with uid: {uid}{locale_info}")
                 
                 if self.contentstack_api:
-                    fetched_content = self.contentstack_api.get_entry(content_type_uid, uid)
+                    # Only pass locale parameter if it's specified
+                    if self.locale:
+                        fetched_content = self.contentstack_api.get_entry(content_type_uid, uid, locale=self.locale)
+                    else:
+                        fetched_content = self.contentstack_api.get_entry(content_type_uid, uid)
                     
                     if fetched_content and 'entry' in fetched_content:
                         # Clean the fetched content recursively

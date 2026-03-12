@@ -1,0 +1,561 @@
+{
+  "example_id": "ad_builder_14",
+  "english_json": {
+    "entry": {
+      "ad_type": "one_fourth",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#FFFFFF"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "no-border",
+        "border_color": {
+          "solid": {
+            "hex": ""
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {
+        "title": "sweet new year",
+        "url": "https://www.costco.ca/connection-fyt-a-sweet-new-year-september-2023.html",
+        "external_site": false,
+        "same_tab_domain": true,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "v56mx4cn5mrh7ks7prrnjjs",
+          "name": "09_23_LP_FYT_Rosh_Hashana.jpg",
+          "position": 0,
+          "type": "attachments",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/at/v56mx4cn5mrh7ks7prrnjjs/09_23_LP_FYT_Rosh_Hashana.jpg?auto=webp&format=jpg",
+          "filename": "09_23_LP_FYT_Rosh_Hashana.jpg",
+          "extension": "jpg",
+          "mimetype": "image/jpeg",
+          "thumbnailUrl": "https://thumbs.bfldr.com/at/v56mx4cn5mrh7ks7prrnjjs/v/1305058805?expiry=1770799195&fit=bounds&height=162&sig=NWRkMDA1YzVlN2VkNzhjZTQ3MmU0ZWJiOTQ3YWYyY2Q1YWM2MDliNg%3D%3D&width=262",
+          "dimensions": {
+            "width": 500,
+            "height": 500,
+            "type": 0
+          }
+        }
+      ],
+      "image_alt_text": "illustration of items for Rosh Hashana",
+      "mobile_image": [],
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": null,
+            "markdown_text": "**A sweet new year**",
+            "color": {
+              "text_color": {
+                "hex": "#0f4878"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "center"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [],
+      "text_content_placement": "below_the_ad",
+      "title": "A sweet new year - 1765187373212 - September-lLnD9e",
+      "top_and_bottom_strip": [
+        {
+          "strip": {
+            "strip_type": "top_strip",
+            "text": "",
+            "text_color": {
+              "hsl": {
+                "h": 47.628865979381445,
+                "s": 0.8818181818181817,
+                "l": 0.5686274509803921,
+                "a": 1
+              },
+              "hex": "#f2ca30",
+              "rgb": {
+                "r": 242,
+                "g": 202,
+                "b": 48,
+                "a": 1
+              },
+              "hsv": {
+                "h": 47.628865979381445,
+                "s": 0.8016528925619835,
+                "v": 0.9490196078431372,
+                "a": 1
+              },
+              "oldHue": 246.9064748201439,
+              "source": "hex"
+            },
+            "background_color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#f2ca30"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "top_and_bottom_text_banner": [
+        {
+          "add_text_banner": {
+            "text_banner_type": "top_banner",
+            "text": "Member Connection",
+            "font_size": "large",
+            "text_color": {
+              "hsl": {
+                "h": 246.9064748201439,
+                "s": 0,
+                "l": 0.2,
+                "a": 1
+              },
+              "hex": "#333333",
+              "rgb": {
+                "r": 51,
+                "g": 51,
+                "b": 51,
+                "a": 1
+              },
+              "hsv": {
+                "h": 246.9064748201439,
+                "s": 0,
+                "v": 0.2,
+                "a": 1
+              },
+              "oldHue": 246.9064748201439,
+              "source": "hex"
+            },
+            "banner_background_color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "use_mobile_image_alt_text": false,
+      "locale": "en-ca"
+    }
+  },
+  "french_json": {
+    "entry": {
+      "ad_type": "one_fourth",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#FFFFFF"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "solid",
+        "border_color": {
+          "solid": {
+            "hex": "#FFFFFF"
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {
+        "title": "Nouvel an sucré",
+        "url": "/connection-fyt-a-sweet-new-year-september-2023.html",
+        "external_site": false,
+        "same_tab_domain": true,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "vvrtb556fg9s6438987hqm",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/as/vvrtb556fg9s6438987hqm/09_23_LP_FYT_Rosh_Hashana",
+          "filename": "09_23_LP_FYT_Rosh_Hashana.jpg",
+          "extension": "jpg",
+          "dimensions": {
+            "width": 500,
+            "height": 500
+          },
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "image_alt_text": "illustration of items for Rosh Hashana",
+      "mobile_image": [],
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "markdown_text": "**Nouvel an sucré**",
+            "color": {
+              "text_color": {
+                "hex": "#0f4878"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "center"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [],
+      "text_content_placement": "below_the_ad",
+      "title": "Nouvel an sucré - September 2023 - 1772728152776",
+      "top_and_bottom_strip": [
+        {
+          "strip": {
+            "strip_type": "top_strip",
+            "text": "",
+            "text_color": {
+              "hex": "#f2ca30"
+            },
+            "background_color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#f2ca30"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "top_and_bottom_text_banner": [
+        {
+          "add_text_banner": {
+            "text_banner_type": "top_banner",
+            "text": "Alimentation",
+            "font_size": "large",
+            "text_color": {
+              "hex": "#333333"
+            },
+            "banner_background_color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "use_mobile_image_alt_text": false,
+      "locale": "en-ca"
+    }
+  },
+  "mapped_json": {
+    "entry": {
+      "locale": "fr-ca",
+      "ad_type": "one_fourth",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#FFFFFF"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "solid",
+        "border_color": {
+          "solid": {
+            "hex": "#FFFFFF"
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {
+        "title": "Nouvel an sucré",
+        "url": "/connection-fyt-a-sweet-new-year-september-2023.html",
+        "external_site": false,
+        "same_tab_domain": true,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "vvrtb556fg9s6438987hqm",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/as/vvrtb556fg9s6438987hqm/09_23_LP_FYT_Rosh_Hashana",
+          "filename": "09_23_LP_FYT_Rosh_Hashana.jpg",
+          "extension": "jpg",
+          "dimensions": {
+            "width": 500,
+            "height": 500
+          },
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "image_alt_text": "illustration of items for Rosh Hashana",
+      "mobile_image": [],
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": null,
+            "markdown_text": "**Nouvel an sucré**",
+            "color": {
+              "text_color": {
+                "hex": "#0f4878"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "center"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [],
+      "text_content_placement": "below_the_ad",
+      "title": "A sweet new year - 1765187373212 - September-lLnD9e",
+      "top_and_bottom_strip": [
+        {
+          "strip": {
+            "strip_type": "top_strip",
+            "text": "",
+            "text_color": {
+              "hex": "#f2ca30"
+            },
+            "background_color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#f2ca30"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "top_and_bottom_text_banner": [
+        {
+          "add_text_banner": {
+            "text_banner_type": "top_banner",
+            "text": "Alimentation",
+            "font_size": "large",
+            "text_color": {
+              "hex": "#333333"
+            },
+            "banner_background_color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "use_mobile_image_alt_text": false
+    }
+  }
+}

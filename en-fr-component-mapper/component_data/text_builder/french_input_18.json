@@ -1,0 +1,88 @@
+{
+  "entry": {
+    "title": "★SECTIONS EN VEDETTE - 1772728150448",
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "center",
+      "text_section_type": "full"
+    },
+    "multiple_text_section_group": [
+      {
+        "color_config": {
+          "background_gradient_style": "solid",
+          "background_color": {
+            "hex": ""
+          },
+          "background_gradient_color": {
+            "color1": {
+              "hex": ""
+            },
+            "color2": {
+              "hex": ""
+            }
+          },
+          "text_color": {
+            "hex": ""
+          },
+          "border_color_type": "no-border",
+          "border_color": {
+            "solid": {
+              "hex": ""
+            },
+            "shadow": {
+              "hex": ""
+            }
+          }
+        },
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "heading_v2",
+            "select_semantics_type": "h2",
+            "text_alignment": "center",
+            "markdown_text": "**<span style=\"color: #b01c33;\">★</span>SECTIONS EN VEDETTE**",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": ""
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": ""
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": ""
+                },
+                "shadow": {
+                  "hex": ""
+                }
+              }
+            },
+            "enable_custom_tag_parsing": false
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "locale": "en-ca"
+  }
+}

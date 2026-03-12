@@ -1,0 +1,268 @@
+{
+  "example_id": "text_builder_14",
+  "english_json": {
+    "entry": {
+      "locale": "en-ca",
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "subheading_v2",
+              "select_semantics_type": "h2",
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "**Bankroll models**",
+              "color": {}
+            }
+          ]
+        },
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": {},
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": "h1",
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "Parents may act as role models and in many cases, transmit values, attitudes, knowledge and behaviours about money to their children, according to The Organisation for Economic Co-operation and Development’s 2020 Programme for International Student Assessment (PISA).\n\nRecent PISA data also reveals that second to parents was the internet, with 77% of students saying the web plays an important role as a source of information related to money matters.—*LS*",
+              "color": {}
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Bankroll models"
+    }
+  },
+  "french_json": {
+    "entry": {
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "subheading_v2",
+              "select_semantics_type": "h3",
+              "text_alignment": "left",
+              "markdown_text": "**Modèles financiers**",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": "#333333"
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              },
+              "enable_custom_tag_parsing": false
+            }
+          ]
+        },
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "markdown_text": "Selon le Programme international pour le suivi des acquis des élèves (PISA) 2020 de l'Organisation de coopération et de développement économiques, les parents peuvent servir de modèles et transmettre des valeurs, attitudes, connaissances et comportements sur l'argent à leurs enfants.\n\nLes données récentes du PISA montrent qu'Internet vient en deuxième position derrière les parents : pour 77 % des étudiants, le Web est une source importante d'information sur l'argent.*—LS*",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": "#333333"
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              },
+              "enable_custom_tag_parsing": false
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Modèles financiers - 1772723229262",
+      "locale": "en-ca"
+    }
+  },
+  "mapped_json": {
+    "entry": {
+      "locale": "fr-ca",
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "subheading_v2",
+              "select_semantics_type": "h3",
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "**Modèles financiers**",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": "#333333"
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": "h1",
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "Selon le Programme international pour le suivi des acquis des élèves (PISA) 2020 de l'Organisation de coopération et de développement économiques, les parents peuvent servir de modèles et transmettre des valeurs, attitudes, connaissances et comportements sur l'argent à leurs enfants.\n\nLes données récentes du PISA montrent qu'Internet vient en deuxième position derrière les parents : pour 77 % des étudiants, le Web est une source importante d'information sur l'argent.*—LS*",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": "#333333"
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Bankroll models"
+    }
+  }
+}

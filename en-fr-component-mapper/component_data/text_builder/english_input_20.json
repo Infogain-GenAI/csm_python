@@ -1,0 +1,88 @@
+{
+  "entry": {
+    "locale": "en-ca",
+    "multiple_text_section_group": [
+      {
+        "color_config": {
+          "background_gradient_style": "solid",
+          "background_color": {
+            "hex": "#54B6CC"
+          },
+          "background_gradient_color": {
+            "color1": {
+              "hex": ""
+            },
+            "color2": {
+              "hex": ""
+            }
+          },
+          "text_color": {
+            "hex": "#FFFFFF"
+          },
+          "border_color_type": "no-border",
+          "border_color": {
+            "solid": {
+              "hex": ""
+            },
+            "shadow": {
+              "hex": ""
+            }
+          }
+        },
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "heading_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**FOR YOUR BUSINESS**",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#54B6CC"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#FFFFFF"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": ""
+                },
+                "shadow": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "FOR YOUR BUSINESS(Bold)"
+  }
+}

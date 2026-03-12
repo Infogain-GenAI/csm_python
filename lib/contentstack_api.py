@@ -108,17 +108,37 @@ class ContentstackAPI:
             else:
                 # Preserve error structure for better error handling
                 error_response = None
+                error_details = ""
                 if hasattr(e, 'response') and e.response is not None:
                     try:
                         error_response = e.response.json()
-                    except:
-                        error_response = {'message': e.response.text}
+                        # Extract ContentStack's error message for debugging
+                        # IMPORTANT: Print the FULL response to see all error details
+                        print(f"\n   🔍 DEBUG - Full ContentStack Response:")
+                        import json
+                        print(json.dumps(error_response, indent=2))
+                        
+                        if isinstance(error_response, dict):
+                            if 'error_message' in error_response:
+                                error_details = f"\n   ContentStack Error: {error_response['error_message']}"
+                            elif 'errors' in error_response:
+                                error_details = f"\n   ContentStack Errors: {json.dumps(error_response['errors'], indent=2)}"
+                            elif 'message' in error_response:
+                                error_details = f"\n   ContentStack Message: {error_response['message']}"
+                            else:
+                                # Fallback: dump entire response
+                                error_details = f"\n   ContentStack Response: {json.dumps(error_response, indent=2)}"
+                    except Exception as parse_error:
+                        try:
+                            error_details = f"\n   Response Text: {e.response.text[:1000]}"
+                        except:
+                            pass
                 
                 # Better error message for timeouts
                 if is_timeout:
                     raise Exception(f"⏱️  API request timed out after {self.max_retries} retries (30s timeout). ContentStack API may be slow or unreachable. Check your network connection.") from e
                 else:
-                    raise Exception(f"Request failed after {self.max_retries} retries: {str(e)}") from e
+                    raise Exception(f"Request failed after {self.max_retries} retries: {str(e)}{error_details}") from e
 
     def create_entry(self, content_type_uid: str, entry_data: Dict, entry_reuse_enabled: bool = True, locale: str = None) -> Dict:
         """
@@ -219,11 +239,11 @@ class ContentstackAPI:
         url = f"{self.base_url}/content_types/{content_type_uid}/entries/{entry_uid}"
         params = {'locale': locale}
         
-        print(f"[CONTENTSTACK] Getting entry: {content_type_uid}/{entry_uid}")
+        print(f"[CONTENTSTACK] Getting entry: {content_type_uid}/{entry_uid} (locale: {locale})")
         response = self._make_request('GET', url, params=params)
         return response
 
-    def update_entry(self, content_type_uid: str, entry_uid: str, entry_data: Dict, locale: str = None) -> Dict:
+    def update_entry(self, content_type_uid: str, entry_uid: str, entry_data: Dict, locale: str = None, force_clear_cache: bool = False) -> Dict:
         """
         Update entry
         
@@ -232,6 +252,7 @@ class ContentstackAPI:
             entry_uid: Entry UID
             entry_data: Updated entry data
             locale: Locale (default: uses environment-specific locale)
+            force_clear_cache: If True, performs a two-step update to force ContentStack cache clear
             
         Returns:
             Updated entry data
@@ -243,15 +264,108 @@ class ContentstackAPI:
         url = f"{self.base_url}/content_types/{content_type_uid}/entries/{entry_uid}"
         params = {'locale': locale}
         
+        # CRITICAL FIX: Two-step update for re-localized entries to force cache clear
+        if force_clear_cache:
+            print(f"[CONTENTSTACK] Force cache clear enabled - performing two-step update")
+            
+            # Step 1: Clear problematic nested fields by setting them to empty/null
+            # This forces ContentStack to recognize the field has changed
+            print(f"[CONTENTSTACK] Step 1: Clearing nested fields...")
+            clear_payload = {'entry': {}}
+            
+            # Identify fields that need clearing (modular blocks with styling)
+            if 'page_components' in entry_data:
+                clear_payload['entry']['page_components'] = []
+            
+            try:
+                self._make_request('PUT', url, clear_payload, params)
+                print(f"[CONTENTSTACK] ✅ Cleared nested fields")
+                
+                # Small delay to ensure ContentStack processes the clear
+                import time
+                time.sleep(0.5)
+            except Exception as e:
+                print(f"[CONTENTSTACK] ⚠️  Warning: Clear step failed ({str(e)}), continuing with normal update")
+        
+        # Step 2 (or only step): Perform the actual update
         payload = {'entry': entry_data}
         
-        print(f"[CONTENTSTACK] Updating entry: {content_type_uid}/{entry_uid}")
+        print(f"[CONTENTSTACK] {'Step 2: ' if force_clear_cache else ''}Updating entry: {content_type_uid}/{entry_uid}")
         response = self._make_request('PUT', url, payload, params)
         
         return {
             'success': True,
             'data': response
         }
+
+    def unlocalize_entry(self, content_type_uid: str, entry_uid: str, locale: str = None) -> Dict:
+        """
+        Unlocalize an entry - removes locale-specific data without deleting the entry itself.
+        Uses the /unlocalize endpoint which works for ALL content types (including components).
+        
+        Args:
+            content_type_uid: Content type UID
+            entry_uid: Entry UID
+            locale: Locale to remove (default: uses environment-specific locale)
+            
+        Returns:
+            Response with success status
+        """
+        # Use environment-specific locale if not provided
+        if locale is None:
+            locale = self.locale
+        
+        # CORRECTED ENDPOINT: /unlocalize (not /locales)
+        url = f"{self.base_url}/content_types/{content_type_uid}/entries/{entry_uid}/unlocalize"
+        
+        print(f"[CONTENTSTACK] Unlocalizing entry: {content_type_uid}/{entry_uid} (locale: {locale})")
+        
+        try:
+            import time
+            time.sleep(self.rate_limit_delay)
+            
+            # POST to /unlocalize endpoint with locale param
+            response = requests.post(
+                url, 
+                headers=self.headers, 
+                params={'locale': locale}
+            )
+            response.raise_for_status()
+            
+            print(f"[CONTENTSTACK] ✅ Entry unlocalized successfully (locale {locale} removed)")
+            return {
+                'success': True,
+                'data': response.json() if response.text else {}
+            }
+            
+        except requests.exceptions.HTTPError as e:
+            # If 404, the locale doesn't exist (which is fine)
+            if e.response.status_code == 404:
+                print(f"[CONTENTSTACK] ℹ️  Locale {locale} doesn't exist for this entry (already unlocalized)")
+                return {
+                    'success': True,
+                    'already_unlocalized': True
+                }
+            # If 422, entry may be published or in workflow
+            elif e.response.status_code == 422:
+                error_msg = f"Cannot unlocalize: entry is published or in workflow. Error: {e.response.text}"
+                print(f"[CONTENTSTACK] ⚠️  {error_msg}")
+                return {
+                    'success': False,
+                    'error': error_msg,
+                    'needs_unpublish': True
+                }
+            else:
+                error_msg = f"Failed to unlocalize entry: {str(e)}"
+                if e.response.text:
+                    error_msg += f" - {e.response.text}"
+                print(f"[CONTENTSTACK] ❌ {error_msg}")
+                raise Exception(error_msg)
+        
+        except Exception as e:
+            error_msg = f"Failed to unlocalize entry: {str(e)}"
+            print(f"[CONTENTSTACK] ❌ {error_msg}")
+            raise Exception(error_msg)
 
     def delete_entry(self, content_type_uid: str, entry_uid: str, locale: str = None) -> Dict:
         """
@@ -416,16 +530,16 @@ class ContentstackAPI:
         """
         # Skip workflow for content types that don't have workflow enabled
         # These content types will publish directly without workflow stages
-        # Based on 422 errors: "workflow stage requirements...have not been met"
+        # 
+        # IMPORTANT: Most content types DO have workflow and Publish Rules that require
+        # entries to be in "Approved" stage before publishing. Only skip workflow for
+        # content types that truly don't have workflow enabled (very rare).
+        # 
+        # If you see 422 error "workflow stage requirements...have not been met",
+        # it means the content type DOES have workflow and should NOT be in this list!
         CONTENT_TYPES_WITHOUT_WORKFLOW = [
-            'content_divider',
-            'link_list_simple',
-            'link_flyout',
-            'ad_builder',
-            'text_builder',
-            'link_list_with_flyout_references',
-            'program_card',
-            'ad_set_costco'
+            # Empty list - all content types use workflow by default
+            # Add content types here ONLY if they truly don't have workflow enabled
         ]
         
         if content_type_uid in CONTENT_TYPES_WITHOUT_WORKFLOW:
@@ -435,6 +549,7 @@ class ContentstackAPI:
         url = f"{self.base_url}/content_types/{content_type_uid}/entries/{entry_uid}/workflow"
         params = {'locale': locale}
         
+        # Start with basic payload
         payload = {
             'workflow': {
                 'workflow_stage': {
@@ -444,6 +559,57 @@ class ContentstackAPI:
         }
         
         print(f"[CONTENTSTACK] Updating workflow stage for entry: {content_type_uid}/{entry_uid} to stage: {stage_uid}")
+        
+        # CRITICAL: First verify the entry exists in the target locale and has a workflow
+        # Get the workflow UID from the entry to include in payload
+        workflow_uid_from_entry = None
+        try:
+            verify_response = self.get_entry(content_type_uid, entry_uid, locale=locale)
+            if not verify_response or 'entry' not in verify_response:
+                print(f"[CONTENTSTACK] ⚠️  Entry does not exist in locale {locale} - skipping workflow update")
+                return {'success': False, 'error': 'Entry not found in target locale'}
+            
+            entry_data = verify_response['entry']
+            current_workflow = entry_data.get('_workflow', {})
+            
+            if not current_workflow or not current_workflow.get('workflow_stage'):
+                print(f"[CONTENTSTACK] ⚠️  Entry has no workflow assigned in {locale} locale")
+                print(f"[CONTENTSTACK] Attempting to get workflow from English (en-ca) entry...")
+                
+                # Try to get workflow from English entry
+                try:
+                    en_response = self.get_entry(content_type_uid, entry_uid, locale='en-ca')
+                    if en_response and 'entry' in en_response:
+                        en_workflow = en_response['entry'].get('_workflow', {})
+                        if en_workflow and en_workflow.get('uid'):
+                            workflow_uid_from_entry = en_workflow.get('uid')
+                            payload['workflow']['uid'] = workflow_uid_from_entry
+                            print(f"[CONTENTSTACK] Using workflow UID from English entry: {workflow_uid_from_entry}")
+                        else:
+                            print(f"[CONTENTSTACK] ⚠️  English entry also has no workflow - will try without workflow UID")
+                except Exception as en_error:
+                    print(f"[CONTENTSTACK] ⚠️  Could not get English entry workflow: {en_error}")
+                
+                print(f"[CONTENTSTACK] Attempting workflow update (ContentStack may auto-assign)")
+                # Don't fail - ContentStack might auto-assign the workflow on update
+            else:
+                current_stage = current_workflow.get('workflow_stage', {}).get('uid')
+                current_workflow_uid = current_workflow.get('uid')
+                workflow_uid_from_entry = current_workflow_uid  # Save for payload
+                print(f"[CONTENTSTACK] Current workflow: {current_workflow_uid}")
+                print(f"[CONTENTSTACK] Current stage: {current_stage}")
+                
+                # If already at target stage, skip
+                if current_stage == stage_uid:
+                    print(f"[CONTENTSTACK] ✅ Already at target stage - skipping")
+                    return {'success': True, 'already_at_stage': True}
+                
+                # Include workflow UID in payload
+                payload['workflow']['uid'] = current_workflow_uid
+                print(f"[CONTENTSTACK] Including workflow UID in payload: {current_workflow_uid}")
+        except Exception as verify_error:
+            print(f"[CONTENTSTACK] ⚠️  Could not verify entry workflow: {verify_error}")
+            # Continue anyway - attempt the workflow update
         
         # CRITICAL: Use different authentication based on stage
         # - Review stage: Use management_token (standard authorization)
@@ -472,8 +638,34 @@ class ContentstackAPI:
                 'data': response.json() if response.text else {}
             }
         except requests.exceptions.RequestException as e:
-            print(f"[CONTENTSTACK] ❌ Error updating workflow: {str(e)}")
-            raise Exception(f"Failed to update workflow stage: {str(e)}")
+            # Extract detailed error message from ContentStack response
+            error_details = str(e)
+            if hasattr(e, 'response') and e.response is not None:
+                try:
+                    error_response = e.response.json()
+                    # IMPORTANT: Print the FULL response to see all error details
+                    print(f"\n   🔍 DEBUG - Full ContentStack Workflow Response:")
+                    import json
+                    print(json.dumps(error_response, indent=2))
+                    
+                    if isinstance(error_response, dict):
+                        if 'error_message' in error_response:
+                            error_details = error_response['error_message']
+                        elif 'errors' in error_response:
+                            error_details = json.dumps(error_response['errors'], indent=2)
+                        elif 'message' in error_response:
+                            error_details = error_response['message']
+                        else:
+                            # Fallback: dump entire response
+                            error_details = json.dumps(error_response, indent=2)
+                except Exception as parse_error:
+                    try:
+                        error_details = e.response.text[:1000]
+                    except:
+                        pass
+            
+            print(f"[CONTENTSTACK] ❌ Error updating workflow: {error_details}")
+            raise Exception(f"Failed to update workflow stage: {error_details}")
     
     def create_asset_reference(self, asset_id: str, cdn_url: str, filename: str, 
                                extension: str, dimensions: Dict = None, 

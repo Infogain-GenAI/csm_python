@@ -1,0 +1,171 @@
+{
+  "entry": {
+    "locale": "fr-ca",
+    "ad_type": "full",
+    "background_group": {
+      "background_gradient_style": "solid",
+      "background_color": {
+        "hex": "#ffffff"
+      },
+      "background_gradient_color": {
+        "color1": {
+          "hex": ""
+        },
+        "color2": {
+          "hex": ""
+        }
+      },
+      "text_color": {
+        "hex": "#333333"
+      },
+      "border_color_type": "solid",
+      "border_color": {
+        "solid": {
+          "hex": "#f2ca30"
+        },
+        "shadow": {
+          "hex": ""
+        }
+      }
+    },
+    "caption": "",
+    "costco_url": {
+      "title": "",
+      "url": "/connection-cover-story-expanding-frontiers-september-2023.html",
+      "external_site": false,
+      "same_tab_domain": true,
+      "reference_link": false,
+      "content_type_uid": "",
+      "entry_title": "",
+      "entry_uid": "",
+      "page_id": "",
+      "open_as_pop_up": false
+    },
+    "disclaimer": "",
+    "disclaimer_markdown": "",
+    "enable_caption": false,
+    "enable_custom_background": true,
+    "enable_disclaimer": false,
+    "enable_mobile_image_variation": false,
+    "enable_product_linked": false,
+    "enable_sponsored": false,
+    "enable_text_content": true,
+    "image": [
+      {
+        "id": "rtbxftrrm78w6q5s7jgwnwgk",
+        "url": "https://cdn.bfldr.com/56O3HXZ9/as/rtbxftrrm78w6q5s7jgwnwgk/09_23_LP_Cover_Story",
+        "filename": "09_23_LP_Cover_Story.jpg",
+        "extension": "jpg",
+        "dimensions": {
+          "width": 910,
+          "height": 650
+        },
+        "mimetype": "image/jpeg"
+      }
+    ],
+    "image_alt_text": "illustration of Costco warehouses",
+    "mobile_image": [],
+    "mobile_image_alt_text": "",
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "privacy_toggle": {
+      "disable_third_party_tracking": false
+    },
+    "product_link": {},
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_content": [
+      {
+        "markdown_text": {
+          "select_text_type": "subheading_v2",
+          "select_semantics_type": null,
+          "markdown_text": "**La Une**",
+          "color": {
+            "hex": "#b31e3b"
+          }
+        }
+      },
+      {
+        "markdown_text": {
+          "select_text_type": "title_v2",
+          "select_semantics_type": null,
+          "markdown_text": "Repousser les frontières",
+          "color": {
+            "hex": "#333333"
+          }
+        }
+      },
+      {
+        "markdown_text": {
+          "select_text_type": "subheading_v2",
+          "select_semantics_type": null,
+          "markdown_text": "Qui aurait prédit que Costco Wholesale serait un jour une marque connue dans le monde entier?",
+          "color": {
+            "hex": "#333333"
+          }
+        }
+      }
+    ],
+    "text_content_above_below_the_ad_styles": [
+      {
+        "above_below_the_ad_styles": {
+          "text_alignment": "left"
+        }
+      }
+    ],
+    "text_content_overlay_styles": [],
+    "text_content_placement": "below_the_ad",
+    "title": "Cover Story Expanding Frontiers Ad Builder - September 2023 - September-rAEWwO",
+    "top_and_bottom_strip": [
+      {
+        "strip": {
+          "strip_type": "bottom_strip",
+          "text": "",
+          "text_color": {
+            "hsl": {
+              "h": 47.628865979381445,
+              "s": 0.8818181818181817,
+              "l": 0.5686274509803921,
+              "a": 1
+            },
+            "hex": "#f2ca30",
+            "rgb": {
+              "r": 242,
+              "g": 202,
+              "b": 48,
+              "a": 1
+            },
+            "hsv": {
+              "h": 47.628865979381445,
+              "s": 0.8016528925619835,
+              "v": 0.9490196078431372,
+              "a": 1
+            },
+            "oldHue": 246.9064748201439,
+            "source": "hex"
+          },
+          "background_color": {
+            "background_gradient_style": "solid",
+            "background_color": {
+              "hex": "#f2ca30"
+            },
+            "background_gradient_color": {
+              "color1": {
+                "hex": ""
+              },
+              "color2": {
+                "hex": ""
+              }
+            }
+          }
+        }
+      }
+    ],
+    "top_and_bottom_text_banner": [],
+    "use_mobile_image_alt_text": false
+  }
+}

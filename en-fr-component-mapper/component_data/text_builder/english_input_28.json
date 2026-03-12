@@ -1,0 +1,105 @@
+{
+  "entry": {
+    "locale": "en-ca",
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**A gland that grows**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {
+          "background_gradient_style": "no-background",
+          "background_color": {
+            "hex": ""
+          },
+          "background_gradient_color": {
+            "color1": {
+              "hex": ""
+            },
+            "color2": {
+              "hex": ""
+            }
+          },
+          "text_color": {
+            "hex": ""
+          },
+          "border_color_type": "no-border",
+          "border_color": {
+            "solid": {
+              "hex": ""
+            },
+            "shadow": {
+              "hex": ""
+            }
+          }
+        },
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "As men age, the prostate slowly grows bigger. After age 60, the gland may drastically increase in size. A large prostate can weigh 40 grams to 125 grams, or about the size of a melon. When men have benign prostatic hyperplasia, the prostate gland can increase four to five times its initial size.\n\nThe larger the prostate, the more pressure on the urethra, the tube that carries urine from the bladder out of the body. That's why an enlarged prostate can cause a range of urination problems.*—JE*",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": ""
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": ""
+                },
+                "shadow": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "A gland that grows"
+  }
+}

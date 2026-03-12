@@ -1,0 +1,128 @@
+{
+  "entry": {
+    "locale": "fr-ca",
+    "ad_type": "full",
+    "background_group": {
+      "background_gradient_style": "solid",
+      "background_color": {
+        "hex": "#D3D3D3"
+      },
+      "background_gradient_color": {
+        "color1": {
+          "hex": ""
+        },
+        "color2": {
+          "hex": ""
+        }
+      },
+      "text_color": {
+        "hex": ""
+      },
+      "border_color_type": "no-border",
+      "border_color": {
+        "solid": {
+          "hex": ""
+        },
+        "shadow": {
+          "hex": ""
+        }
+      }
+    },
+    "caption": "",
+    "costco_url": {
+      "title": "",
+      "external_site": false,
+      "reference_link": false,
+      "content_type_uid": "",
+      "entry_title": "",
+      "entry_uid": "",
+      "page_id": "",
+      "open_as_pop_up": false
+    },
+    "disclaimer": "",
+    "disclaimer_markdown": "",
+    "enable_caption": false,
+    "enable_custom_background": true,
+    "enable_disclaimer": false,
+    "enable_mobile_image_variation": false,
+    "enable_product_linked": false,
+    "enable_sponsored": false,
+    "enable_text_content": true,
+    "image": [
+      {
+        "id": "skmg3ft5htk5xmfthhpjqv2g",
+        "url": "https://cdn.bfldr.com/56O3HXZ9/as/skmg3ft5htk5xmfthhpjqv2g/09_23_Costco_Life_01",
+        "filename": "09_23_Costco_Life_01.jpg",
+        "extension": "jpg",
+        "dimensions": {
+          "width": 910,
+          "height": 650
+        },
+        "mimetype": "image/jpeg"
+      }
+    ],
+    "image_alt_text": "candle",
+    "mobile_image": [],
+    "mobile_image_alt_text": "",
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "privacy_toggle": {
+      "disable_third_party_tracking": false
+    },
+    "product_link": {},
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_content": [
+      {
+        "markdown_text": {
+          "select_text_type": "caption_v2",
+          "select_semantics_type": null,
+          "markdown_text": "© ATLAS / STOCK.ADOBE.COM",
+          "color": {
+            "background_gradient_style": "no-background",
+            "background_color": {
+              "hex": ""
+            },
+            "background_gradient_color": {
+              "color1": {
+                "hex": ""
+              },
+              "color2": {
+                "hex": ""
+              }
+            },
+            "text_color": {
+              "hex": "#333333"
+            },
+            "border_color_type": "no-border",
+            "border_color": {
+              "solid": {
+                "hex": ""
+              },
+              "shadow": {
+                "hex": ""
+              }
+            }
+          }
+        }
+      }
+    ],
+    "text_content_above_below_the_ad_styles": [
+      {
+        "above_below_the_ad_styles": {
+          "text_alignment": "center"
+        }
+      }
+    ],
+    "text_content_overlay_styles": [],
+    "text_content_placement": "below_the_ad",
+    "title": "Ad Builder Entry - 1765261655493 - Costco Life - Lighten the mood-1fUxuL",
+    "top_and_bottom_strip": [],
+    "top_and_bottom_text_banner": [],
+    "use_mobile_image_alt_text": false
+  }
+}

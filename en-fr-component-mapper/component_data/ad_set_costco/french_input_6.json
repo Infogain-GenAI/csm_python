@@ -1,0 +1,337 @@
+{
+  "entry": {
+    "title": "Lawrence Varga and Joseph Hanna - Bio - 1772736660657",
+    "ad_set_heading_and_costco_url": {
+      "title": "",
+      "url": "",
+      "external_site": false,
+      "reference_link": false,
+      "content_type_uid": "",
+      "entry_title": "",
+      "entry_uid": "",
+      "page_id": "",
+      "open_as_pop_up": false
+    },
+    "item_type": "ad",
+    "ad_set_style": "static",
+    "ad_content": [
+      {
+        "ad_builder_block": {
+          "ad_builder_ref": [
+            {
+              "_content_type_uid": "ad_builder",
+              "entry": {
+                "ad_type": "one_third",
+                "background_group": {
+                  "background_gradient_style": "solid",
+                  "background_color": {
+                    "hex": "#FFFFFF"
+                  },
+                  "background_gradient_color": {
+                    "color1": {
+                      "hex": ""
+                    },
+                    "color2": {
+                      "hex": ""
+                    }
+                  },
+                  "text_color": {
+                    "hex": ""
+                  },
+                  "border_color_type": "no-border",
+                  "border_color": {
+                    "solid": {
+                      "hex": ""
+                    },
+                    "shadow": {
+                      "hex": ""
+                    }
+                  }
+                },
+                "caption": "",
+                "costco_url": {
+                  "title": "",
+                  "url": "",
+                  "external_site": false,
+                  "same_tab_domain": true,
+                  "reference_link": false,
+                  "content_type_uid": "",
+                  "entry_title": "",
+                  "entry_uid": "",
+                  "page_id": "",
+                  "open_as_pop_up": false
+                },
+                "disclaimer": "",
+                "disclaimer_markdown": "",
+                "enable_caption": false,
+                "enable_custom_background": true,
+                "enable_disclaimer": false,
+                "enable_mobile_image_variation": false,
+                "enable_product_linked": false,
+                "enable_sponsored": false,
+                "enable_text_content": true,
+                "image": [
+                  {
+                    "id": "xnqhh2zk4f45w6n8m2s7v2b",
+                    "url": "https://cdn.bfldr.com/56O3HXZ9/as/xnqhh2zk4f45w6n8m2s7v2b/Lawrence_Varga_Headshot",
+                    "filename": "Lawrence_Varga_Headshot.jpg",
+                    "extension": "jpg",
+                    "dimensions": {
+                      "width": 308,
+                      "height": 349
+                    },
+                    "mimetype": "image/jpeg"
+                  }
+                ],
+                "image_alt_text": "man",
+                "mobile_image": [],
+                "mobile_image_alt_text": "",
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "privacy_toggle": {
+                  "disable_third_party_tracking": false
+                },
+                "product_link": {},
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "text_content": [
+                  {
+                    "markdown_text": {
+                      "select_text_type": "caption_v2",
+                      "select_semantics_type": null,
+                      "markdown_text": "© COSTCO CANADA",
+                      "color": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": ""
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#cccccc"
+                          },
+                          "shadow": {
+                            "hex": "#cccccc"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "text_content_above_below_the_ad_styles": [
+                  {
+                    "above_below_the_ad_styles": {
+                      "text_alignment": "center"
+                    }
+                  }
+                ],
+                "text_content_overlay_styles": [],
+                "text_content_placement": "below_the_ad",
+                "title": "Lawrence Varga and Joseph Hanna - Bio - Image only - 1772736658297",
+                "top_and_bottom_strip": [],
+                "top_and_bottom_text_banner": [],
+                "use_mobile_image_alt_text": false,
+                "locale": "en-ca"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ad_builder_block": {
+          "ad_builder_ref": [
+            {
+              "_content_type_uid": "ad_builder",
+              "entry": {
+                "title": "Lawrence Varga and Joseph Hanna - Bio - Text only - 1772736659479",
+                "privacy_toggle": {
+                  "disable_third_party_tracking": false
+                },
+                "ad_type": "one_third",
+                "image": [],
+                "image_alt_text": "",
+                "enable_mobile_image_variation": false,
+                "mobile_image": [],
+                "use_mobile_image_alt_text": false,
+                "mobile_image_alt_text": "",
+                "costco_url": {
+                  "title": "",
+                  "url": "",
+                  "external_site": false,
+                  "same_tab_domain": true,
+                  "reference_link": false,
+                  "content_type_uid": "",
+                  "entry_title": "",
+                  "entry_uid": "",
+                  "page_id": "",
+                  "open_as_pop_up": false
+                },
+                "enable_product_linked": false,
+                "product_link": {},
+                "top_and_bottom_text_banner": [],
+                "top_and_bottom_strip": [],
+                "enable_text_content": true,
+                "text_content": [
+                  {
+                    "markdown_text": {
+                      "select_text_type": "body_copy_v2",
+                      "select_semantics_type": null,
+                      "markdown_text": "**Lawrence Varga,** B. Sc. Phm., vice-président adjoint des pharmacies de Costco.\n\n**Joseph Hanna,** B.Sc. Phm., CDE, BCGP, directeur des pharmacies de Costco, a contribué à cet article.",
+                      "color": {
+                        "text_color": {
+                          "hex": "#000000"
+                        },
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#ffffff"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#cccccc"
+                          },
+                          "shadow": {
+                            "hex": "#cccccc"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "text_content_placement": "overlay",
+                "text_content_overlay_styles": [
+                  {
+                    "overlay_style": {
+                      "applicability": "default",
+                      "overlay_fill_type": "horizontal",
+                      "overlay_fill_": "100",
+                      "overlay_position": "left",
+                      "text_alignment": "middle",
+                      "overlay_background_color": {}
+                    }
+                  }
+                ],
+                "text_content_above_below_the_ad_styles": [
+                  {
+                    "above_below_the_ad_styles": {
+                      "text_alignment": "left"
+                    }
+                  }
+                ],
+                "enable_custom_background": true,
+                "background_group": {
+                  "background_gradient_style": "solid",
+                  "background_color": {
+                    "hex": "#FFFFFF"
+                  },
+                  "background_gradient_color": {
+                    "color1": {
+                      "hex": ""
+                    },
+                    "color2": {
+                      "hex": ""
+                    }
+                  },
+                  "text_color": {
+                    "hex": ""
+                  },
+                  "border_color_type": "no-border",
+                  "border_color": {
+                    "solid": {
+                      "hex": ""
+                    },
+                    "shadow": {
+                      "hex": ""
+                    }
+                  }
+                },
+                "enable_disclaimer": false,
+                "disclaimer": "",
+                "disclaimer_markdown": "",
+                "enable_sponsored": false,
+                "enable_caption": false,
+                "caption": "",
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "locale": "en-ca"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "ad_set_background": {
+      "title_background_color": {},
+      "title_background_transparency": "1",
+      "body_background_color": {},
+      "body_background_transparency": "1"
+    },
+    "background_foreground_banner_group": {
+      "background_banner_button_alignment": "horizontal",
+      "background_banner_image_alignment": "top",
+      "background_banner_reference": [],
+      "foreground_banner_group": []
+    },
+    "caption": "",
+    "category_content": {
+      "category_items": [],
+      "image_form_factor": "rounded",
+      "background_color": {},
+      "category_set_title_alignment": "left",
+      "category_content_placement": null
+    },
+    "custom_background": false,
+    "enable_background_foreground_banner": false,
+    "platform_config_block": {
+      "android_version_support": "",
+      "ios_version_support": "",
+      "platform_aplicability": "mobile_web"
+    },
+    "product_content": {
+      "product_list": {}
+    },
+    "product_display_style": {
+      "product_card_display_style": "compact",
+      "show_action_button": true,
+      "show_reviews": true,
+      "inventory_aware_listings": false,
+      "product_tile_data_source": null
+    },
+    "rotating_options": {
+      "multi_item_carousel": false,
+      "enable_autoplay": false,
+      "enable_two_row_display": false,
+      "randomize_items": false,
+      "enable_peek_a_boo": false
+    },
+    "static_options": {
+      "display_style": "multi_row",
+      "maximum_tiles_per_row": 5
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "locale": "en-ca"
+  }
+}

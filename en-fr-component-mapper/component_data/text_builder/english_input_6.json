@@ -1,0 +1,89 @@
+{
+  "entry": {
+    "locale": "en-ca",
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "title_with_xl_v2",
+            "select_semantics_type": "h2",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**Home health**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "Mike Holmes Inspections is giving Costco members peace of mind",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "by SHARON CHISVIN",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "The purchase of a home is one of the biggest decisions, and likely the largest investment, that most people will make in their lifetime. That is why all potential new home buyers should consider engaging the services of Mike Holmes Inspections before signing on the dotted line. While that may not bring Mike Holmes personally to their doorstep, it will mean that their home will be thoroughly inspected by a certified professional emulating the integrity, knowledge and proficiency of the reality television host.\n\nMike Holmes Inspections offers Costco members discounts of up to 30%, depending on which of the two home inspection packages they choose. The extended inspection package includes an examination of a house’s structure, roof, windows, doors, driveway, and plumbing, HVAC and electrical systems, as well as mould testing and a thermal imaging assessment. The premium package goes further, including radon testing. Radon is known to be an odourless, invisible gas that is radioactive and naturally released from rocks, soil and water.\n\nHome inspections are a critical aspect of the home purchasing process and a proven way to provide purchasers with peace of mind. They are not, however, just for home buyers. Many sellers also take the extra step of getting a pre-listing home inspection prior to putting their house on the market. Information from that inspection helps determine whether to make repairs or upgrades before putting up a For Sale sign. It also helps homeowners determine an asking price.\n\n“I highly recommend Mike Holmes Inspections to Costco members seeking a trustworthy and reliable home inspection service,” says Scott Piccolo, the company’s president and CEO. “Our team of professionals are highly skilled and knowledgeable, and they provide a comprehensive inspection of the property. Additionally, their customer service is exceptional, and they are always willing to answer any questions or concerns that you may have.”\n\nPurchasing or selling a home can be exciting but also fraught with anxiety. Mike Holmes Inspections can help relieve much of that.\n\n",
+            "color": {}
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "Home health - Mike Holmes Inspections - 1764850458395"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "entry": {
+    "title": "Costco Connection Logo Ad Builder - 1772737318732",
+    "privacy_toggle": {
+      "disable_third_party_tracking": false
+    },
+    "ad_type": "one_fourth",
+    "image": [
+      {
+        "id": "7c3tfzrczg59rp6t7gjkqwz",
+        "url": "https://cdn.bfldr.com/56O3HXZ9/as/7c3tfzrczg59rp6t7gjkqwz/ContactCostco_FR",
+        "filename": "ContactCostco_FR.png",
+        "extension": "png",
+        "dimensions": {
+          "width": 2208,
+          "height": 298
+        },
+        "mimetype": "image/png"
+      }
+    ],
+    "image_alt_text": "Costco Connection Home",
+    "enable_mobile_image_variation": false,
+    "mobile_image": [],
+    "use_mobile_image_alt_text": false,
+    "mobile_image_alt_text": "",
+    "costco_url": {
+      "title": "",
+      "url": "/connection-front-cover-september-2023.html",
+      "external_site": false,
+      "same_tab_domain": true,
+      "reference_link": false,
+      "content_type_uid": "",
+      "entry_title": "",
+      "entry_uid": "",
+      "page_id": "",
+      "open_as_pop_up": false
+    },
+    "enable_product_linked": false,
+    "product_link": {},
+    "top_and_bottom_text_banner": [],
+    "top_and_bottom_strip": [],
+    "enable_text_content": false,
+    "text_content": [],
+    "text_content_placement": null,
+    "text_content_overlay_styles": [],
+    "text_content_above_below_the_ad_styles": [],
+    "enable_custom_background": true,
+    "background_group": {
+      "background_gradient_style": "solid",
+      "background_color": {
+        "hex": "#ffffff"
+      },
+      "background_gradient_color": {
+        "color1": {
+          "hex": ""
+        },
+        "color2": {
+          "hex": ""
+        }
+      },
+      "text_color": {
+        "hex": ""
+      },
+      "border_color_type": "no-border",
+      "border_color": {
+        "solid": {
+          "hex": ""
+        },
+        "shadow": {
+          "hex": ""
+        }
+      }
+    },
+    "enable_disclaimer": false,
+    "disclaimer": "",
+    "disclaimer_markdown": "",
+    "enable_sponsored": false,
+    "enable_caption": false,
+    "caption": "",
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "locale": "en-ca"
+  }
+}

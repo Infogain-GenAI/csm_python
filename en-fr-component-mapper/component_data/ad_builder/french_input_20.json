@@ -1,0 +1,121 @@
+{
+  "entry": {
+    "title": "Lawrence Varga and Joseph Hanna - Bio - Text only - 1772736659479",
+    "privacy_toggle": {
+      "disable_third_party_tracking": false
+    },
+    "ad_type": "one_third",
+    "image": [],
+    "image_alt_text": "",
+    "enable_mobile_image_variation": false,
+    "mobile_image": [],
+    "use_mobile_image_alt_text": false,
+    "mobile_image_alt_text": "",
+    "costco_url": {
+      "title": "",
+      "url": "",
+      "external_site": false,
+      "same_tab_domain": true,
+      "reference_link": false,
+      "content_type_uid": "",
+      "entry_title": "",
+      "entry_uid": "",
+      "page_id": "",
+      "open_as_pop_up": false
+    },
+    "enable_product_linked": false,
+    "product_link": {},
+    "top_and_bottom_text_banner": [],
+    "top_and_bottom_strip": [],
+    "enable_text_content": true,
+    "text_content": [
+      {
+        "markdown_text": {
+          "select_text_type": "body_copy_v2",
+          "select_semantics_type": null,
+          "markdown_text": "**Lawrence Varga,** B. Sc. Phm., vice-président adjoint des pharmacies de Costco.\n\n**Joseph Hanna,** B.Sc. Phm., CDE, BCGP, directeur des pharmacies de Costco, a contribué à cet article.",
+          "color": {
+            "text_color": {
+              "hex": "#000000"
+            },
+            "background_gradient_style": "solid",
+            "background_color": {
+              "hex": "#ffffff"
+            },
+            "border_color_type": "no-border",
+            "border_color": {
+              "solid": {
+                "hex": "#cccccc"
+              },
+              "shadow": {
+                "hex": "#cccccc"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "text_content_placement": "overlay",
+    "text_content_overlay_styles": [
+      {
+        "overlay_style": {
+          "applicability": "default",
+          "overlay_fill_type": "horizontal",
+          "overlay_fill_": "100",
+          "overlay_position": "left",
+          "text_alignment": "middle",
+          "overlay_background_color": {}
+        }
+      }
+    ],
+    "text_content_above_below_the_ad_styles": [
+      {
+        "above_below_the_ad_styles": {
+          "text_alignment": "left"
+        }
+      }
+    ],
+    "enable_custom_background": true,
+    "background_group": {
+      "background_gradient_style": "solid",
+      "background_color": {
+        "hex": "#FFFFFF"
+      },
+      "background_gradient_color": {
+        "color1": {
+          "hex": ""
+        },
+        "color2": {
+          "hex": ""
+        }
+      },
+      "text_color": {
+        "hex": ""
+      },
+      "border_color_type": "no-border",
+      "border_color": {
+        "solid": {
+          "hex": ""
+        },
+        "shadow": {
+          "hex": ""
+        }
+      }
+    },
+    "enable_disclaimer": false,
+    "disclaimer": "",
+    "disclaimer_markdown": "",
+    "enable_sponsored": false,
+    "enable_caption": false,
+    "caption": "",
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "locale": "en-ca"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "entry": {
+    "locale": "fr-ca",
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "title_with_xl_v2",
+            "select_semantics_type": "h2",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "C’est toujours personnel",
+            "color": {
+              "background_gradient_style": "no-background",
+              "background_color": {
+                "hex": ""
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": ""
+                },
+                "shadow": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "Conseils d'expert pour améliorer la communication",
+            "color": {
+              "background_gradient_style": "no-background",
+              "background_color": {
+                "hex": ""
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": ""
+                },
+                "shadow": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "by JEANNE MAES AND JENNIFER C. ZOGHBY\n\nSavoir communiquer a un impact sur la qualité de vie. Chaque communication comporte deux niveaux. Tout d'abord, le but ou le motif de la communication, qu'elle soit personnelle ou professionnelle : il peut s'agir de prendre des nouvelles d'un voisin ou, sur un plan plus complexe, de donner des instructions sur un projet. Le but est facile à définir. Le plus difficile, c'est le deuxième niveau : la relation avec l'autre personne. Quatre piliers définissent son succès ou son échec.\n\n**Le moment présent**  \nUne relation se conjugue toujours au présent. Une amitié peut remonter à longtemps, mais elle ne peut perdurer que si on l'entretient et si on ne la tient pas pour acquise. On peut avoir eu des conflits par le passé, mais faut-il que cela continue? Pas nécessairement.\n\n**C'est personnel**  \nMême une communication professionnelle se déroule toujours entre au moins deux personnes. La façon dont les interlocuteurs se parlent pèse beaucoup dans la balance.\n\n**Question de statut**  \nDans une relation, on connaît son statut, son rang ou sa position, notamment dans les communications professionnelles. Dans une entreprise, on peut être le patron, le subordonné ou un pair. Quand on parle à quelqu'un, le lien qu'on tisse avec cette personne peut dépendre de son statut. Cela semble parfois injuste, mais il faut en tenir compte dans le niveau de communication de la relation.\n\n**La règle d'or**  \nEnfin, la dignité humaine entre toujours en jeu dans une relation. Personne n'aime être corrigé devant un groupe. Si une personne se sent attaquée ou humiliée, apaiser la relation peut prendre du temps. Dans un contexte tendu, il vaut mieux donner à la personne une chance de « sauver les apparences ».\n\nPour garder une bonne longueur d'avance, mettre au clair le but de la communication et rester axé sur la relation. La communication est une partie importante de la vie : les échanges doivent donc être orientés sur l'objectif et la relation.",
+            "color": {
+              "background_gradient_style": "no-background",
+              "background_color": {
+                "hex": ""
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": ""
+                },
+                "shadow": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "It's always personal - 1764058049990 - 1766389555946"
+  }
+}

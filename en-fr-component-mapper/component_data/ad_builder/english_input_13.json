@@ -1,0 +1,195 @@
+{
+  "entry": {
+    "title": "Cover Story Expanding Frontiers Ad Builder - September 2023 - September-rAEWwO",
+    "privacy_toggle": {
+      "disable_third_party_tracking": false
+    },
+    "ad_type": "full",
+    "image": [
+      {
+        "id": "vx33n324jmr9f9s79c2ng87",
+        "name": "09_23_LP_Cover_Story.jpg",
+        "position": 0,
+        "type": "attachments",
+        "url": "https://cdn.bfldr.com/56O3HXZ9/at/vx33n324jmr9f9s79c2ng87/09_23_LP_Cover_Story.jpg?auto=webp&format=jpg",
+        "filename": "09_23_LP_Cover_Story.jpg",
+        "extension": "jpg",
+        "mimetype": "image/jpeg",
+        "thumbnailUrl": "https://thumbs.bfldr.com/at/vx33n324jmr9f9s79c2ng87/v/1305058317?expiry=1770789065&fit=bounds&height=162&sig=YjY4YmY4NzAwNjFmMGY0MWMxYTczMTg1YjFjYTY5ZjMzMDNjZThhNw%3D%3D&width=262",
+        "dimensions": {
+          "width": 910,
+          "height": 650,
+          "type": 0
+        }
+      }
+    ],
+    "image_alt_text": "illustration of Costco warehouses",
+    "enable_mobile_image_variation": false,
+    "mobile_image": [],
+    "use_mobile_image_alt_text": false,
+    "mobile_image_alt_text": "",
+    "costco_url": {
+      "title": "",
+      "url": "/connection-cover-story-expanding-frontiers-september-2023.html",
+      "external_site": false,
+      "same_tab_domain": true,
+      "reference_link": false,
+      "content_type_uid": "",
+      "entry_title": "",
+      "entry_uid": "",
+      "page_id": "",
+      "open_as_pop_up": false
+    },
+    "enable_product_linked": false,
+    "product_link": {},
+    "top_and_bottom_text_banner": [],
+    "top_and_bottom_strip": [
+      {
+        "strip": {
+          "strip_type": "bottom_strip",
+          "text": "",
+          "text_color": {
+            "hsl": {
+              "h": 47.628865979381445,
+              "s": 0.8818181818181817,
+              "l": 0.5686274509803921,
+              "a": 1
+            },
+            "hex": "#f2ca30",
+            "rgb": {
+              "r": 242,
+              "g": 202,
+              "b": 48,
+              "a": 1
+            },
+            "hsv": {
+              "h": 47.628865979381445,
+              "s": 0.8016528925619835,
+              "v": 0.9490196078431372,
+              "a": 1
+            },
+            "oldHue": 246.9064748201439,
+            "source": "hex"
+          },
+          "background_color": {
+            "background_gradient_style": "solid",
+            "background_color": {
+              "hex": "#f2ca30"
+            },
+            "background_gradient_color": {
+              "color1": {
+                "hex": ""
+              },
+              "color2": {
+                "hex": ""
+              }
+            }
+          }
+        }
+      }
+    ],
+    "enable_text_content": true,
+    "text_content": [
+      {
+        "markdown_text": {
+          "select_text_type": "subheading_v2",
+          "select_semantics_type": null,
+          "markdown_text": "**Cover Storey**",
+          "color": {
+            "background_gradient_style": "no-background",
+            "background_color": {
+              "hex": ""
+            },
+            "background_gradient_color": {
+              "color1": {
+                "hex": ""
+              },
+              "color2": {
+                "hex": ""
+              }
+            },
+            "text_color": {
+              "hex": "#B31E3B"
+            },
+            "border_color_type": "no-border",
+            "border_color": {
+              "solid": {
+                "hex": ""
+              },
+              "shadow": {
+                "hex": ""
+              }
+            }
+          }
+        }
+      },
+      {
+        "markdown_text": {
+          "select_text_type": "title_v2",
+          "select_semantics_type": null,
+          "markdown_text": "Expanding frontires",
+          "color": {}
+        }
+      },
+      {
+        "markdown_text": {
+          "select_text_type": "subheading_v2",
+          "select_semantics_type": null,
+          "markdown_text": "Few could have predicted that one day Costco Wholesale would be a name familiar to people all across the world",
+          "color": {}
+        }
+      }
+    ],
+    "text_content_placement": "below_the_ad",
+    "text_content_overlay_styles": [],
+    "text_content_above_below_the_ad_styles": [
+      {
+        "above_below_the_ad_styles": {
+          "text_alignment": "left"
+        }
+      }
+    ],
+    "enable_custom_background": true,
+    "background_group": {
+      "background_gradient_style": "solid",
+      "background_color": {
+        "hex": "#FFFFFF"
+      },
+      "background_gradient_color": {
+        "color1": {
+          "hex": ""
+        },
+        "color2": {
+          "hex": ""
+        }
+      },
+      "text_color": {
+        "hex": ""
+      },
+      "border_color_type": "no-border",
+      "border_color": {
+        "solid": {
+          "hex": ""
+        },
+        "shadow": {
+          "hex": ""
+        }
+      }
+    },
+    "enable_disclaimer": false,
+    "disclaimer": "",
+    "disclaimer_markdown": "",
+    "enable_sponsored": false,
+    "enable_caption": false,
+    "caption": "",
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "locale": "en-ca"
+  }
+}

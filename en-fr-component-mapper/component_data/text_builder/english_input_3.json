@@ -1,0 +1,96 @@
+{
+  "entry": {
+    "locale": "en-ca",
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "title_v2",
+            "select_semantics_type": "h2",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**Lighten the mood**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {
+          "background_gradient_style": "no-background",
+          "background_color": {
+            "hex": ""
+          },
+          "background_gradient_color": {
+            "color1": {
+              "hex": ""
+            },
+            "color2": {
+              "hex": ""
+            }
+          },
+          "text_color": {
+            "hex": ""
+          },
+          "border_color_type": "no-border",
+          "border_color": {
+            "solid": {
+              "hex": ""
+            },
+            "shadow": {
+              "hex": ""
+            }
+          }
+        },
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "Candles can set the scene and mark special occasions—including World Candle Month (September). There's just something captivating about them, with their various colours and scents and the warming glow they give off. Find a variety of candles, including the flameless LED variety, in warehouses and at [Costco.ca.](/CatalogSearch?dept=All&keyword=candle)",
+            "color": {}
+          },
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "  \n#**Back story**  \n",
+            "color": {}
+          },
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**THE ANCIENT ROMANS** are generally credited with developing the wicked candle by dipping rolled papyrus in melted beeswax or tallow, according to Candles.org. The candles were used to bring light to homes, be a part of religious ceremonies and aid travellers at night. Early versions of candles used various forms of wax, including from an indigenous insect combined with seeds (China), from tree nuts (Japan) and by boiling the fruit of the cinnamon tree (India).",
+            "color": {}
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "Lighten the mood - 1765261655898"
+  }
+}

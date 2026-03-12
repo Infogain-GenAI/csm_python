@@ -1,0 +1,89 @@
+{
+  "entry": {
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "title_with_xl_v2",
+            "select_semantics_type": "h1",
+            "text_alignment": "left",
+            "markdown_text": "**Ambiance apaisante**",
+            "color": {},
+            "enable_custom_tag_parsing": false
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "markdown_text": "Les chandelles permettent de créer l'ambiance et de souligner les occasions, incluant le Mois international des chandelles (septembre). Elles ont quelque chose de captivant, avec leurs divers parfums et couleurs et la lueur chaleureuse qu'elles produisent. Une variété de chandelles, y compris la variété à DEL sans flamme, est offerte en entrepôt Costco et sur [Costco.ca.](/CatalogSearch?dept=All&keyword=candle)",
+            "color": {},
+            "enable_custom_tag_parsing": false
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "markdown_text": "**Coup d'oeil**",
+            "color": {},
+            "enable_custom_tag_parsing": false
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "markdown_text": "**LES ANCIENS ROMAINS** auraient originalement créé la chandelle à mèche en trempant du papyrus roulé dans de la cire d'abeille fondue ou du suif, selon Candles.org*. Les chandelles servaient à éclairer les maisons, à participer aux cérémonies religieuses et à aider les voyageurs la nuit. Les premières versions utilisaient diverses formes de cire, y compris d'un insecte indigène combiné à des graines (Chine), de noix (Japon) et du fruit bouilli de l'arbre à cannelle (Inde).",
+            "color": {},
+            "enable_custom_tag_parsing": false
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "Ambiance apaisante - 1772716744918",
+    "locale": "en-ca"
+  }
+}

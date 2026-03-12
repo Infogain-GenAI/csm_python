@@ -1,0 +1,237 @@
+{
+    "entry": {
+        "breadcrumb_page_title_options": {
+            "page_title": "",
+            "breadcrumb_title": "Recipe - French Onion Dip",
+            "disable_h1": false
+        },
+        "index_position": null,
+        "page_composer": [
+            {
+                "column": {
+                    "select_layout_ratio": "25/75",
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "csa79575d9c75f7c43"
+                    },
+                    "left_column_composer": [
+                        {
+                            "ad_builder_block": {
+                                "ad_builder_ref": [
+                                    {
+                                        "uid": "blt58ceabdc0cc57dd2",
+                                        "_content_type_uid": "ad_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs961f87f2c05f494f"
+                                }
+                            }
+                        }
+                    ],
+                    "column_content_divider_ref": [],
+                    "right_column_composer": [
+                        {
+                            "link_list_with_flyout_references_block": {
+                                "link_list_with_flyout_references_ref": [
+                                    {
+                                        "uid": "blt3a60a080605fb90b",
+                                        "_content_type_uid": "link_list_with_flyout_references"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs685d8b40f8ad61e7"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "csa69ca6d42719423f"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "content_divider_block": {
+                                "content_divider_ref": [
+                                    {
+                                        "uid": "bltb6bbe337ffd26dc6",
+                                        "_content_type_uid": "content_divider"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs02994bc3db15627f"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "csfc19488dc8ec1361"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "text_builder_block": {
+                                "text_builder_ref": [
+                                    {
+                                        "uid": "bltc85136a5f3ac357b",
+                                        "_content_type_uid": "text_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs4d79f992870a087d"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cscc1e127298af8f39"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "text_builder_block": {
+                                "text_builder_ref": [
+                                    {
+                                        "uid": "bltb0792a767446608a",
+                                        "_content_type_uid": "text_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "csf40bcd4315db3ebd"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "row": {
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "csd8b05250a014c5bd"
+                    },
+                    "add_to_index": false,
+                    "row_composer": [
+                        {
+                            "text_builder_block": {
+                                "text_builder_ref": [
+                                    {
+                                        "uid": "blt5211bdc35eb8236d",
+                                        "_content_type_uid": "text_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "csfc956423c631a6c5"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "column": {
+                    "select_layout_ratio": "50/50",
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs447bdcf3d2d12f97"
+                    },
+                    "left_column_composer": [
+                        {
+                            "ad_builder_block": {
+                                "ad_builder_ref": [
+                                    {
+                                        "uid": "bltc786d0d2003b3e25",
+                                        "_content_type_uid": "ad_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "csc0e59cbde8aa7cd8"
+                                }
+                            }
+                        }
+                    ],
+                    "column_content_divider_ref": [],
+                    "right_column_composer": [
+                        {
+                            "text_builder_block": {
+                                "text_builder_ref": [
+                                    {
+                                        "uid": "bltbd7b47a8dd3efaed",
+                                        "_content_type_uid": "text_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs70cc521bb95bbeec"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "column": {
+                    "select_layout_ratio": "75/25",
+                    "placement_name": "",
+                    "_metadata": {
+                        "uid": "cs1bc7e2585bbfa62a"
+                    },
+                    "left_column_composer": [
+                        {
+                            "text_builder_block": {
+                                "text_builder_ref": [
+                                    {
+                                        "uid": "blt3c3ec160658f9c23",
+                                        "_content_type_uid": "text_builder"
+                                    }
+                                ],
+                                "_metadata": {
+                                    "uid": "cs132cf9a0280a4ba7"
+                                }
+                            }
+                        }
+                    ],
+                    "column_content_divider_ref": [],
+                    "right_column_composer": []
+                }
+            }
+        ],
+        "page_id": "connection-recipe-french-onion-dip-september-2023",
+        "page_type": "feature",
+        "seo_metadata": {
+            "meta_title": "Recipe - French Onion Dip  | Costco",
+            "meta_description": ""
+        },
+        "tags": [
+            "migrated-from-cms"
+        ],
+        "title": "Recipe - French Onion Dip | September 2023",
+        "locale": "en-ca",
+        "uid": "blt825443b924631afa",
+        "created_by": "blt75acb9c87b4e5457",
+        "updated_by": "bltbc1ab2aa1b55735e",
+        "created_at": "2026-01-02T11:21:49.222Z",
+        "updated_at": "2026-01-06T11:36:18.664Z",
+        "url": "/feature/blt825443b924631afa",
+        "ACL": {},
+        "_version": 2,
+        "_in_progress": false,
+        "privacy_toggle": {
+            "disable_third_party_tracking": false
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+  "entry": {
+    "locale": "en-ca",
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "title_with_xl_v2",
+            "select_semantics_type": "h2",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "It’s always personal",
+            "color": {
+              "background_gradient_style": "no-background",
+              "background_color": {
+                "hex": ""
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": ""
+                },
+                "shadow": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "Expert tips to improve communication in business and life",
+            "color": {
+              "background_gradient_style": "no-background",
+              "background_color": {
+                "hex": ""
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": ""
+                },
+                "shadow": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "by JEANNE MAES AND JENNIFER C. ZOGHBY\n\nThe quality of your communication determines the quality of your life. Every time you communicate, there are two levels present. First, there’s the purpose or reason for the communication. It can be personal or job-related—something as simple as checking on a neighbour or as complex as giving instructions on a project. The purpose is the easy part. The more challenging aspect is the second level: the relationship you have with the other person. It succeeds or fails based on four pillars.\n\n**In the present**<br>\nThe relationship is always right now. You may have had a long-standing friendship, but will it automatically continue? Only if you nurture it and don’t take it for granted. You may have had conflict in the past, but need it continue? Not necessarily.\n\n**It’s personal**<br>\nEven though the communication may be about a business matter, it’s still between two or more people. The manner in which you talk to each other makes a huge difference.\n\n**The status factor**<br>\nIn the relationship, you’re aware of your status, rank or position. This is especially the case in business communications. In an organization, you may be the boss, the subordinate or a peer. When you are talking to someone else, you may relate to them differently based on their status. While this doesn’t always seem fair, you need to consider it as part of the relationship level of communication.\n\n**The golden rule**<br>\nLastly, the relationship always involves human dignity. No one likes to be corrected in front of a group. If a person feels called out or shamed, it may take a long time to repair the breach. When tense situations arise, you may want to give the person a chance to “save face.”\n\nIf your purpose for the communication is clear, and you keep the relationship in mind, you are way ahead of the game. Because communication is an important part of our lives, practice purpose and relationship-focus in your next interaction.\n\n",
+            "color": {}
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "It's always personal - 1764058049990 - 1766389555946"
+  }
+}

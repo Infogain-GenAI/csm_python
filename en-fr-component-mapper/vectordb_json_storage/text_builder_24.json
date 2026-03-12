@@ -1,0 +1,115 @@
+{
+  "example_id": "text_builder_24",
+  "english_json": {
+    "entry": {
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "markdown_text": "<span style=\"color: #b01c33;\">**Costco Connection:**</span> Costco offers a variety of essentials for small businesses, from products to services, at great value. Learn more at  Costco.ca under [\"Services\"](/costco-services.html) at the top of the page.",
+              "color": {}
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Costco Connection Services Information - 1766389566631",
+      "locale": "en-ca"
+    }
+  },
+  "french_json": {
+    "entry": {
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "markdown_text": "**<span style=\"color: #b01c33;\">CONTACT COSTCO:</span>** Costco offre aux petites entreprises des articles et des services essentiels à prix avantageux. Pour plus de détails, visiter Costco.ca et sélectionner [\"Services\"](/costco-services.html).",
+              "color": {},
+              "enable_custom_tag_parsing": false
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "CONTACT COSTCO Services - 1765261654707 - 1772728818042",
+      "locale": "en-ca"
+    }
+  },
+  "mapped_json": {
+    "entry": {
+      "locale": "fr-ca",
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "markdown_text": "**<span style=\"color: #b01c33;\">CONTACT COSTCO:</span>** Costco offre aux petites entreprises des articles et des services essentiels à prix avantageux. Pour plus de détails, visiter Costco.ca et sélectionner [\"Services\"](/costco-services.html).",
+              "color": {}
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Costco Connection Services Information - 1766389566631"
+    }
+  }
+}

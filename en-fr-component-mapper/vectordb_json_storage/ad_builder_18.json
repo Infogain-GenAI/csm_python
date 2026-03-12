@@ -1,0 +1,561 @@
+{
+  "example_id": "ad_builder_18",
+  "english_json": {
+    "entry": {
+      "ad_type": "one_fourth",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#FFFFFF"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "no-border",
+        "border_color": {
+          "solid": {
+            "hex": ""
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {
+        "title": "Home health",
+        "url": "https://www.costco.ca/connection-costco-services-home-health-september-2023.html",
+        "external_site": false,
+        "same_tab_domain": true,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "xx6ccbgs3v7wsbmg3p74b",
+          "name": "09_23_LP_IC_Services.jpg",
+          "position": 0,
+          "type": "attachments",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/at/xx6ccbgs3v7wsbmg3p74b/09_23_LP_IC_Services.jpg?auto=webp&format=jpg",
+          "filename": "09_23_LP_IC_Services.jpg",
+          "extension": "jpg",
+          "mimetype": "image/jpeg",
+          "thumbnailUrl": "https://thumbs.bfldr.com/at/xx6ccbgs3v7wsbmg3p74b/v/1305058985?expiry=1770798786&fit=bounds&height=162&sig=N2Y3YTI4YjBhNjQyNDljNzNlNzViNmEyZTI1ODUxYjUyNTliYTIzNg%3D%3D&width=262",
+          "dimensions": {
+            "width": 500,
+            "height": 500,
+            "type": 0
+          }
+        }
+      ],
+      "image_alt_text": "a man with a hard hat on",
+      "mobile_image": [],
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": null,
+            "markdown_text": "**Home health**",
+            "color": {
+              "text_color": {
+                "hex": "#0f4878"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "center"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [],
+      "text_content_placement": "below_the_ad",
+      "title": "Home health - September 2023 - September-K9bLwk",
+      "top_and_bottom_strip": [
+        {
+          "strip": {
+            "strip_type": "top_strip",
+            "text": "",
+            "text_color": {
+              "hsl": {
+                "h": 348.3221476510067,
+                "s": 0.7129186602870813,
+                "l": 0.40980392156862744,
+                "a": 1
+              },
+              "hex": "#b31e3b",
+              "rgb": {
+                "r": 179,
+                "g": 30,
+                "b": 59,
+                "a": 1
+              },
+              "hsv": {
+                "h": 348.3221476510067,
+                "s": 0.8324022346368715,
+                "v": 0.7019607843137254,
+                "a": 1
+              },
+              "oldHue": 246.9064748201439,
+              "source": "hex"
+            },
+            "background_color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#b31e3b"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "top_and_bottom_text_banner": [
+        {
+          "add_text_banner": {
+            "text_banner_type": "top_banner",
+            "text": "costco services",
+            "font_size": "large",
+            "text_color": {
+              "hsl": {
+                "h": 0,
+                "s": 0,
+                "l": 0.2,
+                "a": 1
+              },
+              "hex": "#333333",
+              "rgb": {
+                "r": 51,
+                "g": 51,
+                "b": 51,
+                "a": 1
+              },
+              "hsv": {
+                "h": 0,
+                "s": 0,
+                "v": 0.2,
+                "a": 1
+              },
+              "oldHue": 0,
+              "source": "hex"
+            },
+            "banner_background_color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "use_mobile_image_alt_text": false,
+      "locale": "en-ca"
+    }
+  },
+  "french_json": {
+    "entry": {
+      "ad_type": "one_fourth",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#FFFFFF"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "solid",
+        "border_color": {
+          "solid": {
+            "hex": "#FFFFFF"
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {
+        "title": "Maison soignée",
+        "url": "/connection-costco-services-home-health-september-2023.html",
+        "external_site": false,
+        "same_tab_domain": true,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "3n5p4724wtxfs3vwcntcmb7",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/as/3n5p4724wtxfs3vwcntcmb7/09_23_LP_IC_Services",
+          "filename": "09_23_LP_IC_Services.jpg",
+          "extension": "jpg",
+          "dimensions": {
+            "width": 500,
+            "height": 500
+          },
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "image_alt_text": "a man with a hard hat on",
+      "mobile_image": [],
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "markdown_text": "**Maison soignée**",
+            "color": {
+              "text_color": {
+                "hex": "#0f4878"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "center"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [],
+      "text_content_placement": "below_the_ad",
+      "title": "Maison soignée - Services - September 2023 - 1772728160972",
+      "top_and_bottom_strip": [
+        {
+          "strip": {
+            "strip_type": "top_strip",
+            "text": "",
+            "text_color": {
+              "hex": "#b31e3b"
+            },
+            "background_color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#b31e3b"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "top_and_bottom_text_banner": [
+        {
+          "add_text_banner": {
+            "text_banner_type": "top_banner",
+            "text": "Services",
+            "font_size": "large",
+            "text_color": {
+              "hex": "#333333"
+            },
+            "banner_background_color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "use_mobile_image_alt_text": false,
+      "locale": "en-ca"
+    }
+  },
+  "mapped_json": {
+    "entry": {
+      "locale": "fr-ca",
+      "ad_type": "one_fourth",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#FFFFFF"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "solid",
+        "border_color": {
+          "solid": {
+            "hex": "#FFFFFF"
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {
+        "title": "Maison soignée",
+        "url": "/connection-costco-services-home-health-september-2023.html",
+        "external_site": false,
+        "same_tab_domain": true,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "3n5p4724wtxfs3vwcntcmb7",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/as/3n5p4724wtxfs3vwcntcmb7/09_23_LP_IC_Services",
+          "filename": "09_23_LP_IC_Services.jpg",
+          "extension": "jpg",
+          "dimensions": {
+            "width": 500,
+            "height": 500
+          },
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "image_alt_text": "a man with a hard hat on",
+      "mobile_image": [],
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": null,
+            "markdown_text": "**Maison soignée**",
+            "color": {
+              "text_color": {
+                "hex": "#0f4878"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "center"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [],
+      "text_content_placement": "below_the_ad",
+      "title": "Home health - September 2023 - September-K9bLwk",
+      "top_and_bottom_strip": [
+        {
+          "strip": {
+            "strip_type": "top_strip",
+            "text": "",
+            "text_color": {
+              "hex": "#b31e3b"
+            },
+            "background_color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#b31e3b"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "top_and_bottom_text_banner": [
+        {
+          "add_text_banner": {
+            "text_banner_type": "top_banner",
+            "text": "Services",
+            "font_size": "large",
+            "text_color": {
+              "hex": "#333333"
+            },
+            "banner_background_color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              }
+            }
+          }
+        }
+      ],
+      "use_mobile_image_alt_text": false
+    }
+  }
+}

@@ -362,6 +362,9 @@ MIT License
 # Task 1: Clean JSON
 python json_cleanup_cli.py input-json/test.json USBC
 
+for french version
+python json_cleanup_cli.py input-json/test.json CABC --locale fr-ca   
+
 # Task 2: Delete Entry (with dry-run first!)
 python delete_entry_utility.py blt603b3998575a580e USBC --dry-run
 python delete_entry_utility.py blt603b3998575a580e USBC

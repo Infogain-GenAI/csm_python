@@ -1,0 +1,512 @@
+{
+  "entry": {
+    "locale": "fr-ca",
+    "ad_content": [
+      {
+        "ad_builder_block": {
+          "ad_builder_ref": [
+            {
+              "_content_type_uid": "ad_builder",
+              "entry": {
+                "locale": "fr-ca",
+                "ad_type": "half",
+                "background_group": {
+                  "background_gradient_style": "solid",
+                  "background_color": {
+                    "hex": "#FFFFFF"
+                  },
+                  "background_gradient_color": {
+                    "color1": {
+                      "hex": ""
+                    },
+                    "color2": {
+                      "hex": ""
+                    }
+                  },
+                  "text_color": {
+                    "hex": ""
+                  },
+                  "border_color_type": "no-border",
+                  "border_color": {
+                    "solid": {
+                      "hex": ""
+                    },
+                    "shadow": {
+                      "hex": ""
+                    }
+                  }
+                },
+                "caption": "",
+                "costco_url": {
+                  "title": "Conseils pour les soins",
+                  "url": "",
+                  "external_site": false,
+                  "same_tab_domain": true,
+                  "reference_link": false,
+                  "content_type_uid": "",
+                  "entry_title": "",
+                  "entry_uid": "",
+                  "page_id": "",
+                  "open_as_pop_up": false
+                },
+                "disclaimer": "",
+                "disclaimer_markdown": "",
+                "enable_caption": false,
+                "enable_custom_background": true,
+                "enable_disclaimer": false,
+                "enable_mobile_image_variation": false,
+                "enable_product_linked": false,
+                "enable_sponsored": false,
+                "enable_text_content": true,
+                "image": [
+                  {
+                    "id": "67fbgghxkq6txgw5bkmnsn2s",
+                    "url": "https://cdn.bfldr.com/56O3HXZ9/as/67fbgghxkq6txgw5bkmnsn2s/09_23_Costco_Life_02",
+                    "filename": "09_23_Costco_Life_02.jpg",
+                    "extension": "jpg",
+                    "dimensions": {
+                      "width": 800,
+                      "height": 700
+                    },
+                    "mimetype": "image/jpeg"
+                  }
+                ],
+                "image_alt_text": "purple ribbon",
+                "mobile_image": [],
+                "mobile_image_alt_text": "",
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "privacy_toggle": {
+                  "disable_third_party_tracking": false
+                },
+                "product_link": {},
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "text_content": [
+                  {
+                    "markdown_text": {
+                      "select_text_type": "caption_v2",
+                      "select_semantics_type": null,
+                      "markdown_text": "© LILIYA / STOCK.ADOBE.COM",
+                      "color": {
+                        "text_color": {
+                          "hex": "#333333"
+                        },
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#ffffff"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#cccccc"
+                          },
+                          "shadow": {
+                            "hex": "#cccccc"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "markdown_text": {
+                      "select_text_type": "body_copy_v2",
+                      "select_semantics_type": null,
+                      "markdown_text": "MOIS INTERNATIONAL DE L'ALZHEIMER  \n",
+                      "color": {
+                        "text_color": {
+                          "hex": "#b01c33"
+                        },
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#ffffff"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#cccccc"
+                          },
+                          "shadow": {
+                            "hex": "#cccccc"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "markdown_text": {
+                      "select_text_type": "subheading_v2",
+                      "select_semantics_type": "h2",
+                      "markdown_text": "**Conseils pour les soins**",
+                      "color": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": "#333333"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#cccccc"
+                          },
+                          "shadow": {
+                            "hex": "#cccccc"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "markdown_text": {
+                      "select_text_type": "body_copy_v2",
+                      "select_semantics_type": null,
+                      "markdown_text": "La Mayo Clinic offre ces conseils de sécurité à ceux qui prennent soin d'une personne atteinte d'Alzheimer ou d'une démence connexe.\n\n - Prévenir les chutes en évitant les tapis épars, les rallonges et tout encombrement.  \n - Installer des verrous sur les armoires contenant des objets potentiellement dangereux, comme des outils.  \n - Baisser le thermostat du chauffe-eau pour éviter les brûlures.  \n - S'assurer que les détecteurs de fumée et de monoxyde de carbone sont munis de piles neuves.",
+                      "color": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": "#333333"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#cccccc"
+                          },
+                          "shadow": {
+                            "hex": "#cccccc"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "text_content_above_below_the_ad_styles": [
+                  {
+                    "above_below_the_ad_styles": {
+                      "text_alignment": "left"
+                    }
+                  }
+                ],
+                "text_content_overlay_styles": [],
+                "text_content_placement": "below_the_ad",
+                "title": "Tips to take care - 1759225400001 - 1765261658610 - Costco Life - Lighten the mood-hE4lGQ",
+                "top_and_bottom_strip": [],
+                "top_and_bottom_text_banner": [],
+                "use_mobile_image_alt_text": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ad_builder_block": {
+          "ad_builder_ref": [
+            {
+              "_content_type_uid": "ad_builder",
+              "entry": {
+                "locale": "fr-ca",
+                "ad_type": "half",
+                "background_group": {
+                  "background_gradient_style": "solid",
+                  "background_color": {
+                    "hex": "#FFFFFF"
+                  },
+                  "background_gradient_color": {
+                    "color1": {
+                      "hex": ""
+                    },
+                    "color2": {
+                      "hex": ""
+                    }
+                  },
+                  "text_color": {
+                    "hex": ""
+                  },
+                  "border_color_type": "no-border",
+                  "border_color": {
+                    "solid": {
+                      "hex": ""
+                    },
+                    "shadow": {
+                      "hex": ""
+                    }
+                  }
+                },
+                "caption": "",
+                "costco_url": {
+                  "title": "Conduite facilitée",
+                  "url": "",
+                  "external_site": false,
+                  "same_tab_domain": true,
+                  "reference_link": false,
+                  "content_type_uid": "",
+                  "entry_title": "",
+                  "entry_uid": "",
+                  "page_id": "",
+                  "open_as_pop_up": false
+                },
+                "disclaimer": "",
+                "disclaimer_markdown": "",
+                "enable_caption": false,
+                "enable_custom_background": true,
+                "enable_disclaimer": false,
+                "enable_mobile_image_variation": false,
+                "enable_product_linked": false,
+                "enable_sponsored": false,
+                "enable_text_content": true,
+                "image": [
+                  {
+                    "id": "8tthvn9hxws5xgn9cpps5x",
+                    "url": "https://cdn.bfldr.com/56O3HXZ9/as/8tthvn9hxws5xgn9cpps5x/09_23_Costco_Life_03",
+                    "filename": "09_23_Costco_Life_03.jpg",
+                    "extension": "jpg",
+                    "dimensions": {
+                      "width": 800,
+                      "height": 700
+                    },
+                    "mimetype": "image/jpeg"
+                  }
+                ],
+                "image_alt_text": "two men",
+                "mobile_image": [],
+                "mobile_image_alt_text": "",
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "privacy_toggle": {
+                  "disable_third_party_tracking": false
+                },
+                "product_link": {},
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "text_content": [
+                  {
+                    "markdown_text": {
+                      "select_text_type": "caption_v2",
+                      "select_semantics_type": null,
+                      "markdown_text": "© STEPHEN MACGILLIVRAY",
+                      "color": {
+                        "text_color": {
+                          "hex": "#333333"
+                        },
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#ffffff"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#cccccc"
+                          },
+                          "shadow": {
+                            "hex": "#cccccc"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "markdown_text": {
+                      "select_text_type": "body_copy_v2",
+                      "select_semantics_type": null,
+                      "markdown_text": "VIE ADAPTÉE  \n",
+                      "color": {
+                        "text_color": {
+                          "hex": "#b01c33"
+                        },
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#ffffff"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#cccccc"
+                          },
+                          "shadow": {
+                            "hex": "#cccccc"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "markdown_text": {
+                      "select_text_type": "subheading_v2",
+                      "select_semantics_type": "h2",
+                      "markdown_text": "**Conduite facilitée**",
+                      "color": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": "#333333"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#cccccc"
+                          },
+                          "shadow": {
+                            "hex": "#cccccc"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "markdown_text": {
+                      "select_text_type": "body_copy_v2",
+                      "select_semantics_type": null,
+                      "markdown_text": "Cody Howell (en haut, à droite), membre de Costco, dirige l'un des plus grands fabricants d'aides à la conduite adaptatives en Amérique du Nord. Son père, Keith Howell, déclaré quadriplégique à 15 ans et décédé en 2022, a fondé Howell Ventures Ltd. (suregrip-handcontrols.com*) en 1986. L'entreprise familiale à Upper Kingsclear, au Nouveau-Brunswick, conçoit et fabrique également de l'équipement adapté pour tracteurs, tondeuses autoportées, voiturettes de golf et véhicules tout-terrain.",
+                      "color": {
+                        "background_gradient_style": "solid",
+                        "background_color": {
+                          "hex": "#FFFFFF"
+                        },
+                        "background_gradient_color": {
+                          "color1": {
+                            "hex": ""
+                          },
+                          "color2": {
+                            "hex": ""
+                          }
+                        },
+                        "text_color": {
+                          "hex": "#333333"
+                        },
+                        "border_color_type": "no-border",
+                        "border_color": {
+                          "solid": {
+                            "hex": "#cccccc"
+                          },
+                          "shadow": {
+                            "hex": "#cccccc"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "text_content_above_below_the_ad_styles": [
+                  {
+                    "above_below_the_ad_styles": {
+                      "text_alignment": "left"
+                    }
+                  }
+                ],
+                "text_content_overlay_styles": [],
+                "text_content_placement": "below_the_ad",
+                "title": "Easy rider - 1759225400002 - 1765261658985 - Costco Life - Lighten the mood-3Hcawm",
+                "top_and_bottom_strip": [],
+                "top_and_bottom_text_banner": [],
+                "use_mobile_image_alt_text": false
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "ad_set_background": {
+      "title_background_color": {},
+      "title_background_transparency": "1",
+      "body_background_color": {},
+      "body_background_transparency": "1"
+    },
+    "ad_set_heading_and_costco_url": {
+      "title": "",
+      "url": "",
+      "external_site": false,
+      "reference_link": false,
+      "content_type_uid": "",
+      "entry_title": "",
+      "entry_uid": "",
+      "page_id": "",
+      "open_as_pop_up": false
+    },
+    "ad_set_style": "static",
+    "background_foreground_banner_group": {
+      "background_banner_button_alignment": "horizontal",
+      "background_banner_image_alignment": "top",
+      "background_banner_reference": [],
+      "foreground_banner_group": []
+    },
+    "caption": "",
+    "category_content": {
+      "category_items": [],
+      "image_form_factor": "rounded",
+      "background_color": {},
+      "category_set_title_alignment": "left",
+      "category_content_placement": null
+    },
+    "custom_background": false,
+    "enable_background_foreground_banner": false,
+    "item_type": "ad",
+    "platform_config_block": {
+      "android_version_support": "",
+      "ios_version_support": "",
+      "platform_aplicability": "mobile_web"
+    },
+    "product_content": {
+      "product_list": {}
+    },
+    "product_display_style": {
+      "product_card_display_style": "compact",
+      "show_action_button": true,
+      "show_reviews": true,
+      "inventory_aware_listings": false,
+      "product_tile_data_source": null
+    },
+    "rotating_options": {
+      "multi_item_carousel": false,
+      "enable_autoplay": false,
+      "enable_two_row_display": false,
+      "randomize_items": false,
+      "enable_peek_a_boo": false
+    },
+    "static_options": {
+      "display_style": "multi_row",
+      "maximum_tiles_per_row": 5
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "title": "World Alzheimer's Month and Adaptive Living - 1759225400000 - 1765261659356"
+  }
+}

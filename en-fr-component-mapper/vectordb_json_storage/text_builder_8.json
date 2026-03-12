@@ -1,0 +1,115 @@
+{
+  "example_id": "text_builder_8",
+  "english_json": {
+    "entry": {
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "markdown_text": "Sharon Chisvin is a Winnipeg writer, editor and oral historian, and a long-time Costco member.",
+              "color": {}
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Sharon Chisvin Bio - 1765187655644",
+      "locale": "en-ca"
+    }
+  },
+  "french_json": {
+    "entry": {
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "markdown_text": "Sharon Chisvin est écrivaine, rédactrice et spécialiste de l'histoire orale, et membre fidèle de Costco.",
+              "color": {},
+              "enable_custom_tag_parsing": false
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Sharon Chisvin Bio - 1772722139679",
+      "locale": "en-ca"
+    }
+  },
+  "mapped_json": {
+    "entry": {
+      "locale": "fr-ca",
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "markdown_text": "Sharon Chisvin est écrivaine, rédactrice et spécialiste de l'histoire orale, et membre fidèle de Costco.",
+              "color": {}
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Sharon Chisvin Bio - 1765187655644"
+    }
+  }
+}

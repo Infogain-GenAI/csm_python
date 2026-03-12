@@ -1,0 +1,53 @@
+{
+  "entry": {
+    "locale": "fr-ca",
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "markdown_text": "**Aide aux patients et aux familles**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "markdown_text": "Procure (procure.ca), un organisme sans but lucratif axé sur l'éducation, la recherche et le soutien concernant le cancer de la prostate au Canada, propose une ligne téléphonique confidentielle. « Au téléphone, des infirmiers aident les patients à comprendre la maladie, répondent à leurs questions et leur expliquent à quoi s'attendre après un diagnostic, » explique Ann-Marie Romanin, membre de Costco. « Le cancer de la prostate est le diagnostic de cancer le plus fréquent chez l'homme, mais le sujet demeure tabou. Nous aidons les hommes à se sentir moins seuls. »\n\nPour parler à un professionnel de la santé de Procure, composer le 1-855-899-2873 (français et anglais).\n\n*—JE*",
+            "color": {}
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "Help for patients and families - 1764777316070"
+  }
+}

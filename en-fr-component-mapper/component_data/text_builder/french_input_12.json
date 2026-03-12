@@ -1,0 +1,147 @@
+{
+  "entry": {
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "title_with_xl_v2",
+            "select_semantics_type": "h1",
+            "text_alignment": "left",
+            "markdown_text": "Gains familiaux",
+            "color": {
+              "background_gradient_style": "no-background",
+              "background_color": {
+                "hex": ""
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": ""
+                },
+                "shadow": {
+                  "hex": ""
+                }
+              }
+            },
+            "enable_custom_tag_parsing": false
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "markdown_text": "Responsabilité financière : montrer l'exemple",
+            "color": {
+              "background_gradient_style": "no-background",
+              "background_color": {
+                "hex": ""
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": ""
+                },
+                "shadow": {
+                  "hex": ""
+                }
+              }
+            },
+            "enable_custom_tag_parsing": false
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "markdown_text": "LANA SANICHAR\n\nLes croyances sur l'argent bonnes ou mauvaises, se forment pendant l'enfance, sous l'influence des parents et d'autres adultes. Autre point reconnu : la littératie financière est primordiale pour l'avenir des enfants. Si les programmes scolaires incluent dorénavant certains aspects de la littératie financière, ce sont encore les parents qui essuient les plâtres.\n\nDans la chronique précédente, Fred Masters, ancien formateur professionnel et président de Masters Money Management Inc., soulignait que cultiver un « rapport à l'argent » positif est une première étape essentielle pour mieux contrôler sa vie financière.\n\nDans cette optique, voici quelques points à étudier pour aborder les finances personnelles avec les préadolescents et adolescents et leur présenter un rapport sain à l'argent.\n\n**Préférer l'épargne à la dépense**\nIl faut encourager les adolescents à économiser une très grande partie — 80 à 90 % — du salaire de leur travail à temps partiel. Ils ne doivent pas oublier les coûts des études postsecondaires qui se profilent à l'horizon. Pour les enfants déjà adultes, se constituer un apport pour leur future maison suppose de réaliser des économies au fil du temps; il convient donc d'en discuter le plus tôt possible.\n\n**Offrir des expériences plutôt que des objets**\nLes meilleurs souvenirs sont ancrés dans des expériences communes, et non dans des « choses qu'on achète ». Les familles peuvent en profiter pour offrir des expériences, ce qui est une excellente démarche proactive pour passer plus de temps ensemble.\n\n**Prendre de bonnes décisions financières au quotidien**\nL'idée est de faire attention aux dépenses quotidiennes et d'éviter les achats impulsifs. Pour un achat important, faire des recherches avant de magasiner aide à contrôler la décision.\n\nLes parents veulent ce qu'il y a de mieux pour leurs enfants. Cultiver un rapport positif à l'argent est donc la première étape pour les préparer à réussir à l'âge adulte, financièrement et autrement.",
+            "color": {
+              "background_gradient_style": "no-background",
+              "background_color": {
+                "hex": ""
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": ""
+                },
+                "shadow": {
+                  "hex": ""
+                }
+              }
+            },
+            "enable_custom_tag_parsing": false
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "Gains familiaux - Responsabilité financière : montrer l'exemple - 1772723219779",
+    "locale": "en-ca"
+  }
+}

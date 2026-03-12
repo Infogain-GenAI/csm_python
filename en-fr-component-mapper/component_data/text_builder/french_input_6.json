@@ -1,0 +1,72 @@
+{
+  "entry": {
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "title_with_xl_v2",
+            "select_semantics_type": "h1",
+            "text_alignment": "left",
+            "markdown_text": "Maison soignée",
+            "color": {},
+            "enable_custom_tag_parsing": false
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h2",
+            "text_alignment": "left",
+            "markdown_text": "Sérénité assurée pour les membres de Costco grâce à Mike Holmes Inspections",
+            "color": {},
+            "enable_custom_tag_parsing": false
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "markdown_text": "SHARON CHISVIN\n\nL'achat d'une maison est une décision très importante : c'est probablement l'investissement d'une vie. Dès lors, tout acheteur potentiel devrait envisager de recourir aux services de Mike Holmes Inspections avant de signer. Ce n'est peut-être pas Mike Holmes qui inspectera leur maison, mais un professionnel agréé appliquera le même niveau d'intégrité, de connaissances et de compétences que l'animateur de téléréalité.\n\nMike Holmes Inspections offre aux membres de Costco jusqu'à 30 % d'économie, en fonction du forfait d'inspection choisi sur les deux options proposées. Le forfait d'inspection étendue comprend une évaluation de la structure, de la toiture, des fenêtres, des portes, de l'allée, de la plomberie, du système de chauffage, de ventilation et de climatisation, et des systèmes électriques, ainsi que des tests de moisissures et une évaluation avec imagerie thermique. Le forfait d'inspection supérieure inclut également le dépistage du radon. Le radon est un gaz invisible, inodore, radioactif et naturellement libéré par les roches, le sol et l'eau.\n\nL'inspection d'une maison est un pan essentiel du processus d'achat et un moyen éprouvé d'assurer la tranquillité d'esprit des acheteurs. Elle n'est toutefois pas réservée à ces acheteurs, puisque de nombreux vendeurs font aussi réaliser une inspection en prévente. Les données recueillies lors de cette inspection permettent de déterminer si des réparations ou améliorations sont nécessaires avant la vente. Elles aident aussi les propriétaires à définir le prix de vente.\n\n« Je recommande Mike Holmes Inspections aux membres de Costco qui recherchent un service d'inspection fiable », explique Scott Piccolo, président et PDG de l'entreprise. « Notre équipe de professionnels très qualifiés et compétents effectue une inspection complète de la propriété. De plus, leur service à la clientèle est exceptionnel : ils sont toujours prêts à répondre aux questions ou aux préoccupations. »\n\nL'achat ou la vente d'une maison peut être un moment excitant, mais aussi angoissant. Mike Holmes Inspections peut être d'une grande aide dans ce cadre.",
+            "color": {},
+            "enable_custom_tag_parsing": false
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "Maison soignée - 1772722132476",
+    "locale": "en-ca"
+  }
+}

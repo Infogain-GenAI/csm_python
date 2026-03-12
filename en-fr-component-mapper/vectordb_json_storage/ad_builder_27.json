@@ -1,0 +1,378 @@
+{
+  "example_id": "ad_builder_27",
+  "english_json": {
+    "entry": {
+      "locale": "en-ca",
+      "ad_type": "one_third",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#D3D3D3"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "no-border",
+        "border_color": {
+          "solid": {
+            "hex": ""
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {},
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "h8q7ftxtr4bjw3fn7bvtjftg",
+          "name": "Sheri_Flies_Headshot.jpg",
+          "position": 0,
+          "type": "attachments",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/at/h8q7ftxtr4bjw3fn7bvtjftg/Sheri_Flies_Headshot.jpg?auto=webp&format=jpg",
+          "filename": "Sheri_Flies_Headshot.jpg",
+          "extension": "jpg",
+          "mimetype": "image/jpeg",
+          "thumbnailUrl": "https://thumbs.bfldr.com/at/h8q7ftxtr4bjw3fn7bvtjftg/v/1301508944?expiry=1773828000&fit=bounds&height=162&sig=NmMxMDY5NjA0MTA5Y2EzMTY4ZDAxMWFkZTBlNTIxYzk0MjAxMGVhNA%3D%3D&width=262",
+          "dimensions": {
+            "width": 308,
+            "height": 349,
+            "type": 0
+          }
+        }
+      ],
+      "image_alt_text": "",
+      "mobile_image": {},
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "caption_v2",
+            "select_semantics_type": null,
+            "markdown_text": "© COSTCO PHOTO STUDIO",
+            "color": {}
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "center"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [],
+      "text_content_placement": "below_the_ad",
+      "title": "Sheri Flies - Headshot 1/3 - COSTCO PHOTO STUDIO",
+      "top_and_bottom_strip": [],
+      "top_and_bottom_text_banner": [],
+      "use_mobile_image_alt_text": false
+    }
+  },
+  "french_json": {
+    "entry": {
+      "ad_type": "one_third",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#FFFFFF"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "no-border",
+        "border_color": {
+          "solid": {
+            "hex": ""
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {
+        "title": "",
+        "url": "",
+        "external_site": false,
+        "same_tab_domain": false,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "8x949pfwvqckf5fqz85wvn",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/as/8x949pfwvqckf5fqz85wvn/Sheri_Flies_Headshot",
+          "filename": "Sheri_Flies_Headshot.jpg",
+          "extension": "jpg",
+          "dimensions": {
+            "width": 308,
+            "height": 349
+          },
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "image_alt_text": "Sheri Flies",
+      "mobile_image": [],
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "caption_v2",
+            "select_semantics_type": "h3",
+            "markdown_text": "© STUDIO PHOTO DE COSTCO",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "center"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [
+        {
+          "overlay_style": {
+            "applicability": "default",
+            "overlay_fill_type": "horizontal",
+            "overlay_fill_": "100",
+            "overlay_position": "left",
+            "text_alignment": "top",
+            "overlay_background_color": {}
+          }
+        }
+      ],
+      "text_content_placement": "below_the_ad",
+      "title": "Sheri Flies - Headshot - 1772737986035",
+      "top_and_bottom_strip": [],
+      "top_and_bottom_text_banner": [],
+      "use_mobile_image_alt_text": false,
+      "locale": "en-ca"
+    }
+  },
+  "mapped_json": {
+    "entry": {
+      "locale": "fr-ca",
+      "ad_type": "one_third",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#D3D3D3"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "no-border",
+        "border_color": {
+          "solid": {
+            "hex": ""
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {
+        "title": "",
+        "url": "",
+        "external_site": false,
+        "same_tab_domain": false,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "h8q7ftxtr4bjw3fn7bvtjftg",
+          "name": "Sheri_Flies_Headshot.jpg",
+          "position": 0,
+          "type": "attachments",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/at/h8q7ftxtr4bjw3fn7bvtjftg/Sheri_Flies_Headshot.jpg?auto=webp&format=jpg",
+          "filename": "Sheri_Flies_Headshot.jpg",
+          "extension": "jpg",
+          "mimetype": "image/jpeg",
+          "thumbnailUrl": "https://thumbs.bfldr.com/at/h8q7ftxtr4bjw3fn7bvtjftg/v/1301508944?expiry=1773828000&fit=bounds&height=162&sig=NmMxMDY5NjA0MTA5Y2EzMTY4ZDAxMWFkZTBlNTIxYzk0MjAxMGVhNA%3D%3D&width=262",
+          "dimensions": {
+            "width": 308,
+            "height": 349,
+            "type": 0
+          }
+        }
+      ],
+      "image_alt_text": "Sheri Flies",
+      "mobile_image": [],
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "caption_v2",
+            "select_semantics_type": null,
+            "markdown_text": "© STUDIO PHOTO DE COSTCO",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "center"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [],
+      "text_content_placement": "below_the_ad",
+      "title": "Sheri Flies - Headshot 1/3 - COSTCO PHOTO STUDIO",
+      "top_and_bottom_strip": [],
+      "top_and_bottom_text_banner": [],
+      "use_mobile_image_alt_text": false
+    }
+  }
+}

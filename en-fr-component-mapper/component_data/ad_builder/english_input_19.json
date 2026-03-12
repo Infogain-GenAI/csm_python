@@ -1,0 +1,130 @@
+{
+  "entry": {
+    "ad_type": "one_third",
+    "background_group": {
+      "background_gradient_style": "solid",
+      "background_color": {
+        "hex": "#FFFFFF"
+      },
+      "background_gradient_color": {
+        "color1": {
+          "hex": ""
+        },
+        "color2": {
+          "hex": ""
+        }
+      },
+      "text_color": {
+        "hex": ""
+      },
+      "border_color_type": "no-border",
+      "border_color": {
+        "solid": {
+          "hex": ""
+        },
+        "shadow": {
+          "hex": ""
+        }
+      }
+    },
+    "caption": "",
+    "costco_url": {
+      "title": "",
+      "url": "",
+      "external_site": false,
+      "same_tab_domain": true,
+      "reference_link": false,
+      "content_type_uid": "",
+      "entry_title": "",
+      "entry_uid": "",
+      "page_id": "",
+      "open_as_pop_up": false
+    },
+    "disclaimer": "",
+    "disclaimer_markdown": "",
+    "enable_caption": false,
+    "enable_custom_background": true,
+    "enable_disclaimer": false,
+    "enable_mobile_image_variation": false,
+    "enable_product_linked": false,
+    "enable_sponsored": false,
+    "enable_text_content": true,
+    "image": [
+      {
+        "id": "xnqhh2zk4f45w6n8m2s7v2b",
+        "url": "https://cdn.bfldr.com/56O3HXZ9/as/xnqhh2zk4f45w6n8m2s7v2b/Lawrence_Varga_Headshot?auto=webp&format=jpg",
+        "filename": "Lawrence_Varga_Headshot.jpg",
+        "extension": "jpg",
+        "dimensions": {
+          "width": 308,
+          "height": 349
+        },
+        "mimetype": "image/jpeg"
+      }
+    ],
+    "image_alt_text": "man",
+    "mobile_image": [],
+    "mobile_image_alt_text": "",
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "privacy_toggle": {
+      "disable_third_party_tracking": false
+    },
+    "product_link": {},
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_content": [
+      {
+        "markdown_text": {
+          "select_text_type": "caption_v2",
+          "select_semantics_type": null,
+          "markdown_text": "© COSTCO CANADA",
+          "color": {
+            "background_gradient_style": "solid",
+            "background_color": {
+              "hex": "#FFFFFF"
+            },
+            "background_gradient_color": {
+              "color1": {
+                "hex": ""
+              },
+              "color2": {
+                "hex": ""
+              }
+            },
+            "text_color": {
+              "hex": ""
+            },
+            "border_color_type": "no-border",
+            "border_color": {
+              "solid": {
+                "hex": "#cccccc"
+              },
+              "shadow": {
+                "hex": "#cccccc"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "text_content_above_below_the_ad_styles": [
+      {
+        "above_below_the_ad_styles": {
+          "text_alignment": "center"
+        }
+      }
+    ],
+    "text_content_overlay_styles": [],
+    "text_content_placement": "below_the_ad",
+    "title": "Lawrence Varga and Joseph Hanna - Bio - Image only",
+    "top_and_bottom_strip": [],
+    "top_and_bottom_text_banner": [],
+    "use_mobile_image_alt_text": false,
+    "locale": "en-ca"
+  }
+}

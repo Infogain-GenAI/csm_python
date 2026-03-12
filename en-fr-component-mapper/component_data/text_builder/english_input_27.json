@@ -1,0 +1,208 @@
+{
+  "entry": {
+    "locale": "en-ca",
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "title_with_xl_v2",
+            "select_semantics_type": "h2",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "Get checked",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "Finding and treating prostate cancer early can saves lives",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "by JOANNE ELLIS\n\nFor men and all those who love them, Prostate Cancer Awareness Month in September is a chance to learn more about prostate health.\n\nOn average, 67 men each day in Canada learn they have prostate cancer; in 2022, an estimated 24,600 men were diagnosed, according to the Canadian Cancer Society (cancer.ca). The disease is prevalent across society, and men need to pay attention to their prostate health to protect their own well-being.",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**Risk factors**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "The prostate gland grows throughout a man’s life from pea-size at birth to about walnut-size at 25 years of age. A part of the reproductive system, it lies just below the bladder and in front of the rectum. The gland tends to grow slowly larger later in life (see “A gland that grows”).\n\nProstate cancer occurs when malignant cancer cells form in the tissues of the gland. Simply being older than 50 is a risk factor for prostate cancer. Other risk factors include being overweight, having a family history of a father or brother with prostate cancer, or being of Black ethnicity. Black men, including those of African or Caribbean ancestry, are disproportionately impacted by the disease, with the risk rising after age 45.",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**Know the signs**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "“Symptoms of prostate cancer are broad and sometimes non-existent,” says Dr. Stuart Edmonds, executive vice president of mission, research and advocacy for the Canadian Cancer Society. “They can range from urination problems [such as] a need to pee urgently, especially at night, a slow urine stream, blood in the urine or sexual dysfunction.”\n\nWhen prostate cancer goes undetected, symptoms may include pain in the back, hips or pelvis that doesn’t go away. “Any of these are warning signs worthy of a checkup with a doctor, who’ll run blood tests,” says Edmonds.",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**Testing**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "Getting blood tests is important because they measure the level of prostate- specific antigen (PSA), a protein produced in the gland. High PSA levels in blood may indicate a problem, which could include cancer, and follow-up tests may be recommended. “Using blood tests and a digital rectal exam together is better than using either test alone. PSA testing together with a digital rectal exam may help find a dangerous cancer early when it is easier to treat,” Edmonds adds.\n\nIf cancer is suspected, a biopsy will be done to collect tissue to examine. If the diagnosis is prostate cancer, the tumour will be given a grade, known as the Gleason score, and a grade group, which indicates how aggressive the cancer is and how likely it is to spread.\n\n“Active surveillance is required to ensure with regular exams, monitoring and blood tests that any prostate changes are being monitored with a family doctor,” says Edmonds.",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**Treatment**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "If found early, prostate cancer is treatable with surgery—known as a prostatectomy, which removes the prostate—and external or internal radiation therapy as the primary treatments. Other treatments can include chemotherapy, cryotherapy, and hormone or biological therapy.\n\n“Catching it early is key, when there’s close to a 100% survival rate,” says Edmonds, who adds that he has seen tremendous progress in prostate cancer treatments, including new drug therapies that are helping reduce side effects and extend lives. “Once it’s metastasized and is detected in other parts of the body, life expectancy drops to about 40% at the five-year mark.”\n\nBy paying attention to their prostate health, men can take control of their well-being, minimize risks and lead fulfilling lives.",
+            "color": {}
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "Get checked - Prostate Cancer Awareness"
+  }
+}

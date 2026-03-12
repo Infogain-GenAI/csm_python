@@ -1,0 +1,55 @@
+{
+  "entry": {
+    "locale": "fr-ca",
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "**Entretien de la maison**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "enable_custom_tag_parsing": false,
+            "markdown_text": "Une inspection n'a pas nécessairement lieu une seule fois. Scott Piccolo, président PDG de Mike Holmes Inspections, recommande aux propriétaires une inspection annuelle.\n\nEn recensant les problèmes potentiels avant qu'ils ne prennent trop d'ampleur, une inspection d'entretien annuelle aide à éviter les réparations majeures, à réaliser des économies et à apaiser l'inquiétude sur l'état de la maison*—SC*",
+            "color": {}
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "Home maintenance - 1764762461604"
+  }
+}

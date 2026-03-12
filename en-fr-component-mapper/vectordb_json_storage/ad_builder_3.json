@@ -1,0 +1,650 @@
+{
+  "example_id": "ad_builder_3",
+  "english_json": {
+    "entry": {
+      "locale": "en-ca",
+      "ad_type": "half",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#FFFFFF"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "no-border",
+        "border_color": {
+          "solid": {
+            "hex": ""
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {
+        "title": "",
+        "url": "",
+        "external_site": false,
+        "same_tab_domain": true,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "67fbgghxkq6txgw5bkmnsn2s",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/as/67fbgghxkq6txgw5bkmnsn2s/09_23_Costco_Life_02?auto=webp&format=jpg",
+          "filename": "09_23_Costco_Life_02.jpg",
+          "extension": "jpg",
+          "dimensions": {
+            "width": 800,
+            "height": 700
+          },
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "image_alt_text": "purple ribbon",
+      "mobile_image": [],
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "caption_v2",
+            "select_semantics_type": null,
+            "markdown_text": "© LILIYA / STOCK.ADOBE.COM",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "markdown_text": "WORLD ALZHEIMER'S MONTH  \n",
+            "color": {
+              "text_color": {
+                "hex": "#b01c33"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h2",
+            "markdown_text": "**Tips to take care**",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "markdown_text": "The Mayo Clinic offers these tips for creating a safe environment for someone with Alzheimer's disease or a related dementia.\n\n - Prevent falls by avoiding scatter rugs, extension cords and any clutter.  \n - Install locks on cabinets that contain anything potentially dangerous, such as tools.  \n - Lower the thermostat on the hot-water heater to prevent burns.  \n - Make sure smoke and carbon monoxide detectors have fresh batteries.",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "left"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [],
+      "text_content_placement": "below_the_ad",
+      "title": "Tips to take care - 1759225400001 - 1765261658610 - Costco Life - Lighten the mood-hE4lGQ",
+      "top_and_bottom_strip": [],
+      "top_and_bottom_text_banner": [],
+      "use_mobile_image_alt_text": false
+    }
+  },
+  "french_json": {
+    "entry": {
+      "ad_type": "half",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#FFFFFF"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "no-border",
+        "border_color": {
+          "solid": {
+            "hex": ""
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {
+        "title": "Conseils pour les soins",
+        "url": "",
+        "external_site": false,
+        "same_tab_domain": true,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "67fbgghxkq6txgw5bkmnsn2s",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/as/67fbgghxkq6txgw5bkmnsn2s/09_23_Costco_Life_02",
+          "filename": "09_23_Costco_Life_02.jpg",
+          "extension": "jpg",
+          "dimensions": {
+            "width": 800,
+            "height": 700
+          },
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "image_alt_text": "purple ribbon",
+      "mobile_image": [],
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "caption_v2",
+            "select_semantics_type": null,
+            "markdown_text": "© LILIYA / STOCK.ADOBE.COM",
+            "color": {
+              "text_color": {
+                "hex": "#333333"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "markdown_text": "MOIS INTERNATIONAL DE L'ALZHEIMER  \n",
+            "color": {
+              "text_color": {
+                "hex": "#b01c33"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "markdown_text": "**Conseils pour les soins**",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "markdown_text": "La Mayo Clinic offre ces conseils de sécurité à ceux qui prennent soin d'une personne atteinte d'Alzheimer ou d'une démence connexe.\n\n• Prévenir les chutes en évitant les tapis épars, les rallonges et tout encombrement.\n• Installer des verrous sur les armoires contenant des objets potentiellement dangereux, comme des outils.\n• Baisser le thermostat du chauffe-eau pour éviter les brûlures.\n• S'assurer que les détecteurs de fumée et de monoxyde de carbone sont munis de piles neuves.",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "left"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [],
+      "text_content_placement": "below_the_ad",
+      "title": "Conseils pour les soins - 1759225400001 - 1765261657490 - 1772716747749",
+      "top_and_bottom_strip": [],
+      "top_and_bottom_text_banner": [],
+      "use_mobile_image_alt_text": false,
+      "locale": "en-ca"
+    }
+  },
+  "mapped_json": {
+    "entry": {
+      "locale": "fr-ca",
+      "ad_type": "half",
+      "background_group": {
+        "background_gradient_style": "solid",
+        "background_color": {
+          "hex": "#FFFFFF"
+        },
+        "background_gradient_color": {
+          "color1": {
+            "hex": ""
+          },
+          "color2": {
+            "hex": ""
+          }
+        },
+        "text_color": {
+          "hex": ""
+        },
+        "border_color_type": "no-border",
+        "border_color": {
+          "solid": {
+            "hex": ""
+          },
+          "shadow": {
+            "hex": ""
+          }
+        }
+      },
+      "caption": "",
+      "costco_url": {
+        "title": "Conseils pour les soins",
+        "url": "",
+        "external_site": false,
+        "same_tab_domain": true,
+        "reference_link": false,
+        "content_type_uid": "",
+        "entry_title": "",
+        "entry_uid": "",
+        "page_id": "",
+        "open_as_pop_up": false
+      },
+      "disclaimer": "",
+      "disclaimer_markdown": "",
+      "enable_caption": false,
+      "enable_custom_background": true,
+      "enable_disclaimer": false,
+      "enable_mobile_image_variation": false,
+      "enable_product_linked": false,
+      "enable_sponsored": false,
+      "enable_text_content": true,
+      "image": [
+        {
+          "id": "67fbgghxkq6txgw5bkmnsn2s",
+          "url": "https://cdn.bfldr.com/56O3HXZ9/as/67fbgghxkq6txgw5bkmnsn2s/09_23_Costco_Life_02",
+          "filename": "09_23_Costco_Life_02.jpg",
+          "extension": "jpg",
+          "dimensions": {
+            "width": 800,
+            "height": 700
+          },
+          "mimetype": "image/jpeg"
+        }
+      ],
+      "image_alt_text": "purple ribbon",
+      "mobile_image": [],
+      "mobile_image_alt_text": "",
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "privacy_toggle": {
+        "disable_third_party_tracking": false
+      },
+      "product_link": {},
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_content": [
+        {
+          "markdown_text": {
+            "select_text_type": "caption_v2",
+            "select_semantics_type": null,
+            "markdown_text": "© LILIYA / STOCK.ADOBE.COM",
+            "color": {
+              "text_color": {
+                "hex": "#333333"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "markdown_text": "MOIS INTERNATIONAL DE L'ALZHEIMER  \n",
+            "color": {
+              "text_color": {
+                "hex": "#b01c33"
+              },
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#ffffff"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h2",
+            "markdown_text": "**Conseils pour les soins**",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "markdown_text": {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "markdown_text": "La Mayo Clinic offre ces conseils de sécurité à ceux qui prennent soin d'une personne atteinte d'Alzheimer ou d'une démence connexe.\n\n - Prévenir les chutes en évitant les tapis épars, les rallonges et tout encombrement.  \n - Installer des verrous sur les armoires contenant des objets potentiellement dangereux, comme des outils.  \n - Baisser le thermostat du chauffe-eau pour éviter les brûlures.  \n - S'assurer que les détecteurs de fumée et de monoxyde de carbone sont munis de piles neuves.",
+            "color": {
+              "background_gradient_style": "solid",
+              "background_color": {
+                "hex": "#FFFFFF"
+              },
+              "background_gradient_color": {
+                "color1": {
+                  "hex": ""
+                },
+                "color2": {
+                  "hex": ""
+                }
+              },
+              "text_color": {
+                "hex": "#333333"
+              },
+              "border_color_type": "no-border",
+              "border_color": {
+                "solid": {
+                  "hex": "#cccccc"
+                },
+                "shadow": {
+                  "hex": "#cccccc"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "text_content_above_below_the_ad_styles": [
+        {
+          "above_below_the_ad_styles": {
+            "text_alignment": "left"
+          }
+        }
+      ],
+      "text_content_overlay_styles": [],
+      "text_content_placement": "below_the_ad",
+      "title": "Tips to take care - 1759225400001 - 1765261658610 - Costco Life - Lighten the mood-hE4lGQ",
+      "top_and_bottom_strip": [],
+      "top_and_bottom_text_banner": [],
+      "use_mobile_image_alt_text": false
+    }
+  }
+}

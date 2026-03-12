@@ -1,0 +1,129 @@
+{
+  "entry": {
+    "locale": "fr-ca",
+    "ad_type": "one_third",
+    "background_group": {
+      "background_gradient_style": "solid",
+      "background_color": {
+        "hex": ""
+      },
+      "background_gradient_color": {
+        "color1": {
+          "hex": ""
+        },
+        "color2": {
+          "hex": ""
+        }
+      },
+      "text_color": {
+        "hex": ""
+      },
+      "border_color_type": "no-border",
+      "border_color": {
+        "solid": {
+          "hex": ""
+        },
+        "shadow": {
+          "hex": ""
+        }
+      }
+    },
+    "caption": "",
+    "costco_url": {
+      "title": "",
+      "url": "",
+      "external_site": null,
+      "same_tab_domain": null,
+      "reference_link": false,
+      "content_type_uid": "",
+      "entry_title": "",
+      "entry_uid": "",
+      "page_id": "",
+      "open_as_pop_up": false
+    },
+    "disclaimer": "",
+    "disclaimer_markdown": "",
+    "enable_caption": false,
+    "enable_custom_background": false,
+    "enable_disclaimer": false,
+    "enable_mobile_image_variation": false,
+    "enable_product_linked": false,
+    "enable_sponsored": false,
+    "enable_text_content": true,
+    "image": [],
+    "image_alt_text": "",
+    "mobile_image": [],
+    "mobile_image_alt_text": "",
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "privacy_toggle": {
+      "disable_third_party_tracking": false
+    },
+    "product_link": {},
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_content": [
+      {
+        "markdown_text": {
+          "select_text_type": "body_copy_v2",
+          "select_semantics_type": null,
+          "markdown_text": "**Sheri Flies** est vice-présidente du développement mondial et de conformité de Costco.",
+          "color": {
+            "background_gradient_style": "solid",
+            "background_color": {
+              "hex": "#FFFFFF"
+            },
+            "background_gradient_color": {
+              "color1": {
+                "hex": ""
+              },
+              "color2": {
+                "hex": ""
+              }
+            },
+            "text_color": {
+              "hex": ""
+            },
+            "border_color_type": "no-border",
+            "border_color": {
+              "solid": {
+                "hex": "#cccccc"
+              },
+              "shadow": {
+                "hex": "#cccccc"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "text_content_above_below_the_ad_styles": [
+      {
+        "above_below_the_ad_styles": {
+          "text_alignment": "center"
+        }
+      }
+    ],
+    "text_content_overlay_styles": [
+      {
+        "overlay_style": {
+          "applicability": "default",
+          "overlay_fill_type": "horizontal",
+          "overlay_fill_": "100",
+          "overlay_position": "left",
+          "text_alignment": "middle",
+          "overlay_background_color": {}
+        }
+      }
+    ],
+    "text_content_placement": "overlay",
+    "title": "Sheri Flies - Description 1/3",
+    "top_and_bottom_strip": [],
+    "top_and_bottom_text_banner": [],
+    "use_mobile_image_alt_text": false
+  }
+}

@@ -1,0 +1,1323 @@
+{
+  "entry": {
+    "title": "Costco Connection Navigation - September 2023 - 1772737969992",
+    "list_header": {},
+    "list_header_style": "plain",
+    "link_list_style": "text_only",
+    "enable_navigation": true,
+    "navigation_label": "main",
+    "privacy_toggle": {
+      "disable_third_party_tracking": false
+    },
+    "color_config": {
+      "background_gradient_style": "solid",
+      "background_color": {
+        "hex": "#FFFFFF"
+      },
+      "background_gradient_color": {
+        "color1": {
+          "hex": ""
+        },
+        "color2": {
+          "hex": ""
+        }
+      },
+      "text_color": {
+        "hex": "#337AB7"
+      },
+      "border_color_type": "no-border",
+      "border_color": {
+        "solid": {
+          "hex": ""
+        },
+        "shadow": {
+          "hex": ""
+        }
+      }
+    },
+    "links_composer": [
+      {
+        "user_defined_link_with_flyout": {
+          "link_with_flyout": [
+            {
+              "_content_type_uid": "link_flyout",
+              "entry": {
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "title": "Accueil Navigation - September 2023 - 1772737942853",
+                "user_defined_link": {
+                  "link": {
+                    "title": "Accueil",
+                    "url": "#",
+                    "external_site": false,
+                    "same_tab_domain": true,
+                    "reference_link": false,
+                    "content_type_uid": "",
+                    "entry_title": "",
+                    "entry_uid": "",
+                    "page_id": "",
+                    "open_as_pop_up": false
+                  },
+                  "link_style": "plain",
+                  "icon": null,
+                  "target_new_same_window_": "_self",
+                  "disable_third_party_tracking": false,
+                  "show_flyout": true,
+                  "flyout_width": "normal",
+                  "flyout_scaffolding": [
+                    {
+                      "strip": {
+                        "strip_composition": [
+                          {
+                            "link_list": {
+                              "label": "Accueil",
+                              "number_of_links_per_column": null,
+                              "link_list_ref": [
+                                {
+                                  "_content_type_uid": "link_list_simple",
+                                  "entry": {
+                                    "title": "Accueil Links - September 2023 - 1772737941531",
+                                    "listheader": {
+                                      "title": "",
+                                      "url": "",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "list_header_style": null,
+                                    "link_list_style": "text_only",
+                                    "enable_navigation": false,
+                                    "navigation_label": "",
+                                    "privacy_toggle": {
+                                      "disable_third_party_tracking": false
+                                    },
+                                    "links_composer": [
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Billet ",
+                                            "url": "/connection-assistant-vice-presidents-note-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "En mode Costco  ",
+                                            "url": "/connection-costco-life-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Réflexion Affaires - C'est toujours personnel",
+                                            "url": "/connection-fyb-its-always-personal-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Parlons Techno - Appareils protégés  ",
+                                            "url": "/connection-tech-connection-protect-your-tech-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Contact Finances - Gains familiaux",
+                                            "url": "/connection-financial-connection-family-gains-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Voyages - La côte du Golfe",
+                                            "url": "/connection-travel-connection-gulf-coast-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      }
+                                    ],
+                                    "platform_config_block": {
+                                      "platform_aplicability": "mobile_web",
+                                      "ios_version_support": "",
+                                      "android_version_support": ""
+                                    },
+                                    "tags": [
+                                      "migrated-from-cms"
+                                    ],
+                                    "locale": "en-ca"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "locale": "en-ca"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "user_defined_link_with_flyout": {
+          "link_with_flyout": [
+            {
+              "_content_type_uid": "link_flyout",
+              "entry": {
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "title": "La Une Navigation - September 2023 - 1772737946647",
+                "user_defined_link": {
+                  "link": {
+                    "title": " La Une",
+                    "url": "#",
+                    "external_site": false,
+                    "same_tab_domain": true,
+                    "reference_link": false,
+                    "content_type_uid": "",
+                    "entry_title": "",
+                    "entry_uid": "",
+                    "page_id": "",
+                    "open_as_pop_up": false
+                  },
+                  "link_style": "plain",
+                  "icon": null,
+                  "target_new_same_window_": "_self",
+                  "disable_third_party_tracking": false,
+                  "show_flyout": true,
+                  "flyout_width": "normal",
+                  "flyout_scaffolding": [
+                    {
+                      "strip": {
+                        "strip_composition": [
+                          {
+                            "link_list": {
+                              "label": "La Une",
+                              "number_of_links_per_column": null,
+                              "link_list_ref": [
+                                {
+                                  "_content_type_uid": "link_list_simple",
+                                  "entry": {
+                                    "title": "La Une Links - September 2023 - 1772737944827",
+                                    "listheader": {
+                                      "title": "",
+                                      "url": "",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "list_header_style": null,
+                                    "link_list_style": "text_only",
+                                    "enable_navigation": false,
+                                    "navigation_label": "",
+                                    "privacy_toggle": {
+                                      "disable_third_party_tracking": false
+                                    },
+                                    "links_composer": [
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Repousser les frontières",
+                                            "url": "/connection-cover-story-expanding-frontiers-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      }
+                                    ],
+                                    "platform_config_block": {
+                                      "platform_aplicability": "mobile_web",
+                                      "ios_version_support": "",
+                                      "android_version_support": ""
+                                    },
+                                    "tags": [
+                                      "migrated-from-cms"
+                                    ],
+                                    "locale": "en-ca"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "locale": "en-ca"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "user_defined_link_with_flyout": {
+          "link_with_flyout": [
+            {
+              "_content_type_uid": "link_flyout",
+              "entry": {
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "title": "Section Spéciale Navigation - September 2023 - 1772737950261",
+                "user_defined_link": {
+                  "link": {
+                    "title": "Section Spéciale",
+                    "url": "#",
+                    "external_site": false,
+                    "same_tab_domain": true,
+                    "reference_link": false,
+                    "content_type_uid": "",
+                    "entry_title": "",
+                    "entry_uid": "",
+                    "page_id": "",
+                    "open_as_pop_up": false
+                  },
+                  "link_style": "plain",
+                  "icon": null,
+                  "target_new_same_window_": "_self",
+                  "disable_third_party_tracking": false,
+                  "show_flyout": true,
+                  "flyout_width": "normal",
+                  "flyout_scaffolding": [
+                    {
+                      "strip": {
+                        "strip_composition": [
+                          {
+                            "link_list": {
+                              "label": "Section Spéciale",
+                              "number_of_links_per_column": null,
+                              "link_list_ref": [
+                                {
+                                  "_content_type_uid": "link_list_simple",
+                                  "entry": {
+                                    "title": "Section Spéciale Links - September 2023 - 1772737948471",
+                                    "listheader": {
+                                      "title": "",
+                                      "url": "",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "list_header_style": null,
+                                    "link_list_style": "text_only",
+                                    "enable_navigation": false,
+                                    "navigation_label": "",
+                                    "privacy_toggle": {
+                                      "disable_third_party_tracking": false
+                                    },
+                                    "links_composer": [
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "SS -  Délices sans gluten",
+                                            "url": "/connection-ss-glutton-for-gluten-free-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "SS - Lingettes miracles",
+                                            "url": "/connection-ss-wonder-wipes-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "SS -  Pimenter sa vie",
+                                            "url": "/connection-ss-spice-up-your-life-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "SS -  Recettes inratables",
+                                            "url": "/connection-ss-can-do-recipes-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "SS - Choix des acheteurs",
+                                            "url": "/connection-ss-buyers-picks-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      }
+                                    ],
+                                    "platform_config_block": {
+                                      "platform_aplicability": "mobile_web",
+                                      "ios_version_support": "",
+                                      "android_version_support": ""
+                                    },
+                                    "tags": [
+                                      "migrated-from-cms"
+                                    ],
+                                    "locale": "en-ca"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "locale": "en-ca"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "user_defined_link_with_flyout": {
+          "link_with_flyout": [
+            {
+              "_content_type_uid": "link_flyout",
+              "entry": {
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "title": "Alimentation Navigation - September 2023 - 1772737953719",
+                "user_defined_link": {
+                  "link": {
+                    "title": "Alimentation",
+                    "url": "#",
+                    "external_site": false,
+                    "same_tab_domain": true,
+                    "reference_link": false,
+                    "content_type_uid": "",
+                    "entry_title": "",
+                    "entry_uid": "",
+                    "page_id": "",
+                    "open_as_pop_up": false
+                  },
+                  "link_style": "plain",
+                  "icon": null,
+                  "target_new_same_window_": "_self",
+                  "disable_third_party_tracking": false,
+                  "show_flyout": true,
+                  "flyout_width": "normal",
+                  "flyout_scaffolding": [
+                    {
+                      "strip": {
+                        "strip_composition": [
+                          {
+                            "link_list": {
+                              "label": "Alimentation",
+                              "number_of_links_per_column": null,
+                              "link_list_ref": [
+                                {
+                                  "_content_type_uid": "link_list_simple",
+                                  "entry": {
+                                    "title": "Alimentation Links - September 2023 - 1772737951980",
+                                    "listheader": {
+                                      "title": "",
+                                      "url": "",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "list_header_style": null,
+                                    "link_list_style": "text_only",
+                                    "enable_navigation": false,
+                                    "navigation_label": "",
+                                    "privacy_toggle": {
+                                      "disable_third_party_tracking": false
+                                    },
+                                    "links_composer": [
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Nouvel an sucrér",
+                                            "url": "/connection-fyt-a-sweet-new-year-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      }
+                                    ],
+                                    "platform_config_block": {
+                                      "platform_aplicability": "mobile_web",
+                                      "ios_version_support": "",
+                                      "android_version_support": ""
+                                    },
+                                    "tags": [
+                                      "migrated-from-cms"
+                                    ],
+                                    "locale": "en-ca"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "locale": "en-ca"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "user_defined_link_with_flyout": {
+          "link_with_flyout": [
+            {
+              "_content_type_uid": "link_flyout",
+              "entry": {
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "title": "À votre santé Navigation - September 2023 - 1772737957328",
+                "user_defined_link": {
+                  "link": {
+                    "title": "À votre santé",
+                    "url": "#",
+                    "external_site": false,
+                    "same_tab_domain": true,
+                    "reference_link": false,
+                    "content_type_uid": "",
+                    "entry_title": "",
+                    "entry_uid": "",
+                    "page_id": "",
+                    "open_as_pop_up": false
+                  },
+                  "link_style": "plain",
+                  "icon": null,
+                  "target_new_same_window_": "_self",
+                  "disable_third_party_tracking": false,
+                  "show_flyout": true,
+                  "flyout_width": "normal",
+                  "flyout_scaffolding": [
+                    {
+                      "strip": {
+                        "strip_composition": [
+                          {
+                            "link_list": {
+                              "label": "À votre santé",
+                              "number_of_links_per_column": null,
+                              "link_list_ref": [
+                                {
+                                  "_content_type_uid": "link_list_simple",
+                                  "entry": {
+                                    "title": "À votre santé Links - September 2023 - 1772737955586",
+                                    "listheader": {
+                                      "title": "",
+                                      "url": "",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "list_header_style": null,
+                                    "link_list_style": "text_only",
+                                    "enable_navigation": false,
+                                    "navigation_label": "",
+                                    "privacy_toggle": {
+                                      "disable_third_party_tracking": false
+                                    },
+                                    "links_composer": [
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Passer un examen",
+                                            "url": "/connection-fyh-get-checked-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Soigner l'arthrite",
+                                            "url": "/connection-fyh-pain-points-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      }
+                                    ],
+                                    "platform_config_block": {
+                                      "platform_aplicability": "mobile_web",
+                                      "ios_version_support": "",
+                                      "android_version_support": ""
+                                    },
+                                    "tags": [
+                                      "migrated-from-cms"
+                                    ],
+                                    "locale": "en-ca"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "locale": "en-ca"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "user_defined_link_with_flyout": {
+          "link_with_flyout": [
+            {
+              "_content_type_uid": "link_flyout",
+              "entry": {
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "title": "Destination Costco Navigation - September 2023 - 1772737960910",
+                "user_defined_link": {
+                  "link": {
+                    "title": "Destination Costco",
+                    "url": "#",
+                    "external_site": false,
+                    "same_tab_domain": true,
+                    "reference_link": false,
+                    "content_type_uid": "",
+                    "entry_title": "",
+                    "entry_uid": "",
+                    "page_id": "",
+                    "open_as_pop_up": false
+                  },
+                  "link_style": "plain",
+                  "icon": null,
+                  "target_new_same_window_": "_self",
+                  "disable_third_party_tracking": false,
+                  "show_flyout": true,
+                  "flyout_width": "normal",
+                  "flyout_scaffolding": [
+                    {
+                      "strip": {
+                        "strip_composition": [
+                          {
+                            "link_list": {
+                              "label": "Destination Costco",
+                              "number_of_links_per_column": null,
+                              "link_list_ref": [
+                                {
+                                  "_content_type_uid": "link_list_simple",
+                                  "entry": {
+                                    "title": "Destination Costco Links - September 2023 - 1772737959084",
+                                    "listheader": {
+                                      "title": "",
+                                      "url": "",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "list_header_style": null,
+                                    "link_list_style": "text_only",
+                                    "enable_navigation": false,
+                                    "navigation_label": "",
+                                    "privacy_toggle": {
+                                      "disable_third_party_tracking": false
+                                    },
+                                    "links_composer": [
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Droits humains",
+                                            "url": "/connection-inside-costco-human-rights-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Soigner l'arthrite",
+                                            "url": "/connection-costco-services-home-health-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Chasse Aux Trésors",
+                                            "url": "/connection-treasure-hunt-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      }
+                                    ],
+                                    "platform_config_block": {
+                                      "platform_aplicability": "mobile_web",
+                                      "ios_version_support": "",
+                                      "android_version_support": ""
+                                    },
+                                    "tags": [
+                                      "migrated-from-cms"
+                                    ],
+                                    "locale": "en-ca"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "locale": "en-ca"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "user_defined_link_with_flyout": {
+          "link_with_flyout": [
+            {
+              "_content_type_uid": "link_flyout",
+              "entry": {
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "title": "Place aux membres Navigation - September 2023 - 1772737964447",
+                "user_defined_link": {
+                  "link": {
+                    "title": "Place aux membres",
+                    "url": "#",
+                    "external_site": false,
+                    "same_tab_domain": true,
+                    "reference_link": false,
+                    "content_type_uid": "",
+                    "entry_title": "",
+                    "entry_uid": "",
+                    "page_id": "",
+                    "open_as_pop_up": false
+                  },
+                  "link_style": "plain",
+                  "icon": null,
+                  "target_new_same_window_": "_self",
+                  "disable_third_party_tracking": false,
+                  "show_flyout": true,
+                  "flyout_width": "normal",
+                  "flyout_scaffolding": [
+                    {
+                      "strip": {
+                        "strip_composition": [
+                          {
+                            "link_list": {
+                              "label": "Place aux membres",
+                              "number_of_links_per_column": null,
+                              "link_list_ref": [
+                                {
+                                  "_content_type_uid": "link_list_simple",
+                                  "entry": {
+                                    "title": "Place aux membres Links - September 2023 - 1772737962633",
+                                    "listheader": {
+                                      "title": "",
+                                      "url": "",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "list_header_style": null,
+                                    "link_list_style": "text_only",
+                                    "enable_navigation": false,
+                                    "navigation_label": "",
+                                    "privacy_toggle": {
+                                      "disable_third_party_tracking": false
+                                    },
+                                    "links_composer": [
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Une voix qui guérit",
+                                            "url": "/connection-member-connection-a-healing-voice-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      }
+                                    ],
+                                    "platform_config_block": {
+                                      "platform_aplicability": "mobile_web",
+                                      "ios_version_support": "",
+                                      "android_version_support": ""
+                                    },
+                                    "tags": [
+                                      "migrated-from-cms"
+                                    ],
+                                    "locale": "en-ca"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "locale": "en-ca"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "user_defined_link_with_flyout": {
+          "link_with_flyout": [
+            {
+              "_content_type_uid": "link_flyout",
+              "entry": {
+                "platform_config_block": {
+                  "platform_aplicability": "mobile_web",
+                  "ios_version_support": "",
+                  "android_version_support": ""
+                },
+                "tags": [
+                  "migrated-from-cms"
+                ],
+                "title": "Recettes Navigation - September 2023 - 1772737968175",
+                "user_defined_link": {
+                  "link": {
+                    "title": "Recettes",
+                    "url": "#",
+                    "external_site": false,
+                    "same_tab_domain": true,
+                    "reference_link": false,
+                    "content_type_uid": "",
+                    "entry_title": "",
+                    "entry_uid": "",
+                    "page_id": "",
+                    "open_as_pop_up": false
+                  },
+                  "link_style": "plain",
+                  "icon": null,
+                  "target_new_same_window_": "_self",
+                  "disable_third_party_tracking": false,
+                  "show_flyout": true,
+                  "flyout_width": "normal",
+                  "flyout_scaffolding": [
+                    {
+                      "strip": {
+                        "strip_composition": [
+                          {
+                            "link_list": {
+                              "label": "Recettes",
+                              "number_of_links_per_column": null,
+                              "link_list_ref": [
+                                {
+                                  "_content_type_uid": "link_list_simple",
+                                  "entry": {
+                                    "title": "Recettes Links - September 2023 - 1772737966340",
+                                    "listheader": {
+                                      "title": "",
+                                      "url": "",
+                                      "external_site": false,
+                                      "same_tab_domain": true,
+                                      "reference_link": false,
+                                      "content_type_uid": "",
+                                      "entry_title": "",
+                                      "entry_uid": "",
+                                      "page_id": "",
+                                      "open_as_pop_up": false
+                                    },
+                                    "list_header_style": null,
+                                    "link_list_style": "text_only",
+                                    "enable_navigation": false,
+                                    "navigation_label": "",
+                                    "privacy_toggle": {
+                                      "disable_third_party_tracking": false
+                                    },
+                                    "links_composer": [
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Salade de poulet aux canneberges",
+                                            "url": "/connection-recipe-cranberry-chicken-salad-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Salade de pâtes au thon",
+                                            "url": "/connection-recipe-tuna-pasta-salad-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Gâteau aux pommes juif",
+                                            "url": "/connection-recipe-jewish-apple-cake-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      },
+                                      {
+                                        "user_defined_link": {
+                                          "link": {
+                                            "title": "Tzimmes",
+                                            "url": "/connection-recipe-tzimmes-september-2023.html",
+                                            "external_site": false,
+                                            "same_tab_domain": true,
+                                            "reference_link": false,
+                                            "content_type_uid": "",
+                                            "entry_title": "",
+                                            "entry_uid": "",
+                                            "page_id": "",
+                                            "open_as_pop_up": false
+                                          },
+                                          "link_style": "plain",
+                                          "icon": null,
+                                          "icon_image": [],
+                                          "link_alt_text": "",
+                                          "target_new_same_window_": "_self",
+                                          "disable_third_party_tracking": false,
+                                          "preserve_url_params": false
+                                        }
+                                      }
+                                    ],
+                                    "platform_config_block": {
+                                      "platform_aplicability": "mobile_web",
+                                      "ios_version_support": "",
+                                      "android_version_support": ""
+                                    },
+                                    "tags": [
+                                      "migrated-from-cms"
+                                    ],
+                                    "locale": "en-ca"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "locale": "en-ca"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "locale": "en-ca"
+  }
+}

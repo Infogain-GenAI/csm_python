@@ -1,0 +1,234 @@
+{
+  "example_id": "text_builder_7",
+  "english_json": {
+    "entry": {
+      "locale": "en-ca",
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "subheading_v2",
+              "select_semantics_type": "h2",
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "**Home maintenance**",
+              "color": {}
+            }
+          ]
+        },
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": {},
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "A home inspection need not be a one-time event. In fact, Scott Piccolo, president and CEO of Mike Holmes Inspections, recommends homeowners have their homes inspected annually.\n\nBy identifying potential issues before they become significant problems, an annual maintenance inspection helps homeowners avoid major repairs, saves them money and quells any worries they might have about the state of their house.*—SC*",
+              "color": {}
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Home maintenance - 1764762461604"
+    }
+  },
+  "french_json": {
+    "entry": {
+      "multiple_text_section_group": [
+        {
+          "color_config": {
+            "background_gradient_style": "solid",
+            "background_color": {
+              "hex": ""
+            },
+            "background_gradient_color": {
+              "color1": {
+                "hex": ""
+              },
+              "color2": {
+                "hex": ""
+              }
+            },
+            "text_color": {
+              "hex": ""
+            },
+            "border_color_type": "no-border",
+            "border_color": {
+              "solid": {
+                "hex": ""
+              },
+              "shadow": {
+                "hex": ""
+              }
+            }
+          },
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "heading_v2",
+              "select_semantics_type": "h3",
+              "text_alignment": "left",
+              "markdown_text": "**Entretien de la maison**",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": ""
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              },
+              "enable_custom_tag_parsing": false
+            },
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "markdown_text": "Une inspection n'a pas nécessairement lieu une seule fois. Scott Piccolo, président PDG de Mike Holmes Inspections, recommande aux propriétaires une inspection annuelle.\n\nEn recensant les problèmes potentiels avant qu'ils ne prennent trop d'ampleur, une inspection d'entretien annuelle aide à éviter les réparations majeures, à réaliser des économies et à apaiser l'inquiétude sur l'état de la maison*—SC*",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": ""
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              },
+              "enable_custom_tag_parsing": false
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Entretien de la maison - 1772722136362",
+      "locale": "en-ca"
+    }
+  },
+  "mapped_json": {
+    "entry": {
+      "locale": "fr-ca",
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "subheading_v2",
+              "select_semantics_type": "h3",
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "**Entretien de la maison**",
+              "color": {}
+            }
+          ]
+        },
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": {},
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "Une inspection n'a pas nécessairement lieu une seule fois. Scott Piccolo, président PDG de Mike Holmes Inspections, recommande aux propriétaires une inspection annuelle.\n\nEn recensant les problèmes potentiels avant qu'ils ne prennent trop d'ampleur, une inspection d'entretien annuelle aide à éviter les réparations majeures, à réaliser des économies et à apaiser l'inquiétude sur l'état de la maison*—SC*",
+              "color": {}
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Home maintenance - 1764762461604"
+    }
+  }
+}

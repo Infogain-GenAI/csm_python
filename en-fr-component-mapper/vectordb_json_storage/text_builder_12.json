@@ -1,0 +1,369 @@
+{
+  "example_id": "text_builder_12",
+  "english_json": {
+    "entry": {
+      "locale": "en-ca",
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "title_with_xl_v2",
+              "select_semantics_type": "h2",
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "Family gains",
+              "color": {}
+            }
+          ]
+        },
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": {},
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "subheading_v2",
+              "select_semantics_type": "h3",
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "Ways to model, teach financial responsibility",
+              "color": {}
+            }
+          ]
+        },
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": {},
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "BY LANA SANICHAR\n\nGood or bad, it is well known that our beliefs surrounding money are formed when we are children and modelled to us by our parents and other adults. We also know that financial literacy is critically important to our children’s future and while schools have made some changes to curriculums to include aspects of financial literacy, first steps are still left to parents.\n\nIn the previous column, Fred Masters, former professional educator and President of Masters Money Management Inc., stressed that cultivating a positive “money mindset” is an essential first step when it comes to taking better control of our financial lives.\n\nWith that in mind, here are a few things to consider when it comes to discussing personal finance and modelling a healthy money mindset with our preteen and teenage children.\n\n**Be a saver, not a spender**<br>\nEncourage teens to save a very large portion of their part-time pay, such as 80% to 90%. Remind them that post secondary education costs are on the horizon. For adult children, accumulating a down payment for their future home involves intentional saving over time; discuss this sooner rather than later.\n\n**Gift experiences, not stuff**<br>\nOur best memories are often rooted in shared experiences, not “buying stuff .” Families can embrace this mentality by gifting experiences, which is an excellent way to be intentional about spending more time together.\n\n**Make good financial decisions daily**<br>\nBe mindful about your spending each day and avoid impulse buying. If you need to make a larger purchase, do your research before you start shopping, so as to better control the decisionmaking process.\n\nAs parents, we want only the best for our children, and cultivating a positive money mindset is the first step in setting them up for success as an adult, financially and otherwise.",
+              "color": {}
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Family gains - Ways to model, teach financial responsibility - 1764834638936"
+    }
+  },
+  "french_json": {
+    "entry": {
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "title_with_xl_v2",
+              "select_semantics_type": "h1",
+              "text_alignment": "left",
+              "markdown_text": "Gains familiaux",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": "#333333"
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              },
+              "enable_custom_tag_parsing": false
+            }
+          ]
+        },
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "subheading_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "markdown_text": "Responsabilité financière : montrer l'exemple",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": "#333333"
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              },
+              "enable_custom_tag_parsing": false
+            }
+          ]
+        },
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": null,
+              "text_alignment": "left",
+              "markdown_text": "LANA SANICHAR\n\nLes croyances sur l'argent bonnes ou mauvaises, se forment pendant l'enfance, sous l'influence des parents et d'autres adultes. Autre point reconnu : la littératie financière est primordiale pour l'avenir des enfants. Si les programmes scolaires incluent dorénavant certains aspects de la littératie financière, ce sont encore les parents qui essuient les plâtres.\n\nDans la chronique précédente, Fred Masters, ancien formateur professionnel et président de Masters Money Management Inc., soulignait que cultiver un « rapport à l'argent » positif est une première étape essentielle pour mieux contrôler sa vie financière.\n\nDans cette optique, voici quelques points à étudier pour aborder les finances personnelles avec les préadolescents et adolescents et leur présenter un rapport sain à l'argent.\n\n**Préférer l'épargne à la dépense**\nIl faut encourager les adolescents à économiser une très grande partie — 80 à 90 % — du salaire de leur travail à temps partiel. Ils ne doivent pas oublier les coûts des études postsecondaires qui se profilent à l'horizon. Pour les enfants déjà adultes, se constituer un apport pour leur future maison suppose de réaliser des économies au fil du temps; il convient donc d'en discuter le plus tôt possible.\n\n**Offrir des expériences plutôt que des objets**\nLes meilleurs souvenirs sont ancrés dans des expériences communes, et non dans des « choses qu'on achète ». Les familles peuvent en profiter pour offrir des expériences, ce qui est une excellente démarche proactive pour passer plus de temps ensemble.\n\n**Prendre de bonnes décisions financières au quotidien**\nL'idée est de faire attention aux dépenses quotidiennes et d'éviter les achats impulsifs. Pour un achat important, faire des recherches avant de magasiner aide à contrôler la décision.\n\nLes parents veulent ce qu'il y a de mieux pour leurs enfants. Cultiver un rapport positif à l'argent est donc la première étape pour les préparer à réussir à l'âge adulte, financièrement et autrement.",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": "#333333"
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              },
+              "enable_custom_tag_parsing": false
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Gains familiaux - Responsabilité financière : montrer l'exemple - 1772723219779",
+      "locale": "en-ca"
+    }
+  },
+  "mapped_json": {
+    "entry": {
+      "locale": "fr-ca",
+      "multiple_text_section_group": [
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "title_with_xl_v2",
+              "select_semantics_type": "h2",
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "Gains familiaux",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": "#333333"
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "subheading_v2",
+              "select_semantics_type": "h3",
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "Responsabilité financière : montrer l'exemple",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": "#333333"
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "color_config": {},
+          "text_section_icon": {
+            "icon_image": [],
+            "icon_alt_text": ""
+          },
+          "text_section_content": [
+            {
+              "select_text_type": "body_copy_v2",
+              "select_semantics_type": "h1",
+              "text_alignment": "left",
+              "enable_custom_tag_parsing": false,
+              "markdown_text": "LANA SANICHAR\n\nLes croyances sur l'argent bonnes ou mauvaises, se forment pendant l'enfance, sous l'influence des parents et d'autres adultes. Autre point reconnu : la littératie financière est primordiale pour l'avenir des enfants. Si les programmes scolaires incluent dorénavant certains aspects de la littératie financière, ce sont encore les parents qui essuient les plâtres.\n\nDans la chronique précédente, Fred Masters, ancien formateur professionnel et président de Masters Money Management Inc., soulignait que cultiver un « rapport à l'argent » positif est une première étape essentielle pour mieux contrôler sa vie financière.\n\nDans cette optique, voici quelques points à étudier pour aborder les finances personnelles avec les préadolescents et adolescents et leur présenter un rapport sain à l'argent.\n\n**Préférer l'épargne à la dépense**  \nIl faut encourager les adolescents à économiser une très grande partie — 80 à 90 % — du salaire de leur travail à temps partiel. Ils ne doivent pas oublier les coûts des études postsecondaires qui se profilent à l'horizon. Pour les enfants déjà adultes, se constituer un apport pour leur future maison suppose de réaliser des économies au fil du temps; il convient donc d'en discuter le plus tôt possible.\n\n**Offrir des expériences plutôt que des objets**  \nLes meilleurs souvenirs sont ancrés dans des expériences communes, et non dans des « choses qu'on achète ». Les familles peuvent en profiter pour offrir des expériences, ce qui est une excellente démarche proactive pour passer plus de temps ensemble.\n\n**Prendre de bonnes décisions financières au quotidien**  \nL'idée est de faire attention aux dépenses quotidiennes et d'éviter les achats impulsifs. Pour un achat important, faire des recherches avant de magasiner aide à contrôler la décision.\n\nLes parents veulent ce qu'il y a de mieux pour leurs enfants. Cultiver un rapport positif à l'argent est donc la première étape pour les préparer à réussir à l'âge adulte, financièrement et autrement.",
+              "color": {
+                "background_gradient_style": "no-background",
+                "background_color": {
+                  "hex": ""
+                },
+                "background_gradient_color": {
+                  "color1": {
+                    "hex": ""
+                  },
+                  "color2": {
+                    "hex": ""
+                  }
+                },
+                "text_color": {
+                  "hex": "#333333"
+                },
+                "border_color_type": "no-border",
+                "border_color": {
+                  "solid": {
+                    "hex": ""
+                  },
+                  "shadow": {
+                    "hex": ""
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "platform_config_block": {
+        "platform_aplicability": "mobile_web",
+        "ios_version_support": "",
+        "android_version_support": ""
+      },
+      "tags": [
+        "migrated-from-cms"
+      ],
+      "text_section_config": {
+        "see_more_see_less_capability": false,
+        "text_section_alignment": "left",
+        "text_section_type": "full"
+      },
+      "title": "Family gains - Ways to model, teach financial responsibility - 1764834638936"
+    }
+  }
+}

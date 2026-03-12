@@ -1,0 +1,53 @@
+{
+  "entry": {
+    "multiple_text_section_group": [
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": [],
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "subheading_v2",
+            "select_semantics_type": "h3",
+            "text_alignment": "left",
+            "markdown_text": "**Help for patients and families**",
+            "color": {}
+          }
+        ]
+      },
+      {
+        "color_config": {},
+        "text_section_icon": {
+          "icon_image": {},
+          "icon_alt_text": ""
+        },
+        "text_section_content": [
+          {
+            "select_text_type": "body_copy_v2",
+            "select_semantics_type": null,
+            "text_alignment": "left",
+            "markdown_text": "Procure (procure.ca), a non-profit organization that focuses on prostate cancer education, research and support throughout Canada, operates a confidential phone line. “Staffed by nurses, our phone line helps patients understand more about the disease, answers their questions and what they can expect following a diagnosis,” says Procure’s Ann-Marie Romanin, who’s a Costco member. “Prostate cancer is the most frequent male cancer diagnosis, but unfortunately, the subject among men still remains taboo. We help them feel less alone.”\n\nTo talk to a Procure health specialist, call 1-855-899-2873 (English and French)\n\n*—JE*",
+            "color": {}
+          }
+        ]
+      }
+    ],
+    "platform_config_block": {
+      "platform_aplicability": "mobile_web",
+      "ios_version_support": "",
+      "android_version_support": ""
+    },
+    "tags": [
+      "migrated-from-cms"
+    ],
+    "text_section_config": {
+      "see_more_see_less_capability": false,
+      "text_section_alignment": "left",
+      "text_section_type": "full"
+    },
+    "title": "Help for patients and families - 1764777316070",
+    "locale": "en-ca"
+  }
+}
